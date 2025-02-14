@@ -38,10 +38,10 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: 'https://theme-plume.vuejs.press/plume.png',
+    avatar: '/logo.svg',
     name: 'PGuide Docs',
-    description: '项导文档',
-    // circle: true,
+    // description: '项导文档',
+    circle: true,
     // location: '',
     // organization: '',
   },

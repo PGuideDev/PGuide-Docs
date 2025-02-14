@@ -78,7 +78,7 @@ export default defineUserConfig({
       // },
 
       /* 本地搜索, 默认启用 */
-      // search: true,
+      search: false,
 
       /**
        * Algolia DocSearch
@@ -173,9 +173,10 @@ export default defineUserConfig({
      * 加密功能
      * @see https://theme-plume.vuejs.press/guide/features/encryption/
      */
-    // encrypt: {
-    //   global: true,
-    //   admin: ['pguide1024'],
-    // },
+    encrypt: {
+      rules: {
+        '/article': 'pguide1024',
+      }
+    },
   }),
 })
