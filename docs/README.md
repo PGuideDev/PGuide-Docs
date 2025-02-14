@@ -8,7 +8,7 @@ config:
     background: tint-plate
     hero:
       name: PGuide Docs
-      tagline: 项导文档站欢迎您
+      tagline: 项导文档欢迎您
       text: Start from here, build projects as our dreams.
       actions:
         -
