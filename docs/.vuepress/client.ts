@@ -9,7 +9,6 @@ import { defineClientConfig } from '@vuepress/client'
 // import './theme/styles/custom.css'
 
 export default defineClientConfig({
-  enhance({ app }) {
     // built-in components
     // app.component('RepoCard', RepoCard)
     // app.component('NpmBadge', NpmBadge)
@@ -18,5 +17,5 @@ export default defineClientConfig({
 
     // your custom components
     // app.component('CustomComponent', CustomComponent)
-  },
+
 })
