@@ -24,7 +24,7 @@ list:
     socials:
       - icon: qq
         link:         
-  - name: 廖凡勋
+  - name: DKwms
     link: https://github.com/DKwms
     avatar: https://avatars.githubusercontent.com/u/98271041?v=4
     desc: 楼上的好恐怖呀
