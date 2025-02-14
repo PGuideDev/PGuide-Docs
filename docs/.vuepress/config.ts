@@ -30,12 +30,6 @@ export default defineUserConfig({
         // lastUpdated: true,
         contributors: {
           mode: 'block',
-            info: [
-                {
-                    username: 'rand777',
-                    name: '王加强',
-                }
-            ],
 
         },
         // changelog: false,

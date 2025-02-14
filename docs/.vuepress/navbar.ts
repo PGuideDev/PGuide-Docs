@@ -32,7 +32,8 @@ export const navbar = defineNavbarConfig([
         items: [
             {text: '前言', link: '/notes/cs-diy/1.前言.md'},
             {icon:'/dev-standard.svg', text: '开发规范' , link: '/notes/cs-diy/2.开发规范.md'},
-            {icon: '/path.svg', text: '学习路线', link: '/notes/cs-diy/3.学习路线.md'}
+            {icon: '/path.svg', text: '学习路线', link: '/notes/cs-diy/3.学习路线.md'},
+
         ]
     },
     {
@@ -53,6 +54,8 @@ export const navbar = defineNavbarConfig([
         text: '大学百科',
         items: [
             {icon: '/email.svg', text: '申请学生邮箱', link: '/notes/大学百科/大学生活类/申请学生邮箱.md'},
+            {icon: '/teacher.svg', text: '老师们说', link: '/notes/大学百科/老师们说/REAMDME.md'},
+            {icon: '/cert.svg', text: '证书及技能考试', link: '/notes/大学百科/证书及技能考试/README.md'}
         ]
     },
     {

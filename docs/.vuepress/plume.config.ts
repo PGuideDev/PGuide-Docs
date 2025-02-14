@@ -49,7 +49,7 @@ export default defineThemeConfig({
      * 文章版权信息
      * @see https://theme-plume.vuejs.press/guide/features/copyright/
      */
-    copyright: true,
+    // copyright: true,
 
     // prevPage: true,   // 是否启用上一页链接
     // nextPage: true,   // 是否启用下一页链接
