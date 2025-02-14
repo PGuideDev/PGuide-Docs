@@ -4,50 +4,74 @@ export const navbar = defineNavbarConfig([
     {text: '首页', link: '/'},
     // {text: '博客', link: '/blog/'},
     {
-        icon: 'material-symbols:book',
+        icon: '/note.svg',
         text: '学习笔记',
         items: [
-            {icon: 'mage:robot-happy', text: '机器学习', link: '/学习笔记/机器学习/README.md'},
+            {icon: '/AI.svg', text: '机器学习', link: '/学习笔记/机器学习/1.README.md'},
             {icon: 'logos:google-developers', text: '全栈开发', link: '/学习笔记/全栈开发/README.md'},
             {icon: 'mdi:graphics-processing-unit', text: '计算机图形学', link: '/学习笔记/计算机图形学/README.md'},
         ]
     },
     {
-        icon: 'eos-icons:project',
+        icon: '/project.svg',
         text: '项目文档',
         items: [
             {icon: '/match.svg', text: '全国大学生竞赛组队系统', link: ''},
             {icon: '/mirror.svg', text: '重庆医科大学开源软件镜像站', link: ''},
             {icon: '/overleaf.svg', text: 'Overleaf在线协作企业版', link: ''},
+            {icon: '/zhiyu.png', text: '植愈：AI情绪小帮手', link: ''},
+            {icon: '/robot.png', text: '智慧中草药生态养护平台', link: ''},
             {icon: '/minecraft.svg', text: 'CYMC群组服', link: ''},
+            {icon: '/command_block.gif', text: 'CQMUA服务器中心', link: ''},
+
         ]
     },
     {
-        icon: 'material-symbols:code',
+        icon: '/code.svg',
         text: 'CS-DIY',
         items: [
             {text: '前言', link: '/notes/cs-diy/1.前言.md'},
+            {icon:'/dev-standard.svg', text: '开发规范' , link: '/notes/cs-diy/2.开发规范.md'},
+            {icon: '/path.svg', text: '学习路线', link: '/notes/cs-diy/3.学习路线.md'}
         ]
     },
     {
-        icon: 'material-symbols:public',
+        icon: '/public-service.svg',
         text: '公共服务',
         items: [
             {
-                icon: 'mage:robot-happy',
+                icon: '/openai.svg',
                 text: '生成式人工智能',
-                link: '/notes/public-service/1.GPT API公共调用及部署应用集合.md'
+                link: '/notes/公共服务/1.GPT-API.md'
             },
+            {icon: '/data-center.svg', text: '数据中心', link: ''},
             {text: '', link: ''}
         ]
     },
     {
-        icon: 'basil:university-solid',
+        icon: '/wiki.svg',
         text: '大学百科',
         items: [
-            {text: '申请学生邮箱', link: '/notes/university-encyclopedia/1.申请学生邮箱.md'},
+            {icon: '/email.svg', text: '申请学生邮箱', link: '/notes/大学百科/大学生活类/申请学生邮箱.md'},
         ]
     },
-    {icon: 'material-symbols:login', text: 'OAuth登录(未上线)', link: 'https://hrtcsm.logto.app/demo-app'},
-
+    {
+        icon: '/manage.svg',
+        text: '后台管理',
+        items: [
+            {icon: '/OAuth2.svg', text: 'OAuth登录(测试版)', link: 'https://hrtcsm.logto.app/demo-app'},
+            {icon: 'icon-park:data-lock', text: '数据中心', link: ''},
+            {icon: '/control.svg', text: '项导运维控制中台', link: ''},
+            {icon: '/vpn.svg', text: 'VPN服务', link: ''},
+            {icon: '/cloud.svg', text: '云计算资源调度中心', link: ''},
+        ],
+    },
+    {
+        icon: '/link.svg',
+        text: '友情链接',
+        items: [
+            {icon: '/friend.svg', text: '个人', link: '/friends/persons/'},
+            {icon: '/organ.svg', text: '组织', link: '/friends/organizations/'},
+        ]
+    },
 ])

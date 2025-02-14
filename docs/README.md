@@ -11,8 +11,8 @@ config:
       text: Start from here, build projects as our dreams.
       actions:
         - theme: brand
-          text: ✅服务在线状态
-          link: https://status.cqmu.online/status/pguide
+          text: 开始阅读
+          link: /
         
         - theme: alt
           text: 😊语雀文档↗
