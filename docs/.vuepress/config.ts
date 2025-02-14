@@ -173,9 +173,9 @@ export default defineUserConfig({
      * 加密功能
      * @see https://theme-plume.vuejs.press/guide/features/encryption/
      */
-    encrypt: {
-      global: true,
-      admin: ['pguide1024'],
-    },
+    // encrypt: {
+    //   global: true,
+    //   admin: ['pguide1024'],
+    // },
   }),
 })
