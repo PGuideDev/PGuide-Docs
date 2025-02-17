@@ -16,6 +16,8 @@ list:
     socials:
       - icon: qq
         link:
+      - icon: {icon: fluent-emoji-flat:red-heart}
+        link:
   - name: Elysia_Realme
     link: https://chenhy.pguide.studio/
     avatar: https://chenhy.pguide.studio/githubFindNew/pictures/CircleElysia.jpg
@@ -157,12 +159,12 @@ list:
   - name: 淡抹、 青春
     link: 
     avatar: /avatar/zyy.jpg
-    desc: 一条狼，独行天下
-    location: 甘肃，天河
+    desc: 一条狼，独行天下。
+    location: 中国，甘肃天河
     organization: 重庆医科大学医学信息学院教师
     socials:
       - icon: qq
-        link:
+        link: 
       - icon: github
         link: 
     backgroundColor:
