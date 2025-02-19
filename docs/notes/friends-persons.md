@@ -4,7 +4,6 @@ title: ♥Thanks to these guys for contributing PGuide Docs~♥
 description: 排名不分先后
 permalink: /friends/persons/
 pageLayout: friends
-
 list:
   
   - name: 李徵
@@ -169,7 +168,19 @@ list:
         link: 
     backgroundColor:
     color:
-#    nameColor:
+    nameColor:
+  - name: wanghaolin
+    link: https://wanghaolin.github.io/
+    avatar: https://wanghaolin.github.io/images/android-chrome-512x512.png
+    desc: My research interest includes data mining in healthcare, predictive models and intelligent systems.
+    location: 中国，重庆沙坪坝
+    organization: 重庆医科大学医学信息学院副教授,MicroStrategy 工程师,诺基亚研究中心，软件实习生
+    socials: 
+      - icon: qq
+        link: haolin.wang@outlook.com
+    backgroundColor:
+    color:
+    nameColor:
 #  - name:
 #    link:
 #    avatar:
@@ -181,3 +192,4 @@ list:
 #    color:
 #    nameColor:
 ---
+1234

@@ -12,9 +12,9 @@ config:
       actions:
         - theme: brand
           text: 开始阅读
-          link: /
+          link: /notes/begin
         
         - theme: alt
-          text: 😊语雀文档↗
+          text: 语雀文档↗
           link: https://www.yuque.com/pguide/public
 ---
