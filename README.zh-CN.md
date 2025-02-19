@@ -1,25 +1,8 @@
-# p-guide-docs
 
-网站使用 [vuepress](https://vuepress.vuejs.org/) 和 [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume) 构建生成。
+# 项导文档合作开发手册
 
-## Install
-
-```sh
-pnpm i
-```
-
-## Usage
-
-```sh
-# 启动开发服务
-pnpm docs:dev
-# 构建生产包
-pnpm docs:build
-# 本地预览生产服务
-pnpm docs:preview
-# 更新 vuepress 和主题
-pnpm vp-update
-```
+:[tdesign:logo-github-filled]:项目仓库
+<Repo
 
 ## 文档
 

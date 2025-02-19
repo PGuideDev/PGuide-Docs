@@ -174,7 +174,7 @@ list:
     avatar: https://wanghaolin.github.io/images/android-chrome-512x512.png
     desc: My research interest includes data mining in healthcare, predictive models and intelligent systems.
     location: 中国，重庆沙坪坝
-    organization: 重庆医科大学医学信息学院副教授,MicroStrategy 工程师,诺基亚研究中心，软件实习生
+    organization: 重庆医科大学医学信息学院副教授等
     socials: 
       - icon: qq
         link: haolin.wang@outlook.com
