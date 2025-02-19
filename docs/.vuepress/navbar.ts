@@ -43,11 +43,11 @@ export const navbar = defineNavbarConfig([
             {
                 icon: '/openai.svg',
                 text: '生成式人工智能',
-                link: '/notes/公共服务/1.GPT-API.md'
+                link: '/notes/公共服务/README.md'
             },
             {icon: '/data-center.svg', text: '数据中心', link: ''},
             {icon: '/mirror.svg', text: '重庆医科大学开源软件镜像站', link: ''},
-            {icon: '/overleaf.svg', text: 'Overleaf在线协作企业版', link: ''},
+            {icon: '/overleaf.svg', text: 'Overleaf在线协作企业版', link: '/notes/公共服务/Overleaf在线协作企业版.md'},
             {text: '', link: ''}
         ]
     },
@@ -56,7 +56,7 @@ export const navbar = defineNavbarConfig([
         text: '大学百科',
         items: [
             {icon: '/email.svg', text: '申请学生邮箱', link: '/notes/大学百科/大学生活类/申请学生邮箱.md'},
-            {icon: '/teacher.svg', text: '老师们说', link: '/notes/大学百科/老师们说/REAMDME.md'},
+            {icon: '/teacher.svg', text: '老师们说', link: '/notes/大学百科/老师们说/README.md'},
             {icon: '/cert.svg', text: '证书及技能考试', link: '/notes/大学百科/证书及技能考试/README.md'}
         ]
     },

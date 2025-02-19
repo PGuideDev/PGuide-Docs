@@ -5,6 +5,6 @@ export default defineNoteConfig({
     link: '/',
 
     // notes:[
-    //
-    // ].
+    //     publicservice,
+    // ]
 })

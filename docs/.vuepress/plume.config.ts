@@ -1,6 +1,6 @@
 import {defineThemeConfig} from 'vuepress-theme-plume'
 import {navbar} from './navbar'
-import {notes} from './notes'
+import notes from './notes'
 
 // 首页异步检查各服务在线状态
 async function checkStatus() {
