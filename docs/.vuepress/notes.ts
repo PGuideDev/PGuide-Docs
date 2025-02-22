@@ -9,7 +9,20 @@ const campusWiki = defineNoteConfig({
 const publicService = defineNoteConfig({
     dir: '公共服务',
     link: '/public-service/',
-    sidebar: 'auto'
+    sidebar: [
+        {
+            prefix: 'overleaf',
+            icon: 'ep:guide',
+            items: [
+                'LaTeX',
+                {
+                    text: '注册',
+                    link: 'register',
+                },
+                { text: '---', link: '---' },
+            ]
+        }
+    ]
 })
 
 const CSDIY = defineNoteConfig({
