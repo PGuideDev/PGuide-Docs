@@ -9,30 +9,17 @@ const campusWiki = defineNoteConfig({
 const publicService = defineNoteConfig({
     dir: '公共服务',
     link: '/public-service/',
-    sidebar: [
-        {
-            prefix: 'overleaf',
-            icon: 'ep:guide',
-            items: [
-                'LaTeX',
-                {
-                    text: '注册',
-                    link: 'register',
-                },
-                { text: '---', link: '---' },
-            ]
-        }
-    ]
+    sidebar: 'auto'
 })
 
 const CSDIY = defineNoteConfig({
     dir: 'CS-DIY',
-    link: 'csdiy',
+    link: '/csdiy/',
     sidebar: 'auto'
 })
 
 export default defineNotesConfig({
     dir: '/notes/',
     link: '/',
-    notes: [campusWiki, publicService],
+    notes: [campusWiki, publicService, CSDIY],
 })

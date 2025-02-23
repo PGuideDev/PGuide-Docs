@@ -4,7 +4,12 @@ createTime: 2025/02/22 16:59:04
 permalink: /contribute/
 ---
 
-首先感谢您的无私奉献
+首先感谢您的无私奉献，项导文档基于Vuepress的[plume主题构建](https://theme-plume.vuejs.press/)，由多名成员共同维护，内容完全开源免费，并且承诺保障时效性和准确性。
+
+<RepoCard repo="MultipledMe/PGuide-Docs"></RepoCard>
+
+在参与合作开发之前，您首先得学习一些基础知识:
+
 
 ```markdown
 # VuePress + Plume 主题协作开发手册

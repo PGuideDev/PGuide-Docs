@@ -22,16 +22,15 @@ export default defineUserConfig({
         hostname: 'https://docs.pguide.studio',
 
         /* 文档仓库配置，用于 editLink */
-        // docsRepo: '',
-        // docsDir: 'docs',
-        // docsBranch: '',
+        docsRepo: 'https://github.com/MultipledMe/PGuide-Docs/',
+        docsDir: 'docs',
+        docsBranch: 'main',
 
         /* 页内信息 */
         // editLink: true,
         // lastUpdated: true,
         contributors: {
             mode: 'block',
-
         },
         // changelog: false,
 

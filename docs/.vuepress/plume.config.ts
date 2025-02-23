@@ -61,7 +61,7 @@ export default defineThemeConfig({
         copyright: 'PGuide Studio © 2023-2025',
     },
     notFound : {
-        code : '⚡404⚡',
+        code : '啊偶，好像没有这个页面',
         title : '🌌 迷路的[0️⃣1️⃣]在数字森林里🌀徘徊',
         quote : [
             '"💻 我点故我在，但🔗已不在" —— 赛博笛卡尔',

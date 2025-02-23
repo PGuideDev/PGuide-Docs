@@ -7,7 +7,7 @@ export const navbar = defineNavbarConfig([
         icon: '/note.svg',
         text: '学习笔记',
         items: [
-            {icon: '/AI.svg', text: '机器学习', link: '/学习笔记/机器学习/1.README.md'},
+            {icon: '/AI.svg', text: '机器学习', link: '/notes/CS-DIY/学习路线/机器学习/README.md'},
             {icon: 'logos:google-developers', text: '全栈开发', link: '/学习笔记/全栈开发/README.md'},
             {icon: 'mdi:graphics-processing-unit', text: '计算机图形学', link: '/学习笔记/计算机图形学/README.md'},
         ]
@@ -20,10 +20,9 @@ export const navbar = defineNavbarConfig([
             {icon: '/zhiyu.png', text: '植愈：AI情绪小帮手', link: ''},
             {icon: '/robot.png', text: '智慧中草药生态养护平台', link: ''},
             {icon: '/univ-town.svg', text: '像素大学城', link: ''},
-            {icon: '/minecraft.svg', text: 'CYMC群组服', link: ''},
             {icon: '/command_block.gif', text: 'CQMUA服务器中心', link: ''},
-
-
+            {icon: '/analyse.svg',text: '学情分析系统',link: ''},
+            {icon: '/zzfy.svg',text: '掌中方圆',link: ''}
         ]
     },
     {
@@ -43,7 +42,7 @@ export const navbar = defineNavbarConfig([
             {
                 icon: '/openai.svg',
                 text: '生成式人工智能',
-                link: '/notes/公共服务/README.md'
+                link: '/notes/公共服务/GPT.md'
             },
             {icon: '/data-center.svg', text: '数据中心', link: ''},
             {icon: '/mirror.svg', text: '重庆医科大学开源软件镜像站', link: ''},
@@ -55,7 +54,7 @@ export const navbar = defineNavbarConfig([
         icon: '/wiki.svg',
         text: '大学百科',
         items: [
-            {icon: '/email.svg', text: '申请学生邮箱', link: '/notes/大学百科/大学生活类/申请学生邮箱.md'},
+            {icon: '/email.svg', text: '申请学生邮箱', link: '/notes/大学百科/申请学生邮箱.md'},
             {icon: '/teacher.svg', text: '老师们说', link: '/notes/大学百科/老师们说/README.md'},
             {icon: '/cert.svg', text: '证书及技能考试', link: '/notes/大学百科/证书及技能考试/README.md'}
         ]
