@@ -8,15 +8,13 @@ list:
   
   - name: 李徵
     link: https://www.li-zheng.icu/
-    avatar: /avatar/man.svg
+    avatar: /avatar/zxb.jpg
     desc: 我与我周旋久，宁做我。
     location: 中国，河北
     organization: 项导工作室
     socials:
       - icon: qq
-        link:
-      - icon: {icon: fluent-emoji-flat:red-heart}
-        link:
+        link: 
   - name: Elysia_Realme
     link: https://chenhy.pguide.studio/
     avatar: https://chenhy.pguide.studio/githubFindNew/pictures/CircleElysia.jpg
@@ -55,7 +53,7 @@ list:
     color:
     nameColor:  
   - name: Kunkun
-    link: http://117.72.14.208/colibri-wp/tutors/
+    link: https://www.medseek.site/colibri-wp/tutors/
     avatar: /avatar/kunkun.jpg
     desc: The only thing you can be the best at is developing your own self.
     location: 中国，重庆沙坪坝
