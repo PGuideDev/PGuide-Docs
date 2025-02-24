@@ -1,11 +1,11 @@
 ---
-title: 学习笔记
+title: db1的机器学习笔记
 createTime: 2025/02/24 03:13:20
-permalink: /csdiy/ml/learning-notes/
+permalink: /learning-notes/ml/personal/db1/
+icon: /avatar/db1.jpg
 ---
 
 编写者: [@db1](/friends/persons/)
-
 ## 代码示例
 
 **监督机器学习的代码示例及步骤(以scikit-learn框架为例)：**
@@ -131,12 +131,8 @@ plt.grid()
 plt.show()
 ```
 
-![img](https://cdn.nlark.com/yuque/0/2024/png/47213821/1733911101673-ff61bdb7-d32b-47d2-a69c-4bd62a963ebe.png)
-
 ------
 
 ### 5. 完整代码下载
 
-通过网盘分享的文件：代码.zip
-
-链接: https://pan.baidu.com/s/1iGjgjT6AZ5CQFPVMafR4rg?pwd=qqq3 提取码: qqq3
+链接: [https://pan.baidu.com/s/1iGjgjT6AZ5CQFPVMafR4rg?pwd=qqq3](https://pan.baidu.com/s/1iGjgjT6AZ5CQFPVMafR4rg?pwd=qqq3)

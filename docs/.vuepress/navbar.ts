@@ -7,9 +7,11 @@ export const navbar = defineNavbarConfig([
         icon: '/note.svg',
         text: '学习笔记',
         items: [
-            {icon: '/AI.svg', text: '机器学习', link: '/notes/CS-DIY/学习路线/机器学习/README.md'},
-            {icon: 'logos:google-developers', text: '全栈开发', link: '/学习笔记/全栈开发/README.md'},
-            {icon: 'mdi:graphics-processing-unit', text: '计算机图形学', link: '/学习笔记/计算机图形学/README.md'},
+            {icon: '/AI.svg', text: '机器学习', link: '/notes/学习笔记/机器学习/README.md'},
+            {icon: 'logos:google-developers', text: '前端开发', link: '/notes/学习笔记/前端开发/README.md'},
+            {icon: 'fluent-color:data-scatter-32', text: '后端开发', link: '/notes/学习笔记/后端开发/README.md'},
+            {icon: 'devicon:ros', text: 'ROS2', link: '/notes/学习笔记/ROS2/README.md'},
+            {icon: 'marketeq:vision', text: '计算机视觉', link: '/notes/学习笔记/计算机视觉/README.md'}
         ]
     },
     {
@@ -29,10 +31,9 @@ export const navbar = defineNavbarConfig([
         icon: '/code.svg',
         text: 'CS-DIY',
         items: [
-            {text: '前言', link: '/notes/cs-diy/1.前言.md'},
+            {text: '前言', link: '/notes/CS-DIY/README.md'},
             {icon:'/dev-standard.svg', text: '开发规范' , link: '/notes/cs-diy/2.开发规范.md'},
             {icon: '/path.svg', text: '学习路线', link: '/notes/cs-diy/3.学习路线.md'},
-
         ]
     },
     {
@@ -42,9 +43,9 @@ export const navbar = defineNavbarConfig([
             {
                 icon: '/openai.svg',
                 text: '生成式人工智能',
-                link: '/notes/公共服务/GPT.md'
+                link: '/notes/公共服务/GPT/GPT.md'
             },
-            {icon: '/data-center.svg', text: '数据中心', link: ''},
+            {icon: 'fluent-color:data-area-20', text: '数据中心', link: ''},
             {icon: '/mirror.svg', text: '重庆医科大学开源软件镜像站', link: ''},
             {icon: '/overleaf.svg', text: 'Overleaf在线协作企业版', link: '/notes/公共服务/Overleaf在线协作企业版.md'},
             {text: '', link: ''}

@@ -53,9 +53,10 @@ groups:
   - title: 中国科技云
     desc: China Science & Technology cloud
     list:
-      - name: 
-        link: 
-        location: 
+      - name: 官网
+        link: https://www.cstcloud.cn/
+        location: 中国
+        avatar: https://www.cstcloud.cn/app/templates/cstcloud/img/header/logo.png
         organization: 
         desc:
   - title: MUA

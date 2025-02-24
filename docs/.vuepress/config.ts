@@ -143,6 +143,11 @@ export default defineUserConfig({
              *  markdown power
              * @see https://theme-plume.vuejs.press/config/plugin/markdown-power/
              */
+            markdownPower: {
+                pdf: true,
+            },
+
+
             // markdownPower: {
             //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
             //   caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
@@ -207,10 +212,10 @@ export default defineUserConfig({
          * 加密功能
          * @see https://theme-plume.vuejs.press/guide/features/encryption/
          */
-        encrypt: {
-            rules: {
-                '/article': 'pguide1024',
-            }
-        },
+        // encrypt: {
+        //     rules: {
+        //         '/article': 'pguide1024',
+        //     }
+        // },
     }),
 })

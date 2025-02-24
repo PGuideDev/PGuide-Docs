@@ -1,5 +1,5 @@
 ---
-title: 贡献指南 
+title: 贡献与开发指南 
 createTime: 2025/02/22 16:59:04
 permalink: /contribute/
 ---
@@ -10,27 +10,13 @@ permalink: /contribute/
 
 在参与合作开发之前，您首先得学习一些基础知识:
 
+## 我是文档站的开发者
 
-```markdown
-# VuePress + Plume 主题协作开发手册
+## 我是文档的编写者
 
-## 前言
-本手册旨在为使用 VuePress、Plume 主题及 pnpm 进行文档站协作开发的团队提供规范指引，确保开发流程一致性，提高协作效率。
+### markdown支持
+目前，文档支持所有
 
----
-
-## 环境准备
-
-### 开发工具
-- **Node.js** (v14+)，推荐使用 **[Volta](https://volta.sh/)** 管理版本
-- **pnpm** (v7+)
-  ```bash
-  npm install -g pnpm
-  # 国内用户配置镜像加速
-  pnpm config set registry https://registry.npmmirror.com/
-  ```
-- **Git** (最新稳定版)
-- **IDE**：VSCode（推荐插件：Volar, ESLint, Prettier）
 
 ### 项目克隆
 确保团队成员使用 SSH 或 HTTPS 统一方式克隆仓库：
