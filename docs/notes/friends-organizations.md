@@ -62,10 +62,26 @@ groups:
   - title: MUA
     desc: 中国大学生Minecraft高校联盟, https://www.mualliance.cn
     list:
-      - name:
-        link:
-        location:
+      -
+        name: MUA官网
+        link: https://www.mualliance.cn/
+        location: 中国
+        avatar: 
         organization:
+        desc:
+      -
+        name: 渝高联CQMUA官网
+        link:
+        location: 中国，重庆市
+        avatar: 
+        organization:
+        desc: 重庆市 Minecraft 高校联盟
+      -
+        name: 上海交通大学SJMC
+        link: https://mc.sjtu.cn
+        location: 中国，上海闵行
+        avatar: 
+        organization: 上海交通大学、MUA
         desc:
   - title: 重庆医科大学LaTeX用户组
     desc: CQMU LaTeX user group.
@@ -82,4 +98,29 @@ groups:
         organization: PGuide Studio、信息中心
         desc:
         avatar: /overleaf.svg
+  - title: 北京大学信息科学技术学院
+    dsc: Peking University
+    list:
+    - 
+      name: 
+      link: 
+      location:
+      avatar:
+      organization:
+      desc:
+    -
+      name: CS-DIY
+      link: https://csdiy.wiki/
+      location: Global
+      avatar: https://csdiy.wiki/images/title.png
+      organization: zhongyinmin@pku.edu.cn
+      desc: 一本计算机的自学指南。
+
+#    -
+#      name:
+#      link:
+#      location:
+#      avatar:
+#      organization:
+#      desc:
 ---

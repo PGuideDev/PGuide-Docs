@@ -27,6 +27,10 @@
   },
   "dependencies": {
     "@waline/client": "^3.5.5",
-    "echarts": "^5.6.0"
+    "annotation": "^0.1.0",
+    "chart": "^0.1.2",
+    "echarts": "^5.6.0",
+    "flowchart": "^1.2.0",
+    "mermaid": "^11.4.1"
   }
 }

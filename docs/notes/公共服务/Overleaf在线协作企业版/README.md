@@ -2,6 +2,7 @@
 title: Overleaf在线协作企业版
 createTime: 2025/02/19 10:52:51
 permalink: /public-service/overleaf/
+icon: /overleaf.svg
 ---
 
 - 内网地址：[http://192.168.183.171/](http://192.168.183.171/)

@@ -2,7 +2,6 @@ import {defineNavbarConfig} from 'vuepress-theme-plume'
 
 export const navbar = defineNavbarConfig([
     {text: '首页', link: '/'},
-    // {text: '博客', link: '/blog/'},
     {
         icon: '/note.svg',
         text: '学习笔记',
@@ -24,7 +23,8 @@ export const navbar = defineNavbarConfig([
             {icon: '/univ-town.svg', text: '像素大学城', link: ''},
             {icon: '/command_block.gif', text: 'CQMUA服务器中心', link: ''},
             {icon: '/analyse.svg',text: '学情分析系统',link: ''},
-            {icon: '/zzfy.svg',text: '掌中方圆',link: ''}
+            {icon: '/zzfy.svg',text: '掌中方圆',link: ''},
+            {icon: '/internship.svg',text: '网络实习就业信息网',link:''}
         ]
     },
     {
@@ -40,14 +40,10 @@ export const navbar = defineNavbarConfig([
         icon: '/public-service.svg',
         text: '公共服务',
         items: [
-            {
-                icon: '/openai.svg',
-                text: '生成式人工智能',
-                link: '/notes/公共服务/GPT/GPT.md'
-            },
-            {icon: 'fluent-color:data-area-20', text: '数据中心', link: ''},
-            {icon: '/mirror.svg', text: '重庆医科大学开源软件镜像站', link: ''},
-            {icon: '/overleaf.svg', text: 'Overleaf在线协作企业版', link: '/notes/公共服务/Overleaf在线协作企业版.md'},
+            {icon: '/openai.svg',text: '生成式人工智能',link: '/notes/公共服务/生成式人工智能/README.md'},
+            {icon: 'fluent-color:data-area-20', text: '数据中心', link: '/notes/公共服务/生成式人工智能/README.md'},
+            {icon: '/mirror.svg', text: '重庆医科大学开源软件镜像站', link: '/notes/公共服务/重医校级开源软件镜像站/README.md'},
+            {icon: '/overleaf.svg', text: 'Overleaf在线协作企业版', link: '/notes/公共服务/Overleaf在线协作企业版/README  .md'},
             {text: '', link: ''}
         ]
     },

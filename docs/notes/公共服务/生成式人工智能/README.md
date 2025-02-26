@@ -2,6 +2,7 @@
 title: GPT API公共调用网站及应用部署集合
 createTime: 2025/02/24 02:20:55
 permalink: /public-service/GPT/
+icon: /openai.svg
 ---
 
 此页面汇集了目前市面上 98%以上的大模型，且涵盖了 github 上主流的开源框架和技术，欢迎挨个体验。UpStream Sync 功能启用可以自动同步
