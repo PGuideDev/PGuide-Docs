@@ -135,4 +135,4 @@ plt.show()
 
 ### 5. 完整代码下载
 
-链接: [https://github.com/db1-bot/mL-learning-notes](https://github.com/db1-bot/mL-learning-notes)
+<RepoCard repo="db1-bot/mL-learning-notes"></RepoCard>
