@@ -32,6 +32,9 @@
 - 注意在提交时查看上传平台,详见[2025-03-01_02-17-57.mp4](docs%2F.vuepress%2Fpublic%2Fsrc%2F2025-03-01_02-17-57.mp4)
 - 进入github等平台仓库，点击Pull requests，点击New pull request可见提交的PR，输入此次PR提交的内容即可，图片展示可见：![pull_requests.png](docs%2F.vuepress%2Fpublic%2Fsrc%2Fpull_requests.png)
 
+## 文件路径配置
+
+首先在 `docs/.vuepress/notes.ts` 中配置notes的路径
 
 ## 其他注意事项
 - 所有静态文件放在`docs/.vuepress/public`中
