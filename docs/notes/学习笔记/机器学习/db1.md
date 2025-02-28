@@ -135,4 +135,4 @@ plt.show()
 
 ### 5. 完整代码下载
 
-链接: [https://pan.baidu.com/s/1iGjgjT6AZ5CQFPVMafR4rg?pwd=qqq3](https://pan.baidu.com/s/1iGjgjT6AZ5CQFPVMafR4rg?pwd=qqq3)
+链接: [https://github.com/db1-bot/mL-learning-notes](https://github.com/db1-bot/mL-learning-notes)
