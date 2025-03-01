@@ -12,19 +12,29 @@ permalink: /contribute/
 
 ## 我是文档站的开发者
 
+- git的使用
+- vuepress plume主题
+- typescript
+
 ## 我是文档的编写者
 
+- markdown基础语法
+- vuepress md拓展语法
+- 合并请求的创建
+
 ### markdown支持
-目前，文档支持所有
+目前，文档支持所有markdown基础语法
 
 
 ### 项目克隆
 确保团队成员使用 SSH 或 HTTPS 统一方式克隆仓库：
 ```bash
-git clone [仓库地址]
-cd [项目目录]
+git clone https://zds.cqmu.edu.cn/pguide-studio/pguide-docs
+cd PGuide-Docs
 pnpm install  # 安装依赖
 ```
+
+这一步可以参考 [README.md](../../README.md)
 
 ---
 
