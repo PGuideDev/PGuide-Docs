@@ -73,13 +73,13 @@ export default defineUserConfig({
              * Shiki 代码高亮
              * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
              */
-            // shiki: {
-            //   // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-            //   languages: ['shell', 'bash', 'typescript', 'javascript'],
-            //   twoslash: true, // 启用 twoslash
-            //   whitespace: true, // 启用 空格/Tab 高亮
-            //   lineNumbers: true, // 启用行号
-            // },
+            shiki: {
+              // 预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
+              languages: ['shell', 'bash', 'typescript', 'javascript','markdown','c++','python'],
+              twoslash: true, // 启用 twoslash
+              whitespace: true, // 启用 空格/Tab 高亮
+              lineNumbers: true, // 启用行号
+            },
 
             // 开发环境和生产环境都启用git贡献功能
             git: process.env.NODE_ENV === 'production',
@@ -106,7 +106,7 @@ export default defineUserConfig({
              * @see https://theme-plume.vuejs.press/config/plugins/markdown-enhance/
              */
             markdownEnhance: {
-              chartjs: true,
+              // chartjs: true,
               echarts: true,
               mermaid: true,
               flowchart: true,
@@ -168,17 +168,17 @@ export default defineUserConfig({
              * 评论 comments
              * @see https://theme-plume.vuejs.press/guide/features/comments/
              */
-            // comment: {
-            //   provider: '', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-            //   comment: true,
-            //   repo: '',
-            //   repoId: '',
-            //   category: '',
-            //   categoryId: '',
-            //   mapping: 'pathname',
-            //   reactionsEnabled: true,
-            //   inputPosition: 'top',
-            // },
+            comment: {
+              provider: 'Giscus', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
+              comment: true,
+              repo: 'MultipledMe/PGuide-Docs',
+              repoId: 'R_kgDON5Sklw',
+              category: 'Q&A',
+              categoryId: 'DIC_kwDON5Skl84CneCO',
+              mapping: 'pathname',
+              reactionsEnabled: true,
+              inputPosition: 'top',
+            },
         },
 
         /**
