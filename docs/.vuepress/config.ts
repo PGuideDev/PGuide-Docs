@@ -24,7 +24,7 @@ export default defineUserConfig({
         /* 文档仓库配置，用于 editLink */
         docsRepo: 'https://github.com/MultipledMe/PGuide-Docs',
         docsDir: 'docs',
-        docsBranch: '',
+        docsBranch: 'master',
 
         /* 页内信息 */
         // editLink: true,
