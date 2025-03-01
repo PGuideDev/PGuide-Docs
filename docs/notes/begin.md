@@ -9,7 +9,7 @@ permalink: /begin/
 这同时也是一份献给重医学弟学妹们的礼物。如果这本书能对你们的本科生涯有哪怕一丝一毫的帮助，都是对我们极大的鼓励和慰藉。
 
 本书目前包括了以下部分(如果你有其他好的建议，或者想加入贡献者的行列，欢迎邮件 [PGuide Studio](mailto:losmosga@foxmail.com)
-或者在 :[tdesign:logo-github-filled 48px]: issue 里提问:-)
+或者在下方评论区提问
 <CardGrid>
 
 <LinkCard
@@ -81,3 +81,11 @@ description="大学通关秘籍看这里！
 
 - [个人](friends-persons.md)
 - [组织](friends-organizations.md)
+
+
+## 怎么在评论区提问
+
+1. 科学上网或下载[watt toolkit](https://steampp.net/)
+2. [注册github账号](https://github.com/signup)
+3. 点击下方`使用github登录`
+4. 评论
