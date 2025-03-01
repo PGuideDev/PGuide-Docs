@@ -70,6 +70,8 @@
 - 其他地方引用静态文件时，从相对路径public开始
   - 例如:public下有AI.svg文件，引用时使用 `AI.svg` 路径即可
 - markdown文档隔行写
+- 请将`public`文件夹设置为 **Excluded**：右键 -> mark as -> excluded folder
+  - 否则svg等静态文件的命名空间等信息会报错。
 
 ## 文档
 
