@@ -2,6 +2,7 @@
 title: python
 createTime: 2025/03/01 03:00:38
 permalink: /csdiy/program-begin/python/
+icon: devicon:python
 ---
 
 [//]: # (TODO:chy待填写)

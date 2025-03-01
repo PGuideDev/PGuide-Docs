@@ -19,20 +19,15 @@ groups:
         location: Global distribution
         organization: PGuide Studio Yuque
         desc: Gracious thoughts stay in with simple words.
-      - name: 艺术部
-        link: https://art.pguide.studio
-        avatar: /manage.svg
-        location: Global distribution
-        organization: PGuide Studio Art
-        desc: Creative creates create creations.
   - title: 重庆医科大学信息中心
-    desc: CQMU Central Network
+    desc: CQMU Central NetWork
     list:
       - name: 二级门户
         link: https://cnw.cqmu.edu.cn/
         location: 重庆医科大学
+        avatar: /avatar/cqmu.svg
         organization: 重庆医科大学信息中心
-        desc: 
+        desc: 信息中心门户网站
   - title: MED Explorers+
     desc: A research team affiliated to the College of Basic Medical Science composed of undergraduates
     list:
@@ -45,11 +40,40 @@ groups:
 
   - title: 西湖大学超算中心
     desc: HPC Base for computation in WLU.
-  - title: 中国科学院大学
+  #    -
+  #      name:
+  #      link:
+  #      location:
+  #      avatar:
+  #      organization:
+  #      desc:
   - title: 中国教育和科研计算机网
-    desc: visit https://www.cernet.net for more information
+    desc: 中国教育和科研计算机网CERNET是党中央、国务院指定的中国教育信息化的基础平台，也是中国最早的四大骨干网之一，为中国教育信息化及人才培养作出了突出贡献。除为教育系统用户提供基本互联网接入服务外，还受国务院授权，负责教育系统域名管理（edu.cn)，并承担各类大型国家教育信息化建设项目及研究任务。
+    list:
+      -
+        name: CERNET官网
+        link: https://www.edu.cn/
+        location: 中国，北京
+        avatar: /avatar/cernet.svg
+        organization: 中国教育和科研计算机网网络中心
+        desc: CERNET Secured.
+      -
+        name: 校园网联合镜像站
+        link: https://mirrors.cernet.edu.cn/
+        location: 中国各高校
+        avatar: https://mirrors.cernet.edu.cn/static/img/mirrorz.svg
+        organization: 清华大学MirrorZ项目组
+        desc: 本站提供对校园网镜像站的索引和跳转服务。
   - title: 奇安信网神（北京）信息科技有限公司
     desc: 网络安全领军者
+    list:
+      -
+        name: 官网
+        link: https://www.qianxin.com/
+        location: 中国，北京
+        avatar: /avatar/qax.svg
+        organization: 奇安信集团
+        desc: 
   - title: 中国科技云
     desc: China Science & Technology cloud
     list:
@@ -66,25 +90,25 @@ groups:
         name: MUA官网
         link: https://www.mualliance.cn/
         location: 中国
-        avatar: 
-        organization:
-        desc:
+        avatar: https://www.mualliance.cn/wp-content/uploads/2023/01/mua.png
+        organization: MUA
+        desc: Minecraft University Alliance
       -
         name: 渝高联CQMUA官网
-        link:
+        link: https://3w.cqmua.cn/
         location: 中国，重庆市
-        avatar: 
-        organization:
+        avatar: https://3w.cqmua.cn/logo.svg
+        organization: CQMUA、MUA
         desc: 重庆市 Minecraft 高校联盟
       -
         name: 上海交通大学SJMC
         link: https://mc.sjtu.cn
         location: 中国，上海闵行
-        avatar: 
+        avatar: https://mc.sjtu.cn/welcome/_next/static/media/mcclub.d8834901.png
         organization: 上海交通大学、MUA
-        desc:
-  - title: 重庆医科大学LaTeX用户组
-    desc: CQMU LaTeX user group.
+        desc: SJTU Minecraft Club
+  - title: 重庆医科大学TeX用户组
+    desc: CQMU TeX user group.
     list:
       - name: 内网LaTeX在线协作平台
         link: http://192.168.183.171
@@ -101,13 +125,13 @@ groups:
   - title: 北京大学信息科学技术学院
     dsc: Peking University
     list:
-    - 
-      name: 
-      link: 
-      location:
-      avatar:
-      organization:
-      desc:
+#    - 
+#      name: 
+#      link: 
+#      location:
+#      avatar:
+#      organization:
+#      desc:
     -
       name: CS-DIY
       link: https://csdiy.wiki/

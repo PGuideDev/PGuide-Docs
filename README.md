@@ -3,12 +3,41 @@
 - Node.js v18.20.0+ 
 - pnpm 8+ 或 Yarn 2+
 
-- 推荐使用nvm做Node.js环境管理
+## 项目结构
+
+`docs`: 静态编译的网站页面内容
+
+`.vuepress`
+ - `public/`: 静态资源文件夹
+ - `theme`: 主题参数设置文件夹
+ - client.ts: 客户端配置文件
+ - config.ts: 全局配置文件
+ - navbar.ts: 导航栏配置文件
+ - notes.ts: 文档结构配置文件
+ - plume.config.ts: 主题配置文件
+
 ## 项目安装
-- 使用nvm安装npm(以版本18.20.0为例)
+- 推荐使用nvm做Node.js环境管理
+  - [nvm windows](https://github.com/coreybutler/nvm-windows)
+- IDE:WebStorm 或 VSCode
+
+
+
+- 使用nvm安装npm
     ```shell
-    nvm install 18.20.0
+    nvm install lts
     ```
+  - 配置NodeJS Release 软件仓库镜像
+    - 校园网联合镜像站：
+    参考 [https://help.mirrors.cernet.edu.cn/nodejs-release/](https://help.mirrors.cernet.edu.cn/nodejs-release/)
+
+      ```shell
+      nvm node_mirror https://mirrors.cernet.edu.cn/nodejs-release/
+      ```
+    - 阿里云
+      ```shell
+      nvm node_mirror https://mirrors.aliyun.com/nodejs-release/
+      ```
 - 全局安装pnpm
     ```shell
     npm install -g pnpm
@@ -17,9 +46,9 @@
     ```shell
     pnpm i
     ```
-- 启动项目
+- 启动项目开发环境
     ```shell
-    pnpm run:dev
+    pnpm run docs:dev
     ```
 
 ## 创建合并请求
@@ -40,6 +69,7 @@
 - 所有静态文件放在`docs/.vuepress/public`中
 - 其他地方引用静态文件时，从相对路径public开始
   - 例如:public下有AI.svg文件，引用时使用 `AI.svg` 路径即可
+- markdown文档隔行写
 
 ## 文档
 

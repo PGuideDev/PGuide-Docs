@@ -48,7 +48,7 @@ Hello World! % 文档内容
 
 ### 学习LaTeX
 
-@[pdf zoom="95" ratio="21:29"](https://mirror-hk.koddos.net/CTAN/info/lshort/chinese/lshort-zh-cn.pdf)
+请参考 [学习LaTeX](LaTeX.md)
 
 ## CQMU TUG
 
