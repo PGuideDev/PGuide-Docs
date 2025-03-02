@@ -45,7 +45,7 @@ export const navbar = defineNavbarConfig([
             {icon: '/openai.svg',text: '生成式人工智能',link: '/notes/公共服务/生成式人工智能/README.md'},
             {icon: 'fluent-color:data-area-20', text: '数据中心', link: '/notes/公共服务/生成式人工智能/README.md'},
             {icon: '/mirror.svg', text: '重庆医科大学开源软件镜像站', link: '/notes/公共服务/重医校级开源软件镜像站/README.md'},
-            {icon: '/overleaf.svg', text: 'Overleaf在线协作企业版', link: '/notes/公共服务/Overleaf在线协作企业版/README  .md'},
+            {icon: '/overleaf.svg', text: 'Overleaf在线协作企业版', link: '/notes/公共服务/Overleaf在线协作企业版/README.md'},
             {text: '', link: ''}
         ]
     },
@@ -55,8 +55,8 @@ export const navbar = defineNavbarConfig([
         items: [
             {icon: '/email.svg', text: '申请学生邮箱', link: '/notes/大学百科/申请学生邮箱.md'},
             {icon: '/teacher.svg', text: '老师们说', link: '/notes/大学百科/老师们说/README.md'},
-            {icon: '/software.svg', text: '常用软件', link: '/notes/大学百科/常用软件/README.md'},
-            {icon: '/cert.svg', text: '证书及技能考试', link: '/notes/大学百科/证书及技能考试/README.md'}
+            {icon: 'carbon:container-software', text: '常用软件', link: '/notes/大学百科/常用软件/README.md'},
+            {icon: '/cert.svg', text: '证书及技能考试', link: '/notes/大学百科/证书及技能考试/README.md'},
         ]
     },
     {

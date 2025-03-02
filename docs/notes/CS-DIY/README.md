@@ -11,6 +11,7 @@ permalink: /cs-diy/
 Missing Semester可以帮助你找到学习计算机的乐趣
 
 @[bilibili](BV1Eo4y1d7KZ)   
+
 ---
 
 一本关于计算机各方向的自学指南，无论天南或海北，希望可以帮到你，灵感和部分素材来自CS自学指南。

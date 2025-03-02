@@ -15,6 +15,8 @@ list:
     socials:
       - icon: qq
         link: 
+      - icon: github
+        link: https://github.com/emptyelse
   - name: Elysia_Realme
     link: https://chenhy.pguide.studio/
     avatar: https://chenhy.pguide.studio/githubFindNew/pictures/CircleElysia.jpg
@@ -23,7 +25,7 @@ list:
     desc: 兄弟你好香，今夜星光闪闪，爱你的♥满满。
     socials:
       - icon: qq
-        link:
+        link: https://qm.qq.com/q/VKCsG13ww8
       - icon: github
         link: https://github.com/MenTouGouMouse
   - name: DKwms

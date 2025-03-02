@@ -5,7 +5,7 @@ import notes from './notes'
 // 首页异步检查各服务在线状态
 async function checkStatus() {
     try {
-        const response = await fetch('https://status.cqmu.online/api/badge/35/status');
+        const response = await fetch('https://status.cqmu.online/api/badge/14/status');
         if (response.ok) {
             const svgText = await response.text();
             if (svgText.includes('Status: Up')) {
@@ -23,7 +23,7 @@ async function checkStatus() {
 
 async function getFooterMessage() {
     const statusMessage = await checkStatus();
-    return `${statusMessage} <a href="https://status.cqmu.online/" target="_blank"><img src="https://status.cqmu.online/api/badge/35/status" alt="Status Badge" style="vertical-align: middle; display: inline-block;"></a>`;
+    return `${statusMessage} <a href="https://status.cqmu.online/" target="_blank"><img src="https://status.cqmu.online/api/badge/14/status" alt="Status Badge" style="vertical-align: middle; display: inline-block;"></a>`;
 }
 
 

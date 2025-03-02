@@ -5,7 +5,13 @@ permalink: /public-service/cqmu-mirror/
 icon: /mirror.svg
 ---
 
+:::tip
+即将上线
+:::
+
 ## 使用方式
 
 ## 新镜像请求
+
+## 出现bug?
 

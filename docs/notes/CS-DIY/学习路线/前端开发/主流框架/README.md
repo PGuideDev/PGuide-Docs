@@ -3,6 +3,7 @@ home: true
 title: README
 createTime: 2025/03/02 16:47:42
 permalink: /csdiy/popular-framework/
+icon: mdi:iframe-cog-outline
 config:
   -
     type: features
