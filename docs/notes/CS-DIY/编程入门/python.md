@@ -5,7 +5,6 @@ permalink: /csdiy/program-begin/python/
 icon: devicon:python
 ---
 
-[//]: # (TODO:chy待填写)
 
 ## 学习路线
 

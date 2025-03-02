@@ -75,6 +75,8 @@
 - markdown文档隔行写
 - 请将`public`文件夹设置为 **Excluded**：右键 -> mark as -> excluded folder
   - 否则svg等静态文件的命名空间等信息会报错。
+- 永久链接 permalink 注意末尾不要缺少 " / " 表示请求路径
+- 修改头部导航栏的时候记得重启项目
 
 ## Q&A
 - git进行push报错出现<br>
