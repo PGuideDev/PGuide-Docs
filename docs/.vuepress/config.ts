@@ -119,7 +119,9 @@ export default defineUserConfig({
             markdownPower: {
                 pdf: true,
                 audioReader: true,
+                bilibili: true,
             },
+
 
             // markdownPower: {
             //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
