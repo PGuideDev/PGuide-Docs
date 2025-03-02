@@ -54,6 +54,7 @@ export const navbar = defineNavbarConfig([
         items: [
             {icon: '/email.svg', text: '申请学生邮箱', link: '/notes/大学百科/申请学生邮箱.md'},
             {icon: '/teacher.svg', text: '老师们说', link: '/notes/大学百科/老师们说/README.md'},
+            {icon: '/software.svg', text: '常用软件', link: '/notes/大学百科/常用软件/README.md'},
             {icon: '/cert.svg', text: '证书及技能考试', link: '/notes/大学百科/证书及技能考试/README.md'}
         ]
     },
