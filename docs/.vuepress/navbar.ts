@@ -33,7 +33,7 @@ export const navbar = defineNavbarConfig([
         items: [
             {text: '前言', link: '/notes/CS-DIY/README.md'},
             {icon:'/dev-standard.svg', text: '开发规范' , link: '/notes/CS-DIY/2.开发规范.md'},
-            {icon: '/path.svg', text: '学习路线', link: '/notes/CS-DIY/3.学习路线.md'},
+            {icon: '/path.svg', text: '学习路线', link: '/notes/CS-DIY/学习路线/README.md'},
             {icon: 'carbon:cics-program', text:'编程入门', link: '/notes/CS-DIY/编程入门/README.md'},
         ]
     },
