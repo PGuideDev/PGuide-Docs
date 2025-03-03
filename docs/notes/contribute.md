@@ -43,8 +43,9 @@ git clone https://github.com/MultipledMe/PGuide-Docs
 ::: file-tree
 
 - docs
-    - .vuepress
+    - .vuepress 
         - config.ts
+        - client.ts #客户端配置
     - page1.md
     - README.md
 - theme  一个 **主题** 目录
