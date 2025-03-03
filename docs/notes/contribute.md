@@ -8,50 +8,61 @@ permalink: /contribute/
 
 <RepoCard repo="MultipledMe/PGuide-Docs"></RepoCard>
 
-在参与合作开发之前，您首先得学习一些基础知识:
+在参与合作开发之前，需要您学习一些基础知识:
 
 ## 我是文档站的开发者
 
-- git的使用
-- vuepress plume主题
-- typescript
+- [git的使用](/csdiy/tools-must/git/)
+- [VuePress Plume主题](https://theme-plume.vuejs.press/guide/intro/)
+- [Typescript基础语法](https://www.runoob.com/typescript/ts-basic-syntax.html)
+- markdown基础语法
 
 ## 我是文档的编写者
 
 - markdown基础语法
-- vuepress md拓展语法
-- 合并请求的创建
+- VuePress markdown拓展语法
+- 合并请求的创建（也可以联系文档管理员）
 
-### markdown支持
-目前，文档支持所有markdown基础语法
+### 我想直接写一篇文档
+
+也可以的，联系[rand777](https://qm.qq.com/q/2iLBaNcsnO)并获取语雀编辑权限
 
 
 ### 项目克隆
-确保团队成员使用 SSH 或 HTTPS 统一方式克隆仓库：
+团队使用 SSH 或 HTTPS 统一方式克隆:[line-md:github-loop]:仓库：
+
 ```bash
-git clone https://zds.cqmu.edu.cn/pguide-studio/pguide-docs
-cd PGuide-Docs
-pnpm install  # 安装依赖
+git clone https://github.com/MultipledMe/PGuide-Docs
 ```
 
-这一步可以参考 [README.md](../../README.md)
+这一步可以参考 [README.md](https://github.com/MultipledMe/PGuide-Docs/blob/master/README.md)
 
 ---
 
 ## 项目结构
-```bash
-docs/
-  .vuepress/
-    config.js     # VuePress 主配置
-    plume-theme/  # Plume 主题配置
-      components/ # 自定义组件
-      styles/     # 覆盖主题样式
-  public/         # 静态资源（图片、字体等）
-  README.md       # 文档首页
-  其他目录/        # 业务文档（按需组织）
-pnpm-lock.yaml
-package.json
-```
+::: file-tree
+
+- docs
+    - .vuepress
+        - config.ts
+    - page1.md
+    - README.md
+- theme  一个 **主题** 目录
+    - client
+        - components
+            - **Navbar.vue**
+        - composables
+            - useNavbar.ts
+        - styles
+            - navbar.css
+        - config.ts
+    - node/
+- package.json
+- pnpm-lock.yaml
+- .gitignore
+- README.md
+- …
+  :::
 
 ---
 
@@ -64,12 +75,12 @@ pnpm docs:dev  # 运行后访问 http://localhost:8080
 
 ### 编写文档
 - **新增页面**：在 `docs/` 下创建 `.md` 文件，按约定式路由生成路径。
-- **配置侧边栏**：在 `.vuepress/config.js` 的 `themeConfig.sidebar` 中添加导航。
 - **遵循Frontmatter**：
   ```markdown
   ---
   title: 示例页面
   editLink: false
+  permalink: /../../
   ---
   ```
 

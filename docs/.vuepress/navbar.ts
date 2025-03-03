@@ -21,10 +21,9 @@ export const navbar = defineNavbarConfig([
             {icon: '/zhiyu.png', text: '植愈：AI情绪小帮手', link: ''},
             {icon: '/robot.png', text: '智慧中草药生态养护平台', link: ''},
             {icon: '/univ-town.svg', text: '像素大学城', link: ''},
-            {icon: '/command_block.gif', text: 'CQMUA服务器中心', link: ''},
+            {icon: '/command_block.gif', text: 'CQMUA服务器中心', link: '/notes/项目文档/CQMUA服务器中心/README.md'},
             {icon: '/analyse.svg',text: '学情分析系统',link: ''},
             {icon: '/zzfy.svg',text: '掌中方圆',link: ''},
-            {icon: '/internship.svg',text: '网络实习就业信息网',link:''}
         ]
     },
     {

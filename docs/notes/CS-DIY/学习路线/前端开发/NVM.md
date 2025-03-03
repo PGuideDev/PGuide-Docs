@@ -7,9 +7,9 @@ icon: simple-icons:nvm
 
 Node Version Manager，不同的前端项目往往需要不同的 node.js 版本，它可以帮我快速切换版本
 
-# Windows
-## 安装
-前往 [nvm for windows(github)](https://github.com/coreybutler/nvm-windows)<br>
+## Windows
+### 安装
+前往 :[line-md:github-twotone]: [nvm for windows](https://github.com/coreybutler/nvm-windows)<br>
 你看到的版本号可能不一样，因为 nvm 一直在更新!
 
 根据如下步骤进行操作
@@ -18,10 +18,10 @@ Node Version Manager，不同的前端项目往往需要不同的 node.js 版本
 
 下载完成后安装，一直下一步即可
 
-## 验证安装
+### 验证安装
 ![img_4.png](..%2F..%2F..%2F..%2F.vuepress%2Fpublic%2Fsrc%2Fimg_4.png)
 
-## npm安装与使用
+### npm安装与使用
 淘宝镜像用于加速 npm 包下载速度
 ::: code-tabs
 
