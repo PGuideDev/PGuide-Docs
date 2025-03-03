@@ -16,7 +16,7 @@ permalink: /begin/
 icon="/project.svg"
 title="实战项目"
 href="/project-docs/"
-description="历届学长姐的优质项目全记录！
+description="历届学长学姐的优质项目全记录！
 💡 包含项目创意说明
 💡 具体实现教程
 💡 团队协作经验
@@ -60,7 +60,7 @@ description="大学通关秘籍看这里！
 ## 我也想写一些东西
 
 项导文档欢迎各位加入建设，目前我们只是针对重医的同学们的情况编写了文档，涵盖的内容可能不齐全或存在可优化之处。欢迎各位有志之士加入建设。请参考[贡献指南](contribute.md)
-或[电子邮件](mailto:losmosa@foxmail)
+或给我们发送[电子邮件](mailto:losmosa@foxmail)，谢谢！
 
 ## 关于为什么自行开发与维护
 
@@ -85,7 +85,7 @@ description="大学通关秘籍看这里！
 
 ## 怎么在评论区提问
 
-1. 科学上网或下载[watt toolkit](https://steampp.net/)
+1. [科学上网](/csdiy/tools-must/magic/)或下载[watt toolkit](https://steampp.net/)
 2. [注册github账号](https://github.com/signup)
 3. 点击下方`使用github登录`
 4. 评论

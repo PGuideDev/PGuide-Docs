@@ -1,3 +1,5 @@
+// noinspection JSDeprecatedSymbols
+
 import {defineNavbarConfig} from 'vuepress-theme-plume'
 
 export const navbar = defineNavbarConfig([
@@ -17,13 +19,13 @@ export const navbar = defineNavbarConfig([
         icon: '/project.svg',
         text: '项目文档',
         items: [
-            {icon: '/match.svg', text: '全国大学生竞赛组队系统', link: ''},
-            {icon: '/zhiyu.png', text: '植愈：AI情绪小帮手', link: ''},
-            {icon: '/robot.png', text: '智慧中草药生态养护平台', link: ''},
-            {icon: '/univ-town.svg', text: '像素大学城', link: ''},
-            {icon: '/command_block.gif', text: 'CQMUA服务器中心', link: '/notes/项目文档/CQMUA服务器中心/README.md'},
-            {icon: '/analyse.svg',text: '学情分析系统',link: ''},
-            {icon: '/zzfy.svg',text: '掌中方圆',link: ''},
+            {icon: '/match.svg', text: '全国大学生竞赛组队系统', link: '/project-docs/match-competitions/'},
+            {icon: '/zhiyu.png', text: '植愈：AI情绪小帮手', link: '/project-docs/plant-cure/'},
+            {icon: '/robot.png', text: '智慧中草药生态养护平台', link: '/project-docs/smart-car/'},
+            {icon: '/univ-town.svg', text: '像素大学城', link: '/project-docs/pixel-university-town/'},
+            {icon: '/command_block.gif', text: 'CQMUA服务器中心', link: '/project-docs/cqmua-center/'},
+            {icon: '/analyse.svg',text: '学情分析系统',link: '/project-docs/study-analytic-system/'},
+            {icon: '/zzfy.svg',text: '掌中方圆',link: '/project-docs/control-my-panel/'},
         ]
     },
     {
@@ -35,6 +37,7 @@ export const navbar = defineNavbarConfig([
             {icon: '/path.svg', text: '学习路线', link: '/notes/CS-DIY/学习路线/README.md'},
             {icon: 'carbon:cics-program', text:'编程入门', link: '/notes/CS-DIY/编程入门/README.md'},
             {icon: 'mdi:tools', text:'必学工具', link: '/notes/CS-DIY/必学工具/README.md'},
+            {icon: '',text: '', link: ''}
         ]
     },
     {
@@ -56,6 +59,7 @@ export const navbar = defineNavbarConfig([
             {icon: '/teacher.svg', text: '老师们说', link: '/notes/大学百科/老师们说/README.md'},
             {icon: 'carbon:container-software', text: '常用软件', link: '/notes/大学百科/常用软件/README.md'},
             {icon: '/cert.svg', text: '证书及技能考试', link: '/notes/大学百科/证书及技能考试/README.md'},
+            {icon: 'ic:baseline-school',text: '校内生活', link: '/notes/大学百科/校内生活/README.md'}
         ]
     },
     {
