@@ -60,7 +60,13 @@ export const navbar = defineNavbarConfig([
             {icon: '/teacher.svg', text: '老师们说', link: '/campus-wiki/teacher-talks/'},
             {icon: 'carbon:container-software', text: '常用软件', link: '/campus-wiki/common-softwares/'},
             {icon: '/cert.svg', text: '证书及技能考试', link: '/campus-wiki/credential-skillful-exams/'},
-            {icon: 'ic:baseline-school',text: '校内生活', link: '/campus-wiki/campus-life/'}
+            {icon: 'ic:baseline-school',text: '校内生活', link: '/campus-wiki/campus-life/'},
+            {icon: '/competition.svg', text:'竞赛篇', link: '/campus-wiki/competition/'},
+            {icon: '/kaoyan.svg', text:'考研篇', link: ''},
+            {icon: '/kaogong.svg', text:'考公篇', link: ''},
+            {icon: '/baoyan.svg', text:'保研篇', link: ''},
+            {icon: '/liuxue.svg', text:'留学篇', link: ''},
+            {icon: '/internship.svg', text:'实习篇', link: ''},
         ]
     },
     {
@@ -75,7 +81,7 @@ export const navbar = defineNavbarConfig([
         ],
     },
     {
-        icon: '/link.svg',
+        icon: 'link.svg',
         text: '友情链接',
         items: [
             {icon: '/friend.svg', text: '个人', link: '/friends/persons/'},
