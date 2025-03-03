@@ -36,15 +36,11 @@ Git 的设计非常优雅，但初学者通常因为很难理解其内部逻辑�
 :::
 [关于版本控制 - Git Guide](https://zj-git-guide.readthedocs.io/zh-cn/latest/get-started/%E5%85%B3%E4%BA%8E%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/)
 
-:::tip
 
-此处待写Git IDE集成 / 申请教育版
-
-[//]: # (TODO: 此处待写Git IDE集成 / 申请教育版)
 
 :::
 ## 软件集成
-通过设置，git 可以在各 IDE 中进行集成，无需使用 git-bash 命令行工具，你可能需要知道XXX 如何 XXX
+通过设置，git 可以在各 IDE 中进行集成，无需使用 git-bash 命令行工具，你可能需要知道[什么是IDE](/campus-wiki/common-softwares/IDE/)，[如何申请教育版](/campus-wiki/apply-student-email/#学生邮箱的作用)
 
 ## 设置SSH密钥
 第一次需要生成 SSH 密钥对，可以按照以下步骤在你的终端或命令提示符中执行相应的命令：

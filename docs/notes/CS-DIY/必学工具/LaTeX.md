@@ -1,5 +1,5 @@
 ---
-title: Latex
+title: LaTeX
 createTime: 2025/03/03 23:02:01
 permalink: /csdiy/tools-must/latex/
 icon: file-icons:latex

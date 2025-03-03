@@ -1,5 +1,5 @@
 ---
-title: markdown
+title: Markdown
 createTime: 2025/03/03 23:12:31
 permalink: /csdiy/tools-must/markdown/
 icon: material-symbols:markdown
@@ -38,7 +38,7 @@ icon: material-symbols:markdown
 
 你好！ 这是你第一次使用 **Markdown编辑器** 所展示的欢迎页。如果你想学习如何使用Markdown编辑器, 可以仔细阅读这篇文章，了解一下Markdown的基本语法知识。
 
-#### 新的改变
+### 新的改变
 
 我们对Markdown编辑器进行了一些功能拓展与语法支持，除了标准的Markdown编辑器功能，我们增加了如下几点新功能，帮助你用它写博客：
 
@@ -53,7 +53,7 @@ icon: material-symbols:markdown
 
 [^1]: [mermaid语法说明](https://mermaidjs.github.io/)
 
-#### 功能快捷键
+### 功能快捷键
 
 - 撤销：<kbd>Ctrl/Command</kbd> + <kbd>Z</kbd>
 - 重做：<kbd>Ctrl/Command</kbd> + <kbd>Y</kbd>
@@ -69,13 +69,13 @@ icon: material-symbols:markdown
 - 查找：<kbd>Ctrl/Command</kbd> + <kbd>F</kbd>
 - 替换：<kbd>Ctrl/Command</kbd> + <kbd>G</kbd>
 
-#### 合理的创建标题，有助于目录的生成
+### 合理的创建标题，有助于目录的生成
 
 直接输入1次<kbd>#</kbd>，并按下<kbd>space</kbd>后，将生成1级标题。
 输入2次<kbd>#</kbd>，并按下<kbd>space</kbd>后，将生成2级标题。
 以此类推，我们支持6级标题。有助于使用`TOC`语法后生成一个完美的目录。
 
-#### 如何改变文本的样式
+### 如何改变文本的样式
 
 *强调文本* _强调文本_
 
@@ -91,7 +91,7 @@ H~2~O is是液体。
 
 2^10^ 运算结果是 1024.
 
-#### 插入链接与图片
+### 插入链接与图片
 
 链接: [link](https://www.csdn.net/).
 
@@ -105,7 +105,7 @@ H~2~O is是液体。
 
 当然，我们为了让用户更加便捷，我们增加了图片拖拽功能。
 
-#### 如何插入一段漂亮的代码片
+### 如何插入一段漂亮的代码片
 
 去[博客设置](https://mp.csdn.net/console/configBlog)页面，选择一款你喜欢的代码片高亮样式，下面展示同样高亮的 `代码片`.
 
@@ -114,7 +114,7 @@ H~2~O is是液体。
 var foo = 'bar';
 ```
 
-#### 生成一个适合你的列表
+### 生成一个适合你的列表
 
 - 项目
     - 项目
@@ -127,7 +127,7 @@ var foo = 'bar';
 - [x] 计划任务
 - [x] 完成任务
 
-#### 创建一个表格
+### 创建一个表格
 
 一个简单的表格是这么创建的：
 
@@ -137,7 +137,7 @@ var foo = 'bar';
 | 手机 | $12   |
 | 导管 | $1    |
 
-##### 设定内容居中、居左、居右
+#### 设定内容居中、居左、居右
 
 使用`:---------:`居中
 使用`:----------`居左
@@ -147,7 +147,7 @@ var foo = 'bar';
 | :------------: | -------------: | :------------- |
 | 第一列文本居中 | 第二列文本居右 | 第三列文本居左 |
 
-##### SmartyPants
+#### SmartyPants
 
 SmartyPants将ASCII标点字符转换为“智能”印刷标点HTML实体。例如：
 
@@ -157,7 +157,7 @@ SmartyPants将ASCII标点字符转换为“智能”印刷标点HTML实体。例
 | Quotes           | `"Isn't this fun?"`             | "Isn't this fun?"             |
 | Dashes           | `-- is en-dash, --- is em-dash` | -- is en-dash, --- is em-dash |
 
-#### 创建一个自定义列表
+### 创建一个自定义列表
 
 Markdown
 :  Text-to-HTML conversion tool
@@ -166,19 +166,19 @@ Authors
 :  John
 :  Luke
 
-#### 如何创建一个注脚
+### 如何创建一个注脚
 
 一个具有注脚的文本。[^2]
 
 [^2]: 注脚的解释
 
-####  注释也是必不可少的
+###  注释也是必不可少的
 
 Markdown将文本转换为 HTML。
 
 *[HTML]:   超文本标记语言
 
-#### KaTeX数学公式
+### KaTeX数学公式
 
 您可以使用渲染LaTeX数学表达式 [KaTeX](https://khan.github.io/KaTeX/):
 
@@ -191,7 +191,7 @@ $$
 
 > 你可以找到更多关于的信息 **LaTeX** 数学表达式[here][1].
 
-#### 新的甘特图功能，丰富你的文章
+### 新的甘特图功能，丰富你的文章
 
 ```mermaid
 gantt
@@ -206,7 +206,7 @@ gantt
 
 - 关于 **甘特图** 语法，参考 [这儿][2],
 
-#### UML 图表
+### UML 图表
 
 可以使用UML图表进行渲染。 [Mermaid](https://mermaidjs.github.io/). 例如下面产生的一个序列图：
 
@@ -234,31 +234,23 @@ C --> D
 
 - 关于 **Mermaid** 语法，参考 [这儿][3],
 
-#### FLowchart流程图
+### FLowchart流程图
 
-我们依旧会支持flowchart的流程图：
+[//]: # (TODO: 此处待写)
 
-```mermaid
-flowchat
-st=>start: 开始
-e=>end: 结束
-op=>operation: 我的操作
-cond=>condition: 确认？
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
+:::tip
+此处待写
+:::
 
 - 关于 **Flowchart流程图** 语法，参考 [这儿][4].
 
-#### 导出与导入
+### 导出与导入
 
-#####  导出
+###  导出
 
 如果你想尝试使用此编辑器, 你可以在此篇文章任意编辑。当你完成了一篇文章的写作, 在上方工具栏找到 **文章导出** ，生成一个.md文件或者.html文件进行本地保存。
 
-##### 导入
+### 导入
 
 如果你想加载一篇你写过的.md文件，在上方工具栏可以选择导入功能进行对应扩展名的文件导入，
 继续你的创作。
