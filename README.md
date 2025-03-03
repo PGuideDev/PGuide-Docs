@@ -83,6 +83,12 @@
 - 永久链接 permalink 注意末尾不要缺少 " / " 表示请求路径
 - 修改头部导航栏的时候记得重启项目
 
+### Pixpin配置
+![2025-03-03_22-02-28.png](docs/.vuepress/public/src/2025-03-03_22-02-28.png)
+![2025-03-03_22-02-04.png](docs/.vuepress/public/src/2025-03-03_22-02-04.png)
+
+按下F2即可快速保存
+
 ## Q&A
 - git进行push报错出现<br>
   fatal: unable to access 'https://github.com/xxxxx/xxxx.git/': OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 0
