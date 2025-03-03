@@ -64,6 +64,10 @@
 - 注意在提交时查看上传平台,详见[2025-03-01_02-17-57.mp4](docs%2F.vuepress%2Fpublic%2Fsrc%2F2025-03-01_02-17-57.mp4)
 - 进入github等平台仓库，点击Pull requests，点击New pull request可见提交的PR，输入此次PR提交的内容即可，图片展示可见：![pull_requests.png](docs%2F.vuepress%2Fpublic%2Fsrc%2Fpull_requests.png)
 
+<CardGrid>
+
+</CardGrid>
+
 ## 文件路径配置
 
 首先在 `docs/.vuepress/notes.ts` 中配置notes的路径
@@ -72,6 +76,7 @@
 - 所有静态文件放在`docs/.vuepress/public`中
 - 其他地方引用静态文件时，从相对路径public开始
   - 例如:public下有AI.svg文件，引用时使用 `AI.svg` 路径即可
+  - 头像放在`avatar`中
 - markdown文档隔行写
 - 请将`public`文件夹设置为 **Excluded**：右键 -> mark as -> excluded folder
   - 否则svg等静态文件的命名空间等信息会报错。

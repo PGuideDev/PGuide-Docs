@@ -207,6 +207,26 @@ list:
     backgroundColor:
     color:
     nameColor:    
+  - name: 🐻
+    link: 
+    avatar: /avatar/xx.png
+    desc: Wednesday afternoon 2:00
+    location: 中国，重庆沙坪坝
+    organization: 哈尔滨工业大学
+    socials: 
+    backgroundColor:
+    color:
+    nameColor:
+  - name:
+    link:
+    avatar:
+    desc:
+    location:
+    organization:
+    socials:
+    backgroundColor:
+    color:
+    nameColor:
 #  - name:
 #    link:
 #    avatar:

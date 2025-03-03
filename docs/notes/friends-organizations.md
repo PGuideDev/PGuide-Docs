@@ -28,6 +28,20 @@ groups:
         avatar: /avatar/cqmu.svg
         organization: 重庆医科大学信息中心
         desc: 信息中心门户网站
+      -
+        name: 华为深度学习平台（内网）
+        link: http://192.168.194.11/
+        location: 重庆医科大学
+        avatar: /huawei.svg
+        organization: 重庆医科大学医学信息学院
+        desc: Huawei DL platform
+      - 
+        name: 校超算平台（内网）
+        link: http://172.16.190.220:6080/
+        location: 重庆医科大学
+        avatar: /hpc.svg
+        organization: 重庆医科大学信息中心
+        desc: 计算云门户
   - title: MED Explorers+
     desc: A research team affiliated to the College of Basic Medical Science composed of undergraduates
     list:
@@ -116,11 +130,11 @@ groups:
         organization: PGuide Studio、信息中心
         desc: 
         avatar: /overleaf.svg
-      - name: 外网LaTeX在线协作平台
-        link: http://192.168.183.171
+      - name: 外网LaTeX在线协作平台(offline)
+        link: https://latex.cqmu.edu.cn
         location: 重庆医科大学
         organization: PGuide Studio、信息中心
-        desc:
+        desc: 
         avatar: /overleaf.svg
   - title: 北京大学信息科学技术学院
     dsc: Peking University

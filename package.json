@@ -28,6 +28,7 @@
   "dependencies": {
     "@waline/client": "^3.5.5",
     "annotation": "^0.1.0",
+    "artplayer": "^5.2.2",
     "chart": "^0.1.2",
     "echarts": "^5.6.0",
     "flowchart": "^1.2.0",

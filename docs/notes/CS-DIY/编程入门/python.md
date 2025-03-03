@@ -1,5 +1,5 @@
 ---
-title: python
+title: Python
 createTime: 2025/03/01 03:00:38
 permalink: /csdiy/program-begin/python/
 icon: devicon:python
@@ -20,8 +20,6 @@ PyCharm软件安装包可在[PGuide Alist](http://192.168.183.171:5244/softwares
 ● 《python从入门到精通》一书，代码跟着敲，随书视频跟着看，书籍同时也跟着读
 
 ● 学完python从入门到精通还不够的，这本书囊括并不全面，这个时候去B站找小甲鱼Python，学完就行，python就入门了@[bilibili](BV1c4411e77t)。
-
-
 
 ● 然后重医图书馆《python可视化数据分析》[机器学习实战笔记](https://blog.csdn.net/Crayonxin2000/article/details/122741295)（好像是叫这个名字？反正是一本红色的蜥蜴书，图灵或者机械工业出版的）跟着代码敲，读书，做笔记思考学习数据分析的精髓就行了，然后你就入门数据分析了
 
