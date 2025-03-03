@@ -8,11 +8,12 @@ export const navbar = defineNavbarConfig([
         icon: '/note.svg',
         text: '学习笔记',
         items: [
-            {icon: '/AI.svg', text: '机器学习', link: '/notes/学习笔记/机器学习/README.md'},
-            {icon: 'logos:google-developers', text: '前端开发', link: '/notes/学习笔记/前端开发/README.md'},
-            {icon: 'fluent-color:data-scatter-32', text: '后端开发', link: '/notes/学习笔记/后端开发/README.md'},
-            {icon: 'devicon:ros', text: 'ROS2', link: '/notes/学习笔记/ROS2/README.md'},
-            {icon: 'marketeq:vision', text: '计算机视觉', link: '/notes/学习笔记/计算机视觉/README.md'}
+            {icon: '/note.svg',text: '前言',link: '/learning-notes/'},
+            {icon: '/AI.svg', text: '机器学习', link: '/learning-notes/ml/'},
+            {icon: 'logos:google-developers', text: '前端开发', link: '/learning-notes/frontend-dev/'},
+            {icon: 'fluent-color:data-scatter-32', text: '后端开发', link: '/learning-notes/backend-dev/'},
+            {icon: 'devicon:ros', text: 'ROS2', link: '/learning-notes/ROS2/'},
+            {icon: 'marketeq:vision', text: '计算机视觉', link: '/learning-notes/CV/'}
         ]
     },
     {
@@ -32,11 +33,11 @@ export const navbar = defineNavbarConfig([
         icon: '/code.svg',
         text: 'CS-DIY',
         items: [
-            {text: '前言', link: '/notes/CS-DIY/README.md'},
-            {icon:'/dev-standard.svg', text: '开发规范' , link: '/notes/CS-DIY/开发规范/README.md'},
-            {icon: '/path.svg', text: '学习路线', link: '/notes/CS-DIY/学习路线/README.md'},
-            {icon: 'carbon:cics-program', text:'编程入门', link: '/notes/CS-DIY/编程入门/README.md'},
-            {icon: 'mdi:tools', text:'必学工具', link: '/notes/CS-DIY/必学工具/README.md'},
+            {text: '前言', link: '/cs-diy/'},
+            {icon:'/dev-standard.svg', text: '开发规范' , link: '/csdiy/dev-rules/'},
+            {icon: '/path.svg', text: '学习路线', link: '/csdiy/study-path/'},
+            {icon: 'carbon:cics-program', text:'编程入门', link: '/csdiy/program-begin/'},
+            {icon: 'mdi:tools', text:'必学工具', link: '/csdiy/tools-must/'},
             {icon: '',text: '', link: ''}
         ]
     },
@@ -44,10 +45,10 @@ export const navbar = defineNavbarConfig([
         icon: '/public-service.svg',
         text: '公共服务',
         items: [
-            {icon: '/openai.svg',text: '生成式人工智能',link: '/notes/公共服务/生成式人工智能/README.md'},
-            {icon: 'fluent-color:data-area-20', text: '数据中心', link: '/notes/公共服务/生成式人工智能/README.md'},
-            {icon: '/mirror.svg', text: '重庆医科大学开源软件镜像站', link: '/notes/公共服务/重医校级开源软件镜像站/README.md'},
-            {icon: '/overleaf.svg', text: 'Overleaf在线协作企业版', link: '/notes/公共服务/Overleaf在线协作企业版/README.md'},
+            {icon: '/openai.svg',text: '生成式人工智能',link: '/public-service/GPT/'},
+            {icon: 'fluent-color:data-area-20', text: '数据中心', link: '/public-service/data-center/'},
+            {icon: '/mirror.svg', text: '重庆医科大学开源软件镜像站', link: ' /public-service/cqmu-mirror/'},
+            {icon: '/overleaf.svg', text: 'Overleaf在线协作企业版', link: '/public-service/overleaf/'},
             {text: '', link: ''}
         ]
     },
@@ -55,11 +56,11 @@ export const navbar = defineNavbarConfig([
         icon: '/wiki.svg',
         text: '大学百科',
         items: [
-            {icon: '/email.svg', text: '申请学生邮箱', link: '/notes/大学百科/申请学生邮箱.md'},
-            {icon: '/teacher.svg', text: '老师们说', link: '/notes/大学百科/老师们说/README.md'},
-            {icon: 'carbon:container-software', text: '常用软件', link: '/notes/大学百科/常用软件/README.md'},
-            {icon: '/cert.svg', text: '证书及技能考试', link: '/notes/大学百科/证书及技能考试/README.md'},
-            {icon: 'ic:baseline-school',text: '校内生活', link: '/notes/大学百科/校内生活/README.md'}
+            {icon: '/email.svg', text: '申请学生邮箱', link: '/campus-wiki/apply-student-email/'},
+            {icon: '/teacher.svg', text: '老师们说', link: '/campus-wiki/teacher-talks/'},
+            {icon: 'carbon:container-software', text: '常用软件', link: '/campus-wiki/common-softwares/'},
+            {icon: '/cert.svg', text: '证书及技能考试', link: '/campus-wiki/credential-skillful-exams/'},
+            {icon: 'ic:baseline-school',text: '校内生活', link: '/campus-wiki/campus-life/'}
         ]
     },
     {

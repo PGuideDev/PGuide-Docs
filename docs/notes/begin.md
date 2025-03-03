@@ -12,11 +12,13 @@ permalink: /begin/
 或者在下方评论区提问
 <CardGrid>
 
+
+
 <LinkCard
 icon="/project.svg"
 title="实战项目"
 href="/project-docs/"
-description="历届学长学姐的优质项目全记录！
+description="历届优质项目全记录！
 💡 包含项目创意说明
 💡 具体实现教程
 💡 团队协作经验
@@ -30,7 +32,7 @@ href="/cs-diy/"
 description="计算机全方向修炼手册！
 🌟 零基础入门路径
 🌟 热门方向学习路线
-🌟 精选学习资源推荐
+🌟 精选学习资源推荐及下载
 自学找不到方向？这本指南就是你的导航！">
 </LinkCard>
 
@@ -56,6 +58,7 @@ description="大学通关秘籍看这里！
 新人疑问一站式解答！">
 </LinkCard>
 </CardGrid>
+
 
 ## 我也想写一些东西
 
