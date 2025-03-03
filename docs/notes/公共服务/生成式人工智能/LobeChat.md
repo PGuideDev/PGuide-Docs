@@ -19,12 +19,7 @@ LobeChat OpenSource LLM chat platform.
 
 进入界面后，随便输入一段文字，此时会弹出密码提示框，输入密码<Plot>联系rand777获取</Plot>解锁即可，视频教程如下：
 
-<ArtPlayer
-src="/src/2025-03-03_19-27-42.mp4"
-fullscreen
-/>
-
-
+@[artPlayer](/src/2025-03-04_01-46-08.mp4)
 
 ## 后续计划
 
