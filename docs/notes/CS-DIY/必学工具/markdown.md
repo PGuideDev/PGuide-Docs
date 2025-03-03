@@ -13,16 +13,21 @@ icon: material-symbols:markdown
 下面有几个可以学习markdown基础语法的网站：
 
 <CardGrid>
-  <Card title="Getting Started | Markdown" icon="twemoji:astonished-face">
-  </Card>
-  <LinkCard title="阅读链接" href="https://www.markdownguide.org/getting-started/"/>
+  <LinkCard icon = "/src/img_5.png" title="Getting Started | Markdown" href="https://www.markdownguide.org/getting-started/"/>
 
-<Card title="Markdown教程 | 菜鸟教程" icon="twemoji:astonished-face"></Card>
-<LinkCard  title="阅读链接" href="https://www.runoob.com/markdown/md-tutorial.html" />
+  <LinkCard  icon = "/src/img_6.png" title="Markdown教程 | 菜鸟教程" href="https://www.runoob.com/markdown/md-tutorial.html" />
 
-<Card title="Markdown基本语法" icon="twemoji:astonished-face"></Card>
-<LinkCard  title="阅读链接" href="https://markdown.com.cn/basic-syntax/" />
+  <LinkCard  icon = "/src/img_7.png" title="Markdown基本语法" href="https://markdown.com.cn/basic-syntax/" />
 
-<Card title="Markdown Github-docs" icon="twemoji:astonished-face"></Card>
-<LinkCard  title="阅读链接" href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax" />
+  <LinkCard  icon = "entypo-social:github-with-circle" title="Markdown Github-docs" href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax" />
 </CardGrid>
+
+## 支持 markdown的主流编辑器
+### Typora
+<LinkCard icon = "/typora.svg" title="Typora" href="https://www.markdownguide.org/getting-started/"/>
+
+### VScode
+<LinkCard icon = "devicon:vscode" title="VScode" href="https://code.visualstudio.com/"/>
+
+### JetBrains
+<LinkCard icon = "logos:jetbrains-icon" title="JetBrains" href="https://www.jetbrains.com/"/>
