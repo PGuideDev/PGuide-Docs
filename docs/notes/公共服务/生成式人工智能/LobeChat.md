@@ -21,7 +21,7 @@ LobeChat OpenSource LLM chat platform.
 
 ### 输入密码
 随便点击一个，弹出输入密码提示框，输入密码后重新生成了即为成功
-![2025-03-04_01-59-42.gif](/src/2025-03-04_01-59-42.gif)
+![2025-03-04_01-59-42.gif](https://cos.cqmu.online/docs/video/2025-03-04_01-59-42.gif)
 
 ### 三方接口
 OpenAI下调用了OpenAI的香港代理，支持多种对话模型，以DeepSeek为例，相较之下，价格为DeepSeek官方的八折，且更加流畅，切换方式：
