@@ -31,10 +31,10 @@ artp out
 @[artPlayer](https://artplayer.org/assets/sample/video.mp4)
 
 自带
-[2025-03-04_02-39-00.mp4](../../../.vuepress/public/src/video/2025-03-04_02-39-00.mp4)
+[2025-03-04_02-39-00.mp4](/src/video/2025-03-04_02-39-00.mp4)
 
 artp in
-@[artPlayer](../../../.vuepress/public/src/video/2025-03-04_02-39-00.mp4)
+@[artPlayer](/src/video/2025-03-04_02-39-00.mp4)
 
 artp out tencent
 @[artPlayer](https://cos.cqmu.online/docs/video/2025-03-04_02-39-00.mp4)
