@@ -1,17 +1,18 @@
 ---
-title: README
+title: 常用软件教程
 createTime: 2025/03/02 16:32:20
-permalink: /campus-wiki/u7olf8a4/
+permalink: /campus-wiki/common-softwares/
+icon: arcticons:visitluxembourg
 ---
-# IDE 篇
-## MicroSoft 系
+## IDE 篇
+### Microsoft 系列
 
 - [Visual Studio Code ](https://code.visualstudio.com/)
     ：目前最好的轻量级IDE,支持多种语言，插件丰富，功能强大。
 - [Visual Studio ]( https://visualstudio.microsoft.com/)
     ：功能强大，支持C++,C#等语言，适合大型项目开发。（windows 环境下最好的C++开发工具）
 
-## JetBrains 系
+### JetBrains 系列
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
     ：适用于Java、Kotlin、Groovy、Scala等语言，
 - [PyCharm](https://www.jetbrains.com/pycharm/)
@@ -35,11 +36,25 @@ permalink: /campus-wiki/u7olf8a4/
 - [ReSharper](https://www.jetbrains.com/resharper/)
     ：适用于C#、VB.NET、ASP.NET等语言的代码分析工具，
 
-# 笔记软件
+## 笔记软件
 
-# 文献管理
+### Typora
 
-# 网络存储
+### Notion
 
-# 艺术与创造
+### Obsidian
+
+## 文献管理
+
+### Zotero
+
+## 网络存储
+
+### OneDrive
+
+### 阿里云盘
+
+### 百度网盘
+
+## 艺术与创造
 
