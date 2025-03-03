@@ -61,7 +61,10 @@
   (快捷键 ctrl + shift + K)
 - push时简介说明参考：[AngluarCommit Standard](https://zj-git-guide.readthedocs.io/zh-cn/latest/message/Angular%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF%E8%A7%84%E8%8C%83/)
   (如：此处修改readme，便书写docs:README 新增项目启动介绍)
-- 注意在提交时查看上传平台,详见[2025-03-01_02-17-57.mp4](docs%2F.vuepress%2Fpublic%2Fsrc%2F2025-03-01_02-17-57.mp4)
+- 注意在提交时查看上传平台,详见
+
+[2025-03-01_02-17-57.mp4](/src/2025-03-01_02-17-57.mp4)
+
 - 进入github等平台仓库，点击Pull requests，点击New pull request可见提交的PR，输入此次PR提交的内容即可，图片展示可见：![pull_requests.png](docs%2F.vuepress%2Fpublic%2Fsrc%2Fpull_requests.png)
 
 <CardGrid>
@@ -86,7 +89,9 @@
 - 如果网页渲染重复，请重启服务器
 - 在开始你所在分支的开发之前，请先检查master分支是否有更新，有则update → rebase
 - Giscus的跨域报错不用管
-  - ![2025-03-04_00-55-06.png](/src/2025-03-04_00-55-06.png)
+
+![2025-03-04_00-55-06.png](/src/2025-03-04_00-55-06.png)
+
 - 视频文件保存为mp4，放到`src/video`下
 - 统一用permalink作为请求路径
 ### Pixpin配置
