@@ -27,7 +27,7 @@ LobeChat OpenSource LLM chat platform.
 ### 三方接口
 OpenAI下调用了OpenAI的香港代理，支持多种对话模型，以DeepSeek为例，相较之下，价格为DeepSeek官方的八折，且更加流畅，切换方式：
 
-@[artPlayer](![](https://cos.cqmu.online//docs/video/2025-03-04_03-25-52.mp4))
+@[artPlayer](https://cos.cqmu.online//docs/video/2025-03-04_03-25-52.mp4)
 
 ### 
 
