@@ -8,13 +8,6 @@ icon: /openai.svg
 此页面汇集了目前市面上 98%以上的大模型，且涵盖了 github 上主流的开源框架和技术，欢迎挨个体验。UpStream Sync 功能启用可以自动同步
 fork 的项目，尝试到市面上最新的大模型功能。One API 配合统一身份认证系统方便配置，欢迎体验。
 
-## 信息表
-
-| 应用                       | 网址                             | 接入统一认证 | UpStream Sync |
-|--------------------------|--------------------------------|-------|---------------|
-| ChatGPT MidJourney Proxy | https://gpt.cqmu.online/       |      | ✅             |
-| Next Chat                | https://next.chat.cqmu.online/ |       | ✅             |
-
 ## 预备知识
 
 在使用之前，得先了解几个基本概念：
