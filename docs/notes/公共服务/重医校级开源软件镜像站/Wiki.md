@@ -2,7 +2,7 @@
 title: CQMU Mirror Wiki
 createTime: 2025/02/25 18:35:12
 permalink: /public-service/cqmu-mirror/wiki/
-icon: icon-park:pull-requests
+icon: simple-icons:wikibooks
 ---
 
 :::info 关于CQMU Mirror Wiki
@@ -15,11 +15,9 @@ icon: icon-park:pull-requests
 
 ## :[devicon:anaconda]: Anaconda 软件仓库
 
-
-
 ### Anaconda Extra
 
-## PYPI 
+## :[logos:pypi]: PYPI 
 
 ### pip
 
@@ -29,7 +27,7 @@ icon: icon-park:pull-requests
 
 ### Homebrew
 
-## Flutter 软件仓库
+## :[devicon:flutter]: Flutter 软件仓库
 
 ### flutter_infra
 
@@ -37,12 +35,12 @@ icon: icon-park:pull-requests
 
 ### Flutter SDK
 
-## EPEL 软件仓库
+## :[simple-icons:epel]: EPEL 软件仓库
 
-## Ubuntu 软件仓库
+## :[logos:ubuntu]: Ubuntu 软件仓库
 
-## Qt 软件仓库
+## :[devicon:qt]: Qt 软件仓库
 
-## ROS2 软件仓库
+## :[devicon:ros]: ROS2 软件仓库
 
-## CTAN 镜像
+## :[vscode-icons:file-type-tex]: CTAN 镜像
