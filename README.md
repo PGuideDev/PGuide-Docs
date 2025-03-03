@@ -89,11 +89,15 @@
 - 如果网页渲染重复，请重启服务器
 - 在开始你所在分支的开发之前，请先检查master分支是否有更新，有则update → rebase
 - Giscus的跨域报错不用管
-
 ![2025-03-04_00-55-06.png](/src/2025-03-04_00-55-06.png)
 
 - 视频文件保存为mp4，放到`src/video`下
 - 统一用permalink作为请求路径
+- pnpm包不一致时，项目无法启动
+```shell
+pnpm update
+pnpm upgrade
+```
 ### Pixpin配置
 ![2025-03-03_22-02-28.png](docs/.vuepress/public/src/2025-03-03_22-02-28.png)
 ![2025-03-03_22-02-04.png](docs/.vuepress/public/src/2025-03-03_22-02-04.png)
