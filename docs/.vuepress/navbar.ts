@@ -81,7 +81,7 @@ export const navbar = defineNavbarConfig([
         ],
     },
     {
-        icon: 'link.svg',
+        icon: '/link.svg',
         text: '友情链接',
         items: [
             {icon: '/friend.svg', text: '个人', link: '/friends/persons/'},

@@ -11,6 +11,10 @@ LobeChat OpenSource LLM chat platform.
 
 </LinkCard>
 
+## 官方使用指南
+<LinkCard icon="https://lobechat.com/icons/icon-192x192.png" href="https://lobehub.com/zh/docs/usage/start?utm_source=chat_preview" title="LobeChat功能"></LinkCard>
+
+用户界面
 ::: demo-wrapper no-padding
 ![2025-02-24_06-15-03.png](/src/2025-02-24_06-15-03.png)
 :::
