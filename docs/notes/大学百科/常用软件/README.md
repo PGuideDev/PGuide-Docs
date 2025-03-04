@@ -39,22 +39,40 @@ icon: arcticons:visitluxembourg
 ## 笔记软件
 
 ### Typora
-
+:::tip
+此处待写
+:::
 ### Notion
 
-### Obsidian
+:::tip
+此处待写
+:::
 
+### Obsidian
+:::tip
+此处待写
+:::
 ## 文献管理
 
 ### Zotero
-
+:::tip
+此处待写
+:::
 ## 网络存储
 
 ### OneDrive
-
+:::tip
+此处待写
+:::
 ### 阿里云盘
-
+:::tip
+此处待写
+:::
 ### 百度网盘
-
+:::tip
+此处待写
+:::
 ## 艺术与创造
-
+:::tip
+此处待写
+:::

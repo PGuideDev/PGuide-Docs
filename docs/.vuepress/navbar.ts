@@ -13,13 +13,14 @@ export const navbar = defineNavbarConfig([
             {icon: 'logos:google-developers', text: '前端开发', link: '/learning-notes/frontend-dev/'},
             {icon: 'fluent-color:data-scatter-32', text: '后端开发', link: '/learning-notes/backend-dev/'},
             {icon: 'devicon:ros', text: 'ROS2', link: '/learning-notes/ROS2/'},
-            {icon: 'marketeq:vision', text: '计算机视觉', link: '/learning-notes/CV/'}
+            {icon: 'marketeq:vision', text: '计算机视觉', link: '/learning-notes/computer-vision/'}
         ]
     },
     {
         icon: '/project.svg',
         text: '项目文档',
         items: [
+            {icon: 'carbon:license-third-party', text: '项目知识产权', link: '/project-docs/project-intellectual-property/'},
             {icon: '/match.svg', text: '全国大学生竞赛组队系统', link: '/project-docs/match-competitions/'},
             {icon: '/zhiyu.png', text: '植愈：AI情绪小帮手', link: '/project-docs/plant-cure/'},
             {icon: '/robot.png', text: '智慧中草药生态养护平台', link: '/project-docs/smart-car/'},
@@ -33,12 +34,12 @@ export const navbar = defineNavbarConfig([
         icon: '/code.svg',
         text: 'CS-DIY',
         items: [
-            {text: '前言', link: '/cs-diy/'},
+            {icon: '/code.svg',text: '前言', link: '/cs-diy/'},
+            {icon: 'mdi:tools', text:'必学工具', link: '/csdiy/tools-must/'},
+            {icon: 'carbon:cics-program', text:'编程入门', link: '/csdiy/program-begin/'},
             {icon:'/dev-standard.svg', text: '开发规范' , link: '/csdiy/dev-rules/'},
             {icon: '/path.svg', text: '学习路线', link: '/csdiy/study-path/'},
-            {icon: 'carbon:cics-program', text:'编程入门', link: '/csdiy/program-begin/'},
-            {icon: 'mdi:tools', text:'必学工具', link: '/csdiy/tools-must/'},
-            {icon: '',text: '', link: ''}
+            {icon: 'fa6-solid:computer',text: '计算机常识', link: '/csdiy/computer-common-knowledge/'}
         ]
     },
     {
@@ -49,6 +50,9 @@ export const navbar = defineNavbarConfig([
             {icon: 'fluent-color:data-area-20', text: '数据中心', link: '/public-service/data-center/'},
             {icon: '/mirror.svg', text: '重庆医科大学开源软件镜像站', link: '/public-service/cqmu-mirror/'},
             {icon: '/overleaf.svg', text: 'Overleaf在线协作企业版', link: '/public-service/overleaf/'},
+            {icon: 'fluent-emoji-flat:medical-symbol', text: '全球医学公开数据网', link: '/public-service/global-medical-open-data-web/'},
+            {icon: 'vscode-icons:file-type-word' ,text: '文书及申报资料网', link: '/public-service/official-documents-web/'},
+            {text: '', link: ''},
             {text: '', link: ''}
         ]
     },

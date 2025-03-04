@@ -4,23 +4,32 @@ createTime: 2025/02/24 07:01:02
 permalink: /cs-diy/
 ---
 
+## 前言
+
+> 我没有能力去帮助每一个人，但我希望这个指南可以帮助到你。星星之火，可以燎原。
+
 这是你的故事，也是我们的故事。
 
 这个过程没有学分，没有陪伴，你只知道自己在默默变强。
 
-Missing Semester可以帮助你找到学习计算机的乐趣
-
-@[bilibili](BV1Eo4y1d7KZ)   
-
----
-
-一本关于计算机各方向的自学指南，无论天南或海北，希望可以帮到你，灵感和部分素材来自CS自学指南。
+一本关于计算机各方向的自学指南，无论天南或海北，希望可以帮到你，灵感和部分素材来自[CS自学指南](https://csdiy.wiki/)。
 
 同时，这也是献给学弟学妹们的一份礼物。这本指南能对你们的本科生涯有哪怕一点点帮助，对于编者们而言也是莫大的欣慰与鼓舞。
 
 <RepoCard repo="pkuflyingpig/cs-self-learning/"></RepoCard>
 
+### Start our code
+
+Missing Semester可以帮助你找到学习计算机的乐趣，不妨先看看这个。
+
+@[bilibili](BV1Eo4y1d7KZ)
+
+### Build our projects
+
+千里之行，始于足下。从一个小项目开始，慢慢积累经验。先看看 :[mdi:tools]:[计算机必学工具](/csdiy/tools-must/)吧
+
 ---
+
 ## 常见问题
 
 ### 我该选择哪一部分进行学习？

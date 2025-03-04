@@ -2,6 +2,7 @@
 title: 容器化技术简介
 createTime: 2025/02/24 07:46:34
 permalink: /learning-notes/container/
+icon: /container.svg
 ---
 # 容器化技术及其在后端开发中的必要性
 

@@ -8,54 +8,75 @@ permalink: /begin/
 
 这同时也是一份献给重医学弟学妹们的礼物。如果这本书能对你们的本科生涯有哪怕一丝一毫的帮助，都是对我们极大的鼓励和慰藉。
 
-本书目前包括了以下部分(如果你有其他好的建议，或者想加入贡献者的行列，欢迎邮件 [PGuide Studio](mailto:losmosga@foxmail.com)
+如果你觉得我们写得还不错，请在 :[line-md:github-twotone]: Github上给我们点一个大大的:[fxemoji:star]:star，这是对我们最大的鼓励。
+
+项导文档目前包括了以下部分，如果你有其他好的建议，或者想加入贡献者的行列，欢迎邮件 [PGuide Studio](mailto:losmosga@foxmail.com)
 或者在下方评论区提问
 <CardGrid>
 
+<LinkCard
+icon="/note.svg"
+title="学习笔记"
+href="/project-docs/">
+学长学姐的学习笔记，带你一起走过大学的每一个阶段～
 
+-  课程笔记
+-  自学心得
+-  在线问答
+
+我们已经帮你踩过很多坑啦，就等你来走了!
+</LinkCard>
 
 <LinkCard
 icon="/project.svg"
 title="实战项目"
-href="/project-docs/"
-description="历届优质项目全记录！
-💡 包含项目创意说明
-💡 具体实现教程
-💡 团队协作经验
-想做项目却不知从何下手？快来看这里～">
+href="/project-docs/">
+历届优质项目全记录！快来看看我们都做了些什么项目吧~
+
+- 💡 包含项目创意说明 
+- 💡 具体实现教程 
+- 💡 团队协作经验
+
+想做项目却不知从何下手？快来看这里～>
 </LinkCard>
 
 <LinkCard
 icon="/code.svg"
 title="CS自学指南"
-href="/cs-diy/"
-description="计算机全方向修炼手册！
-🌟 零基础入门路径
-🌟 热门方向学习路线
-🌟 精选学习资源推荐及下载
-自学找不到方向？这本指南就是你的导航！">
+href="/cs-diy/">
+一本关于计算机各方向的自学指南，今天也在努力敲代码啊～
+
+- 🌟 零基础入门路径
+- 🌟 热门方向学习路线
+- 🌟 精选学习资源推荐及下载
+
+自学找不到方向？这本指南就是你的导航！
 </LinkCard>
 
 <LinkCard
 icon="/public-service.svg"
 title="公共服务"
-href="/public-service/"
-description="学长学姐为你准备的校园生存工具箱！
-✅ DeepSeek免费用
-✅ 常用软件下载
-✅ 生活服务入口
-指尖上的便利校园生活一键开启～">
+href="/public-service/">
+学长学姐为你准备的校园生存工具箱，助力有目标的大学生活～
+
+* ✅ DeepSeek免费用
+* ✅ 常用软件下载
+* ✅ 生活服务入口
+
+指尖上的便利校园生活一键开启，点击直达
 </LinkCard>
 
 <LinkCard
 icon="/wiki.svg"
 title="大学百科"
-href="/campus-wiki/"
-description="大学通关秘籍看这里！
-❓ 如何平衡学习与社团？
-❓ 选课怎样不踩雷？
-❓ 宿舍生活小贴士
-新人疑问一站式解答！">
+href="/campus-wiki/">
+大学通关秘籍看这里！
+
+* ❓ 如何平衡学习与社团？
+* ❓ 选课怎样不踩雷？
+* ❓ 老师们的一些建议
+
+新人疑问一站式解答！
 </LinkCard>
 </CardGrid>
 

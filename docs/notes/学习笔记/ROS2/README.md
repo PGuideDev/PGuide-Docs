@@ -1,5 +1,5 @@
 ---
-title: ROS2
+title: ROS2学习笔记
 createTime: 2025/02/24 07:43:40
 permalink: /learning-notes/ROS2/
 icon: devicon:ros
