@@ -1,189 +1,128 @@
-# 项导文档
+# 👫 项导文档 - 共建知识花园
 
-人人为我，我为人人。身在互联网的开源时代，我们深知互帮互助、共同进步的重要意义，这篇文档凝聚了同学和老师们的集体智慧，希望能对您有所帮助。
+万物互联的时代，知识的传递如同满天星火。本项目的每一页文档，都是社区伙伴们智慧的结晶。在此诚邀您与我们携手，共同浇灌这株属于每个人成长的知识树🌱
 
-## 依赖环境
-- Node.js v18.20.0+ 
-- pnpm 8+ 或 Yarn 2+
+![社区协作](docs/.vuepress/public/src/pull_requests.png)
 
-## 项目结构
+## 🌟 温馨贴士
+**“当您在文档中发现星辰，也请为后来者点亮一盏路灯”** — 您的每一个补丁都是通往更美好开源世界的台阶
 
-`docs`: 静态编译的网站页面内容
+---
 
-`.vuepress`
- - `public/`: 静态资源文件夹
- - `theme`: 主题参数设置文件夹
- - client.ts: 客户端配置文件
- - config.ts: 全局配置文件
- - navbar.ts: 导航栏配置文件
- - notes.ts: 文档结构配置文件
- - plume.config.ts: 主题配置文件
+## 🛠️ 开发工具箱
 
-## 项目安装
-- 推荐使用nvm做Node.js环境管理
-  - [nvm windows](https://github.com/coreybutler/nvm-windows)
-- IDE:WebStorm 或 VSCode
+### 基础设施
+- **Node.js** v18.20.0+（推荐使用Node版本管理器）
+- **包管理器**：pnpm 8+ 或 Yarn 2+（需要现代项目管理体验）
 
+### 推荐装备
+- 🛡️虚拟环境守护者：[nvm-windows](https://github.com/coreybutler/nvm-windows)
+- 🖥️代码工坊：WebStorm / VSCode（建议安装Vue相关插件）
 
+---
 
-- 使用nvm安装npm
-    ```shell
-    nvm install lts
-    ```
-  - 配置NodeJS Release 软件仓库镜像
-    - 校园网联合镜像站：
-    参考 [https://help.mirrors.cernet.edu.cn/nodejs-release/](https://help.mirrors.cernet.edu.cn/nodejs-release/)
+## 📂 核心档案库
 
-      ```shell
-      nvm node_mirror https://mirrors.cernet.edu.cn/nodejs-release/
-      ```
-    - 阿里云
-      ```shell
-      nvm node_mirror https://mirrors.aliyun.com/nodejs-release/
-      ```
-- 全局安装pnpm
-    ```shell
-    npm install -g pnpm
-    ```
-- 安装pnpm依赖
-    ```shell
-    pnpm i
-    ```
-- 启动项目开发环境
-    ```shell
-    pnpm run docs:dev
-    ```
-
-## 创建合并请求
-- 首先需要拉取远程仓库代码到本地仓库
-- Local本地新建dev/***[你的分支名]
-- 对新建分支内项目修改之后，进行commit push
-  (快捷键 ctrl + shift + K)
-- push时简介说明参考：[AngluarCommit Standard](https://zj-git-guide.readthedocs.io/zh-cn/latest/message/Angular%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF%E8%A7%84%E8%8C%83/)
-  (如：此处修改readme，便书写docs:README 新增项目启动介绍)
-- 注意在提交时查看上传平台,github存储开发环境的所有分支，gitlab存放CI通过后的master分支
-
-- 进入github等平台仓库，点击Pull requests，点击New pull request可见提交的PR，输入此次PR提交的内容即可，图片展示可见：![pull_requests.png](docs%2F.vuepress%2Fpublic%2Fsrc%2Fpull_requests.png)
-
-<CardGrid>
-
-</CardGrid>
-
-## 文件路径配置
-
-首先在 `docs/.vuepress/notes.ts` 中配置notes的路径
-
-## 其他注意事项
-- 所有静态文件放在`docs/.vuepress/public`中
-- 其他地方引用静态文件时，从相对路径public开始
-  - 例如:public下有AI.svg文件，引用时使用 `AI.svg` 路径即可
-  - 头像放在`avatar`中
-- markdown文档隔行写
-- 请将`public`文件夹设置为 **Excluded**：右键 -> mark as -> excluded folder
-  - 否则svg等静态文件的命名空间等信息会报错。
-- 永久链接 permalink 注意末尾不要缺少 " / " 表示请求路径
-- 修改头部导航栏的时候记得重启项目
-- 请从二级标题开始写，一级标题在正文不渲染
-- 如果网页渲染重复，请重启服务器
-- 在开始你所在分支的开发之前，请先检查master分支是否有更新，有则update → rebase
-
-- Giscus的跨域报错不用管
-![2025-03-04_00-55-06.png](/src/2025-03-04_00-55-06.png)
-
-- 视频文件保存为mp4，放到`src/video`下
-- 统一用permalink作为请求路径
-- pnpm包不一致时，项目无法启动
-```shell
-pnpm update
-pnpm upgrade
 ```
-### Pixpin配置
-![2025-03-03_22-02-28.png](docs/.vuepress/public/src/2025-03-03_22-02-28.png)
-![2025-03-03_22-02-04.png](docs/.vuepress/public/src/2025-03-03_22-02-04.png)
+项导文档/
+├── docs/                    # 故事书页（网站内容存档）
+└── .vuepress/              # 魔法工坊
+    ├── public/              # 百宝箱（图片/字体等静态资源）
+    ├── theme/               # 城堡装修图纸（主题配置）
+    ├── client.ts           # 接待员（客户端选项）
+    ├── config.ts           # 百科全书（全局配置）
+    ├── navbar.ts           # 指路牌（导航栏配置）
+    ├── notes.ts            # 藏宝图（文档结构导航）
+    └── plume.config.ts     # 调色盘（主题样式配置）
+```
 
-按下F2即可快速保存
+---
 
-## Q&A
-### git进行push报错
+## 🎬 快速启航指南
 
-- fatal: unable to access 'https://github.com/xxxxx/xxxx.git/': OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 0
+### 🏗️ 搭建脚手架
+```bash
+# 零基础同学建议安装nvm
+nvm install lts
 
-1. 检查Clash代理设置
+# 选择镜像源（顺风车时间）
+nvm node_mirror https://mirrors.cernet.edu.cn/nodejs-release/  # 校园专线
+nvm node_mirror https://mirrors.aliyun.com/nodejs-release/     # 阿里云快车
 
-- **确保Clash已启动**：
-  确保Clash程序正在运行并且已激活代理。
+# 装备新时代工具箱
+npm install -g pnpm  # 速度更快的npm替代品
+pnpm i              # 一键安装所有魔法原料
+pnpm run docs:dev   # 打开传送门进本地预览
+```
 
-- **确认代理端口**：
-  确保你在Clash中配置的HTTP或SOCKS代理的端口是正确的（比如7890或7891）。可以在Clash的配置界面或日志中查看当前的代理设置。
+### ✨ 热更新小技巧
+修改导航栏配置后记得`Ctrl+C`重启服务，看到"VuePress dev server listening"才算开启新世界大门哦~
 
-- **检查Clash的代理规则**：
-  确保你的代理规则能够正确处理到GitHub的请求。
+---
 
-2. 测试代理连接
+## 🌉 开发分支规范
 
-在终端中使用`curl`命令，测试代理是否能够正常工作：
+### 代码地铁乘坐指南
+1. 在本地开设`dev/[你的名字]`新线路
+2. 完成精彩修改后：（快捷操作指南）
+   - `Ctrl+Shift+K` 召唤提交魔法阵
+   - 推荐消息格式：（让代码会说话，代码规范为 [Angular Commit](https://zj-git-guide.readthedocs.io/zh-cn/latest/message/Angular%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF%E8%A7%84%E8%8C%83/)）
+     ```
+     docs: README新增星空导航
+     fix: 修复404星际迷航问题
+     feat: 新增宇宙超链接模块
+     ```
+3. 前往[Github站台](https://github.com/xxxx)点击「New pull request」提交专属班列
 
-- 如果使用HTTP代理：
+---
 
+## 📍 避坑手册精选
+
+### 资源位面法则
+- 🎨 所有矢量图请存入`/public/*`，引用时直接`/AI.svg`即可
+- 📹 视频资源统一放在`src/video`，播放代码示范：
+  ```markdown
+  ```
+- 🔍 遇到奇怪报错时，尝试这个重启秘籍：
   ```bash
-  curl -x http://127.0.0.1:7890 https://github.com
+  pnpm update && pnpm upgrade
   ```
 
-- 如果使用SOCKS代理：
-
-  ```bash
-  curl -x socks5://127.0.0.1:7891 https://github.com
-  ```
-
-配置clash本地代理方法：
-
-```shell
-git config --global http.proxy http://127.0.0.1:7890
-git config --global https.proxy https://127.0.0.1:7890
+### 神秘配方
+```markdown
+<!-- Pixpin截图魔法 -->
+![配置示例1](public/src/星空配置图1.png)
+![配置示例2](public/src/星空配置图2.png)
+*按F2即可完成星际截图归档*
 ```
 
-如果能够成功响应，说明代理正常。如果不能，说明可能是Clash的设置问题。
+---
 
-3. 直接访问GitHub
+## 🆘 常见问题
 
-通过浏览器直接访问`https://github.com`看是否可以连接。如果可以，而Git无法连接，可能是Git配置的问题。
+### 遇到git推送异常？（错误类型：SSL ERROR）
+1. 🌐 检查您的星际通讯器（Clash代理）及允许局域网是否开启
+![2025-03-05_03-51-27.png](docs/.vuepress/public/src/2025-03-05_03-51-27.png)
+2. 🛠️ 配置Git直通车（本地代理）：
+   ```bash
+   git config --global http.proxy http://127.0.0.1:7890
+   git config --global https.proxy http://127.0.0.1:7890
+   ```
+3. 🚀 尝试乘坐SSH穿梭机：
+   ```bash
+   git clone git@github.com:MultipledMe/PGuide-Docs.git
+   ```
 
-4. 检查Git的SSL设置
+### 🧐 真理之门异常？
+当看到奇怪的Giscus错误提示时不用惊慌，这是跨域资源请求的小精灵在调皮，对我们的文档城堡没有影响：
 
-在某些情况下，Git的SSL设置可能会影响连接：
+![2025-03-04_00-55-06.png](docs/.vuepress/public/src/2025-03-04_00-55-06.png)
 
-```bash
-git config --global http.sslVerify false
-```
+---
 
-> **注意**：禁用SSL验证会影响安全性，通常不建议这样做。
+## 🌈 星光留言板
+> "我们不是在编写代码，而是在编织联结世界的网络" —— 期待您的第一次贡献！遇到任何未知星域，欢迎在Issues发射信号弹~
 
-5. 更新Git版本
+[![拥抱开源](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F-%E5%BC%80%E6%BA%90%E4%B9%8B%E6%97%85-brightgreen)](https://opensource.org)
 
-确保你的Git是最新版本。有时，较旧版本的Git可能会与代理服务器不兼容。
-
-6. 确保没有其他代理干扰
-
-确认没有其他程序（如VPN或其他代理）干扰Git的连接。
-
-7. 尝试其他Git协议
-
-如果使用HTTPS存在问题，尝试SSH。如果你的GitHub账号已经配置了SSH密钥，可以使用SSH方式克隆仓库：
-
-```bash
-git clone git@github.com:MultipledMe/PGuide-Docs.git
-```
-
-8. 重新配置Git代理
-
-如果以上步骤都无法解决问题，可以尝试重新配置Git的代理设置，确保没有任何拼写错误或其他问题：
-
-```bash
-git config --global --unset http.proxy
-git config --global --unset https.proxy
-# 然后再重新设置
-git config --global http.proxy http://127.0.0.1:7890
-git config --global https.proxy http://127.0.0.1:7890
-```
-
-
+--- 
