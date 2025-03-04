@@ -37,7 +37,7 @@ export default defineThemeConfig({
     appearance: true,  // 配置 深色模式
 
     social: [
-        {icon: 'github', link: 'https://github.com/PGuideStudio'},
+        {icon: 'github', link: 'https://github.com/MultipledMe/PGuide-Docs'},
         {icon: 'gitlab', link: 'https://zds.cqmu.edu.cn/pguide-studio'},
         // { icon: 'qq', link: 'https://qm.qq.com/q/UIXh30Arqc'}
     ],
