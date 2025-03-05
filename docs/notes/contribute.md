@@ -17,6 +17,11 @@ permalink: /contribute/
 - [Typescript基础语法](https://www.runoob.com/typescript/ts-basic-syntax.html)
 - markdown基础语法
 
+### 下载NVM
+
+:[devicon:windows8]: windows 
+
+
 ## 我是文档的编写者
 
 - markdown基础语法
@@ -27,15 +32,14 @@ permalink: /contribute/
 
 也可以的，联系[rand777](https://qm.qq.com/q/2iLBaNcsnO)并获取语雀编辑权限
 
+## 截图工具
+
+下载[pixpin](https://pixpin.cn/)
+
 
 ### 项目克隆
-团队使用 SSH 或 HTTPS 统一方式克隆:[line-md:github-loop]:仓库：
 
-```bash
-git clone https://github.com/MultipledMe/PGuide-Docs
-```
-
-这一步可以参考 [README.md](https://github.com/MultipledMe/PGuide-Docs/blob/master/README.md)
+这一步参考 [README.md](https://github.com/MultipledMe/PGuide-Docs/blob/master/README.md)
 
 ---
 
