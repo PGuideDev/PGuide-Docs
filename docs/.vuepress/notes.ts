@@ -57,6 +57,12 @@ const publicService = defineNoteConfig({
     // ]
 })
 
+const backendManage = defineNoteConfig({
+    dir: '后台管理',
+    link: '/backend-manage/',
+    sidebar: 'auto'
+})
+
 const CSDIY = defineNoteConfig({
     dir: 'CS-DIY',
     link: '/csdiy/',
@@ -78,5 +84,5 @@ const learningNotes = defineNoteConfig({
 export default defineNotesConfig({
     dir: '/notes/',
     link: '/',
-    notes: [campusWiki, publicService, CSDIY, projectDocs, learningNotes],
+    notes: [campusWiki, publicService, CSDIY, projectDocs, learningNotes, backendManage],
 })

@@ -82,6 +82,7 @@ export const navbar = defineNavbarConfig([
             {icon: '/control.svg', text: '项导运维控制中台', link: ''},
             {icon: '/vpn.svg', text: 'VPN服务', link: ''},
             {icon: '/cloud.svg', text: '云计算资源调度中心', link: ''},
+            {icon: '/maintain.svg', text: '服务器维护', link: '/backend-manage/server-maintainance/'},
         ],
     },
     {

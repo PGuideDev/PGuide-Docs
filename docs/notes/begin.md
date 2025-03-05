@@ -8,7 +8,7 @@ permalink: /begin/
 
 这同时也是一份献给重医学弟学妹们的礼物。如果这本书能对你们的本科生涯有哪怕一丝一毫的帮助，都是对我们极大的鼓励和慰藉。
 
-如果你觉得我们写得还不错，请在 :[line-md:github-twotone]: Github上给我们点一个大大的:[fxemoji:star]:star，这是对我们最大的鼓励。
+如果你觉得我们写得还不错，请在[:[line-md:github-twotone]:Github](https://github.com/MultipledMe/PGuide-Docs)上给我们点一个大大的:[fxemoji:star]:star，这是对我们最大的鼓励。
 
 项导文档目前包括了以下部分，如果你有其他好的建议，或者想加入贡献者的行列，欢迎邮件 [PGuide Studio](mailto:losmosga@foxmail.com)
 或者在下方评论区提问
