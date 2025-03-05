@@ -13,9 +13,11 @@ Overleaf在线协作企业版是一款支持多人在线同步编辑、审议的
 
 ## Overleaf使用
 
-中文官网：https://cn.overleaf.com/
+中文官网：
 
-使用账号密码登录后：
+<LinkCard title="Overleaf协作版" href="https://cn.overleaf.com/"></LinkCard> 
+
+使用账号密码登录后：  
 
 
 
