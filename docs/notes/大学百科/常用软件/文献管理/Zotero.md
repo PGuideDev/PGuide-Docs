@@ -24,7 +24,7 @@ zotero 是一款现代化的文献管理软件，具有以下特点：
 
 感谢四川大学信息管理系提供的文档支持：
 
-@[pdf height="600px"](../../../../.vuepress/public/src/resource/pdf/Zotero.pdf)
+@[pdf height="600px"](https://cos.cqmu.online/pdf/Zotero.pdf)
 
 同类型软件
 

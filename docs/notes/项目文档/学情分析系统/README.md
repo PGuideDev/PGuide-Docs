@@ -5,5 +5,3 @@ permalink: /project-docs/study-analytic-system/
 icon: '/analyse.svg'
 ---
 
-
-123456
