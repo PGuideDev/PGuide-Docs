@@ -2,7 +2,7 @@
 title: OpenWrt
 createTime: 2025/03/04 17:20:52
 permalink: /csdiy/magic/clash-core/openwrt/
-icon: 
+icon: simple-icons:openwrt
 ---
 
 OpenClash for better routing

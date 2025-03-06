@@ -29,7 +29,7 @@ list:
       - icon: github
         link: https://github.com/MenTouGouMouse
   - name: DKwms
-    link: https://github.com/DKwms
+    link: https://dkwms.pguide.studio
     avatar: https://avatars.githubusercontent.com/u/98271041?v=4
     desc: 楼上的好恐怖呀
     location: 中国，重庆沙坪坝
@@ -43,7 +43,7 @@ list:
     color: 
     nameColor: 
   - name: zaoshuila
-    link: https://github.com/zaoshuila
+    link: 
     avatar: /avatar/csq.jpg
     desc: LA at 4 a.m
     location: 中国，浙江金华
@@ -51,6 +51,8 @@ list:
     socials:
       - icon: qq
         link: 
+      - icon: github
+        link: https://github.com/zaoshuila
     backgroundColor:
     color:
     nameColor:  
