@@ -110,7 +110,7 @@ list:
     backgroundColor:
     color:
     nameColor:
-  - name: shenshen
+  - name: shenshen(火影膏手)
     link: 
     avatar: /avatar/shen.jpg
     desc: 诶，我不吃牛肉~
@@ -278,6 +278,48 @@ list:
     backgroundColor:
     color:
     nameColor:
+  - name: 开往春天
+    link: 
+    avatar: /avatar/hxr.jpg
+    desc: 😊
+    location: 中国，重庆九龙坡
+    organization: 重庆医科大学医学信息学院教授
+    socials:
+      - qq:
+        link: 
+    backgroundColor:
+    color:
+    nameColor:
+  - name: Steven-Zhangyuchen
+    link: https://github.com/Steven-Zhangyuchen
+    avatar: /avatar/zyc.jpg
+    desc: ·
+    location: 中国，四川成都
+    organization: ·
+    socials: 
+      - icon: github
+        link: https://github.com/Steven-Zhangyuchen
+    backgroundColor:
+    color:
+    nameColor:
+
+  - name: ZhouShengLei
+    link: 
+    avatar: 
+    desc: 🙂
+    location: 中国，重庆 
+    organization: 国际医学院
+    socials: 
+      - icon: qq
+        link: 
+      - icon: github
+        link: 
+      - icon: wechat
+        link: 
+    backgroundColor:
+    color:
+    nameColor:
+
 #  - name:
 #    link:
 #    avatar:
@@ -288,6 +330,7 @@ list:
 #    backgroundColor:
 #    color:
 #    nameColor:
+      
 #  - name:
 #    link:
 #    avatar:
@@ -298,7 +341,5 @@ list:
 #    backgroundColor:
 #    color:
 #    nameColor:
-
-
 
 ---
