@@ -165,7 +165,7 @@ list:
     link: 
     avatar: /avatar/zyy.jpg
     desc: 一条狼，独行天下。
-    location: 中国，甘肃天河
+    location: 中国，甘肃武威
     organization: 重庆医科大学医学信息学院教师
     socials:
       - icon: qq
@@ -180,7 +180,7 @@ list:
     avatar: https://wanghaolin.github.io/images/android-chrome-512x512.png
     desc: My research interest includes data mining in healthcare, predictive models and intelligent systems.
     location: 中国，重庆沙坪坝
-    organization: 中国科学院大学、香港城市大学等
+    organization: 中国科学院大学、北京航空航天大学等
     socials: 
       - icon: { svg: '<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path fill="#96a9b2" d="M511.824 425.007c1.941-5.245-220.916-173.519-220.916-173.519c-27.9-20.589-42.574-20.913-70.164 0c0 0-222.532 168.138-220.659 173.311l-.045.038c.023.045.06.076.091.117a48.5 48.5 0 0 0 8.119 14.157c1.473 1.786 3.248 3.282 4.955 4.837l-.083.064c.136.121.317.177.453.298c7.235 6.454 16.359 10.634 26.495 11.827c.159.019.287.102.446.121h.612c1.541.147 3.006.517 4.584.517h420.721c20.717 0 38.269-13.028 45.241-31.291c.083-.136.211-.234.287-.374z"/><path fill="#b9c5c6" d="M256.133 232.176L1.216 423.364V152.515c0-26.4 21.397-47.797 47.797-47.797h414.24c26.4 0 47.797 21.397 47.797 47.797v270.849z"/><path fill="#edece6" d="m4.189 135.896l217.645 170.949c27.47 20.271 41.918 20.591 69.083 0L508.22 136.167c-3.77-6.834-9.414-12.233-15.869-16.538l2.989-2.342c-7.295-6.641-16.62-10.946-26.971-12.058l-424.455.015c-10.322 1.097-19.662 5.417-26.942 12.043l2.967 2.313c-6.38 4.245-11.972 9.551-15.75 16.296"/><path fill="#dce2e2" d="M4.118 136.254C2.207 141.419 221.63 307.099 221.63 307.099c27.47 20.271 41.918 20.591 69.083 0c0 0 219.103-165.546 217.258-170.64l.045-.037c-.022-.045-.059-.074-.089-.115a47.7 47.7 0 0 0-7.994-13.939c-1.45-1.759-3.198-3.231-4.878-4.763l.082-.063c-.134-.119-.312-.175-.446-.294c-7.124-6.354-16.107-10.47-26.086-11.645c-.156-.019-.283-.1-.439-.119h-.602c-1.517-.145-2.96-.509-4.514-.509H48.81c-20.398 0-37.68 12.828-44.543 30.809c-.082.134-.208.231-.283.368z"/><path fill="#597b91" d="M291.401 154.645h-38.632a6.155 6.155 0 0 0-6.155 6.155v21.722a6.155 6.155 0 0 0 6.155 6.155h31.415a6.155 6.155 0 0 1 6.155 6.155v11.616a6.155 6.155 0 0 1-6.155 6.155h-31.415a6.155 6.155 0 0 0-6.155 6.155v23.578a6.155 6.155 0 0 0 6.155 6.155h41.316a6.155 6.155 0 0 1 6.155 6.155v12.441a6.155 6.155 0 0 1-6.155 6.155h-75.76a6.155 6.155 0 0 1-6.155-6.155V136.461a6.155 6.155 0 0 1 6.155-6.155h74.81c3.749 0 6.627 3.322 6.092 7.033l-1.733 12.028a6.156 6.156 0 0 1-6.093 5.278"/></svg>' }
         link: haolin.wang@outlook.com
@@ -243,7 +243,7 @@ list:
     backgroundColor:
     color:
     nameColor:
-  - name: caishiwu
+  - name: 菜十五
     link: https://www.medseek.site/colibri-wp/members/
     avatar: /avatar/cqy.jpg
     desc: 不用打听我，我确实不怎么样
@@ -253,17 +253,31 @@ list:
     backgroundColor:
     color:
     nameColor:
+  - name: huguangtao
+    link: 
+    avatar: /hgt.jpg
+    desc: Today is not easy, tomorrow is more difficult, but the day after tomorrow will be wonderful.
+    location: 中国，重庆
+    organization: 重庆邮电大学
+    socials: 
+      - icon: { svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M17.5 4.842C15.976 4.337 14.146 4 12 4s-3.976.337-5.5.842m11 0c3.021 1 4.835 2.66 5.5 3.658L20.5 11l-3-2zm-11 0c-3.021 1-4.835 2.66-5.5 3.658L3.5 11l3-2zM10 7v3m0 0l-5.414 5.414A2 2 0 0 0 4 16.828V18a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1.172a2 2 0 0 0-.586-1.414L14 10m-4 0h4m0 0V7"/><circle cx="12" cy="15" r="2"/></g></svg>' }
+        link: tel:65714288
+    backgroundColor: 
+    color: 
+    nameColor: 
 
-#  - name:
-#    link:
-#    avatar:
-#    desc:
-#    location:
-#    organization:
-#    socials:
-#    backgroundColor:
-#    color:
-#    nameColor:
+  - name: Lily
+    link: 
+    avatar: /lwj.jpg
+    desc: 😊
+    location: 中国
+    organization: 项导工作室
+    socials:
+      - icon: qq
+        link: 
+    backgroundColor:
+    color:
+    nameColor:
 #  - name:
 #    link:
 #    avatar:
