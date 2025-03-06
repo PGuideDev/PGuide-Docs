@@ -108,4 +108,4 @@ git clone git@github.com:kvcache-ai/ktransformers.git
 显示
 ![2025-03-02_21-52-46.png](/src/2025-03-02_21-52-46.png)
 
-即为成功设置
+即为成功设置。
