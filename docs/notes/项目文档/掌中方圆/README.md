@@ -5,3 +5,4 @@ permalink: /project-docs/control-my-panel/
 icon: '/zzfy.svg'
 ---
 
+test1
