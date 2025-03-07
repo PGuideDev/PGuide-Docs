@@ -17,13 +17,13 @@
     "vp-update": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.19",
+    "@vuepress/bundler-vite": "2.0.0-rc.20",
     "http-server": "^14.1.1",
     "sass-embedded": "^1.85.1",
     "typescript": "^5.8.2",
     "vue": "^3.5.13",
-    "vuepress": "2.0.0-rc.19",
-    "vuepress-theme-plume": "1.0.0-rc.131"
+    "vuepress": "2.0.0-rc.20",
+    "vuepress-theme-plume": "1.0.0-rc.135"
   },
   "dependencies": {
     "@waline/client": "^3.5.5",
