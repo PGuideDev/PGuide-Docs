@@ -219,11 +219,11 @@ list:
     backgroundColor:
     color:
     nameColor:
-  - name:
-    link:
+  - name: Lily
+    link: https://qm.qq.com/q/FNOyzGTPK6
     avatar:
     desc:
-    location:
+    location: 中国，重庆合川
     organization:
     socials:
     backgroundColor:
