@@ -27,7 +27,6 @@ async function getFooterMessage() {
 }
 
 
-
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
  */
@@ -60,17 +59,17 @@ export default defineThemeConfig({
         message: await getFooterMessage(),
         copyright: 'PGuide Studio © 2023-2025',
     },
-    notFound : {
-        code : '啊偶，好像没有这个页面',
-        title : '🌌 迷路的[0️⃣1️⃣]在数字森林里🌀徘徊',
-        quote : [
+    notFound: {
+        code: '啊偶，好像没有这个页面',
+        title: '🌌 迷路的[0️⃣1️⃣]在数字森林里🌀徘徊',
+        quote: [
             '"💻 我点故我在，但🔗已不在" —— 赛博笛卡尔',
             '"🕳️ 宇宙最伟大的谜团不是黑洞，而是404的奇点" —— 星际访客日志',
             '"👁️ 当你在凝视404时，404也在凝视你的🔄" —— 尼采的键盘',
             '"🔄 所有的网页终将消逝，正如我们终将成为别人的缓存" —— 二进制佛陀'
-        ][Math.floor(Math.random()*4)],
-        linkLabel : '🚀让量子隧穿带你重返现实🌐',
-        linkText : '🌠回到已知宇宙 →'
+        ][Math.floor(Math.random() * 4)],
+        linkLabel: '🚀让量子隧穿带你重返现实🌐',
+        linkText: '🌠回到已知宇宙 →'
     },
     /**
      * @see https://theme-plume.vuejs.press/config/basic/#profile
@@ -91,12 +90,17 @@ export default defineThemeConfig({
      * 公告板
      * @see https://theme-plume.vuejs.press/guide/features/bulletin/
      */
-    // bulletin: {
-    //   layout: 'top-right',
-    //   contentType: 'markdown',
-    //   title: '公告板标题',
-    //   content: '公告板内容',
-    // },
+    bulletin: {
+        layout: 'bottom-right',
+        title: '更新公告',
+        contentType: 'markdown',
+        content: `\
+**2025-03-08**
+- 新增Vim、Magic-Clash Core-winodws文档、镜像站Anaconda文档
+- 新增本公告栏
+- 修改了报销的文档
+`,
+    }
 
     /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
     // transition: {
