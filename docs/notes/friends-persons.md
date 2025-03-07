@@ -21,7 +21,7 @@ list:
     link: https://chenhy.pguide.studio/
     avatar: https://chenhy.pguide.studio/githubFindNew/pictures/CircleElysia.jpg
     location: 中国，重庆涪陵
-    organization: 项导工作室、CQMUA、小米等
+    organization: 项导工作室、小米、CQMUA等
     desc: 兄弟你好香，今夜星光闪闪，爱你的♥满满。
     socials:
       - icon: qq
