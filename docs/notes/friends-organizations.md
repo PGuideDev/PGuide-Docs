@@ -104,7 +104,7 @@ groups:
         name: MUA官网
         link: https://www.mualliance.cn/
         location: 中国
-        avatar: https://www.mualliance.cn/wp-content/uploads/2023/01/mua.png
+        avatar: /avatar/MUA.png
         organization: MUA
         desc: Minecraft University Alliance
       -
