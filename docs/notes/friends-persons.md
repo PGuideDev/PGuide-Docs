@@ -21,7 +21,7 @@ list:
     link: https://chenhy.pguide.studio/
     avatar: https://chenhy.pguide.studio/githubFindNew/pictures/CircleElysia.jpg
     location: 中国，重庆涪陵
-    organization: 项导工作室、CQMUA、CYMC
+    organization: 项导工作室、CQMUA、小米等
     desc: 兄弟你好香，今夜星光闪闪，爱你的♥满满。
     socials:
       - icon: qq
@@ -279,9 +279,9 @@ list:
     color:
     nameColor:
   - name: 开往春天
-    link: 
+    link: https://mi.cqmu.edu.cn/info/1195/5034.htm
     avatar: /avatar/hxr.jpg
-    desc: 😊
+    desc: 每个人都是通过自己的努力,去决定生活与工作的模样。
     location: 中国，重庆九龙坡
     organization: 重庆医科大学医学信息学院教授
     socials:
@@ -305,17 +305,31 @@ list:
 
   - name: ZhouShengLei
     link: 
-    avatar: 
-    desc: 🙂
+    avatar: https://avatars.githubusercontent.com/u/183700343?v=4
+    desc: AI FOR GAMERS
     location: 中国，重庆 
-    organization: 国际医学院
+    organization: 重庆医科大学国际医学院
     socials: 
       - icon: qq
-        link: 
+        link: 911163058
       - icon: github
+        link: https://github.com/stfir
+      - icon: { svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#40ba86" d="M15.85 8.14c.39 0 .77.03 1.14.08C16.31 5.25 13.19 3 9.44 3c-4.25 0-7.7 2.88-7.7 6.43c0 2.05 1.15 3.86 2.94 5.04L3.67 16.5l2.76-1.19c.59.21 1.21.38 1.87.47c-.09-.39-.14-.79-.14-1.21c-.01-3.54 3.44-6.43 7.69-6.43M12 5.89a.96.96 0 1 1 0 1.92a.96.96 0 0 1 0-1.92M6.87 7.82a.96.96 0 1 1 0-1.92a.96.96 0 0 1 0 1.92"/><path fill="#40ba86" d="M22.26 14.57c0-2.84-2.87-5.14-6.41-5.14s-6.41 2.3-6.41 5.14s2.87 5.14 6.41 5.14c.58 0 1.14-.08 1.67-.2L20.98 21l-1.2-2.4c1.5-.94 2.48-2.38 2.48-4.03m-8.34-.32a.96.96 0 1 1 .96-.96c.01.53-.43.96-.96.96m3.85 0a.96.96 0 1 1 0-1.92a.96.96 0 0 1 0 1.92"/></svg>'}
+        link: a13530906557b
+    backgroundColor:
+    color:
+    nameColor:
+      
+  - name: 陆小曼
+    link: 
+    avatar: /avatar/hlt.jpg
+    desc: 😊
+    location: 中国，重庆万州
+    organization: 重庆医科大学
+    socials:
+      - icon: qq
         link: 
-      - icon: wechat
-        link: 
+
     backgroundColor:
     color:
     nameColor:
