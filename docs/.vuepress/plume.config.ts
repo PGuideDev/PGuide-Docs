@@ -96,7 +96,7 @@ export default defineThemeConfig({
         contentType: 'markdown',
         content: `\
 **2025-03-08**
-- 新增Vim、Magic-Clash Core-winodws文档、镜像站Anaconda文档
+- 新增Vim、Magic-Clash Core-windows文档、镜像站Anaconda文档
 - 新增本公告栏
 - 修改了报销的文档
 `,
