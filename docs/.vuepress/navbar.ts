@@ -91,6 +91,7 @@ export const navbar = defineNavbarConfig([
         items: [
             {icon: '/friend.svg', text: '个人', link: '/friends/persons/'},
             {icon: '/organ.svg', text: '组织', link: '/friends/organizations/'},
+            {icon: 'fa-solid:quote-left', text: 'Q&A', link: '/friends/quotes/'},
         ]
     },
 ])

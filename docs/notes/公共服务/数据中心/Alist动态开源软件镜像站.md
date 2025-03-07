@@ -1,5 +1,5 @@
 ---
-title: PGuide Alist
+title: Alist动态开源软件镜像站
 createTime: 2025/02/25 18:31:27
 permalink: /public-service/data-center/pguide-alist/
 icon: https://alist.nn.ci/logo.svg
