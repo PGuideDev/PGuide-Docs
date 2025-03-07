@@ -5,6 +5,10 @@ permalink: /campus-wiki/common-softwares/note-softwares/typora/
 icon: /typora.svg
 ---
 
-:::info
-此处待写
+:::tip
+此处待完善
 :::
+
+## Typora简介
+
+<LinkCard icon="/typora.svg" href="https://typoraio.cn/" title="Typora" >Typora中文官网</LinkCard>
