@@ -75,7 +75,7 @@ export default defineUserConfig({
              */
             shiki: {
               // 预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-              languages: ['shell', 'bash', 'typescript', 'javascript','markdown','c++','python'],
+              languages: ['shell', 'bash', 'typescript', 'javascript','markdown','c++','python','latex','yaml','scss'],
               twoslash: true, // 启用 twoslash
               whitespace: true, // 启用 空格/Tab 高亮
               lineNumbers: true, // 启用行号
@@ -181,10 +181,10 @@ export default defineUserConfig({
          * 加密功能
          * @see https://theme-plume.vuejs.press/guide/features/encryption/
          */
-        encrypt: {
-            rules: {
-                '/notes/维护手册/': 'overleafcqmu',
-            }
-        },
+        // encrypt: {
+        //     rules: {
+        //         '/notes/维护手册/': 'overleafcqmu',
+        //     }
+        // },
     }),
 })
