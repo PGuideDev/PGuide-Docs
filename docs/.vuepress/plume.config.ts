@@ -92,13 +92,16 @@ export default defineThemeConfig({
      */
     bulletin: {
         layout: 'bottom-right',
-        title: '更新公告',
+        title: '项导文档更新公告',
         contentType: 'markdown',
         content: `\
 **2025-03-08**
 - 新增Vim、Magic-Clash Core-windows文档、镜像站Anaconda文档
 - 新增本公告栏
 - 修改了报销的文档
+- 新增6篇项目文档
+
+加入开发组，一起完善文档！
 `,
     }
 

@@ -21,13 +21,20 @@ export const navbar = defineNavbarConfig([
         text: '项目文档',
         items: [
             {icon: 'carbon:license-third-party', text: '项目知识产权', link: '/project-docs/project-intellectual-property/'},
-            {icon: '/match.svg', text: '全国大学生竞赛组队系统', link: '/project-docs/match-competitions/'},
+            {icon: 'hugeicons:add-team', text: '全国大学生竞赛组队系统', link: '/project-docs/match-competitions/'},
             {icon: '/zhiyu.png', text: '植愈：AI情绪小帮手', link: '/project-docs/plant-cure/'},
             {icon: '/robot.png', text: '智慧中草药生态养护平台', link: '/project-docs/smart-car/'},
             {icon: '/univ-town.svg', text: '像素大学城', link: '/project-docs/pixel-university-town/'},
             {icon: '/command_block.gif', text: 'CQMUA服务器中心', link: '/project-docs/cqmua-center/'},
             {icon: '/analyse.svg',text: '学情分析系统',link: '/project-docs/study-analytic-system/'},
-            {icon: '/zzfy.svg',text: '掌中方圆',link: '/project-docs/control-my-panel/'},
+            {icon: 'line-md:speed-twotone-loop',text: '掌中方圆',link: '/project-docs/control-my-panel/'},
+            {icon: 'icon-park:transport', text: 'SPD智能医疗耗材管理系统', link: '/project-docs/spd/'},
+            {icon: 'material-symbols:dropper-eye-outline-sharp', text: '医智慧眼', link: '/project-docs/see-the-components/'},
+            {icon: 'svg-spinners:blocks-wave', text: '千手万象', link: '/project-docs/various-gestures/'},
+            {icon: 'line-md:beer-alt-twotone-loop', text: '智能输液系统', link: '/project-docs/check-the-line/'},
+            {icon: 'line-md:cloud-alt-tags-twotone-loop', text: '云原生资源管理系统', link: ''},
+            {icon: 'line-md:loading-alt-loop', text: 'when2eat', link: '/project-docs/when2eat/'},
+            {icon: '', text: '', link: ''},
         ]
     },
     {
