@@ -9,24 +9,24 @@
 
 ### 学习笔记
 
-> 可恶啊，是这样的吗？你一定得[踩这些坑](/learning-notes/)！
+> 可恶啊，是这样的吗？你一定得[踩这些坑](https://docs.pguide.studio/learning-notes/)！
 
 ### 项目文档
 
-> [构建心目中最帅的项目](/project-docs/cqmua-center/)
+> [构建心目中最帅的项目](https://docs.pguide.studio/project-docs/cqmua-center/)
 
 ### CS-DIY
 
-> 计算机真是[太有意思啦](/cs-diy/)！！！
+> 计算机真是[太有意思啦](https://docs.pguide.studio/cs-diy/)！！！
 
 ### 公共服务
 
-> [哇，原来还有这种东西嘛~](/public-service/)
+> [哇，原来还有这种东西嘛~](https://docs.pguide.studio/public-service/)
 
 ## 🌟 温馨贴士
 **“当您在文档中发现星辰，也请为后来者点亮一盏路灯。”** — 您铺垫的每本书籍都是通往更美好开源世界的台阶
 
-我深知一个人是片面的、无知的、弱小的，倘若我们一起呢？项导文档欢迎您的加入，请参考[贡献指南](/contribute/)。
+我深知一个人的力量始终是弱小的，项导文档欢迎您的加入，请参考[贡献指南](https://docs.pguide.studio/contribute/)。
 
 ---
 
