@@ -15,3 +15,5 @@ icon: /mirror.svg
 
 ## 出现bug?
 
+## 服务器配置
+
