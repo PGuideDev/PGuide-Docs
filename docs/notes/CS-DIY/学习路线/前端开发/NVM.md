@@ -38,7 +38,14 @@ Node Version Manager，不同的前端项目往往需要不同的 node.js 版本
 nvm install lts
 ```
 
-2. 配置npm淘宝镜像源
+2. 使用npm
+```shell
+nvm use lts
+```
+
+出现 now use node[ 版本号 ] 即可
+
+3. 配置npm淘宝镜像源
 
 npm软件包默认在国外，配置了国内镜像下载更快
 
@@ -46,11 +53,6 @@ npm软件包默认在国外，配置了国内镜像下载更快
 npm config set registry https://registry.npmmirror.com
 ```
 
-3. 使用npm
-```shell
-nvm use lts
-```
 
 :::
 
-出现 now use node[ 版本号 ] 即可
