@@ -1,15 +1,15 @@
 ---
-title: Overleaf在线协作企业版
+title: Overleaf LaTeX协作编辑器
 createTime: 2025/02/19 10:52:51
 permalink: /public-service/overleaf/
 icon: /overleaf.svg
 ---
 
-- 内网地址：[http://192.168.183.171/](http://192.168.183.171/)
+- 内网地址：[http://192.168.183.171](http://192.168.183.171/)
 - 外网地址（暂未开通）：[https://latex.cqmu.edu.cn/login](https://latex.cqmu.edu.cn/login)
-- 上海交通大学地址：[https://latex.sjtu.edu.cn/login](https://latex.sjtu.edu.cn/login)
+- 上海交通大学企业版地址：[https://latex.sjtu.edu.cn/login](https://latex.sjtu.edu.cn/login)
 ## 简介
-Overleaf在线协作企业版是一款支持多人在线同步编辑、审议的LaTeX编辑器，支持Zotero、Github等现代应用集成，极大便利了广大科研工作者。
+**Overleaf LaTeX协作编辑器**是一款支持多人在线同步编辑、审议的LaTeX编辑器，支持Zotero、Github等现代应用集成，极大便利了广大科研工作者。
 
 ## Overleaf使用
 

@@ -39,8 +39,8 @@ const publicService = defineNoteConfig({
     //     {
     //         prefix: 'Overleaf',
     //         icon: '/overleaf.svg',
-    //         text: 'Overleaf在线协作企业版',
-    //         link: 'Overleaf在线协作企业版',
+    //         text: 'Overleaf LaTeX协作编辑器',
+    //         link: 'Overleaf LaTeX协作编辑器',
     //         items: [
     //             {
     //                 icon: 'skill-icons:latex-light',

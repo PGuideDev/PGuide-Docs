@@ -24,6 +24,10 @@ zotero 是一款现代化的文献管理软件，具有以下特点：
 
 感谢四川大学信息管理系提供的文档支持：
 
+:::caution PDF资源因github压缩损坏
+正迁移至对象存储，稍后更新
+:::
+
 @[pdf height="600px"](https://cos.cqmu.online/pdf/Zotero.pdf)
 
 同类型软件

@@ -95,11 +95,9 @@ export default defineThemeConfig({
         title: '项导文档更新公告',
         contentType: 'markdown',
         content: `\
-**2025-03-08**
-- 新增Vim、Magic-Clash Core-windows文档、镜像站Anaconda文档
-- 新增本公告栏
-- 修改了报销的文档
-- 新增6篇项目文档
+**2025-03-09**
+- 新增WPS Office、新README.md、新贡献指南
+- 新增oh my api
 
 加入开发组，一起完善文档！
 `,
