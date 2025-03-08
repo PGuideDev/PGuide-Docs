@@ -7,19 +7,35 @@ icon: cib:latex
 
 推荐的学习路线如下：
 
-● 阅读下面三篇 Tutorial: [Part-1](https://www.overleaf.com/learn/latex/Free_online_introduction_to_LaTeX_(part_1)), [Part-2](https://www.overleaf.com/learn/latex/Free_online_introduction_to_LaTeX_(part_2)), [Part-3](https://www.overleaf.com/learn/latex/Free_online_introduction_to_LaTeX_(part_3))。
+:::steps
 
-● 学习 LaTeX 最好的方式当然是写论文，不过从一门数学课入手用 LaTeX 写作业也是一个不错的选择。
+1. **阅读下面三篇 Tutorial**
+    - [Part-1: LaTeX 入门（第一部分）](https://www.overleaf.com/learn/latex/Free_online_introduction_to_LaTeX_(part_1))
+    - [Part-2: LaTeX 入门（第二部分）](https://www.overleaf.com/learn/latex/Free_online_introduction_to_LaTeX_(part_2))
+    - [Part-3: LaTeX 入门（第三部分）](https://www.overleaf.com/learn/latex/Free_online_introduction_to_LaTeX_(part_3))
 
-● 一份简短的安装 LaTeX 的介绍 [[GitHub]](https://github.com/OsbertWang/install-latex-guide-zh-cn) 或者 TEX Live 指南（texlive-zh-cn）[[PDF]](https://www.tug.org/texlive/doc/texlive-zh-cn/texlive-zh-cn.pdf) 可以帮助你完成安装和环境配置过程
+2. **学习 LaTeX 的实践建议**  
+   通过写论文或从数学课作业入手，用 LaTeX 完成作业。
 
-● 一份（不太）简短的 LaTeX2ε 介绍（lshort-zh-cn）[PDF] [GitHub] 是由 CTEX 开发小组翻译的，可以帮助你快速准确地入门，建议通读一遍
+3. **安装与配置指南**
+    - 简短的安装教程：[GitHub 指南](https://github.com/OsbertWang/install-latex-guide-zh-cn)
+    - TEX Live 中文指南：[PDF 文档](https://www.tug.org/texlive/doc/texlive-zh-cn/texlive-zh-cn.pdf)
 
-● 刘海洋的《LaTeX 入门》，可以当作工具书来阅读，有问题再查找，跳过 CTEX 套装部分
+4. **LaTeX 系统学习文档**
+    - 《一份（不太）简短的 LaTeX2ε 介绍》（lshort-zh-cn）
+        - [PDF 版本](https://www.latexstudio.net/archives/11305)
+        - [GitHub 源码](https://github.com/CTeX-org/lshort-zh-cn)
 
-● 现代 LaTeX 入门讲座
+5. **工具书推荐**
+    - 刘海洋《LaTeX 入门》，建议作为工具书查阅（跳过 CTEX 套装部分）。
 
-● 一份其实很短的 LaTeX 入门文档
+6. **现代 LaTeX 入门讲座**
+    - [Bilibili 视频教程](https://www.bilibili.com/video/BV1s7411U7Pr)（需自行搜索最新资源）
+
+7. **快速入门文档**
+    - 《一份其实很短的 LaTeX 入门文档》：[GitHub 仓库](https://github.com/andy123t/short-latex-guide)
+
+:::
 
 ## 一份不太简短的LaTeX介绍~
 
