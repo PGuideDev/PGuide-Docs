@@ -5,34 +5,34 @@ permalink: /contribute/
 ---
 
 首先感谢您的无私奉献，项导文档基于Vuepress的[plume主题构建](https://theme-plume.vuejs.press/)
-，由多名成员共同维护，内容完全开源免费，并且承诺保障时效性和准确性。
+，由多名成员共同维护，内容完全开源。
 
 <RepoCard repo="MultipledMe/PGuide-Docs"></RepoCard>
 
-在参与合作开发之前，需要您学习一些基础知识:
-
 ## 我是文档的编写者
 
-- [markdown基础语法](/csdiy/tools-must/markdown/)
+项导文档使用markdown语法进行编写，首先得大概掌握下[markdown基础语法](/csdiy/tools-must/markdown/)
 
 在您完成markdown类型文档编写后可以
 - 通过github创建合并请求
-- 直接发送到[我们的邮箱](mailto:losmosga@foxmail.com)
+- email到[我们的邮箱](mailto:losmosga@foxmail.com)
+- QQ发送给 [rand777](https://qm.qq.com/cgi-bin/qm/qr?k=9s5V15fEzwzHuawmc-QQZ615NPTp9oEZ)
 
 ### 我想直接写一篇文档
 
-不想这样麻烦也可以的，联系[rand777](https://qm.qq.com/q/2iLBaNcsnO)并获取语雀编辑权限，或将word文档发送给[rand777](https://qm.qq.com/q/2iLBaNcsnO)。
+不想这样麻烦也可以的，联系[rand777](https://qm.qq.com/q/2iLBaNcsnO)并获取语雀编辑权限，或将word文档/PDF文档/PPT发送给[rand777](https://qm.qq.com/q/2iLBaNcsnO)
 
 ### 其他注意事项
 
 请参考`文档编写规范`
 
 ## 我是文档站的开发者
+在参与合作开发之前，需要您学习一些基础知识:
 
-- [git的使用](/csdiy/tools-must/git/)
-- [VuePress Plume主题](https://theme-plume.vuejs.press/guide/intro/)
-- [Typescript基础语法](https://www.runoob.com/typescript/ts-basic-syntax.html)
-- [markdown基础语法](/csdiy/tools-must/markdown/)
+- [:[material-icon-theme:git]:git的使用](/csdiy/tools-must/git/)
+- [:[https://theme-plume.vuejs.press/plume.png]:VuePress Plume主题](https://theme-plume.vuejs.press/guide/intro/)
+- [:[devicon:typescript]:Typescript基础语法](https://www.runoob.com/typescript/ts-basic-syntax.html)
+- [:[octicon:markdown-16]:markdown基础语法](/csdiy/tools-must/markdown/)
 
 随后，联系 [rand777](mailto:losmosga@foxmail.com) 加入项导文档加入github开发组。
 
@@ -78,7 +78,7 @@ NVM（全名：Node.js Version Manager）可以帮助我们更高效地管理不
 ```shell
 git clone https://github.com/MultipledMe/PGuide-Docs.git
 ```
-也可以使用SSH协议导入，需要[配置SSH](/csdiy/tools-must/git/#设置ssh密钥)
+也可以使用SSH协议导入，需要[配置SSH](/csdiy/tools-must/git/#设置ssh密钥)和[github设置](/csdiy/tools-must/git/#github设置)
 
 ```shell
 git clone git@github.com:MultipledMe/PGuide-Docs.git
@@ -111,31 +111,65 @@ pnpm run docs:dev
 
 打开[http://localhost:8080](http://localhost:8080)即可访问本地的开发环境了。代码修改时，内容也会一起跟着改。
 
-6. 阅读开发规范章
+6. 项目设置
 
-请合作开发者依次阅读`Git规范`、`静态资源管理规范`、`文档编写规范`、`其他注意事项`、`常见问题及解决方案`
+将 .cache .temp .public 文件夹设置为排除
+
+7. 阅读开发规范章
+
+请合作开发者依次阅读 [`Git规范`](/contribute/#git规范)、`静态资源管理规范`、`文档编写规范`、`其他注意事项`、`常见问题及解决方案`
 
 :::
 
+## Git规范
+
+项导文档开发Git规范采用 [:[logos:angular-icon]:Angular 规范](https://zj-git-guide.readthedocs.io/zh-cn/latest/message/Angular%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF%E8%A7%84%E8%8C%83/)
+
+### 
+
+### 合并请求
+
+### 
 
 
 ## 文档编写规范
 
 俗话说，无规矩，不成方圆。一个优秀的团队离不开统一的规范，项导文档开发也是如此。
 
-## 静态资源规范
+## 静态资源管理规范
 
-这里是为了规范您的图片引用方法，Plume Vuepress推荐你引用静态资源的方式如下：
+这里是为了规范您的**图片、视频、PDF、矢量图**引用方法，Plume Vuepress推荐你引用静态资源的方式如下：
+
+:::info 静态资源类型、大小规范
+- 图片文件：70%分辨率jpg或png图片，放入 `PGuide-Docs/.docs/.vuepress/public/`
+- 视频文件：.mp4文件，帧率16/24FPS
+- PDF文件：请尽量精简，不需要的页面不上传
+:::
 
 
+### 截图工具设置
 
-截图工具
+::: steps
+1. 下载pixpin
 
-## 对象存储
+前往
 
+2. 
+:::
 
+### 对象存储
 
-下载[pixpin](https://pixpin.cn/)
+所有**PDF、.mp4视频**放在项导腾讯云对象存储上，如有此类文件，将其发送给 rand777，链接处留空，并留下以下格式的TODO
+
+> 今天天气多么好呀，于是我打开了书
+> 这里==需要PDF文件==
+
+然后写上TODO: 需要{文件名.pdf}，并`ctrl`+`/`注释，在代码里看起来是这样的：
+
+```text
+高数，即高等数学，比初等数学高一些。教材如下：
+#TODO: 需要高等数学.pdf
+```
 ---
 
 ## 项目结构
@@ -185,62 +219,8 @@ pnpm run docs:dev
 - README.md #中文项导文档介绍
 - README-en.md #英文项导文档介绍
 - …
-  :::
+:::
 
-
----
-
-## 🎬 快速启航指南
-
-### 🏗️ 搭建脚手架
-
-```bash
-# 零基础同学建议安装nvm
-nvm install lts
-
-# 选择镜像源（顺风车时间）
-nvm node_mirror https://mirrors.cernet.edu.cn/nodejs-release/  # 校园专线
-nvm node_mirror https://mirrors.aliyun.com/nodejs-release/     # 阿里云快车
-
-# 装备新时代工具箱
-npm install -g pnpm  # 速度更快的npm替代品
-pnpm i              # 一键安装所有魔法原料
-pnpm run docs:dev   # 打开传送门进本地预览
-```
-
-### ✨ 热更新小技巧
-
-修改导航栏配置后记得`Ctrl+C`重启服务，看到"VuePress dev server listening"才算开启新世界大门哦~
-
----
-
-## 🌉 开发分支规范
-
-### 代码地铁乘坐指南
-
-1. 在本地开设`dev/[你的名字]`新线路
-2. 完成精彩修改后：（快捷操作指南）
-    - `Ctrl+Shift+K` 召唤提交魔法阵
-    -
-    推荐消息格式：（让代码会说话，代码规范为 [Angular Commit](https://zj-git-guide.readthedocs.io/zh-cn/latest/message/Angular%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF%E8%A7%84%E8%8C%83/)）
-    ```
-    docs: README新增星空导航
-    fix: 修复404星际迷航问题
-    feat: 新增宇宙超链接模块
-    ```
-3. 前往[Github站台](https://github.com/xxxx)点击「New pull request」提交专属班列
-
----
-
-## 📍 避坑手册精选
-
-### 资源位面法则
-
-- 🎨 所有矢量图请存入`/public/*`，引用时直接`/AI.svg`即可
-- 📹 视频资源统一放在`src/video`，播放代码示范：
-- 
-  ```markdown
-  ```
 
 ---
 
