@@ -18,7 +18,7 @@ permalink: /begin/
 <CardGrid>
 
 <LinkCard
-icon="/note.svg"
+icon="/icon/note.svg"
 title="学习笔记"
 href="/project-docs/">
 学长学姐的学习笔记，带你一起走过大学的每一个阶段～
@@ -31,7 +31,7 @@ href="/project-docs/">
 </LinkCard>
 
 <LinkCard
-icon="/project.svg"
+icon="/icon/project.svg"
 title="实战项目"
 href="/project-docs/">
 历届优质项目全记录！快来看看我们都做了些什么项目吧~
@@ -44,7 +44,7 @@ href="/project-docs/">
 </LinkCard>
 
 <LinkCard
-icon="/code.svg"
+icon="/icon/code.svg"
 title="CS自学指南"
 href="/cs-diy/">
 一本关于计算机各方向的自学指南，今天也在努力敲代码啊～
@@ -57,7 +57,7 @@ href="/cs-diy/">
 </LinkCard>
 
 <LinkCard
-icon="/public-service.svg"
+icon="/icon/public-service.svg"
 title="公共服务"
 href="/public-service/">
 学长学姐为你准备的校园生存工具箱，助力有目标的大学生活～
@@ -70,7 +70,7 @@ href="/public-service/">
 </LinkCard>
 
 <LinkCard
-icon="/wiki.svg"
+icon="/icon/wiki.svg"
 title="大学百科"
 href="/campus-wiki/">
 大学通关秘籍看这里！
@@ -83,7 +83,7 @@ href="/campus-wiki/">
 </LinkCard>
 
 <LinkCard
-icon="/link.svg"
+icon="/icon/link.svg"
 title="友情链接"
 href="/friends/persons/">
 
