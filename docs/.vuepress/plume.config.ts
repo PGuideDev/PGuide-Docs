@@ -32,7 +32,7 @@ async function getFooterMessage() {
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-    logo: '/logo.svg',
+    logo: '/icon/logo.svg',
 
     appearance: true,  // 配置 深色模式
 
