@@ -279,6 +279,14 @@ permalink: #永久链接
 icon: #可选项，侧边栏图标
 ---
 ```
+
+注意更新permalink，要和同级目录相同的前缀；
+
+例如：
+/campus-wiki/prefixA/pageA/
+/campus-wiki/prefixA/pageB/
+
+
 ### 创建拉取请求Pull Request
 
 在完成所在分支任务后，需要创建合并请求才能将更改应用到生产环境，下面是两种创建PR的方式
