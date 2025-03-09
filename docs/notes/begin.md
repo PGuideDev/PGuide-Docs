@@ -10,8 +10,11 @@ permalink: /begin/
 
 如果你觉得我们写得还不错，请在[:[line-md:github-twotone]:Github](https://github.com/MultipledMe/PGuide-Docs)上给我们点一个大大的:[fxemoji:star]:star，这是对我们最大的鼓励。
 
+---
+
 项导文档目前包括了以下部分，如果你有其他好的建议，或者想加入贡献者的行列，欢迎邮件 [PGuide Studio](mailto:losmosga@foxmail.com)
-或者在下方评论区提问
+阅读[贡献指南](/contribute/)，在下方评论区提问：
+
 <CardGrid>
 
 <LinkCard
@@ -78,6 +81,21 @@ href="/campus-wiki/">
 
 新人疑问一站式解答！
 </LinkCard>
+
+<LinkCard
+icon="/link.svg"
+title="友情链接"
+href="/friends/persons/">
+
+优质资源直连通道，共建学习生态圈～
+
+* 🌐 合作组织官网
+* 🌐 开源项目社区
+* 🌐 技术交流论坛
+
+点击探索更多合作伙伴，构建你的资源网络！
+</LinkCard>
+
 </CardGrid>
 
 

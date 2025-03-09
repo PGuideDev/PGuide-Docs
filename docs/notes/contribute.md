@@ -53,9 +53,10 @@ NVM（全名：Node.js Version Manager）可以帮助我们更高效地管理不
 
 
 3. 导入项目
+
 打开WebStorm后，你应该
 
-    :::code-tabs
+   :::code-tabs
     
     @tab 使用HTTPS协议导入
     ```shell
@@ -140,26 +141,42 @@ pnpm run docs:dev
 
 - docs
     - .vuepress
-        - config.ts
+        - .cache #缓存文件夹
+        - .temp #临时文件夹
+        - public #静态资源文件夹
+          - avatar #头像文件夹
+          - src #图片文件夹
+          - *.svg #矢量图标
+        - theme #主题设置文件夹
+          - style #主题自定义文件夹
+            - custom.css #自定义主题
+          - shim.d.ts #自定义vue组件导入
         - client.ts #客户端配置
+        - config.ts #全局功能配置
         - navbar.ts #导航栏配置
         - notes.ts #笔记配置
-    - page1.md
-    - README.md
-- theme 一个 **主题** 目录
-    - client
-        - components
-            - **Navbar.vue**
-        - composables
-            - useNavbar.ts
-        - styles
-            - navbar.css
-        - config.ts
-    - node/
-- package.json
-- pnpm-lock.yaml
-- .gitignore
-- README.md
+        - plume.config.ts #主题选项配置
+  - notes
+    - CS-DIY #计算机自学指南
+    - 公共服务 #项导公开的服务
+    - 后台管理 #后台管理界面
+    - 大学百科 #大学百科全书
+    - 学习笔记 
+    - 项目文档 #包含项目的介绍、人员等
+    - begin.md #“开始阅读”页
+    - contribute.md #“贡献”页
+    - friends-organizations #友情链接-组织页
+    - friends-persons #友情链接-个人页
+    - friends-quotes #友情链接-常见问题页
+    - Templates.md #Vuepress Plume模板页
+  - README.md
+- .gitattributes #git属性设置
+- .gitignore #不进行git的文件(夹)
+- .npmrc #npm包管理设置
+- package.json #所有npm包依赖
+- pnpm-lock.yaml #所有pnpm包依赖
+- README.md #中文项导文档介绍
+- README-en.md #英文项导文档介绍
 - …
   :::
 

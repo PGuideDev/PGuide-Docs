@@ -5,6 +5,8 @@ permalink: /csdiy/computer-common-knowledge/update/Win11re-setup/
 icon: brandico:win8
 ---
 
+[//]: # (TODO: lwj待完善)
+
 ## Win11系统重装
 ### 【前置提醒：本次教程使用机型参数，供参考】
 - 💻电脑型号： 联想2022款 Y9000P LapTop;

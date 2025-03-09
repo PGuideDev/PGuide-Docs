@@ -4,6 +4,7 @@ import notes from './notes'
 
 // 首页异步检查各服务在线状态
 async function checkStatus() {
+    // TODO: 迁移至内网 Uptime
     try {
         const response = await fetch('https://status.cqmu.online/api/badge/14/status');
         if (response.ok) {
@@ -61,7 +62,7 @@ export default defineThemeConfig({
     },
     notFound: {
         code: '啊偶，好像没有这个页面',
-        title: '🌌 迷路的[0️⃣1️⃣]在数字森林里🌀徘徊',
+        title: '🌌 您探索到了未知领域',
         quote: [
             '"💻 我点故我在，但🔗已不在" —— 赛博笛卡尔',
             '"🕳️ 宇宙最伟大的谜团不是黑洞，而是404的奇点" —— 星际访客日志',
