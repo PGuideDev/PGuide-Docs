@@ -165,7 +165,7 @@ graph TD
         - public #静态资源文件夹
             - avatar #头像文件夹
             - src #图片文件夹
-            - *.svg #矢量图标
+            - icon #矢量图标文件夹
         - theme #主题设置文件夹
             - style #主题自定义文件夹
                 - custom.css #自定义主题
