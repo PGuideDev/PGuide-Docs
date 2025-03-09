@@ -76,7 +76,7 @@ export default defineThemeConfig({
      * @see https://theme-plume.vuejs.press/config/basic/#profile
      */
     profile: {
-        avatar: '/logo.svg',
+        avatar: '/icon/logo.svg',
         name: 'PGuide Docs',
         // description: '项导文档',
         circle: true,
@@ -96,9 +96,10 @@ export default defineThemeConfig({
         title: '项导文档更新公告',
         contentType: 'markdown',
         content: `\
-**2025-03-09**
-- 新增WPS Office、新README.md、新贡献指南
-- 新增oh my api
+**2025-03-10**
+- 完成竞赛篇-编程竞赛类
+- 修复Python/Zotero入门资源损坏的问题
+- 完善镜像站文档
 
 加入开发组，一起完善文档！
 `,
