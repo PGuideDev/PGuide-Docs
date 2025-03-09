@@ -394,7 +394,7 @@ icon: #可选项，侧边栏图标
    git config --global http.proxy http://127.0.0.1:7890
    git config --global https.proxy http://127.0.0.1:7890
    ```
-3. 🚀 尝试乘坐SSH穿梭机：
+3. 🚀 尝试乘坐SSH穿梭机推送：
    ```bash
    git push -u origin:master
    ```
@@ -413,5 +413,3 @@ icon: #可选项，侧边栏图标
 - [VuePress 官方文档](https://v2.vuepress.vuejs.org/)
 - [Plume 主题配置指南](https://vuepress-theme-plume.rane.wang/)
 - [pnpm 使用手册](https://pnpm.io/zh/motivation)
-
-```
