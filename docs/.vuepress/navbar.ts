@@ -56,7 +56,7 @@ export const navbar = defineNavbarConfig([
             {icon: '/icon/openai.svg',text: '生成式人工智能',link: '/public-service/GPT/'},
             {icon: 'fluent-color:data-area-20', text: '数据中心', link: '/public-service/data-center/'},
             {icon: '/icon/mirror.svg', text: '重庆医科大学开源软件镜像站', link: '/public-service/cqmu-mirror/'},
-            {icon: '/icon/overleaf.svg', text: 'Overleaf LaTeX协作编辑器', link: '/public-service/overleaf/'},
+            {icon: '/icon/overleaf.svg', text: 'Overleaf LaTeX协作平台', link: '/public-service/overleaf/'},
             {icon: 'fluent-emoji-flat:medical-symbol', text: '全球医学公开数据网', link: '/public-service/global-medical-open-data-web/'},
             {icon: 'vscode-icons:file-type-word' ,text: '文书及申报资料网', link: '/public-service/official-documents-web/'},
             {text: '', link: ''},
