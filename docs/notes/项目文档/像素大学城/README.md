@@ -2,7 +2,7 @@
 title: 像素大学城
 createTime: 2025/03/04 00:06:49
 permalink: /project-docs/pixel-university-town/
-icon: '/univ-town.svg'
+icon: '/icon/univ-town.svg'
 ---
 
 省流：在我的世界里复原大学城高校建筑。

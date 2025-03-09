@@ -7,3 +7,5 @@ permalink: /templates/
 <LinkCard icon="" href="" title="" ></LinkCard>
 
 <RepoCard repo=""></RepoCard>
+
+@[pdf]()
