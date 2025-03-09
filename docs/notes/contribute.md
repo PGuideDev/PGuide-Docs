@@ -11,6 +11,22 @@ permalink: /contribute/
 
 在参与合作开发之前，需要您学习一些基础知识:
 
+## 我是文档的编写者
+
+- [markdown基础语法](/csdiy/tools-must/markdown/)
+
+在您完成markdown类型文档编写后可以
+- 通过github创建合并请求
+- 直接发送到[我们的邮箱](mailto:losmosga@foxmail.com)
+
+### 我想直接写一篇文档
+
+不想这样麻烦也可以的，联系[rand777](https://qm.qq.com/q/2iLBaNcsnO)并获取语雀编辑权限，或将word文档发送给[rand777](https://qm.qq.com/q/2iLBaNcsnO)。
+
+### 其他注意事项
+
+请参考`文档编写规范`
+
 ## 我是文档站的开发者
 
 - [git的使用](/csdiy/tools-must/git/)
@@ -54,20 +70,19 @@ NVM（全名：Node.js Version Manager）可以帮助我们更高效地管理不
 
 3. 导入项目
 
-打开WebStorm后，你应该
+打开WebStorm后，你可以
+ 
+使用HTTPS协议导入
 
-   :::code-tabs
-    
-    @tab 使用HTTPS协议导入
-    ```shell
-    git clone https://github.com/MultipledMe/PGuide-Docs.git
-    ```
-    @tab 使用SSH协议导入
-    
-    ```shell
-    git clone git@github.com:MultipledMe/PGuide-Docs.git
-    ```
-   :::
+
+```shell
+git clone https://github.com/MultipledMe/PGuide-Docs.git
+```
+也可以使用SSH协议导入，需要[配置SSH](/csdiy/tools-must/git/#设置ssh密钥)
+
+```shell
+git clone git@github.com:MultipledMe/PGuide-Docs.git
+```
 
 4. 安装项目依赖
 
@@ -102,19 +117,7 @@ pnpm run docs:dev
 
 :::
 
-## 我是文档的编写者
 
-- markdown基础语法
-- VuePress markdown拓展语法
-- 合并请求的创建（也可以联系文档管理员）
-
-### 我想直接写一篇文档
-
-不想这样麻烦也可以的，联系[rand777](https://qm.qq.com/q/2iLBaNcsnO)并获取语雀编辑权限，或将word文档发送给[rand777](https://qm.qq.com/q/2iLBaNcsnO)。
-
-### 其他注意事项
-
-请参考
 
 ## 文档编写规范
 
