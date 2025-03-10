@@ -58,7 +58,7 @@ permalink: /contribute/
 
 1. 下载WebStorm
 
-这个软件是咱们主要写代码的地方，软件本身用于前端开发，您可以[在这里](/campus-wiki/common-softwares/IDE/PyCharm/)
+这个软件是咱们主要写代码的地方，软件本身用于前端开发，您可以[在这里](/campus-wiki/common-softwares/IDE/WebStorm/)
 详细了解。其他同类型的开发软件，如VSCode，也可以。
 
 请先完成[学生邮箱申请](/campus-wiki/apply-student-email/)并申请JetBrains教育版
