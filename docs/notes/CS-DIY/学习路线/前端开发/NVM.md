@@ -40,7 +40,7 @@ nvm install lts
 
 2. 使用npm
 ```shell
-nvm use lts
+nvm use [ 版本号 ]
 ```
 
 出现 now use node[ 版本号 ] 即可
