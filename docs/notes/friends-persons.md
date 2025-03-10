@@ -110,18 +110,18 @@ list:
     backgroundColor:
     color:
     nameColor:
-  - name: shenshen(火影膏手)
-    link: 
+  - name: 申_
+    link: https://github.com/Nightowlwithrain
     avatar: /avatar/shen.jpg
-    desc: 诶，我不吃牛肉~
+    desc: gei的多饮茶先~
     location: 中国，湖南怀化
     organization: 项导工作室
     socials:
       - icon: qq
-        link:
-    backgroundColor:
-    color:
-    nameColor:
+        link: https://qm.qq.com/q/xqp23CUKgE
+    backgroundColor: 
+    color: 
+    nameColor: gold
   - name: Mosabb
     link: 
     avatar: /avatar/MOSAAB.jpg
