@@ -349,6 +349,19 @@ list:
     color:
     nameColor:
       
+  - name: Tiangua
+    link: https://github.com/TianGuaUaena
+    avatar: /avatar/lkl.jpg
+    desc: 莫愁
+    location: 中国
+    organization: 重庆医科大学
+    socials: 
+      - icon: qq
+        link: https://qm.qq.com/q/FsQjhLFdya
+    backgroundColor:
+    color:
+    nameColor:
+
 #  - name:
 #    link:
 #    avatar:
