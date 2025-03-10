@@ -336,16 +336,18 @@ list:
     color:
     nameColor:
 
-#  - name:
-#    link:
-#    avatar:
-#    desc:
-#    location:
-#    organization:
-#    socials:
-#    backgroundColor:
-#    color:
-#    nameColor:
+  - name: QingYe
+    link: https://github.com/DingGe3
+    avatar: /avatar/lhr.jpg
+    desc: 青叶瀑布何以枯竭
+    location: 中国
+    organization: 重庆医科大学
+    socials:
+      - icon: qq
+        link: https://qm.qq.com/q/NHOANBujqE
+    backgroundColor:
+    color:
+    nameColor:
       
 #  - name:
 #    link:
