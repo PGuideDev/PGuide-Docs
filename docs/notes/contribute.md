@@ -145,7 +145,7 @@ pnpm run docs:dev
 
 ```mermaid
 graph TD
-    A[rand777派发TODO任务] --> B[成员更新main分支]
+    A[rand777派发TO DO任务] --> B[成员更新main分支]
     B --> C[Rebase到自己的开发分支]
     C --> D[开发完成任务]
     D --> E[创建合并请求并群内通知]
