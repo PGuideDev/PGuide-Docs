@@ -80,7 +80,7 @@ NVM（全名：Node.js Version Manager）可以帮助我们更高效地管理不
 
 打开WebStorm后，你可以
 
-使用HTTPS协议导入
+使用HTTPS协议导入（在左侧任务栏终端中导入）
 
 ```shell
 git clone https://github.com/MultipledMe/PGuide-Docs.git
@@ -92,6 +92,10 @@ git clone https://github.com/MultipledMe/PGuide-Docs.git
 ```shell
 git clone git@github.com:MultipledMe/PGuide-Docs.git
 ```
+
+或者直接在WebStorm上点击“克隆仓库”，登录github账号进行导入
+
+导入失败请参考“常见问题及解决方案”
 
 4. 安装项目依赖
 
@@ -123,7 +127,7 @@ pnpm run docs:dev
 
 6. 项目设置
 
-将 .cache .temp .public 文件夹设置为排除
+将 .cache .temp .public 文件夹设置为排除（路径：docs/.vuepress/)
 
 @[artPlayer](https://cos.cqmu.online/docs/2025-03-10_03-56-14.mp4)
 
