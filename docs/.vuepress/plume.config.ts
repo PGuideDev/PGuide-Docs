@@ -24,7 +24,7 @@ async function checkStatus() {
 
 async function getFooterMessage() {
     const statusMessage = await checkStatus();
-    return `${statusMessage} <a href="https://status.cqmu.online/" target="_blank"><img src="https://status.cqmu.online/api/badge/14/status" alt="Status Badge" style="vertical-align: middle; display: inline-block;"></a>`;
+    return `${statusMessage} <a href="https://status.cqmu.online/" target="_blank"><img src="https://status.cqmu.online/api/badge/14/status?style=plastic" alt="Status Badge" style="vertical-align: middle; display: inline-block;"></a>`;
 }
 
 
@@ -96,20 +96,21 @@ export default defineThemeConfig({
         title: '项导文档更新公告',
         contentType: 'markdown',
         content: `\
-**2025-03-10**
-- 完成竞赛篇-编程竞赛类
-- 修复Python/Zotero入门资源损坏的问题
+**2025-03-11**
 - 完善镜像站文档
+- 添加oh my api文档
+- 添加考研复试经验
+- 完善贡献指南
 
 加入开发组，一起完善文档！
 `,
-    }
+    },
 
     /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
-    // transition: {
-    //   page: true,        // 启用 页面间跳转过渡动画
-    //   postList: true,    // 启用 博客文章列表过渡动画
-    //   appearance: 'fade',  // 启用 深色模式切换过渡动画, 或配置过渡动画类型
-    // },
+    transition: {
+      page: true,        // 启用 页面间跳转过渡动画
+      postList: true,    // 启用 博客文章列表过渡动画
+      appearance: 'circle-clip',  // 启用 深色模式切换过渡动画, 或配置过渡动画类型
+    },
 
 })

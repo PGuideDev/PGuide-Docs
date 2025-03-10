@@ -293,13 +293,20 @@ icon: #可选项，侧边栏图标
 注意更新permalink，要和同级目录相同的前缀；
 
 例如：
+
 /campus-wiki/prefixA/pageA/
+
 /campus-wiki/prefixA/pageB/
 
+---
 
 ### 创建拉取请求Pull Request
 
 在完成所在分支任务后，需要创建合并请求才能将更改应用到生产环境，下面是两种创建PR的方式
+
+:::tip
+需要先在自己的分支commit并push到远程仓库哦，创建完成后记得给rand777发个消息
+:::
 
 :::tabs
 
@@ -313,10 +320,6 @@ icon: #可选项，侧边栏图标
 <LinkCard icon="line-md:github-loop" href="https://github.com/MultipledMe/PGuide-Docs/pulls" title="Create Pull Request" >PGuide Docs Github Page</LinkCard>
 ![2025-03-10_04-10-16.png](../.vuepress/public/src/2025-03-10_04-10-16.png)
 
-:::
-
-:::tip 完成后
-创建完成后记得给 rand777发个消息
 :::
 
 

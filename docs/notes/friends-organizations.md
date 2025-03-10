@@ -9,13 +9,13 @@ groups:
     list:
       - name: 项导工作室官网
         link: https://www.pguide.studio
-        avatar: https://docs.pguide.studio/logo.svg
+        avatar: https://docs.pguide.studio/icon/logo.svg
         location: Global distribution
         organization: PGuide Studio
         desc: 心向未名山水远，志在新途日月长。
       - name: 语雀文档
         link: https://www.yuque.com/pguide/public
-        avatar: /yuque.png
+        avatar: /icon/yuque.svg
         location: Global distribution
         organization: PGuide Studio Yuque
         desc: Gracious thoughts stay in with simple words.
@@ -32,14 +32,14 @@ groups:
         name: 华为深度学习平台（内网）
         link: http://192.168.194.11/
         location: 重庆医科大学
-        avatar: /huawei.svg
+        avatar: /icon/huawei.svg
         organization: 重庆医科大学医学信息学院
         desc: Huawei DL platform
       - 
         name: 校超算平台（内网）
         link: http://172.16.190.220:6080/
         location: 重庆医科大学
-        avatar: /hpc.svg
+        avatar: /icon/hpc.svg
         organization: 重庆医科大学信息中心
         desc: 计算云门户
   - title: MED Explorers+
@@ -52,15 +52,23 @@ groups:
         organization: Med Explorers+
         desc: A research team affiliated to the College of Basic Medical Science composed of undergraduates
 
-  - title: 西湖大学超算中心
-    desc: HPC Base for computation in WLU.
-  #    -
-  #      name:
-  #      link:
-  #      location:
-  #      avatar:
-  #      organization:
-  #      desc:
+  - title: 西湖大学
+    desc: Westlake University
+    list:
+      -
+        name: 信息技术中心
+        link: https://info.westlake.edu.cn/index.htm
+        location: 中国，浙江杭州
+        avatar: /icon/hpc.svg
+        organization: 西湖大学
+        desc: HPC base for WLU
+      -
+        name: 浙江西湖高等研究院
+        link: https://www.wias.org.cn/
+        location: 中国，浙江杭州西湖区
+        avatar: /icon/hpc.svg
+        organization: 西湖大学
+        desc: HPC base for WLU
   - title: 中国教育和科研计算机网
     desc: 中国教育和科研计算机网CERNET是党中央、国务院指定的中国教育信息化的基础平台，也是中国最早的四大骨干网之一，为中国教育信息化及人才培养作出了突出贡献。除为教育系统用户提供基本互联网接入服务外，还受国务院授权，负责教育系统域名管理（edu.cn)，并承担各类大型国家教育信息化建设项目及研究任务。
     list:

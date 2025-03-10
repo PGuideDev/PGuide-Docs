@@ -103,43 +103,9 @@ conda config --set custom_channels.[package] https://mirrors.cqmu.edu.cn/anacond
 其中，`package`是你想安装的包名
 
 
-#### CERNET通用
+### CERNET通用
 
-* auto
-* biobakery
-* bioconda
-* c4aarch64
-* caffe2
-* conda-forge
-* deepmodeling
-* dglteam
-* fastai
-* fermi
-* idaholab
-* intel
-* matsci
-* menpo
-* MindSpore
-* mordred-descriptor
-* msys2
-* numba
-* ohmeta
-* omnia
-* Paddle
-* peterjc123
-* plotly
-* psi4
-* pytorch
-* pytorch3d
-* pytorch-lts
-* pytorch-test
-* pyviz
-* qiime2
-* rapidsai
-* rdkit
-* simpleitk
-* stackless
-* ursky
+
 
 ### Anaconda Extra
 
