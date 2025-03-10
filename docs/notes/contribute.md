@@ -37,15 +37,16 @@ permalink: /contribute/
 
 在参与合作开发之前，需要您学习一些基础知识:
 
-- [:[material-icon-theme:git]:git的使用](/csdiy/tools-must/git/)
-- [:[https://theme-plume.vuejs.press/plume.png]:VuePress Plume主题](https://theme-plume.vuejs.press/guide/intro/)
-- [:[devicon:typescript]:Typescript基础语法](https://www.runoob.com/typescript/ts-basic-syntax.html)
-- [:[octicon:markdown-16]:markdown基础语法](/csdiy/tools-must/markdown/)
+[:[material-icon-theme:git]:git的使用](/csdiy/tools-must/git/)
+[:[octicon:markdown-16]:markdown基础语法](/csdiy/tools-must/markdown/)
+[:[https://theme-plume.vuejs.press/plume.png]: VuePress Plume主题](https://theme-plume.vuejs.press/guide/intro/)
+[:[devicon:typescript]:Typescript基础语法](https://www.runoob.com/typescript/ts-basic-syntax.html)
+
 
 随后，联系 [rand777](mailto:losmosga@foxmail.com) 加入项导文档github开发组。
 
 :::tip 联系格式
-正文写明你是谁，想要编写哪部分，从哪里知道项导文档的（比如网上看到的-具体途径，熟人推荐-哪位熟人）。
+表明你是谁，想要编写哪部分。
 :::
 
 ### 配置开发环境
@@ -59,7 +60,7 @@ permalink: /contribute/
 1. 下载WebStorm
 
 这个软件是咱们主要写代码的地方，软件本身用于前端开发，您可以[在这里](/campus-wiki/common-softwares/IDE/WebStorm/)
-详细了解。其他同类型的开发软件，如VSCode，也可以。
+详细了解。其他同类型的开发软件，如VS Code，也可以。
 
 请先完成[学生邮箱申请](/campus-wiki/apply-student-email/)并申请JetBrains教育版
 

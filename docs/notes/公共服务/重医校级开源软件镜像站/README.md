@@ -11,7 +11,19 @@ icon: /icon/mirror.svg
 
 ## 使用方式
 
+前往镜像站地址[https://mirrors.cqmu.edu.cn](https://mirrors.cqmu.edu.cn)
+
+阅读 CQMU Mirror Wiki即可
+
+<LinkCard icon="simple-icons:wikibooks" href="/public-service/cqmu-mirror/wiki/" title="CQMU Mirror Wiki" >CQMU镜像站帮助文档</LinkCard>
+
 ## 新镜像请求
+
+前往gitee主页提出issue，格式如下：
+
+
+
+
 
 ## 出现bug?
 

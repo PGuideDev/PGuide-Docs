@@ -10,7 +10,3 @@ icon: arcticons:clash
 ## Clash Wiki
 
 <LinkCard icon=arcticons:clash href="https://clash.wiki" title="Clash Wiki">Clash 百科</LinkCard>
-
-## Clash Distribution
-
-

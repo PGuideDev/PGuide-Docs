@@ -16,7 +16,9 @@ icon: simple-icons:wikibooks
 [//]: # (TODO: 待完善)
 
 ## :[devicon:anaconda]: Anaconda 软件仓库
-
+:::tip
+即将上线
+:::
 Anaconda 是一个用于科学计算的 Python 发行版，支持 Linux, Mac, Windows, 包含了众多流行的科学计算、数据分析的 Python 包。
 
 Anaconda本身可到[清华大学镜像站](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)下载，但是其软件源默认为国外的源，下载速度较慢，因此我们提供了Anaconda的镜像源。
@@ -25,13 +27,31 @@ Anaconda本身可到[清华大学镜像站](https://mirrors.tuna.tsinghua.edu.cn
 
 镜像站提供了 Anaconda 仓库与第三方源（conda-forge、msys2、pytorch 等，各镜像站镜像的第三方源并不相同，可以参考下方「第三方镜像源」一节）的镜像，各系统都可以通过修改用户目录下的 .condarc 文件来使用镜像站。
 
-不同系统下的.condarc目录如下：
+不同系统下的.condarc目录如下
 
-:[devicon:linux]: ${HOME}/.condarc
+[//]: # (:::details 不同系统下的.condarc目录如下)
 
-:[wpf:macos]: ${HOME}/.condarc
+[//]: # (:[devicon:linux]: ${HOME}/.condarc)
 
-:[logos:microsoft-windows-icon]: C:\Users\<YourUserName>\.condarc
+[//]: # ()
+[//]: # (:[wpf:macos]: ${HOME}/.condarc)
+
+[//]: # ()
+[//]: # (:[logos:microsoft-windows-icon]: C:\Users\<YourUserName>\.condarc)
+
+[//]: # (:::)
+
+:::tabs
+
+@tab :[logos:microsoft-windows-icon]: C:\Users\<YourUserName>\.condarc
+
+@tab :[wpf:macos]: ${HOME}/.condarc
+
+@tab :[devicon:linux]: ${HOME}/.condarc
+
+:::
+
+
 
 :::tip 注意
 
@@ -114,7 +134,9 @@ conda config --set custom_channels.[package] https://mirrors.cqmu.edu.cn/anacond
 :::
 
 ## :[logos:pypi]: PYPI 
-
+:::tip
+即将上线
+:::
 ### pip
 
 ### PDM
@@ -124,7 +146,9 @@ conda config --set custom_channels.[package] https://mirrors.cqmu.edu.cn/anacond
 ### Homebrew
 
 ## :[devicon:flutter]: Flutter 软件仓库
-
+:::tip
+即将上线
+:::
 ### flutter_infra
 
 ### download.flutter.io
@@ -132,11 +156,22 @@ conda config --set custom_channels.[package] https://mirrors.cqmu.edu.cn/anacond
 ### Flutter SDK
 
 ## :[simple-icons:epel]: EPEL 软件仓库
-
+:::tip
+即将上线
+:::
 ## :[logos:ubuntu]: Ubuntu 软件仓库
-
+:::tip
+即将上线
+:::
 ## :[devicon:qt]: Qt 软件仓库
-
+:::tip
+即将上线
+:::
 ## :[devicon:ros]: ROS2 软件仓库
-
+:::tip
+即将上线
+:::
 ## :[vscode-icons:file-type-tex]: CTAN 镜像
+:::tip
+即将上线
+:::

@@ -183,7 +183,7 @@ export default defineUserConfig({
          */
         // encrypt: {
         //     rules: {
-        //         '/notes/维护手册/': 'overleafcqmu',
+        //         '/csdiy/tools-must/magic/': 'magic',
         //     }
         // },
     }),
