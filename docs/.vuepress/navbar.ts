@@ -69,7 +69,7 @@ export const navbar = defineNavbarConfig([
         items: [
             {icon: '/icon/email.svg', text: '申请学生邮箱', link: '/campus-wiki/apply-student-email/'},
             {icon: '/icon/teacher.svg', text: '老师们说', link: '/campus-wiki/teacher-talks/'},
-            {icon: 'carbon:container-software', text: '常用软件', link: '/campus-wiki/common-softwares/'},
+            {icon: 'carbon:container-software', text: '常用软件', link: '/campus-wiki/common-software/'},
             {icon: '/icon/cert.svg', text: '证书及技能考试', link: '/campus-wiki/credential-skillful-exams/'},
             {icon: 'ic:baseline-school',text: '校内生活', link: '/campus-wiki/campus-life/'},
             {icon: '/icon/competition.svg', text:'竞赛篇', link: '/campus-wiki/competition/'},
