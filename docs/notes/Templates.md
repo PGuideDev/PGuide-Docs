@@ -9,3 +9,5 @@ permalink: /templates/
 <RepoCard repo=""></RepoCard>
 
 @[pdf]()
+
+<kbd></kbd>

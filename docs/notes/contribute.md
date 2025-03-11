@@ -75,7 +75,7 @@ NVM（全名：Node.js Version Manager）可以帮助我们更高效地管理不
 
 软件安装及应用教程看[这里](/csdiy/study-path/front-dev/NVM/)
 
-> 安装完成后记得重启IDE和终端
+> 安装完成后记得重启IDE和终端以重载环境变量
 
 3. 导入项目
 
@@ -86,6 +86,7 @@ NVM（全名：Node.js Version Manager）可以帮助我们更高效地管理不
 ```shell
 git clone https://github.com/MultipledMe/PGuide-Docs.git
 ```
+> 导入失败请参考“常见问题及解决方案”
 
 也可以使用SSH协议导入，需要[配置SSH](/csdiy/tools-must/git/#设置ssh密钥)
 和[github设置](/csdiy/tools-must/git/#github设置)
@@ -96,7 +97,7 @@ git clone git@github.com:MultipledMe/PGuide-Docs.git
 
 或者直接在WebStorm上点击“克隆仓库”，登录github账号进行导入
 
-导入失败请参考“常见问题及解决方案”
+
 
 4. 安装项目依赖
 
