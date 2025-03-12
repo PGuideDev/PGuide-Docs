@@ -12,3 +12,5 @@ icon: /typora.svg
 ## Typora简介
 
 <LinkCard icon="/typora.svg" href="https://typoraio.cn/" title="Typora" >Typora中文官网</LinkCard>
+
+[//]: # (TODO: chy待完善)

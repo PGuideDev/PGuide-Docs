@@ -5,6 +5,8 @@ permalink: /project-docs/cqmua-center/
 icon: '/icon/command_block.gif'
 ---
 
+[//]: # (TODO: lkl待完善)
+
 ## CQMUA是什么？
 
 CQMUA，全称Chongqing Minecraft University Alliance，是由重庆市高校的Minecraft服务器联盟。
@@ -19,3 +21,5 @@ CQMUA，全称Chongqing Minecraft University Alliance，是由重庆市高校的
 ## 项目技术
 
 - 服务器中心前端：使用Vue.js开发，提供服务器状态监控界面。
+
+

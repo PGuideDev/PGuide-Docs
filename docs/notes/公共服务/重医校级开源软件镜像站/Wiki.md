@@ -139,8 +139,6 @@ conda config --set custom_channels.[package] https://mirrors.cqmu.edu.cn/anacond
 :::
 ### pip
 
-### PDM
-
 ### Poetry
 
 ### Homebrew
