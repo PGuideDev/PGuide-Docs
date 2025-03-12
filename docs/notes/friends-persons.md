@@ -17,7 +17,7 @@ list:
         link: https://qm.qq.com/q/BlMDUbKajY
       - icon: github
         link: https://github.com/emptyelse
-  - name: Elysia_Realme
+  - name: 翻斗花园牛爷爷
     link: https://chenhy.pguide.studio/
     avatar: https://chenhy.pguide.studio/githubFindNew/pictures/CircleElysia.jpg
     location: 中国，重庆涪陵
