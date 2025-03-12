@@ -24,6 +24,12 @@ permalink: /contribute/
 - email到[我们的邮箱](mailto:losmosga@foxmail.com)
 - QQ发送给 [rand777](https://qm.qq.com/cgi-bin/qm/qr?k=9s5V15fEzwzHuawmc-QQZ615NPTp9oEZ)
 
+### 在Typora中开始
+
+:::tip
+此处待填写
+:::
+
 ### 我想直接写一篇文档
 
 不想这样麻烦也可以的，联系[rand777](https://qm.qq.com/q/2iLBaNcsnO)
