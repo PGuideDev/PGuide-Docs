@@ -5,6 +5,8 @@ permalink: /public-service/GPT/lobe-chat/
 icon: https://lobechat.com/icons/icon-192x192.png
 ---
 
+[//]: # (TODO: sx待测试)
+
 <LinkCard icon="https://lobechat.com/icons/icon-192x192.png" title="PGuide LobeChat" href="https://chat.pguide.studio/">
 
 LobeChat OpenSource LLM chat platform.
