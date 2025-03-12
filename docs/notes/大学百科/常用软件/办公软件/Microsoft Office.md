@@ -5,7 +5,6 @@ permalink: /campus-wiki/common-softwares/office/MS/
 icon: mdi:microsoft-office
 ---
 
-[//]: # (TODO: lwj待填写)
 ## office激活
 如果你是在线下电脑商店买的，有良心的商家会告诉你，你有一份免费的“office激活”指南，包括激活密匙，电脑小哥会帮助你激活office,如果是个黑心商家，你将收获一台“光杆”电脑，什么word,powerpoint，ps都需要你手动安装，不仅只能使用鸡肋盗版软件，而且还不好用。
 
