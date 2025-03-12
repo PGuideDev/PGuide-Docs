@@ -17,12 +17,12 @@ list:
         link: https://qm.qq.com/q/BlMDUbKajY
       - icon: github
         link: https://github.com/emptyelse
-  - name: Elysia_Realme
+  - name:  翻斗花园牛爷爷
     link: https://chenhy.pguide.studio/
     avatar: https://chenhy.pguide.studio/githubFindNew/pictures/CircleElysia.jpg
     location: 中国，重庆涪陵
     organization: 项导工作室、小米、CQMUA等
-    desc: 兄弟你好香，今夜星光闪闪，爱你的♥满满。
+    desc: 兄弟你好香，今夜星光闪闪，爱你的♥满满。收手吧牛儿，外面都是xx
     socials:
       - icon: qq
         link: https://qm.qq.com/q/VKCsG13ww8
