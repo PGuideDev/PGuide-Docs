@@ -5,6 +5,8 @@ permalink: /campus-wiki/document-management/Zotero/
 icon: /icon/zotero.svg
 ---
 
+[//]: # (lwj待测试)
+
 ## 简介
 zotero 是一款现代化的文献管理软件，具有以下特点：
 
