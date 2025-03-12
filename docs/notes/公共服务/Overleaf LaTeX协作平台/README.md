@@ -29,7 +29,7 @@ com/">中文官网</LinkCard>
 
 ![2025-03-10_02-43-43.png](../../../.vuepress/public/src/2025-03-10_02-43-43.png)
 
-Overleaf的用户节目超级简单，即使是新手也能轻松上手，现在就开始阅读[Overleaf官方文档](https://cn.overleaf.com/learn/how-to/Creating_a_document_in_Overleaf#Introduction)
+Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在就开始阅读[Overleaf官方文档](https://cn.overleaf.com/learn/how-to/Creating_a_document_in_Overleaf#Introduction)
 开始LaTeX之旅吧，相信我，你会惊叹它的奇妙设计！
 
 ### 模板！
@@ -40,7 +40,7 @@ Overleaf的用户节目超级简单，即使是新手也能轻松上手，现在
 ### Overleaf CQMU
 
 ::: tip [http://192.168.183.171](http://192.168.183.171)
-已经可以访问，在做最终准备
+校园网内网已经可以访问，在做最终准备
 :::
 
 ## LaTeX
