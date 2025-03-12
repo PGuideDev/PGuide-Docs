@@ -7,3 +7,9 @@ icon: https://raw.githubusercontent.com/Dooy/chatgpt-web-midjourney-proxy/main/s
 :::tip
 此处待完善
 :::
+
+<LinkCard icon="https://raw.githubusercontent.com/Dooy/chatgpt-web-midjourney-proxy/main/src/assets/avatar.jpg" href="https://gpt.cqmu.online/" title="ChatGPT MidJourneyProxy" >PGuide GPT</LinkCard>
+
+## 配置服务端
+
+联系 rand777 获取`OpenAI接口地址`和`OpenAI Api Key`

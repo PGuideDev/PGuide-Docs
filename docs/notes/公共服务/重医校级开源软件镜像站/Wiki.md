@@ -6,12 +6,20 @@ icon: simple-icons:wikibooks
 ---
 
 :::info 关于CQMU Mirror Wiki
+
 1. 重庆医科大学开源软件镜像站Wiki文档旨在帮助同学们更快了解镜像源的相关信息和配置步骤
-2. 本文档基于[CERNET文档](https://help.mirrors.cernet.edu.cn/)修改而来，为了保障服务可用性，后端默认指向`https://mirrors.cernet.edu.cn`，重医校园网范围内默认为`https://mirrors.cqmu.edu.cn`
+2. 本文档基于[CERNET文档](https://help.mirrors.cernet.edu.cn/)修改而来，为了保障服务可用性，后端默认指向
+   `https://mirrors.cernet.edu.cn`，重医校园网范围内默认为`https://mirrors.cqmu.edu.cn`
 3. 若有其他问题，请通过[邮箱](mailto:losmosga@foxmail.com)联系我们
-:::
+   :::
 
 :::details 已镜像的源
+
+| 镜像名  | rsync上游                            | 容量     | 单元测试 |
+|------|------------------------------------|--------|------|
+| CTAN | rsync://rsync.dante.ctan.org/CTAN/ | 62.66G | √    |
+| CPAN | rsync://cpan-rsync.perl.org/CPAN/  | 33.89G | √    |
+|      |                                    |        |      |
 
 :::
 
@@ -23,13 +31,17 @@ icon: simple-icons:wikibooks
 
 ## :[devicon:anaconda]: Anaconda 软件仓库
 
-Anaconda 是一个用于科学计算的 Python 发行版，支持 Linux, Mac, Windows, 包含了众多流行的科学计算、数据分析的 Python 包。
+Anaconda 是一个用于科学计算的 Python 发行版，支持 Linux, Mac, Windows, 包含了众多流行的科学计算、数据分析的
+Python 包。
 
-Anaconda本身可到[清华大学镜像站](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)下载，但是其软件源默认为国外的源，下载速度较慢，因此我们提供了Anaconda的镜像源。
+Anaconda本身可到[清华大学镜像站](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)
+下载，但是其软件源默认为国外的源，下载速度较慢，因此我们提供了Anaconda的镜像源。
 
 ### 配置
 
-镜像站提供了 Anaconda 仓库与第三方源（conda-forge、msys2、pytorch 等，各镜像站镜像的第三方源并不相同，可以参考下方「第三方镜像源」一节）的镜像，各系统都可以通过修改用户目录下的 .condarc 文件来使用镜像站。
+镜像站提供了 Anaconda 仓库与第三方源（conda-forge、msys2、pytorch
+等，各镜像站镜像的第三方源并不相同，可以参考下方「第三方镜像源」一节）的镜像，各系统都可以通过修改用户目录下的
+.condarc 文件来使用镜像站。
 
 :::details 不同系统下的.condarc目录如下
 
@@ -39,39 +51,45 @@ Anaconda本身可到[清华大学镜像站](https://mirrors.tuna.tsinghua.edu.cn
 
 :[wpf:macos]: ${HOME}/.condarc
 
-
-
 :::
 
 [//]: # (:::tabs)
 
-[//]: # ()
+[//]: #
+
 [//]: # (@tab :[logos:microsoft-windows-icon]: C:\Users\<YourUserName>\.condarc)
 
-[//]: # ()
+[//]: #
+
 [//]: # (@tab :[wpf:macos]: ${HOME}/.condarc)
 
-[//]: # ()
+[//]: #
+
 [//]: # (@tab :[devicon:linux]: ${HOME}/.condarc)
 
-[//]: # ()
+[//]: #
+
 [//]: # (:::)
 
 
 
 :::important 注意
 
-Windows 用户无法直接创建名为 `.condarc` 的文件，可先执行 
+Windows 用户无法直接创建名为 `.condarc` 的文件，可先执行
+
 ```shell no
 conda config --set show_channel_urls yes 
 ```
+
 生成该文件之后再修改。
 
 :::
 
-由于更新过快难以同步，TUNA 等一众镜像站不同步**pytorch-nightly, pytorch-nightly-cpu, ignite-nightly**这三个包。
+由于更新过快难以同步，TUNA 等一众镜像站不同步**pytorch-nightly, pytorch-nightly-cpu, ignite-nightly**
+这三个包。
 
-如果您正在从某一镜像源切换到另一镜像源，请检查镜像源是否同步了您所需要的 repo，以及该 repo 是否支持您使用的平台 (e.g. linux-64)。
+如果您正在从某一镜像源切换到另一镜像源，请检查镜像源是否同步了您所需要的 repo，以及该 repo
+是否支持您使用的平台 (e.g. linux-64)。
 
 ---
 
@@ -79,6 +97,7 @@ conda config --set show_channel_urls yes
 
 ::: code-tabs
 @tab ~/.condarc
+
 ```yaml
 channels:
   - defaults
@@ -93,6 +112,7 @@ custom_channels:
 ```
 
 @tab 快速配置
+
 ```shell
 cat <<'EOF' > ~/.condarc
 channels:
@@ -128,10 +148,7 @@ conda config --set custom_channels.[package] https://mirrors.cernet.edu.cn/anaco
 
 其中，`package`是你想安装的包名
 
-
 ### CERNET通用
-
-
 
 ### Anaconda Extra
 
@@ -152,6 +169,7 @@ pip是python默认的包管理器，配置镜像源的方式如下：
 ```shell
 pip install -i https://mirrors.cernet.edu.cn/pypi/web/simple some-package
 ```
+
 注意，simple 不能少。 pip 要求使用 https ，因此需要 https 而不是 http
 
 @tab 设为默认
@@ -176,6 +194,7 @@ python -m pip install -i https://mirrors.cernet.edu.cn/pypi/web/simple --upgrade
 ```shell
 pip config set global.extra-index-url "<url1> <url2>..."
 ```
+
 请自行替换引号内的内容，源地址之间需要有空格
 
 例如
@@ -210,7 +229,8 @@ poetry source add --priority=supplemental mirrors https://mirrors.cernet.edu.cn/
 
 Poetry 尚未支持全局设置镜像。参考 [issue 1632](https://github.com/python-poetry/poetry/issues/1632)。
 
-使用全局镜像的临时方案是将 Poetry 的安装器切换回 pip，如下所示。但该方式会在将来的版本中停止支持，参考 [PR 7356](https://github.com/python-poetry/poetry/pull/7356)。
+使用全局镜像的临时方案是将 Poetry 的安装器切换回
+pip，如下所示。但该方式会在将来的版本中停止支持，参考 [PR 7356](https://github.com/python-poetry/poetry/pull/7356)。
 
 ```shell
 poetry config experimental.new-installer false
@@ -228,11 +248,13 @@ Flutter 是 Google 开源的 UI 工具包，帮助开发者通过一套代码库
 https://mirrors.cernet.edu.cn/flutter/flutter_infra/releases/stable/
 ```
 
-Flutter 开发依赖于 [SDK 的升级](https://docs.flutter.cn/release/upgrade) 和 [Dart Package](https://pub-web.flutter-io.cn/) 生态， 因此，如果您的网络访问 Google 受阻，需要将您开发设备的如下两个环境变量设置指向镜像站：
+Flutter 开发依赖于 [SDK 的升级](https://docs.flutter.cn/release/upgrade)
+和 [Dart Package](https://pub-web.flutter-io.cn/) 生态， 因此，如果您的网络访问 Google
+受阻，需要将您开发设备的如下两个环境变量设置指向镜像站：
 
 - FLUTTER_STORAGE_BASE_URL
 - PUB_HOSTED_URL
-设定方式如下：
+  设定方式如下：
 
 设定方式如下：
 
@@ -248,34 +270,41 @@ echo 'export FLUTTER_STORAGE_BASE_URL="https://mirrors.cernet.edu.cn/flutter"' >
 
 PUB_HOSTED_URL 部分可以参考 [Dart Pub 帮助](https://help.mirrors.cernet.edu.cn/dart-pub/)
 
-部分镜像站将 flutter_infra 单列为一个镜像，可以参考 [Flutter Infra 帮助](https://help.mirrors.cernet.edu.cn/flutter_infra/)。
+部分镜像站将 flutter_infra
+单列为一个镜像，可以参考 [Flutter Infra 帮助](https://help.mirrors.cernet.edu.cn/flutter_infra/)。
 
 ### download.flutter.io
 
-在编译 android 项目时，flutter 还会从 [https://storage.googleapis.com/download.flutter.io](https://storage.googleapis.com/download.flutter.io) 下载 Java 程序库，您可以在 Android 项目目录下的 build.gradle 中添加下面一行下载源，从而使用镜像源。
+在编译 android 项目时，flutter
+还会从 [https://storage.googleapis.com/download.flutter.io](https://storage.googleapis.com/download.flutter.io)
+下载 Java 程序库，您可以在 Android 项目目录下的 build.gradle 中添加下面一行下载源，从而使用镜像源。
 
 ```yaml
 allprojects {
-    repositories {
-        google()
-        jcenter()
-        maven { url 'https://mirrors.cernet.edu.cn/flutter/download.flutter.io' }
-    }
+  repositories {
+  google()
+  jcenter()
+  maven { url 'https://mirrors.cernet.edu.cn/flutter/download.flutter.io' }
+  }
 }
 ```
 
 ### Flutter SDK
 
-Flutter SDK 的更新会从 Github 获取，如您的开发设备访问 Github 速度慢，可以参考 [Flutter SDK 镜像](https://help.mirrors.cernet.edu.cn/flutter-sdk.git/)。
+Flutter SDK 的更新会从 Github 获取，如您的开发设备访问 Github
+速度慢，可以参考 [Flutter SDK 镜像](https://help.mirrors.cernet.edu.cn/flutter-sdk.git/)。
 
-更多 Flutter 资源和中文文档， 请访问 [Flutter 中文资源网站 (flutter.cn)](https://flutter.cn/) 和 [Dart 中文文档网站 (dart.cn)](https://dart.cn/)。
+更多 Flutter 资源和中文文档， 请访问 [Flutter 中文资源网站 (flutter.cn)](https://flutter.cn/)
+和 [Dart 中文文档网站 (dart.cn)](https://dart.cn/)。
 
 ## :[simple-icons:epel]: EPEL 软件仓库
+
 :::tip
 即将上线
 :::
 
-EPEL(Extra Packages for Enterprise Linux) 是由 Fedora Special Interest Group 维护的 Enterprise Linux（RHEL、CentOS）中经常用到的包。
+EPEL(Extra Packages for Enterprise Linux) 是由 Fedora Special Interest Group 维护的 Enterprise
+Linux（RHEL、CentOS）中经常用到的包。
 
 下面以 Rocky Linux 9 为例讲解如何使用本镜像站的 epel 镜像。RHEL 及其他衍生发行版同样可用该方法。
 
@@ -330,12 +359,12 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever
 gpgcheck=1
 ```
 
-由于无法同步，镜像站不包含 EPEL Cisco OpenH264 仓库（`epel-cisco-openh264.repo`），如果不需要可手动将其改为 `enabled=0`
+由于无法同步，镜像站不包含 EPEL Cisco OpenH264 仓库（`epel-cisco-openh264.repo`），如果不需要可手动将其改为
+`enabled=0`
 
 运行 `dnf update` 测试一下吧。
 
 ## :[logos:ubuntu]: Ubuntu 软件仓库
-
 
 参考 [CERNET文档](https://help.mirrors.cernet.edu.cn/ubuntu/) 即可
 
@@ -364,18 +393,22 @@ installer.exe --mirror https://mirrors.cernet.edu.cn/qt
 
 ## :[vscode-icons:file-type-tex]: CTAN 镜像
 
-CTAN (The Comprehensive TeX Archive Network) 是所有 TeX 排版系统相关材料的汇集地，收录了编译引擎、宏包及字体等的源代码与说明文档。目前，绝大多数 LaTeX 宏包会被上传至 CTAN 核心站点，随后同步到遍布全球的各个镜像。
+CTAN (The Comprehensive TeX Archive Network) 是所有 TeX 排版系统相关材料的汇集地，收录了编译引擎、宏包及字体等的源代码与说明文档。目前，绝大多数
+LaTeX 宏包会被上传至 CTAN 核心站点，随后同步到遍布全球的各个镜像。
 
 本文提供了 TeX Live 和 MiKTeX 两大主要发行版的镜像配置方法。
 
 ### TeX Live
 
-TeX Live 是目前使用最为广泛的 TeX 发行版，支持 Windows、Linux 和 macOS。其中，在 macOS 上发行的版本称为 MacTeX。
+TeX Live 是目前使用最为广泛的 TeX 发行版，支持 Windows、Linux 和 macOS。其中，在 macOS 上发行的版本称为
+MacTeX。
 
 安装方法
-TeX Live 发行版的常见安装方法可以参考[此文档](https://mirrors.cernet.edu.cn/CTAN/info/install-latex-guide-zh-cn/install-latex-guide-zh-cn.pdf)。
+TeX Live
+发行版的常见安装方法可以参考[此文档](https://mirrors.cernet.edu.cn/CTAN/info/install-latex-guide-zh-cn/install-latex-guide-zh-cn.pdf)。
 
-除每年更新的完整版 ISO 镜像以外，CTAN 镜像中也包含在线安装器。这种方法可以使安装的所有宏包均为最新版本，但受网络连接状况影响较大。操作方法为（很可能需要管理员权限）：
+除每年更新的完整版 ISO 镜像以外，CTAN
+镜像中也包含在线安装器。这种方法可以使安装的所有宏包均为最新版本，但受网络连接状况影响较大。操作方法为（很可能需要管理员权限）：
 
 :::steps
 
@@ -414,10 +447,13 @@ tlmgr update --all --repository https://mirrors.cernet.edu.cn/CTAN/systems/texli
 
 ### MiKTeX
 
-MiKTeX 发行版的特点在于仅安装用户需要的宏包，节省了磁盘空间占用，但在部分实现细节上与 TeX Live 有所出入。该发行版支持 Windows、Linux 和 macOS。
+MiKTeX 发行版的特点在于仅安装用户需要的宏包，节省了磁盘空间占用，但在部分实现细节上与 TeX Live
+有所出入。该发行版支持 Windows、Linux 和 macOS。
 
 安装
-MiKTeX 仅提供 Windows 和 macOS 的独立安装包，前往[TeX 排版系统下载页](https://mirrors.cernet.edu.cn/app/TeX%E6%8E%92%E7%89%88%E7%B3%BB%E7%BB%9F)即可。在 Linux 下的安装请参考[官方文档](https://miktex.org/howto/install-miktex-unx)。
+MiKTeX 仅提供 Windows 和 macOS
+的独立安装包，前往[TeX 排版系统下载页](https://mirrors.cernet.edu.cn/app/TeX%E6%8E%92%E7%89%88%E7%B3%BB%E7%BB%9F)
+即可。在 Linux 下的安装请参考[官方文档](https://miktex.org/howto/install-miktex-unx)。
 
 ### pkgsrc
 
