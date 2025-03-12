@@ -21,6 +21,7 @@ export const navbar = defineNavbarConfig([
         text: '项目文档',
         items: [
             {icon: 'carbon:license-third-party', text: '项目知识产权', link: '/project-docs/project-intellectual-property/'},
+            {icon: 'openmoji:european-name-badge', text: '文件命名规范', link: '/project-docs/standards/name-project/'},
             {icon: 'hugeicons:add-team', text: '全国大学生竞赛组队系统', link: '/project-docs/match-competitions/'},
             {icon: '/icon/zhiyu.png', text: '植愈：AI情绪小帮手', link: '/project-docs/plant-cure/'},
             {icon: '/icon/robot.png', text: '智慧中草药生态养护平台', link: '/project-docs/smart-car/'},
@@ -35,6 +36,7 @@ export const navbar = defineNavbarConfig([
             {icon: 'line-md:cloud-alt-tags-twotone-loop', text: '云原生资源管理系统', link: '/project-docs/cloud-manage/'},
             {icon: 'line-md:loading-alt-loop', text: 'when2eat', link: '/project-docs/when2eat/'},
             {icon: 'line-md:cloud-alt-print-twotone-loop', text: 'Oh my API', link: '/project-docs/oh-my-api/'},
+
         ]
     },
     {
