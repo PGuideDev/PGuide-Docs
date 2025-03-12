@@ -75,7 +75,7 @@ NVM（全名：Node.js Version Manager）可以帮助我们更高效地管理不
 
 软件安装及应用教程看[这里](/csdiy/study-path/front-dev/NVM/)
 
-> 安装完成后记得重启IDE和终端以重载环境变量
+> 安装完成后记得重启IDE和终端以重载环境变量,若github无法加载，需下载Watt Toolkit加速后即可。
 
 3. 导入项目
 
@@ -95,7 +95,7 @@ git clone https://github.com/MultipledMe/PGuide-Docs.git
 git clone git@github.com:MultipledMe/PGuide-Docs.git
 ```
 
-或者直接在WebStorm上点击“克隆仓库”，登录github账号进行导入
+或者直接在WebStorm上点击“克隆仓库（Clone Repository ）”，登录github账号进行导入
 
 
 
