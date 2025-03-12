@@ -239,9 +239,64 @@ git commit -m "feat: 添加用户登录功能"
 
 ### WebStorm拉取开发分支
 
-[//]: # (TODO: sx待填写)
+1. 确保已克隆仓库（如果您已近有仓库，直接进入下一步）
 
-**Commitizen辅助**（可选）：
+如果未克隆远程仓库，可按照以下步骤进行操作：
+
+打开WebStorm，点击File → New → Project from Version Control
+
+选择git，输入仓库URL，完成后等待WebStorm拉取代码
+
+2. 拉取远程分支
+
+Alt + F12打开终端，执行以下命令：
+
+```shell
+# 切换到 main 或 master 确保最新代码
+git checkout main  # 或者 master
+git pull origin main  # 更新主分支
+
+# 获取远程所有分支
+git fetch origin  
+
+# 切换到远程开发分支（如 develop）
+git checkout -b develop origin/develop  
+```
+
+解释：
+
+```shell
+git fetch origin：获取远程最新的分支信息。
+git checkout -b develop origin/develop：在本地创建 develop 分支并切换过去。
+```
+
+3. 拉取最新代码
+
+切换到开发分支后，执行拉取命令，确保代码是最新的
+
+```shell
+git pull origin develop
+```
+
+4. 确认分支切换成功
+
+在WebStorm右下角的git分支显示当前分支为’develop‘，或者执行：
+
+```shell
+git branch
+```
+
+输出类似
+```shell
+*develop
+main
+```
+
+表示你已近在’develop‘分支
+
+5. 开发新功能
+
+现状你已近成功拉取并切换到开发分支，开始您的编码，完成后，提交您的工作成果
 
 ```bash
 pnpm commit  # 启动交互式提交
