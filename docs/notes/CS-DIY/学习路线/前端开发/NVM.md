@@ -14,8 +14,8 @@ Node Version Manager，不同的前端项目往往需要不同的 node.js 版本
 你看到的版本号可能不一样，因为 nvm 一直在更新!
 
 根据如下步骤进行操作
-![img_3.png](..%2F..%2F..%2F..%2F.vuepress%2Fpublic%2Fsrc%2Fimg_3.png)
-![img_2.png](..%2F..%2F..%2F..%2F.vuepress%2Fpublic%2Fsrc%2Fimg_2.png)
+![2025-03-12_23-06-11.png](/src/2025-03-12_23-06-11.png)
+![2025-03-12_23-05-21.png](/src/2025-03-12_23-05-21.png)
 
 下载完成后安装，一直下一步即可
 
@@ -24,7 +24,7 @@ Node Version Manager，不同的前端项目往往需要不同的 node.js 版本
 :::
 
 ### 验证安装
-![img_4.png](..%2F..%2F..%2F..%2F.vuepress%2Fpublic%2Fsrc%2Fimg_4.png)
+![2025-03-12_23-05-01.png](/src/2025-03-12_23-05-01.png)
 
 ### npm安装与使用
 淘宝镜像用于加速 npm 包下载速度
