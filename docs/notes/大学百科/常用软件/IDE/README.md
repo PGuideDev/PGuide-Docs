@@ -2,6 +2,7 @@
 title: IDE是什么
 createTime: 2025/03/02 16:53:35
 permalink: /campus-wiki/common-software/IDE/
+icon: fluent-color:code-20
 ---
 # 什么是IDE
 **Integrated Development Environment**，集成开发环境。以前敲代码需要先用文本编辑器把代码写好，再用编译器将不同编码格式的文本转译为 ASCII 码或二进制码，让计算机能够理解用户的输入输出 IO。很多情况下，还需要复杂地配置环境。

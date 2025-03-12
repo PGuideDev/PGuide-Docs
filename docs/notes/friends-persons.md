@@ -257,7 +257,7 @@ list:
     nameColor:
   - name: huguangtao
     link: 
-    avatar: /hgt.jpg
+    avatar: /avatar/hgt.jpg
     desc: Today is not easy, tomorrow is more difficult, but the day after tomorrow will be wonderful.
     location: 中国，重庆
     organization: 重庆邮电大学
