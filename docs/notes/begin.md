@@ -20,12 +20,12 @@ permalink: /begin/
 <LinkCard
 icon="/icon/note.svg"
 title="学习笔记"
-href="/project-docs/">
+href="/learning-notes/">
 学长学姐的学习笔记，带你一起走过大学的每一个阶段～
 
--  课程笔记
--  自学心得
--  在线问答
+- 😊课程笔记
+- 😊自学心得
+- 😊在线问答
 
 我们已经帮你踩过很多坑啦，就等你来走了!
 </LinkCard>
