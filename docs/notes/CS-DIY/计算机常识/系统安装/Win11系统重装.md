@@ -7,7 +7,7 @@ icon: brandico:win8
 
 编写者：❤ [翻斗花园牛爷爷, Lily](/friends/persons/)
 
-[//]: # (TODO: chy请修改图片名称)
+
 
 ## Win11系统重装
 ### 【前置提醒：本次教程使用机型参数，供参考】
