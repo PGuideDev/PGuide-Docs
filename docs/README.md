@@ -13,12 +13,12 @@ config:
         - theme: brand
           text: 开始阅读
           link: /notes/begin
-          icon: icon-park:read-book
+          icon: fa6-solid:book-open-reader
 
         - theme: brand
           text: 贡献指南
           link: /notes/contribute
-          icon: tdesign:cooperate-filled
+          icon: mdi:human-hello-variant
 
         - theme: alt
           text: 语雀文档

@@ -96,11 +96,10 @@ export default defineThemeConfig({
         title: '项导文档更新公告',
         contentType: 'markdown',
         content: `\
-**2025-03-13**
-- 完善镜像站文档
-- 添加oh my api、when2eat、项目文档
-- 测试Zotero文档
-
+**2025-03-14**
+- 添加校内生活文档
+- 添加许多项目文档 
+- 
 加入开发组，一起完善文档！
 `,
     },

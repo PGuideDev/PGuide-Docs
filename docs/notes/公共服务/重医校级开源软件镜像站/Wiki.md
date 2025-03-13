@@ -5,6 +5,8 @@ permalink: /public-service/cqmu-mirror/wiki/
 icon: simple-icons:wikibooks
 ---
 
+
+
 :::info 关于CQMU Mirror Wiki
 
 1. 重庆医科大学开源软件镜像站Wiki文档旨在帮助同学们更快了解镜像源的相关信息和配置步骤
@@ -21,13 +23,13 @@ icon: simple-icons:wikibooks
 | CPAN | rsync://cpan-rsync.perl.org/CPAN/  | 33.89G | √    |
 |      |                                    |        |      |
 
+[//]: # (TODO: chy待收集数据，将下面提到的镜像将他们的容量根据 https://mirrors.cernet.edu.cn/list 填写到markdown表格)
+
 :::
 
 :::tip
 即将上线
 :::
-
-[//]: # (TODO: 待完善)
 
 ## :[devicon:anaconda]: Anaconda 软件仓库
 
@@ -328,7 +330,7 @@ sudo sed -e 's!^metalink=!#metalink=!g' \
 
 ```shell
 [epel]
-name=Extra Packages for Enterprise Linux $releasever - $basearch
+name=Extra Packages for Enterprise 1.Linux $releasever - $basearch
 # It is much more secure to use the metalink, but if you wish to use a local mirror
 # place its address here.
 baseurl=https://mirrors.cernet.edu.cn/epel/$releasever/Everything/$basearch/
@@ -339,7 +341,7 @@ countme=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever
 
 [epel-debuginfo]
-name=Extra Packages for Enterprise Linux $releasever - $basearch - Debug
+name=Extra Packages for Enterprise 1.Linux $releasever - $basearch - Debug
 # It is much more secure to use the metalink, but if you wish to use a local mirror
 # place its address here.
 baseurl=https://mirrors.cernet.edu.cn/epel/$releasever/Everything/$basearch/debug/
@@ -349,7 +351,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-$releasever
 gpgcheck=1
 
 [epel-source]
-name=Extra Packages for Enterprise Linux $releasever - $basearch - Source
+name=Extra Packages for Enterprise 1.Linux $releasever - $basearch - Source
 # It is much more secure to use the metalink, but if you wish to use a local mirror
 # place its address here.
 baseurl=https://mirrors.cernet.edu.cn/epel/$releasever/Everything/source/tree/
