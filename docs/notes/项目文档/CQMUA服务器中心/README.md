@@ -60,8 +60,25 @@ CQMUA，全称Chongqing Minecraft University Alliance，是重庆市高校的Min
 :::
 
 ## 组件的功能
+一、头部
 
-头部：导航栏、主内容区（信息展示、交互功能、数据可视化）、页脚（联系方式、版权声明）、功能组件（普通按钮、图标按钮、导航菜单等），其中主内容区有CQMUA联盟高校板块、账户板块、MUA联盟高校板块
+- 导航栏 
+  - 组成结构：采用水平布局设计，集成核心功能入口
+  - 功能要素：主菜单项：首页/用户板块/CQMUA联盟/MUA联盟
+
+二、主内容区（CQMUA联盟高校、MUA联盟高校）
+
+- CQMUA联盟板块
+  - 可视化布局：自适应网络系统
+  - 校徽矩阵：
+    - 点击交互：1.织标识（校徽+MC组织定制LOGO）2.服务器状态（显示服务器在线个数）3.快速入口（跳转链接）
+- MUA联盟板块同上
+
+三、页脚
+- 2025 ©CQMUA | Open Source refers to Github | Wish you a good day!
+
+
+
 # Development Plan
 
 - [ ] Query by ID
