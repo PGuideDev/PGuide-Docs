@@ -2,7 +2,7 @@
 title: 竞赛篇
 createTime: 2025/03/04 06:15:35
 permalink: /campus-wiki/competition/
-icon: '/competition.svg'
+icon: '/icon/competition.svg'
 ---
 
 按以下要求收录赛事：

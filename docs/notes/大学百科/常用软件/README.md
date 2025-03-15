@@ -2,6 +2,7 @@
 title: 常用软件教程
 createTime: 2025/03/02 16:32:20
 permalink: /campus-wiki/common-software/
+icon: arcticons:ultimate-software
 ---
 ## IDE 篇
 ### Microsoft 系列

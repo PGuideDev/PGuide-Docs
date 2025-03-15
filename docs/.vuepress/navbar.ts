@@ -179,11 +179,20 @@ export const navbar = defineNavbarConfig([
             },
             {icon: 'ic:baseline-school', text: '校内生活', link: '/campus-wiki/campus-life/'},
             {icon: '/icon/competition.svg', text: '竞赛篇', link: '/campus-wiki/competition/'},
-            {icon: '/icon/kaoyan.svg', text: '考研篇', link: '/campus-wiki/competition/'},
-            {icon: '/icon/kaogong.svg', text: '考公篇', link: ''},
-            {icon: '/icon/baoyan.svg', text: '保研篇', link: ''},
-            {icon: '/icon/liuxue.svg', text: '留学篇', link: ''},
-            {icon: '/icon/internship.svg', text: '实习篇', link: ''},
+            {
+                icon: '/icon/kaoyan.svg',
+                text: '考研篇',
+                link: '/campus-wiki/postgraduate-entrance-exam/'
+            },
+            {icon: '/icon/kaogong.svg', text: '考公篇', link: '/campus-wiki/civil-service-exam/'},
+            {
+                icon: '/icon/baoyan.svg',
+                text: '保研篇',
+                link: '/campus-wiki/postgraduate-recommendation/'
+            },
+            {icon: '/icon/liuxue.svg', text: '留学篇', link: '/campus-wiki/study-abroad/'},
+            {icon: '/icon/internship.svg', text: '实习篇', link: '/campus-wiki/internship/'},
+            {icon: 'streamline:ai-science-spark-solid', text: '科研篇',link: '/campus-wiki/scientific-research/'}
         ]
     },
     {
@@ -202,7 +211,7 @@ export const navbar = defineNavbarConfig([
             {
                 icon: '/icon/maintain.svg',
                 text: '服务器维护',
-                link: '/backend-manage/server-maintainance/'
+                link: '/backend-manage/server-maintenance/'
             },
         ],
     },
