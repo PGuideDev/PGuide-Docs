@@ -25,7 +25,7 @@ CQMUA，全称Chongqing Minecraft University Alliance，是重庆市高校的Min
 - 完成前端页面、UI的设计
 - 完成重庆部分高校Minecraft服务器的收集
 
-## CQMUA高校数组含义
+## CQMUA数组含义
 
 :::tip 目前可编辑的字段
 | 字段 | 含义 |
@@ -57,9 +57,8 @@ CQMUA，全称Chongqing Minecraft University Alliance，是重庆市高校的Min
     mua_bj: 'bj.mua.cymc.club'
     
 ```
-
-
 :::
+
 
 
 
