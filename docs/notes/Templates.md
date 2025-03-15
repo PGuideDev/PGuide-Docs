@@ -18,3 +18,7 @@ permalink: /templates/
 <LinkCard icon="" href="" title="" ></LinkCard>
 <LinkCard icon="" href="" title="" ></LinkCard>
 </CardGrid>
+
+:[]:
+
+:[noto:red-heart]:

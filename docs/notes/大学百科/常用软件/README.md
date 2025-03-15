@@ -4,44 +4,83 @@ createTime: 2025/03/02 16:32:20
 permalink: /campus-wiki/common-software/
 icon: arcticons:ultimate-software
 ---
-## IDE 篇
-### Microsoft 系列
 
-- [Visual Studio Code ](https://code.visualstudio.com/)
-    ：目前最好的轻量级IDE,支持多种语言，插件丰富，功能强大。
-- [Visual Studio ]( https://visualstudio.microsoft.com/)
-    ：功能强大，支持C++,C#等语言，适合大型项目开发。（windows 环境下最好的C++开发工具）
 
-### JetBrains 系列
-- [IntelliJ IDEA](https://www.jetbrains.com/idea/)
-    ：适用于Java、Kotlin、Groovy、Scala等语言，
-- [PyCharm](https://www.jetbrains.com/pycharm/)
-    ：适用于Python语言，
-- [WebStorm](https://www.jetbrains.com/webstorm/)
-    ：适用于Web开发（HTML、CSS、JavaScript等），
-- [GoLand](https://www.jetbrains.com/go/)
-    ：适用于Go语言，
-- [CLion](https://www.jetbrains.com/clion/)
-    ：适用于C和C++语言，
-- [RubyMine](https://www.jetbrains.com/ruby/)
-    ：适用于Ruby语言，
-- [AppCode](https://www.jetbrains.com/appcode/)
-    ：适用于Swift、Objective-C、C++等语言，
-- [DataGrip](https://www.jetbrains.com/datagrip/)
-    ：适用于数据库开发，
-- [PhpStorm](https://www.jetbrains.com/phpstorm/)
-    ：适用于PHP语言，
-- [Rider](https://www.jetbrains.com/rider/)
-    ：适用于.NET开发，
-- [ReSharper](https://www.jetbrains.com/resharper/)
-    ：适用于C#、VB.NET、ASP.NET等语言的代码分析工具，
+
+
+## 集成开发环境IDE
+
+### :[logos:microsoft-icon]:Microsoft 系列
+
+:::tabs
+@tab :[devicon:vscode]:Visual Studio Code
+> 前往[软件教程](/campus-wiki/common-software/IDE/VSCode/)
+- 功能定位：轻量级跨平台 IDE，支持多语言扩展
+- 核心特点：插件生态丰富、启动速度快、Git 集成完善  
+- [官网链接](https://code.visualstudio.com/)
+
+@tab :[devicon:visualstudio]:Visual Studio
+- 支持语言：C++/C#/.NET 等
+- 核心优势：专业调试工具链、企业级项目支持  
+- 特别说明：Windows 平台最佳 C++ 开发工具  
+- [官网链接](https://visualstudio.microsoft.com/)
+:::
+
+### :[simple-icons:jetbrains]:JetBrains 系列
+
+:::tabs
+@tab :[logos:intellij-idea]:IntelliJ IDEA
+- 支持语言：Java、Kotlin、Groovy、Scala 等
+- [官网链接](https://www.jetbrains.com/idea/)
+
+@tab :[devicon:pycharm]:PyCharm
+- 支持语言：Python
+- [官网链接](https://www.jetbrains.com/pycharm/)
+
+@tab :[devicon:webstorm]:WebStorm
+- 支持语言：HTML、CSS、JavaScript 等 Web 技术
+- [官网链接](https://www.jetbrains.com/webstorm/)
+
+@tab :[devicon:goland]:GoLand
+- 支持语言：Go
+- [官网链接](https://www.jetbrains.com/go/)
+
+@tab :[devicon:clion]:CLion
+- 支持语言：C/C++
+- [官网链接](https://www.jetbrains.com/clion/)
+
+@tab :[devicon:rubymine]:RubyMine
+- 支持语言：Ruby
+- [官网链接](https://www.jetbrains.com/ruby/)
+
+@tab :[logos:appcode]:AppCode
+- 支持语言：Swift/Objective-C/C++
+- [官网链接](https://www.jetbrains.com/appcode/)
+
+@tab :[devicon:datagrip]:DataGrip
+- 功能定位：数据库开发工具
+- [官网链接](https://www.jetbrains.com/datagrip/)
+
+@tab :[devicon:phpstorm]:PhpStorm
+- 支持语言：PHP
+- [官网链接](https://www.jetbrains.com/phpstorm/)
+
+@tab :[devicon:rider]:Rider
+- 支持平台：.NET 开发
+- [官网链接](https://www.jetbrains.com/rider/)
+
+@tab :[simple-icons:resharper]:ReSharper
+- 功能定位：C#/VB.NET/ASP.NET 代码分析
+- [官网链接](https://www.jetbrains.com/resharper/)
+:::
 
 ## 笔记软件
 
 ### Typora
-:::tip
-此处待写
-:::
+
+<LinkCard icon="/icon/Typora.svg" href="/campus-wiki/common-softwares/note-softwares/typora/" title="Typora" >一款 Markdown 编辑器和阅读器</LinkCard>
+
+
 ### Notion
 
 :::tip
