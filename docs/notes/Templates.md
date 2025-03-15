@@ -12,3 +12,9 @@ permalink: /templates/
 
 <kbd></kbd>
 
+<CardGrid>
+<LinkCard icon="" href="" title="" ></LinkCard>
+<LinkCard icon="" href="" title="" ></LinkCard>
+<LinkCard icon="" href="" title="" ></LinkCard>
+<LinkCard icon="" href="" title="" ></LinkCard>
+</CardGrid>

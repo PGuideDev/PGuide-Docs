@@ -108,6 +108,7 @@ export const navbar = defineNavbarConfig([
         text: 'CS-DIY',
         items: [
             {icon: '/icon/code.svg', text: '前言', link: '/cs-diy/'},
+            {icon: 'twemoji:thinking-face',text: '公开课',link: '/csdiy/public-class/'},
             {icon: 'mdi:tools', text: '必学工具', link: '/csdiy/tools-must/'},
             {icon: 'carbon:cics-program', text: '编程入门', link: '/csdiy/program-begin/'},
             {icon: '/icon/dev-standard.svg', text: '开发规范', link: '/csdiy/dev-rules/'},
