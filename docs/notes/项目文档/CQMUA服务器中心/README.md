@@ -73,6 +73,9 @@ CQMUA，全称Chongqing Minecraft University Alliance，是重庆市高校的Min
   - 校徽LOGO矩阵：
     - 点击交互：1.织标识（校徽+MC组织定制LOGO）2.服务器状态（显示服务器在线个数）3.快速入口（跳转链接）
 - MUA联盟板块同上
+- 用户中心
+  - 注册CQMUA passport 
+  - 在线玩家列表
 
 三、页脚
 - 2025 ©CQMUA | Open Source refers to Github | Wish you a good day!
