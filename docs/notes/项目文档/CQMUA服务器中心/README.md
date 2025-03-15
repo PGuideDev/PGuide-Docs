@@ -42,18 +42,24 @@ CQMUA，全称Chongqing Minecraft University Alliance，是重庆市高校的Min
 
 ```yaml
 - id: CQMU
-  link: https://www.rand777.space
-  avatar: https://www.rand777.space/avatar.png
-  desc: 一个热爱开源的学生
-  location: 中国
-  organization: 中国原神大学
-  socials:
-    - icon: bxl-github
-      link:
-    - icon: bxl-blogger
-      link:
+  name: 重庆医科大学Minecraft组织CYMC
+  community: CYMC
+  avatar: https://www.cqmu.online/wp-content/uploads/2024/10/%E4%B8%8B%E8%BD%BD__1_-removebg-preview.png
+  avatar_university: https://upload.wikimedia.org/wikipedia/zh/thumb/e/e1/Chongqing_Medical_University_logo.svg/400px-Chongqing_Medical_University_logo.svg.png
+  link: https://www.cqmu.online/
+  servers:
+    cqmua_main: 'mc.cqmua.cn',
+    df_entry: 'mc.cytouhou.top',
+    mua_sc: 'sc.mua.cymc.club',
+    mua_hb: 'hb.mua.cymc.club',
+    mua_zj: 'zj.mua.cymc.club',
+    mua_sh: 'sh.mua.cymc.club',
+    mua_bj: 'bj.mua.cymc.club'
+    
 ```
 
+
+:::
 
 
 
