@@ -5,7 +5,7 @@ permalink: /project-docs/cqmua-center/
 icon: '/icon/command_block.gif'
 ---
 
-## CQMUA是什么？
+##CQMUA是什么？
 
 CQMUA，全称Chongqing Minecraft University Alliance，是重庆市高校的Minecraft联盟。CQMUA的本质是借助Minecraft的开放性和创造性，构建一个融合教育、社交与创新的数字化生态,是打造游戏研发、社群运营与高校资源的共创平台，能够汇聚实战经验、创新项目及行业资源，赋能成长与突破。
 
