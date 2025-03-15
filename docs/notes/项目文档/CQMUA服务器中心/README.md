@@ -59,6 +59,9 @@ CQMUA，全称Chongqing Minecraft University Alliance，是重庆市高校的Min
 ```
 :::
 
+## 组件的功能
+
+
 
 
 
