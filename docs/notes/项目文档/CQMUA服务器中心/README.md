@@ -24,7 +24,38 @@ CQMUA，全称Chongqing Minecraft University Alliance，是重庆市高校的Min
 
 - 完成前端页面、UI的设计
 - 完成重庆部分高校Minecraft服务器的收集
-- 
+
+## CQMUA高校数组含义
+
+:::tip 目前可编辑的字段
+| 字段 | 含义 |
+|----------------|-----------------------------------|
+| id | 高校缩写 |
+| name | 大学名字+组织名 |
+| community | 组织缩写 |
+| avatar | 高校校徽的图片链接 |
+| avatar_university | 组织图案链接 |
+| link | 高校Minecrft的网站链接 |
+| servers | 高校Minecraft服务器的IP地址 |
+
+示例：
+
+```yaml
+- id: CQMU
+  link: https://www.rand777.space
+  avatar: https://www.rand777.space/avatar.png
+  desc: 一个热爱开源的学生
+  location: 中国
+  organization: 中国原神大学
+  socials:
+    - icon: bxl-github
+      link:
+    - icon: bxl-blogger
+      link:
+```
+
+
+
 
 
 
