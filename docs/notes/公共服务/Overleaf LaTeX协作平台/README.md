@@ -83,6 +83,12 @@ Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在
 
 ### 目前开发完成的模板
 
+::: details 重庆医科大学简历参考模板
+[大学百科-实习篇-简历制作与修改](/campus-wiki/internship/resume/)
+
+@[pdf height="600px"](https://cos.cqmu.online/docs/CQMU_%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BFV1_7_4_R.pdf)
+:::
+
 ::: details 重庆医科大学本科生毕业论文（设计）示例模板
 @[pdf height="600px"](https://cos.cqmu.online/docs/cqmu-bs-thesis.pdf)
 :::
@@ -94,6 +100,8 @@ Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在
 ::: details 平时作业和小论文模板
 到[:[simple-icons:overleaf]:Overleaf](https://cn.overleaf.com/latex/templates/cqmu-researchreport/qghkqhhtzfkp)
 查看
+
+
 :::
 
 ### 计划中的模板
