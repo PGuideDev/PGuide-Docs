@@ -86,11 +86,6 @@ export const navbar = defineNavbarConfig([
                 link: '/project-docs/various-gestures/'
             },
             {
-                icon: 'line-md:beer-alt-twotone-loop',
-                text: '智能输液系统',
-                link: '/project-docs/check-the-line/'
-            },
-            {
                 icon: 'line-md:cloud-alt-tags-twotone-loop',
                 text: '云原生资源管理系统',
                 link: '/project-docs/cloud-manage/'

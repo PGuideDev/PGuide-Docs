@@ -22,3 +22,23 @@ permalink: /templates/
 :[]:
 
 :[noto:red-heart]:
+
+:::: steps
+1. 步骤 1
+
+   ```ts
+   console.log('Hello World!')
+   ```
+
+2. 步骤 2
+
+   这里是步骤 2 的相关内容
+
+3. 步骤 3
+
+   ::: tip
+   提示容器
+   :::
+
+4. 结束
+::::

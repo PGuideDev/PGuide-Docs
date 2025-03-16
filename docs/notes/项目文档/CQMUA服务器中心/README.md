@@ -3,18 +3,22 @@ title: CQMUA服务器中心
 createTime: 2025/03/04 00:02:13
 permalink: /project-docs/cqmua-center/
 icon: '/icon/command_block.gif'
+tags:
+  - Vue3
+  - CQMUA
+  - 前端开发
 ---
+
+<RepoCard repo="CQMUA/ServerCenter4CQMUA"></RepoCard>
 
 ## CQMUA是什么？
 
-CQMUA，全称Chongqing Minecraft University Alliance，是重庆市高校的Minecraft联盟。CQMUA的本质是借助Minecraft的开放性和创造性，构建一个融合教育、社交与创新的数字化生态,是打造游戏研发、社群运营与高校资源的共创平台，能够汇聚实战经验、创新项目及行业资源，赋能成长与突破。
-
+CQMUA，全称Chongqing Minecraft University
+Alliance，是重庆市高校的Minecraft联盟。CQMUA的本质是借助Minecraft的开放性和创造性，构建一个融合教育、社交与创新的数字化生态,是打造游戏研发、社群运营与高校资源的共创平台，能够汇聚实战经验、创新项目及行业资源，赋能成长与突破。
 
 ## 项目简介
 
 服务器中心的使命是为重庆高校的Minecraft玩家提供一个服务器的状态监控界面。用户可一键查看各校服务器实时状态，自由选择进入不同高校的虚拟校园，探索其特色地图与课程内容，轻松找到并体验自己感兴趣的学术与创意项目。MUA服务器中心让“逛遍全球高校服务器”像刷社交网络一样简单，真正实现跨校资源触手可及。
-
-<RepoCard repo="CQMUA/ServerCenter4CQMUA"></RepoCard>
 
 ## 项目技术
 
@@ -55,34 +59,35 @@ CQMUA，全称Chongqing Minecraft University Alliance，是重庆市高校的Min
     mua_zj: 'zj.mua.cymc.club',
     mua_sh: 'sh.mua.cymc.club',
     mua_bj: 'bj.mua.cymc.club'
-    
+
 ```
+
 :::
 
 ## 组件的功能
+
 一、头部
 
-- 导航栏 
-  - 组成结构：采用水平布局设计，集成核心功能入口
-  - 主菜单项：大项目/互通服/认证系统/友情链接/深色模式开关
+- 导航栏
+    - 组成结构：采用水平布局设计，集成核心功能入口
+    - 主菜单项：大项目/互通服/认证系统/友情链接/深色模式开关
 
 二、主内容区（CQMUA联盟高校、MUA联盟高校）
 
 - CQMUA联盟板块
-  -  可视化布局：自适应网络系统
-  - 校徽LOGO矩阵：
-    - 点击交互：1.织标识（校徽+MC组织定制LOGO）2.服务器状态（显示服务器在线个数）3.快速入口（跳转链接）
+    - 可视化布局：自适应网络系统
+    - 校徽LOGO矩阵：
+        - 点击交互：1.织标识（校徽+MC组织定制LOGO）2.服务器状态（显示服务器在线个数）3.快速入口（跳转链接）
 - MUA联盟板块同上
 - 用户中心
-  - 注册CQMUA passport 
-  - 在线玩家列表
+    - 注册CQMUA passport
+    - 在线玩家列表
 
 三、页脚
+
 - 2025 ©CQMUA | Open Source refers to Github | Wish you a good day!
 
-
-
-# Development Plan
+## 开发计划
 
 - [ ] Query by ID
 - [ ] Province Classification
