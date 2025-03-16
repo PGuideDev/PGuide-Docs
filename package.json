@@ -35,6 +35,7 @@
     "flowchart": "^1.2.0",
     "hls.js": "^1.5.20",
     "mermaid": "^11.4.1",
-    "mpegts.js": "^1.8.0"
+    "mpegts.js": "^1.8.0",
+    "swiper": "^11.2.5"
   }
 }

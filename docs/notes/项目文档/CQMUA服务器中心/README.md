@@ -11,6 +11,8 @@ tags:
 
 <RepoCard repo="CQMUA/ServerCenter4CQMUA"></RepoCard>
 
+<Swiper :items="['/src/2025-03-17_02-24-07.png','/src/2025-03-17_02-18-57.png']" effect="cards" pauseOnMouseEnter="true"/>
+
 ## CQMUA是什么？
 
 CQMUA，全称Chongqing Minecraft University
