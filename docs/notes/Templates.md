@@ -6,6 +6,10 @@ permalink: /templates/
 
 这里有常用的组件和语法糖的使用示例。
 
+:::tip
+待完善
+:::
+
 <ImageCard
 image=""
 title=""

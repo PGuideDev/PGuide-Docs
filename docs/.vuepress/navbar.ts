@@ -103,7 +103,7 @@ export const navbar = defineNavbarConfig([
         text: 'CS-DIY',
         items: [
             {icon: '/icon/code.svg', text: '前言', link: '/cs-diy/'},
-            {icon: 'twemoji:thinking-face',text: '公开课',link: '/csdiy/public-class/'},
+            {icon: 'twemoji:thinking-face', text: '公开课', link: '/csdiy/public-class/'},
             {icon: 'mdi:tools', text: '必学工具', link: '/csdiy/tools-must/'},
             {icon: 'carbon:cics-program', text: '编程入门', link: '/csdiy/program-begin/'},
             {icon: '/icon/dev-standard.svg', text: '开发规范', link: '/csdiy/dev-rules/'},
@@ -128,7 +128,7 @@ export const navbar = defineNavbarConfig([
             {
                 icon: 'vscode-icons:file-type-gitlab',
                 text: 'Gitlab EE代码托管平台',
-                link: '/public-service/gitlab-ee/'
+                link: '/public-service/code-manage/gitlab-ee/'
             },
             {
                 icon: '/icon/mirror.svg',
@@ -189,7 +189,7 @@ export const navbar = defineNavbarConfig([
             },
             {icon: '/icon/liuxue.svg', text: '留学篇', link: '/campus-wiki/study-abroad/'},
             {icon: '/icon/internship.svg', text: '实习篇', link: '/campus-wiki/internship/'},
-            {icon: 'streamline:ai-science-spark-solid', text: '科研篇',link: '/campus-wiki/scientific-research/'}
+            {icon: 'streamline:ai-science-spark-solid', text: '科研篇', link: '/campus-wiki/scientific-research/'}
         ]
     },
     {
@@ -201,10 +201,11 @@ export const navbar = defineNavbarConfig([
                 text: 'OAuth登录(测试版)',
                 link: 'https://hrtcsm.logto.app/demo-app'
             },
-            {icon: 'icon-park:data-lock', text: '数据中心', link: ''},
-            {icon: '/icon/control.svg', text: '项导运维控制中台', link: ''},
-            {icon: '/icon/vpn.svg', text: 'VPN服务', link: ''},
-            {icon: '/icon/cloud.svg', text: '云计算资源调度中心', link: ''},
+            {icon: 'icon-park:data-lock', text: '数据中心', link: '/backend-manage/data-center/'},
+            {icon: '/icon/control.svg', text: '项导运维控制中台', link: '/backend-manage/pguide-maintenance-kit/'},
+            {icon: '/icon/vpn.svg', text: 'VPN服务', link: '/backend-manage/vpb-service/'},
+            {icon: '/icon/cloud.svg', text: '云计算资源调度中心', link: '/backend-manage/cloud-compute-invoke-center/'},
+            {icon: 'material-symbols:monitoring-rounded', text: '监控中心', link: '/backend-manage/monitor-center/'},
             {
                 icon: '/icon/maintain.svg',
                 text: '服务器维护',
