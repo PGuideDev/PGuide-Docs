@@ -18,7 +18,7 @@ author=""
 
 <RepoCard repo=""></RepoCard>
 
-@[pdf]()
+@[pdf height="600"]()
 
 <kbd></kbd>
 
