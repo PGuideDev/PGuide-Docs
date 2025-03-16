@@ -107,7 +107,6 @@ const timeId = setInterval(() => {
 ```
 :::
 
-[//]: # (TODO: lwj待完善)
 
 ## 项目简介
 

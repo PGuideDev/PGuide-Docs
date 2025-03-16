@@ -19,9 +19,6 @@ LaTeX最初设计用作学术论文的编写，后面逐渐发展成一款全能
 ## Overleaf使用
 
 ### 尝鲜体验
-
-
-
 <LinkCard icon="/icon/overleaf.svg" title="Overleaf在线官网" href="https://cn.overleaf.
 com/">中文官网</LinkCard>
 
@@ -37,10 +34,19 @@ Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在
 在 [Overleaf的模板网](https://cn.overleaf.com/latex/templates)中，你可以看到很多类型的模板，这些和文字相关的工作LaTeX都能应付！
 ![2025-03-10_02-52-40.png](../../../.vuepress/public/src/2025-03-10_02-52-40.png)
 
+### 如何使用模板
+
+以重医简历参考模板为例，建议使用[:[/icon/orcid.svg]:ORCID账号](https://info.orcid.org/zh-CN/%E4%BB%80%E4%B9%88%E6%98%AF-orcid/)登录，登录后你应该看到这个界面：
+
+
+
 ### Overleaf CQMU
 
 ::: tip [http://192.168.183.171](http://192.168.183.171)
 校园网内网已经可以访问，在做最终准备
+
+_2025-03-17 维护后上线_
+
 :::
 
 ## LaTeX

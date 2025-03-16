@@ -19,7 +19,7 @@ createTime: 2025/03/06 16:40:46
 | :[mdi:web]:                         | 门户网站页，多为子页面                                                                       |
 | :[mingcute:bilibili-line]:          | 个人B站主页，[Bilibili](https://www.bilibili.com/)                                      |
 | :[fxemoji:email]:                   | 电子邮箱，点击即可联系                                                                       |
-| :[/orcid.svg]:                      | ORCID，[什么是ORCID](https://info.orcid.org/zh-CN/%E4%BB%80%E4%B9%88%E6%98%AF-orcid/) |
+| :[/icon/orcid.svg]:                 | ORCID，[什么是ORCID](https://info.orcid.org/zh-CN/%E4%BB%80%E4%B9%88%E6%98%AF-orcid/) |
 | :[academicons:google-scholar]:      | [谷歌学术](https://scholar.google.com/)个人主页                                           |
 | :[prime:twitter]:                   | [X社交平台](https://x.com/)，原twitter                                                  |
 | :[vscode-icons:file-type-pdf2]:     | 个人PDF简历                                                                           |

@@ -8,7 +8,7 @@ icon: https://raw.githubusercontent.com/Dooy/chatgpt-web-midjourney-proxy/main/s
 此处待完善
 :::
 
-[//]: # (TODO: sx待测试)
+[//]: # (TODO: zsl待测试)
 
 <LinkCard icon="https://raw.githubusercontent.com/Dooy/chatgpt-web-midjourney-proxy/main/src/assets/avatar.jpg" href="https://gpt.cqmu.online/" title="ChatGPT MidJourneyProxy" >PGuide GPT</LinkCard>
 
