@@ -91,17 +91,16 @@ export default defineThemeConfig({
      * 公告板
      * @see https://theme-plume.vuejs.press/guide/features/bulletin/
      */
-    bulletin: {
-        layout: 'bottom-right',
-        title: '项导文档更新公告',
-        contentType: 'markdown',
-        content: `\
-**2025-03-15**
-- 添加校内生活文档
-- 添加许多项目文档 
-加入开发组，一起完善文档！
-`,
-    },
+//     bulletin: {
+//         layout: 'bottom-right',
+//         title: '项导文档更新公告',
+//         contentType: 'markdown',
+//         content: `\
+// **2025-03-17**
+// - 添加许多项目文档
+// 加入开发组，一起完善文档！
+// `,
+//     },
 
     /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
     transition: {
