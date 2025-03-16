@@ -5,4 +5,4 @@ permalink: /campus-wiki/campus-life/
 icon: ic:baseline-school
 ---
 
-哇哦，原来大学还可以这样
+此处的内容面向重庆医科大学全体学生。

@@ -3,6 +3,11 @@ title: LobeChat
 createTime: 2025/02/24 04:53:45
 permalink: /public-service/GPT/lobe-chat/
 icon: https://lobechat.com/icons/icon-192x192.png
+tags:
+  - GPT
+  - PGuide OAuth
+  - 对象存储
+  - 
 ---
 
 [//]: # (TODO: sx待测试)

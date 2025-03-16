@@ -4,6 +4,17 @@ createTime: 2025/03/08 00:02:21
 permalink: /templates/
 ---
 
+这里有常用的组件和语法糖的使用示例。
+
+<ImageCard
+image=""
+title=""
+description=""
+href="/"
+author=""
+date="yyyy/mm/dd"
+/>
+
 <LinkCard icon="" href="" title="" ></LinkCard>
 
 <RepoCard repo=""></RepoCard>

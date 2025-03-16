@@ -1,13 +1,14 @@
 ---
 createTime: 2025/02/19 15:43:20
 title: ♥We harmonize in the same call~♥
+description: 排名不分先后
 permalink: /friends/organizations/
 pageLayout: friends
 groups:
   - title: PGuide Studio
-    desc: A team who builds projects as their dreams
+    desc: An interesting team who builds projects as their dreams.
     list:
-      - name: 项导工作室官网
+      - name: 项导工作室官网(迁移中)
         link: https://www.pguide.studio
         avatar: https://docs.pguide.studio/icon/logo.svg
         location: Global distribution
@@ -19,6 +20,42 @@ groups:
         location: Global distribution
         organization: PGuide Studio Yuque
         desc: Gracious thoughts stay in with simple words.
+      - name: PGuide Status
+        link: https://status.cqmu.online/
+        location: Global distribution
+        avatar: https://uptime.kuma.pet/img/icon.svg
+        organization: PGuide Studio
+        desc: 基于Uptime Kuma的多源站点状态监控Vue界面
+      - name: 重庆医科大学校级镜像站(即将上线)
+        link: https://mirrors.cqmu.edu.cn/
+        location: 重庆医科大学、CERNET联盟
+        avatar: /icon/mirror.svg
+        organization: CQMU Mirror Group、PGuide Studio
+        desc: 一个面向西南地区的开源软件镜像站
+      - name: Overleaf CQMU(内网)
+        link: https://192.168.183.171
+        location: 重庆医科大学
+        avatar: /icon/overleaf.svg
+        organization: CQMU Tug、PGuide Studio
+        desc: LaTeX 在线协作编辑器，Co-writing in LaTeX!
+      - name: PGuide LobeChat
+        link: /public-service/GPT/lobe-chat/
+        location: 重庆医科大学
+        avatar: https://lobechat.com/icons/icon-192x192.png
+        organization: PGuide Studio、LobeHub
+        desc: 一个聚合多种AI、支持PGuide OAuth的生成式人工智能调用平台
+      - name: 数据中心 
+        link: /public-service/data-center/
+        location: Global distribution
+        avatar: /icon/data-center.svg
+        organization: PGuide Studio
+        desc: docker私有镜像站、MinIO对象存储、FTP共享、Alist动态开源软件镜像站
+      - name: Gitlab企业版
+        link: https://zds.cqmu.edu.cn/
+        location: 重庆医科大学
+        avatar: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo.png
+        organization: PGuide Studio
+        desc: 重庆医科大学Gitlab企业版，提供代码托管、项目管理、持续集成等服务。
   - title: 重庆医科大学信息中心
     desc: CQMU Central NetWork
     list:
@@ -66,9 +103,9 @@ groups:
         name: 浙江西湖高等研究院
         link: https://www.wias.org.cn/
         location: 中国，浙江杭州西湖区
-        avatar: /icon/hpc.svg
+        avatar: /icon/W.svg
         organization: 西湖大学
-        desc: HPC base for WLU
+        desc: 新型非营利高端科研机构，含理工生医等多个研究方向。
   - title: 中国教育和科研计算机网
     desc: 中国教育和科研计算机网CERNET是党中央、国务院指定的中国教育信息化的基础平台，也是中国最早的四大骨干网之一，为中国教育信息化及人才培养作出了突出贡献。除为教育系统用户提供基本互联网接入服务外，还受国务院授权，负责教育系统域名管理（edu.cn)，并承担各类大型国家教育信息化建设项目及研究任务。
     list:
@@ -123,27 +160,26 @@ groups:
         organization: CQMUA、MUA
         desc: 重庆市 Minecraft 高校联盟
       -
-        name: 上海交通大学SJMC
-        link: https://mc.sjtu.cn
-        location: 中国，上海闵行
-        avatar: https://mc.sjtu.cn/welcome/_next/static/media/mcclub.d8834901.png
-        organization: 上海交通大学、MUA
-        desc: SJTU Minecraft Club
-  - title: 重庆医科大学TeX用户组
-    desc: CQMU TeX user group.
-    list:
-      - name: 内网LaTeX在线协作平台
-        link: http://192.168.183.171
-        location: 重庆医科大学
-        organization: PGuide Studio、信息中心
-        desc: 
-        avatar: /overleaf.svg
-      - name: 外网LaTeX在线协作平台(offline)
-        link: https://latex.cqmu.edu.cn
-        location: 重庆医科大学
-        organization: PGuide Studio、信息中心
-        desc: 
-        avatar: /overleaf.svg
+        name: 闵高联CQMUA官网
+        link: https://www.fjmua.cn/
+        location: 中国，福建省
+        avatar: https://files.catbox.moe/if2h8z.png
+        organization: FJMUA、MUA
+        desc: 福建省 Minecraft 高校联盟        
+      - 
+        name: 和瑛社
+        link: https://heryin.net/
+        location: 中国
+        avatar: https://heryin.net/_nuxt/heryin-logo.5348ed79.svg
+        organization: 和瑛社、MUA、云南大学、南开大学等
+        desc: 终日乾乾，与时偕行
+      -
+        name: 南开大学Minecraft社区
+        link: https://mcnku.net/
+        location: 中国，天津
+        avatar: https://mcnku.net/assets/image/logo.svg
+        organization: NKUMC、MUA
+        desc: 南开大学Minecraft玩家自发成立的兴趣组织
   - title: 北京大学信息科学技术学院
     dsc: Peking University
     list:

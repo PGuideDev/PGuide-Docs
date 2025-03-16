@@ -126,6 +126,11 @@ export const navbar = defineNavbarConfig([
                 link: '/public-service/data-center/'
             },
             {
+                icon: 'vscode-icons:file-type-gitlab',
+                text: 'Gitlab EE代码托管平台',
+                link: '/public-service/gitlab-ee/'
+            },
+            {
                 icon: '/icon/mirror.svg',
                 text: '重庆医科大学开源软件镜像站',
                 link: '/public-service/cqmu-mirror/'
@@ -138,18 +143,14 @@ export const navbar = defineNavbarConfig([
             {
                 icon: 'fluent-emoji-flat:medical-symbol',
                 text: '全球医学公开数据导航',
-                link: '/public-service/global-medical-open-data/'
+                link: '/public-service/global-medical-open-data-web/'
             },
             {
                 icon: 'vscode-icons:file-type-word',
                 text: '文书及申报资料网',
                 link: '/public-service/official-documents/'
             },
-            {
-                icon: 'vscode-icons:file-type-gitlab',
-                text: 'Gitea EE代码托管平台',
-                link: '/public-service/gitlab-ee/'
-            },
+
             {text: '', link: ''}
         ]
     },
