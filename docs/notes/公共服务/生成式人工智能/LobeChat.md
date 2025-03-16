@@ -6,8 +6,7 @@ icon: https://lobechat.com/icons/icon-192x192.png
 tags:
   - GPT
   - PGuide OAuth
-  - 对象存储
-  - 
+  - 对象存储 
 ---
 
 [//]: # (TODO: sx待测试)

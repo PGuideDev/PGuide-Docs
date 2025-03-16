@@ -12,7 +12,6 @@ title=""
 description=""
 href="/"
 author=""
-date="yyyy/mm/dd"
 />
 
 <LinkCard icon="" href="" title="" ></LinkCard>
