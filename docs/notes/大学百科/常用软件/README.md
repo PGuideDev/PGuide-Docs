@@ -80,7 +80,10 @@ icon: arcticons:ultimate-software
 
 <LinkCard icon="/icon/Typora.svg" href="/campus-wiki/common-softwares/note-softwares/typora/" title="Typora" >一款 Markdown 编辑器和阅读器</LinkCard>
 
-
+### OneNote
+:::tip
+此处待写
+:::
 ### Notion
 
 :::tip
@@ -94,11 +97,15 @@ icon: arcticons:ultimate-software
 ## 文献管理
 
 ### Zotero
+
+请参考[Zotero](/campus-wiki/document-management/Zotero/)
+
+## 网络存储
+
+### 私有NAS
 :::tip
 此处待写
 :::
-## 网络存储
-
 ### OneDrive
 :::tip
 此处待写
@@ -111,7 +118,36 @@ icon: arcticons:ultimate-software
 :::tip
 此处待写
 :::
+
+### 飞牛云
+:::tip
+此处待写
+:::
+
+
 ## 艺术与创造
 :::tip
 此处待写
 :::
+
+### Adobe Photoshop
+:::tip
+此处待写
+:::
+### Adobe Illustrator
+:::tip
+此处待写
+:::
+### Adobe InDesign
+:::tip
+此处待写
+:::
+### 剪映
+:::tip
+此处待写
+:::
+### Final Cut
+:::tip
+此处待写
+:::
+### 达芬奇

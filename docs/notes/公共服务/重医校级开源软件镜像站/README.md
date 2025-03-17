@@ -19,13 +19,25 @@ icon: /icon/mirror.svg
 
 ## 新镜像请求
 
-前往gitee主页提出issue，格式如下：
+前往:[devicon:gitlab]:gitlab主页[提出issue](/public-service/code-manage/gitlab-ee/#提出issue)，格式如下：
+
+> 镜像名：
+> 
+> 版本号：
+> 
+> 下载链接：
+> 
 
 ## 出现bug?
-
+:::tip
+此处待完善
+:::
 ## 不好！有病毒！
 
-请及时向我们发送邮件，我们会及时介入审核镜像源安全。
+请及时向我们[发送邮件](mailto:losmosga@foxmail.com)，我们会及时介入审核镜像源安全。
 
 ## 服务器状态
 
+:::tip
+此处待完善
+:::

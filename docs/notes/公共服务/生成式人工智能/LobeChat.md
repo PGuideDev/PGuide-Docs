@@ -49,6 +49,10 @@ OpenAI下调用了OpenAI的香港代理，支持多种对话模型，以DeepSeek
 
 ## 后续计划
 
+:::info
+此项由[Oh My API](/project-docs/oh-my-api/)接管
+:::
+
 1. [ ] 使用数据库版本，接入统一认证中心；
 2. [ ] 展示各组织使用量；
 3. [ ] EChart.js展示日均使用分布；
