@@ -30,6 +30,7 @@ Alliance，是重庆市高校的Minecraft联盟。CQMUA的本质是借助Minecra
 
 - 完成前端页面、UI的设计
 - 完成重庆部分高校Minecraft服务器的收集
+<<<<<<< HEAD
 
 ## MUA联盟数组含义
 
@@ -105,6 +106,9 @@ Alliance，是重庆市高校的Minecraft联盟。CQMUA的本质是借助Minecra
     - [x] No further requests after flip animation cycle completes
 
 
+=======
+- 
+>>>>>>> 7b43633 (docs:文档更新)
 
 
 
