@@ -5,4 +5,4 @@ permalink: /learning-notes/ml/
 icon: /icon/AI.svg
 ---
 
-机器学习笔记篇，主要汇总了python的使用及容器开发的注意事项。
+机器学习笔记篇，星尘手札是成员的零散学习笔记

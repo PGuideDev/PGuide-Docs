@@ -5,4 +5,17 @@ permalink: /learning-notes/computer-vision/YOLO/
 icon: simple-icons:yolo
 ---
 
-You Only Look Once (YOLO) is a state-of-the-art, real-time object detection system. It is one of the fastest object detection algorithms, capable of processing up to 45 frames per second. YOLO is a convolutional neural network (CNN) that divides an image into a grid and predicts bounding boxes and probabilities for each grid cell. It is widely used in various applications, such as autonomous driving, surveillance, and robotics.
+> You Only Look Once
+
+You Only Look Once (YOLO) 是一种最先进的实时物体检测系统。它是最快的物体检测算法之一，每秒最多可处理 45 帧。YOLO 是一种卷积神经网络 (CNN)，它将图像划分为网格并预测每个网格单元的边界框和概率。它广泛应用于各种应用，例如自动驾驶、监控和机器人技术。
+
+<LinkCard icon="simple-icons:yolo" href="https://docs.ultralytics.com/zh" title="YOLO" >中文文档</LinkCard>
+
+## 相关项目
+
+<CardGrid>
+<LinkCard icon="" href="/project-docs/when2eat/" title="when2eat" >一个依赖于计算机视觉从而决定啥时候吃饭的项目</LinkCard>
+<LinkCard icon="" href="" title="" ></LinkCard>
+<LinkCard icon="" href="" title="" ></LinkCard>
+<LinkCard icon="" href="" title="" ></LinkCard>
+</CardGrid>
