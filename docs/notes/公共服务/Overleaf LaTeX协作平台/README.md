@@ -19,26 +19,48 @@ LaTeX最初设计用作学术论文的编写，后面逐渐发展成一款全能
 ## Overleaf使用
 
 ### 尝鲜体验
+
 <LinkCard icon="/icon/overleaf.svg" title="Overleaf在线官网" href="https://cn.overleaf.
 com/">中文官网</LinkCard>
 
-使用账号密码登录后：
-
-![2025-03-10_02-43-43.png](../../../.vuepress/public/src/2025-03-10_02-43-43.png)
-
 Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在就开始阅读[Overleaf官方文档](https://cn.overleaf.com/learn/how-to/Creating_a_document_in_Overleaf#Introduction)
 开始LaTeX之旅吧，相信我，你会惊叹它的奇妙设计！
+
+### 如何使用模板
+
+以[重医简历参考模板V1.7.4R](/campus-wiki/internship/resume/#latex-参考模板)
+为例，点击[此处](https://cos.cqmu.online/docs/CQMU-%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BFV1.7.4%20R.zip)
+下载，建议使用[:[/icon/orcid.svg]:ORCID账号](https://info.orcid.org/zh-CN/%E4%BB%80%E4%B9%88%E6%98%AF-orcid/)
+登录，登录后你应该看到这个界面：
+
+![2025-03-10_02-43-43.png](../../../.vuepress/public/src/2025-03-10_02-43-43.png)
+![2025-03-18_02-17-37.png](../../../.vuepress/public/src/2025-03-18_02-17-37.png)
+
+上传简历模板压缩包文件夹
+![2025-03-18_02-19-51.png](../../../.vuepress/public/src/2025-03-18_02-19-51.png)
+
+报错了，我们要选择合适的编译器
+
+![2025-03-18_02-21-05.png](../../../.vuepress/public/src/2025-03-18_02-21-05.png)
+
+:::info 编译器选择
+中文一般选择XeLaTeX，英文选择pdfLaTeX
+:::
+
+点击左上角菜单，选择`XeLaTeX`编译器
+
+![2025-03-18_02-22-16.png](../../../.vuepress/public/src/2025-03-18_02-22-16.png)
+
+回到主界面，点击重新编译
+
+![2025-03-18_02-23-13.png](../../../.vuepress/public/src/2025-03-18_02-23-13.png)
+
+编辑内容，只需要在右侧PDF区双击，左侧源代码区则会直接跳转到对应位置。
 
 ### 模板！
 
 在 [Overleaf的模板网](https://cn.overleaf.com/latex/templates)中，你可以看到很多类型的模板，这些和文字相关的工作LaTeX都能应付！
 ![2025-03-10_02-52-40.png](../../../.vuepress/public/src/2025-03-10_02-52-40.png)
-
-### 如何使用模板
-
-以重医简历参考模板为例，建议使用[:[/icon/orcid.svg]:ORCID账号](https://info.orcid.org/zh-CN/%E4%BB%80%E4%B9%88%E6%98%AF-orcid/)登录，登录后你应该看到这个界面：
-
-
 
 ### Overleaf CQMU
 
@@ -106,7 +128,6 @@ _2025-03-17 维护后上线_
 ::: details 平时作业和小论文模板
 到[:[simple-icons:overleaf]:Overleaf](https://cn.overleaf.com/latex/templates/cqmu-researchreport/qghkqhhtzfkp)
 查看
-
 
 :::
 
