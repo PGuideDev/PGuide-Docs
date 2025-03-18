@@ -4,6 +4,14 @@ import {defineNavbarConfig} from 'vuepress-theme-plume'
 
 export const navbar = defineNavbarConfig([
     {text: '首页', link: '/'},
+    // {
+    //     icon: '',
+    //     text: '',
+    //     items: [
+    //         {icon: '',text: '',link: ''},
+    //         {icon: '',text: '',link: ''},
+    //     ]
+    // },
     {
         icon: '/icon/note.svg',
         text: '学习笔记',
@@ -12,17 +20,38 @@ export const navbar = defineNavbarConfig([
             {icon: 'logos:linux-tux', text: 'Linux', link: '/learning-notes/linux/'},
             {icon: '/icon/AI.svg', text: '机器学习', link: '/learning-notes/ml/'},
             {
+                icon: 'devicon:ros', text: 'ROS2',
+                items: [
+                    {icon: 'icon-park-twotone:install', text: 'ROS2系统安装', link: '/learning-notes/ROS2/VMWare-install/'},
+                    {icon: 'https://www.originbot.org/assets/img/favicon.png',text: '古月居OriginBot',link: '/learning-notes/ROS2/origin-bot-toolkit/'},
+                    {icon: '/icon/zzx.png', text: '中智讯智能小车一代', link: '/learning-notes/zcloud-car1/'},
+                ]
+            },
+            {
                 icon: 'logos:google-developers',
                 text: '前端开发',
-                link: '/learning-notes/frontend-dev/'
+                items: [
+                    {icon: 'skill-icons:html', text: 'HTML CSS JS', link: '/learning-notes/frontend-dev/HTML/'},
+                    {icon: 'logos:react', text: 'React', link: '/learning-notes/react/'},
+                    {icon: 'logos:vue', text: 'Vue3', link: '/learning-notes/vue3/'}
+                ]
             },
             {
                 icon: 'fluent-color:data-scatter-32',
                 text: '后端开发',
                 link: '/learning-notes/backend-dev/'
             },
-            {icon: 'devicon:ros', text: 'ROS2', link: '/learning-notes/ROS2/'},
-            {icon: 'marketeq:vision', text: '计算机视觉', link: '/learning-notes/computer-vision/'}
+
+            {
+                icon: 'solar:eye-scan-bold',
+                text: '计算机视觉',
+                items: [
+                    {icon: '/icon/yolo.svg', text: 'YOLO', link: '/learning-notes/computer-vision/YOLO/'},
+                    {icon: 'devicon:opencv', text: 'OpenCV', link: '/learning-notes/computer-vision/OpenCV/'},
+                    {icon: 'vscode-icons:file-type-matlab', text: 'MATLAB', link: '/learning-notes/computer-vision/MATLAB/'}
+                ]
+            },
+
         ]
     },
     {
@@ -128,11 +157,6 @@ export const navbar = defineNavbarConfig([
         items: [
             {icon: '/icon/openai.svg', text: '生成式人工智能', link: '/public-service/GPT/'},
             {
-                icon: 'skill-icons:git',
-                text: 'Git 代码托管平台',
-                link: '/public-service/code-manage/gitlab-ee/'
-            },
-            {
                 icon: '/icon/mirror.svg',
                 text: '重庆医科大学开源软件镜像站',
                 link: '/public-service/cqmu-mirror/'
@@ -141,6 +165,27 @@ export const navbar = defineNavbarConfig([
                 icon: '/icon/overleaf.svg',
                 text: 'Overleaf LaTeX协作平台',
                 link: '/public-service/overleaf/'
+            },
+            {
+                icon: 'skill-icons:git',
+                text: 'Git 代码托管平台',
+                items: [
+                    {
+                        icon: 'mdi:github',
+                        text: 'Github PGuideDev',
+                        link: '/public-service/code-manage/github-pguide-dev/'
+                    },
+                    {
+                        icon: 'devicon:gitlab',
+                        text: 'Gitlab EE代码托管平台',
+                        link: '/public-service/code-manage/gitlab-ee/'
+                    },
+                    {
+                        icon: 'material-icon-theme:folder-gitea',
+                        text: 'PGuide Gitea',
+                        link: '/public-service/code-manage/pguide-gitea-ee/'
+                    },
+                ]
             },
             {
                 icon: 'fluent-color:data-area-32',

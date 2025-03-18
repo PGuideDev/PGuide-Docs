@@ -1,8 +1,8 @@
 ---
-title: 计算机视觉学习笔记
-createTime: 2025/02/24 07:48:15
+title: REAMD
+createTime: 2025/03/19 06:58:07
 permalink: /learning-notes/computer-vision/
-icon: marketeq:vision
+icon: solar:eye-scan-bold
 ---
 
-See the world using the eyes of a machine.
+Make computer see and understand the world.
