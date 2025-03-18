@@ -189,22 +189,22 @@ graph TD
         - plume.config.ts #主题选项配置
     - notes
         - CS-DIY #计算机自学指南
-            - 子目录
+            - …
         - 公共服务 #项导公开的服务
-            - 子目录
+            - …
         - 后台管理 #后台管理界面
-            - 子目录
+            - …
         - 大学百科 #大学百科全书
-            - 子目录
+            - …
         - 学习笔记
-            - 子目录
+            - …
         - 项目文档 #包含项目的介绍、人员等
-            - 子目录
+            - …
         - begin.md #“开始阅读”页
         - contribute.md #“贡献”页
-        - friends-organizations #友情链接-组织页
-        - friends-persons #友情链接-个人页
-        - friends-quotes #友情链接-常见问题页
+        - friends-organizations.md #友情链接-组织页
+        - friends-persons.md #友情链接-个人页
+        - friends-quotes.md #友情链接-常见问题页
         - Templates.md #Vuepress Plume模板页
     - README.md
 - .gitattributes #git属性设置

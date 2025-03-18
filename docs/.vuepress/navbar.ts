@@ -128,32 +128,6 @@ export const navbar = defineNavbarConfig([
         items: [
             {icon: '/icon/openai.svg', text: '生成式人工智能', link: '/public-service/GPT/'},
             {
-                icon: 'https://alist.nn.ci/logo.svg',
-                text: 'Alist动态软件镜像站',
-                link: '/public-service/data-center/pguide-alist/'
-            },
-            {
-                icon: 'line-md:download-loop',
-                text: '常用软件推荐及下载',
-                link: '/public-service/data-center/common-softwares-recommand-and-download/'
-            },
-            {
-                icon: 'teenyicons:docker-outline',
-                text: 'docker私有镜像管理',
-                link: '/public-service/data-center/docker-registry/'
-            },
-            {icon: 'ic:round-storage', text: 'PGuide OSS对象存储', link: '/public-service/data-center/minio/'},
-            {
-                icon: 'fluent-emoji-flat:medical-symbol',
-                text: '全球医学公开数据导航',
-                link: '/public-service/data-center/global-medical-open-data-web/'
-            },
-            {
-                icon: 'vscode-icons:file-type-word',
-                text: '文书及申报资料网',
-                link: '/public-service/data-center/official-documents-web/'
-            },
-            {
                 icon: 'skill-icons:git',
                 text: 'Git 代码托管平台',
                 link: '/public-service/code-manage/gitlab-ee/'
@@ -167,6 +141,38 @@ export const navbar = defineNavbarConfig([
                 icon: '/icon/overleaf.svg',
                 text: 'Overleaf LaTeX协作平台',
                 link: '/public-service/overleaf/'
+            },
+            {
+                icon: 'fluent-color:data-area-32',
+                text: '数据中心',
+                items: [
+                    {
+                        icon: 'https://alist.nn.ci/logo.svg',
+                        text: 'Alist动态软件镜像站',
+                        link: '/public-service/data-center/pguide-alist/'
+                    },
+                    {
+                        icon: 'line-md:download-loop',
+                        text: '常用软件推荐及下载',
+                        link: '/public-service/data-center/common-softwares-recommand-and-download/'
+                    },
+                    {
+                        icon: 'teenyicons:docker-outline',
+                        text: 'docker私有镜像管理',
+                        link: '/public-service/data-center/docker-registry/'
+                    },
+                    {icon: 'ic:round-storage', text: 'PGuide OSS对象存储', link: '/public-service/data-center/minio/'},
+                    {
+                        icon: 'fluent-emoji-flat:medical-symbol',
+                        text: '全球医学公开数据导航',
+                        link: '/public-service/data-center/global-medical-open-data-web/'
+                    },
+                    {
+                        icon: 'vscode-icons:file-type-word',
+                        text: '文书及申报资料网',
+                        link: '/public-service/data-center/official-documents-web/'
+                    },
+                ]
             },
 
 
