@@ -141,6 +141,62 @@ const timeId = setInterval(() => {
 - [ ] 完成一周的数据采集
 - [ ] 机器学习推测
 
+## 项目结构
+
+:::file-tree
+- when2eat/
+  - backend/                  # Flask后端核心
+    - app/
+      - api/                 # API路由
+        - v1/                # API版本控制
+      - common/              # 通用工具
+      - models/              # 数据库模型
+      - services/            # 业务逻辑层
+      - __init__.py
+    - ml_models/             # 训练好的模型文件
+      - yolo_v5s/            # 不同版本模型
+    - scripts/               # 数据库迁移及其他脚本
+    - tests/                 # 后端测试
+      - unit/                # 单元测试
+      - integration/         # 集成测试
+    - requirements/
+      - dev.txt              # 开发依赖
+      - prod.txt             # 生产依赖
+
+  - frontend/                 # Vue 3前端
+    - public/                # 公开资源
+    - src/
+      - assets/              # 静态资源
+      - components/          # 通用组件
+      - views/               # 页面视图
+      - services/            # API服务层
+      - utils/               # 前端工具
+
+  - cv_processing/           # 计算机视觉模块
+    - detectors/             # 检测算法实现
+    - utils/                 # OpenCV工具
+    - calibration/           # 摄像头校准数据
+
+  - infrastructure/          # 基础设施配置
+    - docker/                # Docker配置
+      - nginx/               # Nginx配置
+      - flask/               # Flask配置
+    - k8s/                   # Kubernetes配置
+    - terraform/             # 基础设施即代码配置
+
+  - docs/                    # 项目文档
+    - api-spec/              # OpenAPI规范
+    - architecture/          # 架构设计图
+    - deployment.md          # 部署文档
+
+  - notebooks/               # Jupyter分析笔记
+  - .github/                 # CI/CD配置
+    - workflows/             # 工作流配置
+  - Makefile                 # 构建自动化
+  - docker-compose.yml       # Docker Compose配置
+  - .env.sample              # 环境变量模板
+:::
+
 ## 其他可能会遇到的问题
 
 - 如何进行数据采集
