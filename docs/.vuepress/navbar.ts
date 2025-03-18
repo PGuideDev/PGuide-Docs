@@ -40,62 +40,69 @@ export const navbar = defineNavbarConfig([
                 link: '/project-docs/project-intellectual-property/'
             },
             {
-                icon: 'hugeicons:add-team',
-                text: '全国大学生竞赛组队系统',
-                link: '/project-docs/match-competitions/'
+                icon: 'codicon:github-project',
+                text: '我们正在做的项目',
+                items: [
+                    {
+                        icon: 'hugeicons:add-team',
+                        text: '全国大学生竞赛组队系统',
+                        link: '/project-docs/match-competitions/'
+                    },
+                    {icon: '/icon/zhiyu.png', text: '植愈：AI情绪小帮手', link: '/project-docs/plant-cure/'},
+                    {
+                        icon: '/icon/robot.png',
+                        text: '智慧中草药生态养护平台',
+                        link: '/project-docs/smart-car/'
+                    },
+                    {
+                        icon: '/icon/univ-town.svg',
+                        text: '像素大学城',
+                        link: '/project-docs/pixel-university-town/'
+                    },
+                    {
+                        icon: '/icon/command_block.gif',
+                        text: 'CQMUA服务器中心',
+                        link: '/project-docs/cqmua-center/'
+                    },
+                    {
+                        icon: '/icon/analyse.svg',
+                        text: '学情分析系统',
+                        link: '/project-docs/study-analytic-system/'
+                    },
+                    {
+                        icon: 'line-md:speed-twotone-loop',
+                        text: '掌中方圆',
+                        link: '/project-docs/control-my-panel/'
+                    },
+                    {
+                        icon: 'icon-park:transport',
+                        text: 'SPD智能医疗耗材管理系统',
+                        link: '/project-docs/spd/'
+                    },
+                    {
+                        icon: 'material-symbols:dropper-eye-outline-sharp',
+                        text: '医智慧眼',
+                        link: '/project-docs/see-the-components/'
+                    },
+                    {
+                        icon: 'svg-spinners:blocks-wave',
+                        text: '千手万象',
+                        link: '/project-docs/various-gestures/'
+                    },
+                    {
+                        icon: 'line-md:cloud-alt-tags-twotone-loop',
+                        text: '云原生资源管理系统',
+                        link: '/project-docs/cloud-manage/'
+                    },
+                    {icon: 'line-md:loading-alt-loop', text: 'when2eat', link: '/project-docs/when2eat/'},
+                    {
+                        icon: 'line-md:cloud-alt-print-twotone-loop',
+                        text: 'Oh my API',
+                        link: '/project-docs/oh-my-api/'
+                    },
+                ],
             },
-            {icon: '/icon/zhiyu.png', text: '植愈：AI情绪小帮手', link: '/project-docs/plant-cure/'},
-            {
-                icon: '/icon/robot.png',
-                text: '智慧中草药生态养护平台',
-                link: '/project-docs/smart-car/'
-            },
-            {
-                icon: '/icon/univ-town.svg',
-                text: '像素大学城',
-                link: '/project-docs/pixel-university-town/'
-            },
-            {
-                icon: '/icon/command_block.gif',
-                text: 'CQMUA服务器中心',
-                link: '/project-docs/cqmua-center/'
-            },
-            {
-                icon: '/icon/analyse.svg',
-                text: '学情分析系统',
-                link: '/project-docs/study-analytic-system/'
-            },
-            {
-                icon: 'line-md:speed-twotone-loop',
-                text: '掌中方圆',
-                link: '/project-docs/control-my-panel/'
-            },
-            {
-                icon: 'icon-park:transport',
-                text: 'SPD智能医疗耗材管理系统',
-                link: '/project-docs/spd/'
-            },
-            {
-                icon: 'material-symbols:dropper-eye-outline-sharp',
-                text: '医智慧眼',
-                link: '/project-docs/see-the-components/'
-            },
-            {
-                icon: 'svg-spinners:blocks-wave',
-                text: '千手万象',
-                link: '/project-docs/various-gestures/'
-            },
-            {
-                icon: 'line-md:cloud-alt-tags-twotone-loop',
-                text: '云原生资源管理系统',
-                link: '/project-docs/cloud-manage/'
-            },
-            {icon: 'line-md:loading-alt-loop', text: 'when2eat', link: '/project-docs/when2eat/'},
-            {
-                icon: 'line-md:cloud-alt-print-twotone-loop',
-                text: 'Oh my API',
-                link: '/project-docs/oh-my-api/'
-            },
+
         ]
     },
     {
@@ -121,9 +128,30 @@ export const navbar = defineNavbarConfig([
         items: [
             {icon: '/icon/openai.svg', text: '生成式人工智能', link: '/public-service/GPT/'},
             {
-                icon: 'fluent-color:data-area-20',
-                text: '数据中心',
-                link: '/public-service/data-center/'
+                icon: 'https://alist.nn.ci/logo.svg',
+                text: 'Alist动态软件镜像站',
+                link: '/public-service/data-center/pguide-alist/'
+            },
+            {
+                icon: 'line-md:download-loop',
+                text: '常用软件推荐及下载',
+                link: '/public-service/data-center/common-softwares-recommand-and-download/'
+            },
+            {
+                icon: 'teenyicons:docker-outline',
+                text: 'docker私有镜像管理',
+                link: '/public-service/data-center/docker-registry/'
+            },
+            {icon: 'ic:round-storage', text: 'PGuide OSS对象存储', link: '/public-service/data-center/minio/'},
+            {
+                icon: 'fluent-emoji-flat:medical-symbol',
+                text: '全球医学公开数据导航',
+                link: '/public-service/data-center/global-medical-open-data-web/'
+            },
+            {
+                icon: 'vscode-icons:file-type-word',
+                text: '文书及申报资料网',
+                link: '/public-service/data-center/official-documents-web/'
             },
             {
                 icon: 'skill-icons:git',
@@ -140,16 +168,7 @@ export const navbar = defineNavbarConfig([
                 text: 'Overleaf LaTeX协作平台',
                 link: '/public-service/overleaf/'
             },
-            {
-                icon: 'fluent-emoji-flat:medical-symbol',
-                text: '全球医学公开数据导航',
-                link: '/public-service/global-medical-open-data-web/'
-            },
-            {
-                icon: 'vscode-icons:file-type-word',
-                text: '文书及申报资料网',
-                link: '/public-service/official-documents/'
-            },
+
 
             {text: '', link: ''}
         ]

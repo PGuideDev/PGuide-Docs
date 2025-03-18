@@ -47,14 +47,14 @@ groups:
       - name: 数据中心 
         link: /public-service/data-center/
         location: Global distribution
-        avatar: /icon/data-center.svg
+        avatar: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48ZyBmaWxsPSJub25lIj48cGF0aCBmaWxsPSJ1cmwoI2ZsdWVudENvbG9yRGF0YUFyZWEzMjApIiBkPSJNMjYgMjcuMDExYTMgMyAwIDAgMC0uMjUtLjAxMUg1LjI1YS4yNS4yNSAwIDAgMS0uMjUtLjI1VjEzLjQ4NGw1LjYwNi0yLjQwM2ExIDEgMCAwIDEgLjg0MS4wMjVsNS40NDcgMi43MjNMMjQuNCA4LjJBMSAxIDAgMCAxIDI2IDl6Ii8+PHBhdGggZmlsbD0idXJsKCNmbHVlbnRDb2xvckRhdGFBcmVhMzI0KSIgZmlsbC1vcGFjaXR5PSIwLjMiIGQ9Ik0yNiAyNy4wMTFhMyAzIDAgMCAwLS4yNS0uMDExSDUuMjVhLjI1LjI1IDAgMCAxLS4yNS0uMjVWMTMuNDg0bDUuNjA2LTIuNDAzYTEgMSAwIDAgMSAuODQxLjAyNWw1LjQ0NyAyLjcyM0wyNC40IDguMkExIDEgMCAwIDEgMjYgOXoiLz48cGF0aCBmaWxsPSJ1cmwoI2ZsdWVudENvbG9yRGF0YUFyZWEzMjEpIiBmaWxsLW9wYWNpdHk9IjAuMyIgZD0iTTI2IDI3LjAxMWEzIDMgMCAwIDAtLjI1LS4wMTFINS4yNWEuMjUuMjUgMCAwIDEtLjI1LS4yNVYxMy40ODRsNS42MDYtMi40MDNhMSAxIDAgMCAxIC44NDEuMDI1bDUuNDQ3IDIuNzIzTDI0LjQgOC4yQTEgMSAwIDAgMSAyNiA5eiIvPjxwYXRoIGZpbGw9InVybCgjZmx1ZW50Q29sb3JEYXRhQXJlYTMyMikiIGZpbGwtb3BhY2l0eT0iMC4zIiBkPSJNMjYgMjcuMDExYTMgMyAwIDAgMC0uMjUtLjAxMUg1LjI1YS4yNS4yNSAwIDAgMS0uMjUtLjI1VjEzLjQ4NGw1LjYwNi0yLjQwM2ExIDEgMCAwIDEgLjg0MS4wMjVsNS40NDcgMi43MjNMMjQuNCA4LjJBMSAxIDAgMCAxIDI2IDl6Ii8+PHBhdGggZmlsbD0idXJsKCNmbHVlbnRDb2xvckRhdGFBcmVhMzIzKSIgZD0iTTQuMjUgM2MuNjkgMCAxLjI1LjU2IDEuMjUgMS4yNXYyMC41YzAgLjk2Ni43ODQgMS43NSAxLjc1IDEuNzVoMjAuNWExLjI1IDEuMjUgMCAxIDEgMCAyLjVINy4yNUE0LjI1IDQuMjUgMCAwIDEgMyAyNC43NVY0LjI1QzMgMy41NiAzLjU2IDMgNC4yNSAzIi8+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJmbHVlbnRDb2xvckRhdGFBcmVhMzIwIiB4MT0iLTIuMjY5IiB4Mj0iMzIuMTE3IiB5MT0iMTAuMzc2IiB5Mj0iMzAuNzYxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIuMTY0IiBzdG9wLWNvbG9yPSIjM2JkNWZmIi8+PHN0b3Agb2Zmc2V0PSIuNTM3IiBzdG9wLWNvbG9yPSIjOWM2Y2ZlIi8+PHN0b3Agb2Zmc2V0PSIuOTA4IiBzdG9wLWNvbG9yPSIjZTY1NmViIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImZsdWVudENvbG9yRGF0YUFyZWEzMjEiIHgxPSIxNS41IiB4Mj0iMTUuNSIgeTE9IjI1IiB5Mj0iMjcuMDExIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzE2MzY5NyIgc3RvcC1vcGFjaXR5PSIwIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTYzNjk3Ii8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImZsdWVudENvbG9yRGF0YUFyZWEzMjIiIHgxPSI3IiB4Mj0iNSIgeTE9IjIxLjUiIHkyPSIyMS40NjYiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjMTYzNjk3IiBzdG9wLW9wYWNpdHk9IjAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxNjM2OTciLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iZmx1ZW50Q29sb3JEYXRhQXJlYTMyMyIgeDE9IjI2LjU2MyIgeDI9IjMuODA5IiB5MT0iNC42MjUiIHkyPSIzOC41MDUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjNzA3NzdkIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjYjljMGM3Ii8+PC9saW5lYXJHcmFkaWVudD48cmFkaWFsR3JhZGllbnQgaWQ9ImZsdWVudENvbG9yRGF0YUFyZWEzMjQiIGN4PSIwIiBjeT0iMCIgcj0iMSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtMTYuMTUzNzMgMTQuMjU4NDggLTE0LjM5MTY5IC0xNi4zMDQ2NSAyMi43NyAxMS4xNjgpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIuNjM2IiBzdG9wLWNvbG9yPSIjMGZhZmZmIiBzdG9wLW9wYWNpdHk9IjAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwMDY3YmYiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48L2c+PC9zdmc+
         organization: PGuide Studio
         desc: docker私有镜像站、MinIO对象存储、FTP共享、Alist动态开源软件镜像站
-      - name: Gitlab企业版
-        link: https://zds.cqmu.edu.cn/
+      - name: Git代码托管平台
+        link: /public-service/code-manage/gitlab-ee/
         location: 重庆医科大学
-        avatar: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo.png
-        organization: PGuide Studio
+        avatar: /icon/git.svg
+        organization: PGuide Studio、Gitlab极狐
         desc: 重庆医科大学Gitlab企业版，提供代码托管、项目管理、持续集成等服务。
   - title: 重庆医科大学信息中心
     desc: CQMU Central NetWork
@@ -79,33 +79,34 @@ groups:
         avatar: /icon/hpc.svg
         organization: 重庆医科大学信息中心
         desc: 计算云门户
-  - title: Apache Software Foundation
+  - title: The Apache Software Foundation
     desc: ASF's open source software is used ubiquitously around the world with more than 8,400 committers contributing to more than 320 active projects.
     list:
-      - name: 官网
+      - name: Apache Official Website
         link: https://www.apache.org/
         avatar: https://www.apache.org/img/the-apache-way.jpg
-        location: 重庆医科大学
-        organization: Med Explorers+
-        desc: A research team affiliated to the College of Basic Medical Science composed of undergraduates
+        location: Global
+        organization: The Apache Software Foundation
+        desc: We believe in the power of community over code, known as The Apache Way. Thousands of people around the world contribute to ASF open source projects every day.
       - name: Apache AutoMQ
-        link: 
-        avatar: 
-        location: 
-        organization: 
-        desc: 
+        link: https://www.automq.com/zh
+        avatar: https://www.automq.com/cdn.prod.website-files.com/658b851720ea776d824cb246/659382f154176ac668780b2a_Frame%2051%20(2).png
+        location: Global
+        organization: AutoMQ
+        desc: AutoMQ is a cloud-native alternative to Kafka by decoupling durability to S3 and EBS. 10x Cost-Effective. No Cross-AZ Traffic Cost. Autoscale in seconds. Single-digit ms latency.
       - name: Apache RocketMQ
-        link: 
+        link: https://rocketmq.apache.org/
         avatar: https://rocketmq.apache.org/img/Apache_RocketMQ_logo.svg.png
-        location:
-        organization:
-        desc:
-      - name:
-        link:
-        avatar:
-        location:
-        organization:
-        desc:
+        location: Global
+        organization: Apache RocketMQ Team
+        desc: A cloud-native "messaging, eventing, streaming" real-time data processing platform, covering cloud-edge-device collaboration scenarios
+      - name: Apache ECharts
+        link: https://echarts.apache.org/zh/index.html
+        avatar: /icon/echarts.svg
+        location: Global
+        organization: Apache ECharts Team
+        desc: An Open Source JavaScript Visualization Library
+
   - title: MED Explorers+
     desc: A research team affiliated to the College of Basic Medical Science composed of undergraduates
     list:
@@ -164,14 +165,14 @@ groups:
         organization: 奇安信集团
         desc: 
   - title: 中国科学院大学
-    desc: China Science & Technology cloud
+    desc: 中国科学院大学简称“国科大”，是一所以科教融合为办学模式、研究生教育为办学主体、精英化本科教育为办学特色的创新型大学。
     list:
       - name: 中国科技云官网
         link: https://www.cstcloud.cn/
         location: 中国科学院计算机网络信息中心
         avatar: https://www.cstcloud.cn/app/templates/cstcloud/img/header/logo.png
         organization: 科技云运行与技术发展部
-        desc: 123 
+        desc: 面对国际重大科技合作需求，中国科技云开创性地提出建立“全球开放科学云”的倡议，得到了国内外科研领域的广泛响应与支持。目前已与全球主要信息基础设施、国际组织和平台建立起定期对话机制，并达成广泛共识。
       - name: 中国科技云通行证
         link: https://passport.escience.cn/login
         avatar: https://passport.escience.cn/images/umtIcon-24.png
