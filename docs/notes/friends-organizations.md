@@ -79,6 +79,33 @@ groups:
         avatar: /icon/hpc.svg
         organization: 重庆医科大学信息中心
         desc: 计算云门户
+  - title: Apache Software Foundation
+    desc: ASF's open source software is used ubiquitously around the world with more than 8,400 committers contributing to more than 320 active projects.
+    list:
+      - name: 官网
+        link: https://www.apache.org/
+        avatar: https://www.apache.org/img/the-apache-way.jpg
+        location: 重庆医科大学
+        organization: Med Explorers+
+        desc: A research team affiliated to the College of Basic Medical Science composed of undergraduates
+      - name: Apache AutoMQ
+        link: 
+        avatar: 
+        location: 
+        organization: 
+        desc: 
+      - name: Apache RocketMQ
+        link: 
+        avatar: https://rocketmq.apache.org/img/Apache_RocketMQ_logo.svg.png
+        location:
+        organization:
+        desc:
+      - name:
+        link:
+        avatar:
+        location:
+        organization:
+        desc:
   - title: MED Explorers+
     desc: A research team affiliated to the College of Basic Medical Science composed of undergraduates
     list:
@@ -105,7 +132,8 @@ groups:
         location: 中国，浙江杭州西湖区
         avatar: /icon/W.svg
         organization: 西湖大学
-        desc: 新型非营利高端科研机构，含理工生医等多个研究方向。
+        desc: 新型非营利高端科研机构，含理工生医等多个研究方向。  
+    
   - title: 中国教育和科研计算机网
     desc: 中国教育和科研计算机网CERNET是党中央、国务院指定的中国教育信息化的基础平台，也是中国最早的四大骨干网之一，为中国教育信息化及人才培养作出了突出贡献。除为教育系统用户提供基本互联网接入服务外，还受国务院授权，负责教育系统域名管理（edu.cn)，并承担各类大型国家教育信息化建设项目及研究任务。
     list:
@@ -123,6 +151,8 @@ groups:
         avatar: https://mirrors.cernet.edu.cn/static/img/mirrorz.svg
         organization: 清华大学MirrorZ项目组
         desc: 本站提供对校园网镜像站的索引和跳转服务。
+        
+
   - title: 奇安信网神（北京）信息科技有限公司
     desc: 网络安全领军者
     list:
@@ -133,17 +163,24 @@ groups:
         avatar: /avatar/qax.svg
         organization: 奇安信集团
         desc: 
-  - title: 中国科技云
+  - title: 中国科学院大学
     desc: China Science & Technology cloud
     list:
-      - name: 官网
+      - name: 中国科技云官网
         link: https://www.cstcloud.cn/
-        location: 中国
+        location: 中国科学院计算机网络信息中心
         avatar: https://www.cstcloud.cn/app/templates/cstcloud/img/header/logo.png
-        organization: 
-        desc:
+        organization: 科技云运行与技术发展部
+        desc: 123 
+      - name: 中国科技云通行证
+        link: https://passport.escience.cn/login
+        avatar: https://passport.escience.cn/images/umtIcon-24.png
+        location: 中国科学院计算机网络信息中心
+        organization: 中科院文献情报中心
+        desc: 中国科技云通行证是基于中国科技云的统一账号系统，可以用于登录中国科技云各类科研应用服务，以及今后将逐步扩展的更多应用服务。中科院邮箱系统账号可作为中国科技云通行证账号直接登录。         
+
   - title: MUA
-    desc: 中国大学生Minecraft高校联盟, https://www.mualliance.cn
+    desc: Minecraft高校联盟（Minecraft University Alliance，简称MUA）是一个旨在联合全国高校MC爱好者，共同推动高校MC生态发展的公益性组织。
     list:
       -
         name: MUA官网
@@ -158,9 +195,9 @@ groups:
         location: 中国，重庆市
         avatar: https://3w.cqmua.cn/logo.svg
         organization: CQMUA、MUA
-        desc: 重庆市 Minecraft 高校联盟
+        desc: 重庆 Minecraft 高校联盟
       -
-        name: 闵高联CQMUA官网
+        name: 闽高联CQMUA官网
         link: https://www.fjmua.cn/
         location: 中国，福建省
         avatar: https://files.catbox.moe/if2h8z.png
@@ -176,10 +213,17 @@ groups:
       -
         name: 南开大学Minecraft社区
         link: https://mcnku.net/
-        location: 中国，天津
+        location: 中国，天津市
         avatar: https://mcnku.net/assets/image/logo.svg
         organization: NKUMC、MUA
         desc: 南开大学Minecraft玩家自发成立的兴趣组织
+      -
+        name: 上海交通大学Minecraft社
+        link: https://mc.sjtu.cn
+        location: 中国，上海市
+        avatar: https://www.mualliance.cn/wp-content/uploads/2023/01/mcclub_%E9%80%8F%E6%98%8E%E8%83%8C%E6%99%AF-300x300.png
+        organization: SJMC、MUA
+        desc: 上海交通大学Minecraft社（SJMC）是由一群热爱Minecraft及其衍生内容的交大学生们组成的文化艺术类社团，成立于2021年5月。       
   - title: 北京大学信息科学技术学院
     dsc: Peking University
     list:

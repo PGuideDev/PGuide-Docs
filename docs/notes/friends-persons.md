@@ -73,7 +73,7 @@ list:
     avatar: https://avatars.githubusercontent.com/u/91131723?v=4
     desc: Freedom is the overture to valor.
     location: 中国，广东深圳
-    organization: 项导工作室、CQMUtug、CQMUA等
+    organization: Apache、项导工作室、CQMUA等
     socials:
       - icon: qq
         link: https://qm.qq.com/q/2iLBaNcsnO

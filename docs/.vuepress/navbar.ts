@@ -126,8 +126,8 @@ export const navbar = defineNavbarConfig([
                 link: '/public-service/data-center/'
             },
             {
-                icon: 'vscode-icons:file-type-gitlab',
-                text: 'Gitlab EE代码托管平台',
+                icon: 'skill-icons:git',
+                text: 'Git 代码托管平台',
                 link: '/public-service/code-manage/gitlab-ee/'
             },
             {
