@@ -361,7 +361,18 @@ list:
     backgroundColor:
     color:
     nameColor:
-
+  - name: dream520nb
+    link: 
+    avatar: /avatar/mx.jpg
+    desc: 🙂
+    location: 中国，山东
+    organization: 项导工作室
+    socials: 
+      - icon: github
+        link: https://github.com/dream520nb
+    backgroundColor: 
+    color: 
+    nameColor: 
 #  - name:
 #    link:
 #    avatar:
