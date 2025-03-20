@@ -11,11 +11,26 @@ config:
       -
         title: Vue3
         icon: logos:vue
-        details: Everyone can do python things
-        link: /csdiy/program-begin/python/
+        details: 
+        link: /csdiy/popular-framework/Vue.js/
       -
-        title: C++
-        icon: devicon:cplusplus
-        details: System based programming language
-        link: /csdiy/program-begin/c-plus/
+        title: React
+        icon: devicon:react
+        details: 
+        link: /csdiy/popular-framework/React/
+      -
+        title: Flutter
+        icon: 
+        details: 
+        link: /csdiy/popular-framework/Flutter/
+      -
+        title: Astro
+        icon: 
+        details: The web framework for content-driven websites
+        link: /csdiy/popular-framework/Astro/
+      -
+        title: Angular
+        icon: skill-icons:angular-light
+        details: Angular is a web framework that empowers developers to build fast, reliable applications.
+        link: /csdiy/popular-framework/Angular/
 ---

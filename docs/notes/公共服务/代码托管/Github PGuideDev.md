@@ -7,7 +7,7 @@ icon: mdi:github
 :::tip 相关知识
 计算机必学工具之一[:[skill-icons:git]:git](/csdiy/tools-must/git/)
 
-Github Docs
+Github文档[:[mdi:github]:Github Docs](https://docs.github.com/zh)
 :::
 
 

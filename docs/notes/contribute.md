@@ -11,9 +11,6 @@ permalink: /contribute/
 
 <RepoCard repo="MultipledMe/PGuide-Docs"></RepoCard>
 
-
-
-
 ## 我是文档的编写者
 
 项导文档使用markdown语法进行编写，首先得大概掌握下[markdown基础语法](/csdiy/tools-must/markdown/)
@@ -23,12 +20,6 @@ permalink: /contribute/
 - 通过github创建合并请求
 - email到[我们的邮箱](mailto:losmosga@foxmail.com)
 - QQ发送给 [rand777](https://qm.qq.com/cgi-bin/qm/qr?k=9s5V15fEzwzHuawmc-QQZ615NPTp9oEZ)
-
-### 在Typora中开始
-
-:::tip
-此处待填写
-:::
 
 ### 我想直接写一篇文档
 
@@ -41,19 +32,85 @@ permalink: /contribute/
 
 ## 我是文档站的开发者
 
-在参与合作开发之前，需要您学习一些基础知识:
+在参与合作开发之前，您需要了解的一些基础知识:
+
+:::info 基础知识
 
 [:[material-icon-theme:git]:git的使用](/csdiy/tools-must/git/)
+
 [:[octicon:markdown-16]:markdown基础语法](/csdiy/tools-must/markdown/)
+
 [:[https://theme-plume.vuejs.press/plume.png]: VuePress Plume主题](https://theme-plume.vuejs.press/guide/intro/)
+
 [:[devicon:typescript]:Typescript基础语法](https://www.runoob.com/typescript/ts-basic-syntax.html)
 
+:::
 
-随后，联系 [rand777](mailto:losmosga@foxmail.com) 加入项导文档github开发组。
+随后，QQ联系 [rand777](https://qm.qq.com/q/2iLBaNcsnO) 加入项导文档github开发组。
 
 :::tip 联系格式
-表明你是谁，想要编写哪部分。
+我需要知道您的身份，并且想要参与编写哪部分。
 :::
+
+### 项目结构
+
+先大致了解下项目的结构
+
+::: file-tree
+
+- docs
+    - .vuepress
+        - .cache #缓存文件夹
+            - …
+        - .temp #临时文件夹
+            - …
+        - public #静态资源文件夹
+            - avatar #头像文件夹
+                - …
+            - src #图片文件夹
+                - …
+            - icon #矢量图标文件夹
+                - …
+        - theme #主题设置文件夹
+            - style #主题自定义文件夹
+                - custom.css #自定义主题
+            - shim.d.ts #自定义vue组件导入
+        - client.ts #客户端配置
+        - config.ts #全局功能配置
+        - navbar.ts #导航栏配置
+        - notes.ts #笔记配置
+        - plume.config.ts #主题选项配置
+    - notes
+        - CS-DIY #计算机自学指南
+            - …
+        - 公共服务 #项导公开的服务
+            - …
+        - 后台管理 #后台管理界面
+            - …
+        - 大学百科 #大学百科全书
+            - …
+        - 学习笔记 #学习笔记荟萃
+            - …
+        - 项目文档 #包含项目的介绍、人员等
+            - …
+        - begin.md #“开始阅读”页
+        - contribute.md #“贡献”页
+        - friends-organizations.md #友情链接-组织页
+        - friends-persons.md #友情链接-个人页
+        - friends-quotes.md #友情链接-常见问题页
+        - Templates.md #Vuepress Plume模板页
+    - README.md
+- .gitattributes #git属性设置
+- .gitignore #不进行git的文件(夹)
+- .npmrc #npm包管理设置
+- package.json #所有npm包依赖
+- pnpm-lock.yaml #所有pnpm包依赖
+- README.md #中文项导文档介绍
+- README-en.md #英文项导文档介绍
+- …
+  :::
+
+---
 
 ### 配置开发环境
 
@@ -61,16 +118,13 @@ permalink: /contribute/
 这里假设你的电脑是windows10或11的操作系统
 :::
 
-:::steps
-
 1. 下载WebStorm
 
 这个软件是咱们主要写代码的地方，软件本身用于前端开发，您可以[在这里](/campus-wiki/common-softwares/IDE/WebStorm/)
 详细了解。其他同类型的开发软件，如VS Code，也可以。
 
-请先完成[学生邮箱申请](/campus-wiki/apply-student-email/)并申请JetBrains教育版
-
-下载可以到 [WebStorm官方网站](https://www.jetbrains.com/zh-cn/webstorm/)
+==如果你对上面的软件不太清楚==，请先完成[学生邮箱申请](/campus-wiki/apply-student-email/)
+并申请JetBrains教育版。下载WebStorm可以到 [WebStorm官方网站](https://www.jetbrains.com/zh-cn/webstorm/)
 或 [Alist动态开源软件镜像站](http://192.168.183.171:5244/softwares/JetBrainsIDEs/WebStorm-2024.3.4.exe)
 下载
 
@@ -79,31 +133,65 @@ permalink: /contribute/
 我们在进行开发的时候，需要一个服务端来支撑web应用的运行，Node.js是目前非常流行的开源web服务器运行时环境。在运行不同的前端项目时，往往需要的node.js版本是不一样的，而
 NVM（全名：Node.js Version Manager）可以帮助我们更高效地管理不同的node.js版本和依赖环境。
 
-软件安装及应用教程看[这里](/csdiy/study-path/front-dev/NVM/)
+软件安装及应用教程看[这里](/csdiy/study-path/front-dev/NVM/)，不要忘记安装长期支持版npm哦！
 
 > 安装完成后记得重启IDE和终端以重载环境变量,若github无法加载，需下载Watt Toolkit加速后即可。
 
 3. 导入项目
 
-打开WebStorm后，你可以
+打开WebStorm后，你可以直接在WebStorm上点击“克隆仓库（Clone Repository ）”，登录github账号进行导入
 
-使用HTTPS协议导入（在左侧任务栏终端中导入）
-
-```shell
-git clone https://github.com/MultipledMe/PGuide-Docs.git
-```
+![2025-03-21_06-14-24.png](../.vuepress/public/src/2025-03-21_06-14-24.png)
+![2025-03-21_06-16-11.png](../.vuepress/public/src/2025-03-21_06-16-11.png)
+git使用HTTPS协议导入
 > 导入失败请参考“常见问题及解决方案”
 
-也可以使用SSH协议导入，需要[配置SSH](/csdiy/tools-must/git/#设置ssh密钥)
+:::tabs
+
+@tab 从github克隆（推荐）
+
+   ```shell
+   git clone https://github.com/PGuideDev/PGuide-Docs.git
+   ```
+
+@tab 从gitlab克隆
+
+   ```shell
+   git clone https://zds.cqmu.edu.cn/pguide-studio/pguide-docs.git
+   ```
+
+@tab 从gitea克隆
+
+   ```shell
+   git clone https://git.cqmu.online/PGuideStudio/PGuide-Docs.git
+   ```
+
+:::
+
+git也可以使用SSH协议导入，需要[配置SSH](/csdiy/tools-must/git/#设置ssh密钥)
 和[github设置](/csdiy/tools-must/git/#github设置)
 
-```shell
-git clone git@github.com:MultipledMe/PGuide-Docs.git
-```
+:::tabs
 
-或者直接在WebStorm上点击“克隆仓库（Clone Repository ）”，登录github账号进行导入
+@tab 从github克隆
 
+   ```shell
+   git clone git@github.com/PGuideDev/PGuide-Docs.git
+   ```
 
+@tab 从gitlab克隆
+
+   ```shell
+   git clone git@zds.cqmu.edu.cn/pguide-studio/pguide-docs.git
+   ```
+
+@tab 从gitea克隆
+
+   ```shell
+   git clone git@git.cqmu.online/PGuideStudio/PGuide-Docs.git
+   ```
+
+:::
 
 4. 安装项目依赖
 
@@ -135,7 +223,9 @@ pnpm run docs:dev
 
 6. 项目设置
 
-将 .cache .temp .public 文件夹设置为排除（路径：docs/.vuepress/)
+将 `.cache` `.temp` `.public` 文件夹设置为排除（路径：docs/.vuepress/)
+
+> 避免IDE错误识别缓存TODO、svg命名空间错误
 
 @[artPlayer](https://cos.cqmu.online/docs/2025-03-10_03-56-14.mp4)
 
@@ -144,8 +234,6 @@ pnpm run docs:dev
 请合作开发者依次阅读 [`Git规范`](/contribute/#git规范)、
 [`静态资源管理规范`](/contribute/#静态资源管理规范)、[`文档编写规范`](/contribute/#文档编写规范)、
 [`常见问题及解决方案`](#🆘-常见问题及解决方案)
-
-:::
 
 ### 合作开发流程
 
@@ -164,63 +252,11 @@ graph TD
     H --> A
 ```
 
-## 项目结构
-
-先大致了解下项目的结构
-
-::: file-tree
-
-- docs
-    - .vuepress
-        - .cache #缓存文件夹
-        - .temp #临时文件夹
-        - public #静态资源文件夹
-            - avatar #头像文件夹
-            - src #图片文件夹
-            - icon #矢量图标文件夹
-        - theme #主题设置文件夹
-            - style #主题自定义文件夹
-                - custom.css #自定义主题
-            - shim.d.ts #自定义vue组件导入
-        - client.ts #客户端配置
-        - config.ts #全局功能配置
-        - navbar.ts #导航栏配置
-        - notes.ts #笔记配置
-        - plume.config.ts #主题选项配置
-    - notes
-        - CS-DIY #计算机自学指南
-            - …
-        - 公共服务 #项导公开的服务
-            - …
-        - 后台管理 #后台管理界面
-            - …
-        - 大学百科 #大学百科全书
-            - …
-        - 学习笔记
-            - …
-        - 项目文档 #包含项目的介绍、人员等
-            - …
-        - begin.md #“开始阅读”页
-        - contribute.md #“贡献”页
-        - friends-organizations.md #友情链接-组织页
-        - friends-persons.md #友情链接-个人页
-        - friends-quotes.md #友情链接-常见问题页
-        - Templates.md #Vuepress Plume模板页
-    - README.md
-- .gitattributes #git属性设置
-- .gitignore #不进行git的文件(夹)
-- .npmrc #npm包管理设置
-- package.json #所有npm包依赖
-- pnpm-lock.yaml #所有pnpm包依赖
-- README.md #中文项导文档介绍
-- README-en.md #英文项导文档介绍
-- …
-  :::
-
----
-
-
 ## Git规范
+
+:::info git学习
+我不知道[git是什么](/csdiy/tools-must/git/)
+:::
 
 项导文档开发Git规范采用 [:[logos:angular-icon]:Angular 规范](https://zj-git-guide.readthedocs.io/zh-cn/latest/message/Angular%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF%E8%A7%84%E8%8C%83/)
 
@@ -239,91 +275,50 @@ graph TD
 
 **示例**：
 
+:::tabs
+
+@tab WebStorm中提交
+![2025-03-21_06-10-06.png](../.vuepress/public/src/2025-03-21_06-10-06.png)
+
+@tab 终端中提交
+
 ```bash
 git commit -m "feat: 添加用户登录功能"
 ```
 
+:::
+
 ### WebStorm拉取开发分支
 
-1. 确保已克隆仓库（如果您已近有仓库，直接进入下一步）
+1. 确保已克隆仓库（如果您已经有仓库，直接进入下一步）
 
 如果未克隆远程仓库，可按照以下步骤进行操作：
 
-打开WebStorm，点击File → New → Project from Version Control
+> 打开WebStorm，点击File → New → Project from Version Control
+>
+> 选择git，输入仓库URL，完成后等待WebStorm拉取代码
 
-选择git，输入仓库URL，完成后等待WebStorm拉取代码
+2. 牵出开发分支
 
-2. 拉取远程分支
+每个人单独一条开发分支，以 `dev/你的名字某字母`定义，例如彭于晏的开发分支为 `dev/pyy`
 
-Alt + F12打开终端，执行以下命令：
+![2025-03-21_06-38-10.png](../.vuepress/public/src/2025-03-21_06-38-10.png)
 
-```shell
-# 切换到 main 或 master 确保最新代码
-git checkout main  # 或者 master
-git pull origin main  # 更新主分支
+![2025-03-21_06-39-28.png](../.vuepress/public/src/2025-03-21_06-39-28.png)
 
-# 获取远程所有分支
-git fetch origin  
+3. 提交分支到远程仓库
 
-# 切换到远程开发分支（如 develop）
-git checkout -b develop origin/develop  
-```
+:::important 远程仓库
+统一提交到github
+:::
+![2025-03-21_06-44-42.png](../.vuepress/public/src/2025-03-21_06-44-42.png)
 
-解释：
-
-```shell
-git fetch origin：获取远程最新的分支信息。
-git checkout -b develop origin/develop：在本地创建 develop 分支并切换过去。
-```
-
-3. 拉取最新代码
-
-切换到开发分支后，执行拉取命令，确保代码是最新的
-
-```shell
-git pull origin develop
-```
-
-4. 确认分支切换成功
-
-在WebStorm右下角的git分支显示当前分支为’develop‘，或者执行：
-
-```shell
-git branch
-```
-
-输出类似
-```shell
-*develop
-main
-```
-
-表示你已近在’develop‘分支
-
-5. 开发新功能
-
-现状你已近成功拉取并切换到开发分支，开始您的编码，完成后，提交您的工作成果
-
-```bash
-pnpm commit  # 启动交互式提交
-```
-
-### 分支策略
-
-| 分支类型      | 描述               | 命名示例                  |
-|-----------|------------------|-----------------------|
-| `main`    | 稳定生产版本           | -                     |
-| `dev/*`   | 集成分支，每人一条 | -                     |
-| `feat/*`  | 功能开发分支           | `feat/user-auth`      |
-| `fix/*`   | Bug 修复分支         | `fix/mobile-layout`   |
-| `chore/*` | 配置/工具调整          | `chore/eslint-config` |
-| `test/*`  | 测试功能分支           | `test/refactor-icon`  |
-
+![2025-03-21_06-46-38.png](../.vuepress/public/src/2025-03-21_06-46-38.png)
 ::: warning 其他注意事项
 
 - 开发分支在main分支签出，不要在其他人的dev分支拉取
 - `feat fix chore test` 分支在开发完并且合并请求通过后，请自行删除！
-  - 成员完成阶段性开发后，如涉及功能性更改，请自行迁出test测试分支，再请求合并到main分支
+    - 成员完成阶段性开发后，如涉及功能性更改，请自行迁出test测试分支，再请求合并到main分支
 
 :::
 
@@ -332,11 +327,26 @@ pnpm commit  # 启动交互式提交
 - 通过 Pull Request 合并到 `main`
 - 至少一个团队成员 Code Review
 - 通过所有 CI 测试项
-  - Vercel CI自动测试，不用管
+    - Vercel CI自动测试，我会尝试修复，基本不用管
 
+### 分支策略
 
+| 分支类型      | 描述          | 命名示例                  |
+|-----------|-------------|-----------------------|
+| `main`    | 稳定生产版本      | -                     |
+| `dev/*`   | 集成开发分支，每人一条 | 彭于晏的开发分支是`dev/pyy`    |
+| `feat/*`  | 功能开发分支      | `feat/user-auth`      |
+| `fix/*`   | Bug 修复分支    | `fix/mobile-layout`   |
+| `chore/*` | 配置/工具调整     | `chore/eslint-config` |
+| `test/*`  | 测试功能分支      | `test/refactor-icon`  |
 
 ## 文档编写规范
+
+### 内容规范
+
+- 文档统一使用markdown格式，创建在`docs\notes`对应文件夹下，请注意修改永久链接[permalink](/contribute/#permalink)
+- VuePress Plume主题默认从二级标题开始，右侧侧边栏只渲染到三级标题
+- 每行markdown请空一行
 
 ### 新增页面
 
@@ -353,6 +363,7 @@ icon: #可选项，侧边栏图标
 ---
 ```
 
+### permalink
 注意更新permalink，要和同级目录相同的前缀；
 
 例如：
@@ -368,7 +379,7 @@ icon: #可选项，侧边栏图标
 在完成所在分支任务后，需要创建合并请求才能将更改应用到生产环境，下面是两种创建PR的方式
 
 :::tip
-需要先在自己的分支commit并push到远程仓库哦，创建完成后记得给rand777发个消息
+需要先在自己的分支commit并push到远程仓库哦，创建完成后记得在群内或者单独给rand777发个消息
 :::
 
 :::tabs
@@ -377,14 +388,13 @@ icon: #可选项，侧边栏图标
 
 ![2025-03-10_04-04-59.png](../.vuepress/public/src/2025-03-10_04-04-59.png)
 
-
 @tab :[line-md:github-loop]:Github创建
 
-<LinkCard icon="line-md:github-loop" href="https://github.com/MultipledMe/PGuide-Docs/pulls" title="Create Pull Request" >PGuide Docs Github Page</LinkCard>
+<LinkCard icon="line-md:github-loop" href="https://github.com/MultipledMe/PGuide-Docs/pulls" title="Create Pull Request" >
+PGuide Docs Github Page</LinkCard>
 ![2025-03-10_04-10-16.png](../.vuepress/public/src/2025-03-10_04-10-16.png)
 
 :::
-
 
 ## 静态资源管理规范
 
@@ -397,7 +407,8 @@ icon: #可选项，侧边栏图标
 
 :::info 静态资源类型、大小规范
 
-- 图片文件：70%分辨率jpg或png图片，放入 `PGuide-Docs/.docs/.vuepress/public/src`中，图片命名方式参考[截图工具设置](/contribute/#截图工具设置)
+- 图片文件：70%分辨率jpg或png图片，放入 `PGuide-Docs/.docs/.vuepress/public/src`
+  中，图片命名方式参考[截图工具设置](/contribute/#截图工具设置)
 - 矢量图：.svg .eps文件，放入 `PGuide-Docs/.docs/.vuepress/public/src`中，命名为英文即可
 
 ---
@@ -464,8 +475,6 @@ icon: #可选项，侧边栏图标
 [//]: # (TODO: 需要高等数学.pdf)
 ```
 
-
-
 ## 🆘 常见问题及解决方案
 
 ### 遇到git推送异常？（SSL ERROR）
@@ -474,14 +483,14 @@ icon: #可选项，侧边栏图标
 
 ![2025-03-05_03-51-27.png](../.vuepress/public/src/2025-03-05_03-51-27.png)
 
-2. 🛠️ 配置Git直通车（本地代理）：
+2. 🛠️ 配置Git本地代理：
    ```bash
    git config --global http.proxy http://127.0.0.1:7890
    git config --global https.proxy http://127.0.0.1:7890
    ```
-3. 🚀 尝试乘坐SSH穿梭机推送：
+3. 🚀 尝试推送：
    ```bash
-   git push -u origin:master
+   git push -u origin:dev/pyy
    ```
 
 ### 🧐 Giscus访问异常？
@@ -495,6 +504,6 @@ icon: #可选项，侧边栏图标
 
 ### 参考链接
 
+- [Plume 主题配置指南](https://theme-plume.vuejs.press/)
 - [VuePress 官方文档](https://v2.vuepress.vuejs.org/)
-- [Plume 主题配置指南](https://vuepress-theme-plume.rane.wang/)
 - [pnpm 使用手册](https://pnpm.io/zh/motivation)

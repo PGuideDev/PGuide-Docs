@@ -5,7 +5,7 @@ permalink: /csdiy/study-path/front-dev/NVM/
 icon: simple-icons:nvm
 ---
 
-Node Version Manager，不同的前端项目往往需要不同的 node.js 版本，它可以帮我们快速切换版本
+Node Version Manager，不同的前端项目往往需要不同的 node.js 版本，它可以帮我们快速切换版本。
 
 ## Windows
 ### 安装
@@ -20,7 +20,7 @@ Node Version Manager，不同的前端项目往往需要不同的 node.js 版本
 下载完成后安装，一直下一步即可
 
 ::: warning 重启IDE和终端
-安装完后，需要重启所有IDE和终端以重载环境变量，这样你输入nvm后才有效
+安装完后，需要重启IDE或终端以重载环境变量，这样你输入nvm后才有效
 :::
 
 ### 验证安装
