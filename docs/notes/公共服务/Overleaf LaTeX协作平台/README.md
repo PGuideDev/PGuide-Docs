@@ -71,6 +71,41 @@ _2025-03-17 维护后上线_
 
 :::
 
+## CQMU TUG
+
+重庆医科大学 TeX用户组(Chongqing Medical University TeX User Group)，开发CQMU的相关LaTeX模板。
+
+### 目前开发完成的模板
+
+::: details 重庆医科大学简历参考模板
+[大学百科-实习篇-简历制作与修改](/campus-wiki/internship/resume/)
+
+@[pdf height="600px"](https://cos.cqmu.online/docs/CQMU_%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BFV1_7_4_R.pdf)
+:::
+
+::: details 重庆医科大学本科生毕业论文（设计）示例模板
+@[pdf height="600px"](https://cos.cqmu.online/docs/cqmu-bs-thesis.pdf)
+:::
+
+::: details 推荐信模板
+@[pdf height="600px"](https://cos.cqmu.online/docs/recommand-cqmu.pdf)
+:::
+
+::: details 平时作业和小论文模板
+到[:[simple-icons:overleaf]:Overleaf](https://cn.overleaf.com/latex/templates/cqmu-researchreport/qghkqhhtzfkp)
+查看
+
+:::
+
+### 计划中的模板
+
+1. [ ] 信息服务课程模板
+2. [ ] Java开发课程报告模板
+3. [ ] 重庆医科大学本科生开题报告模板
+4. [ ] Linux课程模板
+5. [ ] 重庆医科大学研究生毕业论文模板
+
+
 ## LaTeX
 
 ### LaTeX 简介
@@ -105,36 +140,3 @@ _2025-03-17 维护后上线_
 
 请参考 [学习LaTeX](LaTeX.md)
 
-## CQMU TUG
-
-重庆医科大学 TeX用户组(Chongqing Medical University TeX User Group)，开发CQMU的相关LaTeX模板。
-
-### 目前开发完成的模板
-
-::: details 重庆医科大学简历参考模板
-[大学百科-实习篇-简历制作与修改](/campus-wiki/internship/resume/)
-
-@[pdf height="600px"](https://cos.cqmu.online/docs/CQMU_%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BFV1_7_4_R.pdf)
-:::
-
-::: details 重庆医科大学本科生毕业论文（设计）示例模板
-@[pdf height="600px"](https://cos.cqmu.online/docs/cqmu-bs-thesis.pdf)
-:::
-
-::: details 推荐信模板
-@[pdf height="600px"](https://cos.cqmu.online/docs/recommand-cqmu.pdf)
-:::
-
-::: details 平时作业和小论文模板
-到[:[simple-icons:overleaf]:Overleaf](https://cn.overleaf.com/latex/templates/cqmu-researchreport/qghkqhhtzfkp)
-查看
-
-:::
-
-### 计划中的模板
-
-1. [ ] 信息服务课程模板
-2. [ ] Java开发课程报告模板
-3. [ ] 重庆医科大学本科生开题报告模板
-4. [ ] Linux课程模板
-5. [ ] 重庆医科大学研究生毕业论文模板
