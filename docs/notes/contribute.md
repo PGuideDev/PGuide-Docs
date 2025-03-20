@@ -390,8 +390,8 @@ icon: #可选项，侧边栏图标
 
 @tab :[line-md:github-loop]:Github创建
 
-<LinkCard icon="line-md:github-loop" href="https://github.com/MultipledMe/PGuide-Docs/pulls" title="Create Pull Request" >
-PGuide Docs Github Page</LinkCard>
+<LinkCard icon="line-md:github-loop" href="https://github.com/MultipledMe/PGuide-Docs/pulls" title="Create Pull Request" >PGuide Docs Github Page</LinkCard>
+
 ![2025-03-10_04-10-16.png](../.vuepress/public/src/2025-03-10_04-10-16.png)
 
 :::
