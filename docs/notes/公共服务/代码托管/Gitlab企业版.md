@@ -14,9 +14,17 @@ icon: devicon:gitlab
 
 ## Gitlab CQMU
 
+:::tip 相关知识
+计算机必学工具之一[:[skill-icons:git]:git](/csdiy/tools-must/git/)
+:::
+
 gitlab是一个类似于github的代码托管平台,极狐中国代理了gitlab,允许企业私有部署，查看gitlab文档：
 
 <LinkCard icon="devicon:gitlab" href="https://gitlab.cn/docs/" title="Gitlab Docs" ></LinkCard>
+
+
+### 注册账号
+
 
 
 ### 提出issue

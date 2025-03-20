@@ -11,7 +11,7 @@ icon: /icon/mirror.svg
 
 ## 使用方式
 
-前往镜像站地址[https://mirrors.cqmu.edu.cn](https://mirrors.cqmu.edu.cn)
+前往[:[/icon/mirror.svg]:镜像站首页](https://mirrors.cqmu.edu.cn)
 
 阅读 CQMU Mirror Wiki即可
 
@@ -21,6 +21,10 @@ icon: /icon/mirror.svg
 
 前往:[devicon:gitlab]:gitlab主页[提出issue](/public-service/code-manage/gitlab-ee/#提出issue)，格式如下：
 
+> 标题填写 `New Mirror Request`
+
+> 描述内容如下
+> 
 > 镜像名：
 > 
 > 版本号：

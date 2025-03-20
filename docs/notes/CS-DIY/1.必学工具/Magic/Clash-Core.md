@@ -1,9 +1,15 @@
 ---
-title: Windows
-createTime: 2025/03/03 23:44:48
-permalink: /csdiy/tools-must/magic/clash-core/windows/
-icon: devicon:windows11
+title: Clash-Core
+createTime: 2025/03/21 04:28:07
+permalink: /csdiy/tools-must/magic/clash-core/
+icon: arcticons:clash
 ---
+
+这篇文档出现出现在此处纯属二进制的随意组合，与本组织无关。
+
+## Clash Wiki
+
+<LinkCard icon=arcticons:clash href="https://clash.wiki" title="Clash Wiki">Clash 百科</LinkCard>
 
 ## Clash Verge
 
@@ -23,7 +29,7 @@ icon: devicon:windows11
 :::steps
 
 1. 下载Clash Verge
-首先前往下载最新Release的Clash Verge
+   首先前往下载最新Release的Clash Verge
 
 <RepoCard repo="clash-verge-rev/clash-verge-rev"></RepoCard>
 
@@ -31,16 +37,18 @@ icon: devicon:windows11
 
 ![2025-03-08_00-55-10.png](/src/2025-03-08_00-55-10.png)
 
-下载.exe文件
+### Windows
+
+根据自己的操作系统系统选择对应类型的文件，windows下载.exe文件
 
 ![202-03-08_00-56-17.png](/src/2025-03-08_00-56-17.png)
 
 2. 安装
-![2025-03-08_01-07-06.png](/src/2025-03-08_01-07-06.png)
-默认安装即可，位置可以自定义
+   ![2025-03-08_01-07-06.png](/src/2025-03-08_01-07-06.png)
+   默认安装即可，位置可以自定义
 
 3. 设置Clash Verge
-![2025-03-08_01-14-00.png](/src/2025-03-08_01-14-00.png)
+   ![2025-03-08_01-14-00.png](/src/2025-03-08_01-14-00.png)
    :::info 含义
     - TUN(虚拟网卡)：Clash Verge会创建一个虚拟网卡，所有的流量都会通过这个虚拟网卡进行转发，这样就可以实现全局代理。<br>
     - 系统代理：开启后，Clash Verge会自动设置系统代理，这样所有的流量都会通过Clash Verge进行转发。<br>
@@ -49,7 +57,7 @@ icon: devicon:windows11
     - 局域网连接：开启后，应用层流量在局域网内通过Clash Verge进行转发。<br>
     - IPV6：开启后，Clash Verge会自动设置IPV6代理。<br>
     - 统一延迟：开启后，Clash Verge会统一延迟，这样可以避免一些网站检测到你使用了代理。
-   :::
+      :::
 
 
 4. 导入订阅
@@ -62,14 +70,17 @@ icon: devicon:windows11
 点击代理，点击wifi图标测速，选择延迟最低的节点即可
 
 ![2025-03-08_01-22-23.png](/src/2025-03-08_01-22-23.png)
-
-### 卸载Clash Verge
+ 
+#### 卸载Clash Verge
 
 <kbd>Win</kbd> + <kbd>S</kbd> 搜素Clash Verge，右键卸载即可
 
-## Clash for Windows
-
-:::tip 此处待写
-
+### MacOS
+:::tip
+待完善
 :::
+### OpenWRT
 
+:::tip
+待完善
+:::
