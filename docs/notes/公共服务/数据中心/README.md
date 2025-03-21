@@ -3,18 +3,15 @@ title: 数据中心
 createTime: 2025/02/25 18:33:00
 permalink: /public-service/data-center/
 icon: fluent-color:data-area-20
-home: true
-config:
-  -
-    type: features
-    features:
-      -
-        title: 响应式布局
-        icon: 💻
-        details: 适配移动设备，PC，平板
-        href: 123
-
 ---
 
 存储数据之处，方便下载和传输。
 
+<CardGrid>
+<LinkCard icon="https://alist.nn.ci/logo.svg" href="/public-service/data-center/pguide-alist/" title="Alist动态软件镜像站" >帮助同学们解决下载某些软件、数据、包库等资源时存在的下载速度慢、安全性问题等</LinkCard>
+<LinkCard icon="fluent-emoji-flat:medical-symbol" href="/public-service/data-center/global-medical-open-data-web/" title="全球医学公开数据网导航" >整理了一些常用的医学数据库、机器学习数据集，并列举了部分使用示例</LinkCard>
+<LinkCard icon="line-md:download-loop" href="/public-service/data-center/common-softwares-recommand-and-download/" title="常用软件推荐及下载" >收集并整理了常用的一些软件及介绍，并在相应界面整理了下载链接</LinkCard>
+<LinkCard icon="vscode-icons:file-type-word" href="/public-service/data-center/official-documents-web/" title="文书及申报资料页" >整理了重医常用到的公开文书资料等，使用web界面展示。</LinkCard>
+<LinkCard icon="simple-icons:minio" href="/public-service/data-center/minio/" title="PGuide OSS对象存储" >对象存储是将文件视为一个个独立的对象进行存储，效率高成本低</LinkCard>
+<LinkCard icon="teenyicons:docker-outline" href="/public-service/data-center/docker-registry/" title="docker私有镜像管理" >Docker 官方提供了一个叫做 registry 的镜像用于搭建本地私有仓库使用。</LinkCard>
+</CardGrid>

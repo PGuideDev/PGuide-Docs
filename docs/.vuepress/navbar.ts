@@ -125,7 +125,7 @@ export const navbar = defineNavbarConfig([
                     },
                     {icon: 'line-md:loading-alt-loop', text: 'when2eat', link: '/project-docs/when2eat/'},
                     {
-                        icon: 'line-md:cloud-alt-print-twotone-loop',
+                        icon: 'token-branded:wow',
                         text: 'Oh my API',
                         link: '/project-docs/oh-my-api/'
                     },

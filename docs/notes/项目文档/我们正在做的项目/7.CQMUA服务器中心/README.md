@@ -8,10 +8,11 @@ tags:
   - CQMUA
   - 前端开发
 ---
+<LinkCard icon="/icon/command_block.gif" href="https://server.cqmua.cn/" title="CQMUA服务器中心" >面向CQMUA的服务器状态监控界面，噢感谢上帝，我们的土豆服务器还在线。</LinkCard>
 
-<RepoCard repo="CQMUA/ServerCenter4CQMUA"></RepoCard>
 
 <Swiper :items="['/src/2025-03-17_02-24-07.png','/src/2025-03-17_02-18-57.png']" effect="cards" pauseOnMouseEnter="true"/>
+<RepoCard repo="CQMUA/ServerCenter4CQMUA"></RepoCard>
 
 ## CQMUA是什么？
 

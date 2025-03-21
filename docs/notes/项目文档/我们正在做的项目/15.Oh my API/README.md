@@ -2,7 +2,7 @@
 title: Oh my API!
 createTime: 2025/03/09 17:57:46
 permalink: /project-docs/oh-my-api/
-icon: line-md:cloud-alt-print-twotone-loop
+icon: token-branded:wow
 tags:
   - PGuide OAuth
   - GPT
