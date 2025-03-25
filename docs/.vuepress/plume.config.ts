@@ -37,9 +37,9 @@ export default defineThemeConfig({
     appearance: true,  // 配置 深色模式
 
     social: [
-        {icon: 'github', link: 'https://github.com/MultipledMe/PGuide-Docs'},
-        {icon: 'gitlab', link: 'https://zds.cqmu.edu.cn/pguide-studio'},
-        // { icon: 'qq', link: 'https://qm.qq.com/q/UIXh30Arqc'}
+        {icon: 'github', link: 'https://github.com/Lyrlark/PGuide-Docs'},
+        {icon: 'gitlab', link: 'https://git.cqmu.edu.cn'},
+        {icon: 'qq', link: 'https://qm.qq.com/q/Ur5Q6kyTsG'}
     ],
     navbarSocialInclude: ['github', 'gitlab', 'qq'], // 允许显示在导航栏的 social 社交链接
     aside: true, // 页内侧边栏， 默认显示在右侧
