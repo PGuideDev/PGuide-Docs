@@ -5,7 +5,7 @@ permalink: /public-service/overleaf/
 icon: /icon/overleaf.svg
 ---
 
-- 内网地址：[http://192.168.183.171](http://192.168.183.171/)
+- 内网地址：[http://192.168.183.171:8080](http://192.168.183.171/)
 - 外网地址（暂未开通）：[https://latex.cqmu.edu.cn/login](https://latex.cqmu.edu.cn/login)
 - 中文官网：[https://cn.overleaf.com/](https://cn.overleaf.com/)
 - 上海交通大学企业版地址：[https://latex.sjtu.edu.cn/login](https://latex.sjtu.edu.cn/login)
@@ -64,7 +64,7 @@ Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在
 
 ### Overleaf CQMU
 
-::: tip [http://192.168.183.171](http://192.168.183.171)
+::: tip [http://192.168.183.171:8080](http://192.168.183.171)
 校园网内网已经可以访问，在做最终准备
 
 _2025-03-17 维护后上线_

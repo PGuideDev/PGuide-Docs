@@ -9,10 +9,11 @@ icon: simple-icons:wikibooks
 
 :::info 关于CQMU Mirror Wiki
 
-1. 重庆医科大学开源软件镜像站Wiki文档旨在帮助同学们更快了解镜像源的相关信息和配置步骤
+1. 重庆医科大学开源软件镜像站Wiki旨在帮助同学们更快了解镜像源的相关信息和配置步骤
 2. 本文档基于[CERNET文档](https://help.mirrors.cernet.edu.cn/)修改而来，为了保障服务可用性，后端默认指向
    `https://mirrors.cernet.edu.cn`，重医校园网范围内默认为`https://mirrors.cqmu.edu.cn`
-3. 若有其他问题，请通过[邮箱](mailto:losmosga@foxmail.com)联系我们
+3. 为保障校内用户正常使用，部分镜像不对校外用户开放
+4. 若有其他问题，请通过[邮箱](mailto:losmosga@foxmail.com)联系我们
    :::
 
 :::details 已镜像的源
