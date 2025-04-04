@@ -38,6 +38,9 @@ author=""
 
 :[noto:red-heart]:
 
+/friends/persons/
+/friends/organizations/
+
 :::: steps
 1. 步骤 1
 

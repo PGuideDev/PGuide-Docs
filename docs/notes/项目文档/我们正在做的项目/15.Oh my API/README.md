@@ -17,6 +17,42 @@ tags:
 
 现行各生成式人工代理商不提供接口，每次需要登录后才能查看使用情况，每次余额不足了都不知道，较为不便，此项目是一个基于 EChart.js 的纯前端界面，用于展示 OpenAI-HK 代理节点的积分使用情况。计划后端采用 MySQL8 进行持久化存储。
 
+## 项目UML
+
+```mermaid
+erDiagram
+    EchartJS_Interface {
+        string node_id
+        string api_usage_status
+        string balance_information
+    }
+    
+    OpenAI_HK_ProxyNode {
+        string node_id PK
+        string location
+        string status
+    }
+    
+    GPT_API {
+        string api_name PK
+        string usage_quota
+        string distribution_details
+    }
+
+    MySQL8_Backend {
+        string node_id FK
+        string api_name FK
+        float balance
+        string usage_details
+    }
+
+    OpenAI_HK_ProxyNode ||--o{ EchartJS_Interface : provides
+    OpenAI_HK_ProxyNode ||--o{ MySQL8_Backend : stores
+    GPT_API ||--o{ EchartJS_Interface : provides
+    GPT_API ||--o{ MySQL8_Backend : stores
+    EchartJS_Interface }o--|| MySQL8_Backend : fetches
+```
+
 ## 开发计划
 
 1. API使用日期及月份分布（折线图）
