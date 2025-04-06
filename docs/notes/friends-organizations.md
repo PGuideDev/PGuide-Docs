@@ -26,36 +26,36 @@ groups:
         avatar: https://uptime.kuma.pet/img/icon.svg
         organization: PGuide Studio
         desc: 基于Uptime Kuma的多源站点状态监控Vue界面
-      - name: 重庆医科大学校级镜像站(即将上线)
+      - name: 重庆医科大学校级镜像站(内网)
         link: https://mirrors.cqmu.edu.cn/
-        location: 重庆医科大学、CERNET联盟
+        location: 重庆医科大学、CERNET Federation
         avatar: /icon/mirror.svg
         organization: CQMU Mirror Group、PGuide Studio
         desc: 一个面向西南地区的开源软件镜像站
       - name: Overleaf CQMU(内网)
         link: https://192.168.183.171
-        location: 重庆医科大学
+        location: Global distribution
         avatar: /icon/overleaf.svg
-        organization: CQMU Tug、PGuide Studio
+        organization: CQMUtug、PGuide Studio
         desc: LaTeX 在线协作编辑器，Co-writing in LaTeX!
       - name: PGuide LobeChat
         link: /public-service/GPT/lobe-chat/
-        location: 重庆医科大学
+        location: Global distribution
         avatar: https://lobechat.com/icons/icon-192x192.png
         organization: PGuide Studio、LobeHub
         desc: 一个聚合多种AI、支持PGuide OAuth的生成式人工智能调用平台
       - name: 数据中心 
         link: /public-service/data-center/
-        location: Global distribution
+        location: 重庆医科大学
         avatar: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48ZyBmaWxsPSJub25lIj48cGF0aCBmaWxsPSJ1cmwoI2ZsdWVudENvbG9yRGF0YUFyZWEzMjApIiBkPSJNMjYgMjcuMDExYTMgMyAwIDAgMC0uMjUtLjAxMUg1LjI1YS4yNS4yNSAwIDAgMS0uMjUtLjI1VjEzLjQ4NGw1LjYwNi0yLjQwM2ExIDEgMCAwIDEgLjg0MS4wMjVsNS40NDcgMi43MjNMMjQuNCA4LjJBMSAxIDAgMCAxIDI2IDl6Ii8+PHBhdGggZmlsbD0idXJsKCNmbHVlbnRDb2xvckRhdGFBcmVhMzI0KSIgZmlsbC1vcGFjaXR5PSIwLjMiIGQ9Ik0yNiAyNy4wMTFhMyAzIDAgMCAwLS4yNS0uMDExSDUuMjVhLjI1LjI1IDAgMCAxLS4yNS0uMjVWMTMuNDg0bDUuNjA2LTIuNDAzYTEgMSAwIDAgMSAuODQxLjAyNWw1LjQ0NyAyLjcyM0wyNC40IDguMkExIDEgMCAwIDEgMjYgOXoiLz48cGF0aCBmaWxsPSJ1cmwoI2ZsdWVudENvbG9yRGF0YUFyZWEzMjEpIiBmaWxsLW9wYWNpdHk9IjAuMyIgZD0iTTI2IDI3LjAxMWEzIDMgMCAwIDAtLjI1LS4wMTFINS4yNWEuMjUuMjUgMCAwIDEtLjI1LS4yNVYxMy40ODRsNS42MDYtMi40MDNhMSAxIDAgMCAxIC44NDEuMDI1bDUuNDQ3IDIuNzIzTDI0LjQgOC4yQTEgMSAwIDAgMSAyNiA5eiIvPjxwYXRoIGZpbGw9InVybCgjZmx1ZW50Q29sb3JEYXRhQXJlYTMyMikiIGZpbGwtb3BhY2l0eT0iMC4zIiBkPSJNMjYgMjcuMDExYTMgMyAwIDAgMC0uMjUtLjAxMUg1LjI1YS4yNS4yNSAwIDAgMS0uMjUtLjI1VjEzLjQ4NGw1LjYwNi0yLjQwM2ExIDEgMCAwIDEgLjg0MS4wMjVsNS40NDcgMi43MjNMMjQuNCA4LjJBMSAxIDAgMCAxIDI2IDl6Ii8+PHBhdGggZmlsbD0idXJsKCNmbHVlbnRDb2xvckRhdGFBcmVhMzIzKSIgZD0iTTQuMjUgM2MuNjkgMCAxLjI1LjU2IDEuMjUgMS4yNXYyMC41YzAgLjk2Ni43ODQgMS43NSAxLjc1IDEuNzVoMjAuNWExLjI1IDEuMjUgMCAxIDEgMCAyLjVINy4yNUE0LjI1IDQuMjUgMCAwIDEgMyAyNC43NVY0LjI1QzMgMy41NiAzLjU2IDMgNC4yNSAzIi8+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJmbHVlbnRDb2xvckRhdGFBcmVhMzIwIiB4MT0iLTIuMjY5IiB4Mj0iMzIuMTE3IiB5MT0iMTAuMzc2IiB5Mj0iMzAuNzYxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIuMTY0IiBzdG9wLWNvbG9yPSIjM2JkNWZmIi8+PHN0b3Agb2Zmc2V0PSIuNTM3IiBzdG9wLWNvbG9yPSIjOWM2Y2ZlIi8+PHN0b3Agb2Zmc2V0PSIuOTA4IiBzdG9wLWNvbG9yPSIjZTY1NmViIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImZsdWVudENvbG9yRGF0YUFyZWEzMjEiIHgxPSIxNS41IiB4Mj0iMTUuNSIgeTE9IjI1IiB5Mj0iMjcuMDExIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzE2MzY5NyIgc3RvcC1vcGFjaXR5PSIwIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTYzNjk3Ii8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImZsdWVudENvbG9yRGF0YUFyZWEzMjIiIHgxPSI3IiB4Mj0iNSIgeTE9IjIxLjUiIHkyPSIyMS40NjYiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjMTYzNjk3IiBzdG9wLW9wYWNpdHk9IjAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxNjM2OTciLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iZmx1ZW50Q29sb3JEYXRhQXJlYTMyMyIgeDE9IjI2LjU2MyIgeDI9IjMuODA5IiB5MT0iNC42MjUiIHkyPSIzOC41MDUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjNzA3NzdkIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjYjljMGM3Ii8+PC9saW5lYXJHcmFkaWVudD48cmFkaWFsR3JhZGllbnQgaWQ9ImZsdWVudENvbG9yRGF0YUFyZWEzMjQiIGN4PSIwIiBjeT0iMCIgcj0iMSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtMTYuMTUzNzMgMTQuMjU4NDggLTE0LjM5MTY5IC0xNi4zMDQ2NSAyMi43NyAxMS4xNjgpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIuNjM2IiBzdG9wLWNvbG9yPSIjMGZhZmZmIiBzdG9wLW9wYWNpdHk9IjAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwMDY3YmYiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48L2c+PC9zdmc+
         organization: PGuide Studio
         desc: docker私有镜像站、MinIO对象存储、FTP共享、Alist动态开源软件镜像站
       - name: Git代码托管平台
         link: /public-service/code-manage/gitlab-ee/
-        location: 重庆医科大学
+        location: Global distribution
         avatar: /icon/git.svg
-        organization: PGuide Studio、Gitlab极狐
-        desc: 重庆医科大学Gitlab企业版，提供代码托管、项目管理、持续集成等服务。
+        organization: PGuide Studio、Gitlab、Gitea
+        desc: 重庆医科大学Gitlab企业版、Gitea企业版、PGuide Github群组，提供代码托管、项目管理、持续集成等服务。
   - title: 重庆医科大学信息中心
     desc: CQMU Central NetWork
     list:
@@ -90,7 +90,7 @@ groups:
         desc: We believe in the power of community over code, known as The Apache Way. Thousands of people around the world contribute to ASF open source projects every day.
       - name: Apache AutoMQ
         link: https://www.automq.com/zh
-        avatar: https://www.automq.com/cdn.prod.website-files.com/658b851720ea776d824cb246/659382f154176ac668780b2a_Frame%2051%20(2).png
+        avatar: https://www.automq.com/cdn.prod.website-files.com/67480fef30f9df5f84f31d36/67eb556b6430868c6d6a798c_automq-home-page.png
         location: Global
         organization: AutoMQ
         desc: AutoMQ is a cloud-native alternative to Kafka by decoupling durability to S3 and EBS. 10x Cost-Effective. No Cross-AZ Traffic Cost. Autoscale in seconds. Single-digit ms latency.
@@ -208,7 +208,7 @@ groups:
         name: 和瑛社
         link: https://heryin.net/
         location: 中国
-        avatar: https://heryin.net/_nuxt/heryin-logo.5348ed79.svg
+        avatar: http://heryin.net/_nuxt/heryin-illu.04a88114.svg
         organization: 和瑛社、MUA、云南大学、南开大学等
         desc: 终日乾乾，与时偕行
       -

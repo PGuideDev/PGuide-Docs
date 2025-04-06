@@ -141,6 +141,20 @@ export const navbar = defineNavbarConfig([
             {icon: '/icon/code.svg', text: '前言', link: '/cs-diy/'},
             {icon: 'twemoji:thinking-face', text: '公开课', link: '/csdiy/public-class/'},
             {icon: 'mdi:tools', text: '必学工具', link: '/csdiy/tools-must/'},
+            // {
+            //     icon: 'mdi:tools',
+            //     text: '必学工具',
+            //     items: [
+            //         {icon: 'skill-icons:git',text: 'Git',link: '/csdiy/tools-must/git/'},
+            //         {icon: 'material-symbols:markdown',text: 'Markdown',link: '/csdiy/tools-must/markdown/'},
+            //         {icon: 'devicon:vim',text: 'Vim',link: '/csdiy/tools-must/Vim/'},
+            //         {icon: 'file-icons:latex',text: 'LaTeX',link: '/csdiy/tools-must/latex/'},
+            //         {icon: 'catppuccin:docker-compose',text: 'Docker',link: '/csdiy/tools-must/docker/'},
+            //         {icon: '',text: '',link: ''},
+            //         {icon: '',text: '',link: ''},
+            //         {icon: '',text: '',link: ''},
+            //     ]
+            // },
             {icon: 'carbon:cics-program', text: '编程入门', link: '/csdiy/program-begin/'},
             {icon: '/icon/dev-standard.svg', text: '开发规范', link: '/csdiy/dev-rules/'},
             {icon: '/icon/path.svg', text: '学习路线', link: '/csdiy/study-path/'},

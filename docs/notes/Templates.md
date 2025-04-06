@@ -41,6 +41,8 @@ author=""
 /friends/persons/
 /friends/organizations/
 
+[:[noto:red-heart]:rand777](/friends/persons/)
+
 :::: steps
 1. 步骤 1
 

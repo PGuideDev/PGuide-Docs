@@ -5,9 +5,10 @@ permalink: /public-service/overleaf/
 icon: /icon/overleaf.svg
 ---
 
-- 内网地址：[http://192.168.183.171:8080](http://192.168.183.171/)
-- 外网地址（暂未开通）：[https://latex.cqmu.edu.cn/login](https://latex.cqmu.edu.cn/login)
+- 内网地址：[http://192.168.183.171](http://192.168.183.171/)
+- 外网地址（暂未开通）：[https://latex.cqmu.edu.cn](https://latex.cqmu.edu.cn)
 - 中文官网：[https://cn.overleaf.com/](https://cn.overleaf.com/)
+- 中国科技云开放通行证地址：[https://latex.ustc.edu.cn/login](https://latex.ustc.edu.cn/login)
 - 上海交通大学企业版地址：[https://latex.sjtu.edu.cn/login](https://latex.sjtu.edu.cn/login)
 
 ## 简介
@@ -64,10 +65,10 @@ Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在
 
 ### Overleaf CQMU
 
-::: tip [http://192.168.183.171:8080](http://192.168.183.171)
-校园网内网已经可以访问，在做最终准备
+:::tip 需要连接校园网：电脑连接有线网络或MCQMU无线网络
+[http://192.168.183.171](http://192.168.183.171)
 
-_2025-03-17 维护后上线_
+校园网内网已经可以访问，在做最终准备，为同学们开通外网访问，如您需要注册，请联系 [:[noto:red-heart]:rand777](/friends/persons/)。
 
 :::
 
@@ -138,5 +139,5 @@ _2025-03-17 维护后上线_
 
 ### 学习LaTeX
 
-请参考 [学习LaTeX](LaTeX.md)
+请参考计算机必学工具 [:[simple-icons:latex]:LaTeX](/csdiy/tools-must/latex/****)
 
