@@ -8,7 +8,7 @@ icon: /icon/overleaf.svg
 - 内网地址：[http://192.168.183.171](http://192.168.183.171/)
 - 外网地址（暂未开通）：[https://latex.cqmu.edu.cn](https://latex.cqmu.edu.cn)
 - 中文官网：[https://cn.overleaf.com/](https://cn.overleaf.com/)
-- 中国科技云开放通行证地址：[https://latex.ustc.edu.cn/login](https://latex.ustc.edu.cn/login)
+- 中国科技云开放通行证地址：[https://sharelatex.cstcloud.cn/](https://sharelatex.cstcloud.cn/)
 - 上海交通大学企业版地址：[https://latex.sjtu.edu.cn/login](https://latex.sjtu.edu.cn/login)
 
 ## 简介
@@ -63,6 +63,8 @@ Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在
 在 [Overleaf的模板网](https://cn.overleaf.com/latex/templates)中，你可以看到很多类型的模板，这些和文字相关的工作LaTeX都能应付！
 ![2025-03-10_02-52-40.png](../../../.vuepress/public/src/2025-03-10_02-52-40.png)
 
+所有模板都已收录至 中国科学院大学网络信息中心的
+
 ### Overleaf CQMU
 
 :::tip 需要连接校园网：电脑连接有线网络或MCQMU无线网络
@@ -72,7 +74,7 @@ Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在
 
 :::
 
-## CQMU TUG
+## CQMU tug
 
 重庆医科大学 TeX用户组(Chongqing Medical University TeX User Group)，开发CQMU的相关LaTeX模板。
 
@@ -100,10 +102,10 @@ Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在
 
 ### 计划中的模板
 
-1. [ ] 信息服务课程模板
-2. [ ] Java开发课程报告模板
-3. [ ] 重庆医科大学本科生开题报告模板
-4. [ ] Linux课程模板
+1. [x] 信息服务课程模板
+2. [x] Java开发课程报告模板
+3. [x] 重庆医科大学本科生开题报告模板
+4. [x] Linux课程模板
 5. [ ] 重庆医科大学研究生毕业论文模板
 
 
@@ -139,5 +141,5 @@ Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在
 
 ### 学习LaTeX
 
-请参考计算机必学工具 [:[simple-icons:latex]:LaTeX](/csdiy/tools-must/latex/****)
+请参考计算机必学工具 [:[simple-icons:latex]:LaTeX](/csdiy/tools-must/latex/)
 
