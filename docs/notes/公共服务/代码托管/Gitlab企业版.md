@@ -10,6 +10,7 @@ icon: devicon:gitlab
 - 因硬盘容量不足,计划在3月下旬完成迁移
 - 迁移后域名变化为 git.cqmu.edu.cn
 - 注册审核需要管理员审核，请联系[:[noto:red-heart]:DKwms](/friends/persons/)或[:[noto:red-heart]:rand777](https://qm.qq.com/q/2iLBaNcsnO)
+- 请使用校内邮箱注册，标志为 学号/工号@[stu.]cqmu.edu.cn，如2021000001@stu.cqmu.edu.cn或teacher@cqmu.edu.cn，若有其他情况请单独联系上述管理员
 :::
 
 ## Gitlab CQMU

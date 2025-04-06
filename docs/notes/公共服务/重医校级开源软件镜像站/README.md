@@ -5,8 +5,10 @@ permalink: /public-service/cqmu-mirror/
 icon: /icon/mirror.svg
 ---
 
+![cqmu-mirror-frontpage.png](../../../.vuepress/public/src/cqmu-mirror-frontpage.png)
+
 :::tip
-即将上线
+即将上线，现已支持校内访问
 :::
 
 ## 使用方式
@@ -43,5 +45,5 @@ icon: /icon/mirror.svg
 ## 服务器状态
 
 :::tip
-此处待完善
+此处待完善，预定域名：[http://status.pguide.studio/cqmu-mirror](http://status.pguide.studio/cqmu-mirror)
 :::
