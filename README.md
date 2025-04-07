@@ -1,6 +1,6 @@
 # 🌱 项导文档 - 共建知识花园
 [![OpenSource](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F-%E5%BC%80%E6%BA%90%E4%B9%8B%E6%97%85-brightgreen)](https://opensource.org)
-![pguide-doc.jpg](docs/.vuepress/public/src/pguide-doc.jpg)
+![pguide-doc.png](docs/.vuepress/public/src/pguide-doc.png)
 万物互联的时代，知识的传递如同满天星火。本项目的每一页文档，都是社区伙伴们智慧的结晶。在此诚邀您与我们携手，共同浇灌这株属于每个人成长的知识树👫
 
 > 太好了，本文档已入选[Plume Vuepress案例](https://theme-plume.vuejs.press/demos/#%E6%96%87%E6%A1%A3)

@@ -15,7 +15,7 @@ createTime: 2025/03/06 16:40:46
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | :[mingcute:qq-fill]:                | 添加QQ好友，点击即可添加                                                                     |
 | :[akar-icons:github-fill]:          | 个人github主页                                                                        |
-| :[bxl:blogger]:                     | 个人博客页                                                                             |
+| :[fa-solid:blog]:                   | 个人博客页                                                                             |
 | :[mdi:web]:                         | 门户网站页，多为子页面                                                                       |
 | :[mingcute:bilibili-line]:          | 个人B站主页，[Bilibili](https://www.bilibili.com/)                                      |
 | :[fxemoji:email]:                   | 电子邮箱，点击即可联系                                                                       |
@@ -38,9 +38,10 @@ createTime: 2025/03/06 16:40:46
 :::info 不同的添加方式
 
 - 管理员/开发人员收到你的社交链接后，会根据你的需求添加到友情链接中。
-- 前往github仓库的[friends文件夹](https://github.com/Lyrlark/PGuide-Docs/edit/master/docs/notes/friends-persons.md)
-  自行编辑，提交PR即可。
-  :::
+-
+前往github仓库的[friends文件夹](https://github.com/Lyrlark/PGuide-Docs/edit/master/docs/notes/friends-persons.md)
+自行编辑，提交PR即可。
+:::
 
 :::tip 目前可编辑的字段
 | 字段 | 含义 |
