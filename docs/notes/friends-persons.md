@@ -377,6 +377,26 @@ list:
     backgroundColor:
     color:
     nameColor:
+  - name: Xieao
+    link:
+    avatar:
+    desc: myth
+    location:
+    organization:
+    socials:
+    backgroundColor:
+    color:
+    nameColor:
+  - name:
+    link:
+    avatar:
+    desc:
+    location:
+    organization:
+    socials:
+    backgroundColor:
+    color:
+    nameColor:
 #  - name:
 #    link:
 #    avatar:
