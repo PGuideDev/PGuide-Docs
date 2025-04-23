@@ -16,3 +16,5 @@ icon: lineicons:docker
 <LinkCard icon="iconoir:network-solid" href="https://www.coderjia.cn/archives/dba3f94c-a021-468a-8ac6-e840f85867ea" title="Mirror List">国内可用Docker镜像源汇总</LinkCard>
 
 为了自动化收集可用docker镜像源，并且确保容器镜像安全，rand777发起一个新项目 `async-my-docker`
+
+<RepoCard repo="PGuideDev/async-my-docker"></RepoCard>

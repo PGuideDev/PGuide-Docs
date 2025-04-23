@@ -26,14 +26,14 @@ groups:
         avatar: https://uptime.kuma.pet/img/icon.svg
         organization: PGuide Studio
         desc: 基于Uptime Kuma的多源站点状态监控Vue界面
-      - name: 重庆医科大学校级镜像站(内网)
-        link: https://mirrors.cqmu.edu.cn/
+      - name: 重庆医科大学校级镜像站
+        link: /public-service/cqmu-mirror/
         location: 重庆医科大学、CERNET Federation
         avatar: /icon/mirror.svg
         organization: CQMU Mirror Group、PGuide Studio
         desc: 一个面向西南地区的开源软件镜像站
-      - name: Overleaf CQMU(内网)
-        link: https://192.168.183.171
+      - name: Overleaf CQMU
+        link: /public-service/overleaf/
         location: Global distribution
         avatar: /icon/overleaf.svg
         organization: CQMUtug、PGuide Studio
@@ -57,22 +57,14 @@ groups:
         organization: PGuide Studio、Gitlab、Gitea
         desc: 重庆医科大学Gitlab企业版、Gitea企业版、PGuide Github群组，提供代码托管、项目管理、持续集成等服务。
   - title: 重庆医科大学
-    desc: CQMU Central NetWork
+    desc: Chongqing Medical University
     list:
-      - 
-        name: 医学信息学院
+      - name: 医学信息学院
         link: https://mi.cqmu.edu.cn/
-        location: 
-        avatar:
-        organization:
-        desc:
-      -
-        name:
-        link:
-        location:
-        avatar:
-        organization:
-        desc:
+        location: 中国，重庆沙坪坝
+        avatar: /avatar/cqmu.svg
+        organization: 重庆医科大学
+        desc: College of Medical Informatics
       - name: 信息中心二级门户
         link: https://cnw.cqmu.edu.cn/
         location: 重庆医科大学
@@ -85,14 +77,14 @@ groups:
         location: 重庆医科大学
         avatar: /icon/huawei.svg
         organization: 重庆医科大学医学信息学院
-        desc: Huawei DL platform
+        desc: Huawei DeepLearning platform
       - 
         name: 校超算平台（内网）
         link: http://172.16.190.220:6080/
         location: 重庆医科大学
         avatar: /icon/hpc.svg
         organization: 重庆医科大学信息中心
-        desc: 计算云门户
+        desc: 融合计算云门户
   - title: The Apache Software Foundation
     desc: ASF's open source software is used ubiquitously around the world with more than 8,400 committers contributing to more than 320 active projects.
     list:
@@ -132,7 +124,7 @@ groups:
         desc: A research team affiliated to the College of Basic Medical Science composed of undergraduates
 
   - title: 西湖大学
-    desc: Westlake University
+    desc: WestLake University
     list:
       -
         name: 信息技术中心
@@ -267,7 +259,23 @@ groups:
       avatar: /icon/mindspore.svg
       organization: 华为昇思MindSpore
       desc: 分布式、全场景AI开源框架
-
+  - title: 小米科技有限责任公司
+    dsc: Xiaomi Corp.
+    list:
+    -
+      name: 小米官网
+      link: https://www.mi.com/
+      location: Global
+      avatar: /icon/xiaomi.svg
+      organization: 小米集团
+      desc: 让全球每个人都能享受科技带来的美好生活
+    -
+      name: 重医小米俱乐部
+      link: https://chenhy.pguide.studio/githubFindNew/mifan/mifans.html
+      location: 重庆医科大学
+      avatar: https://chenhy.pguide.studio/githubFindNew/pictures/CircleElysia.jpg
+      organization: 重庆小米
+      desc: 与用户做朋友，做用户心中最酷的公司。
 #    -
 #      name:
 #      link:

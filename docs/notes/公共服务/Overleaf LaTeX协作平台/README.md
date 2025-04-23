@@ -4,7 +4,7 @@ createTime: 2025/02/19 10:52:51
 permalink: /public-service/overleaf/
 icon: /icon/overleaf.svg
 ---
-- 测试环境：[https://latex.cqmu.online](https://latex.cqmu.online/)
+- 测试环境（预发布，与公网地址内容一致）：[https://latex.cqmu.online](https://latex.cqmu.online)
 - 内网地址：[http://192.168.183.171](http://192.168.183.171/)
 - 外网地址（暂未开通）：[https://latex.cqmu.edu.cn](https://latex.cqmu.edu.cn)
 - 中文官网：[https://cn.overleaf.com/](https://cn.overleaf.com/)
@@ -14,15 +14,21 @@ icon: /icon/overleaf.svg
 ## 简介
 
 **Overleaf LaTeX协作编辑器**是一款支持多人在线同步编辑、审议的LaTeX编辑器，支持Zotero、Github等现代应用集成，极大便利了广大科研工作者。
-LaTeX最初设计用作学术论文的编写，后面逐渐发展成一款全能的文字排版软件系统，现在，全球已有**5500**
-多所机构和组织在使用它。
+LaTeX最初设计用作学术论文的编写，后面逐渐发展成一款全能的文字排版软件系统，现在，全球已有**5900**多所机构和组织在使用它。
 
 ## Overleaf使用
 
+### 注册账户
+
+联系 [:[noto:red-heart]:rand777](/friends/persons/) 或邮件联系[pguide.studio@outlook.com](mailto:pguide.studio@outlook.com) 注册账号，注册后请使用校内 _.cqmu.edu.cn_ 邮箱登录。
+
+:::info 联系格式
+你好！我的学/工号是xxxxxxxx，是在校学生/教职工/科研机构人员，想申请Overleaf账号，谢谢！
+:::
+
 ### 尝鲜体验
 
-<LinkCard icon="/icon/overleaf.svg" title="Overleaf在线官网" href="https://cn.overleaf.
-com/">中文官网</LinkCard>
+<LinkCard icon="/icon/overleaf.svg" title="Overleaf在线官网" href="https://cn.overleaf.com/">中文官网</LinkCard>
 
 Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在就开始阅读[Overleaf官方文档](https://cn.overleaf.com/learn/how-to/Creating_a_document_in_Overleaf#Introduction)
 开始LaTeX之旅吧，相信我，你会惊叹它的奇妙设计！
@@ -63,7 +69,7 @@ Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在
 在 [Overleaf的模板网](https://cn.overleaf.com/latex/templates)中，你可以看到很多类型的模板，这些和文字相关的工作LaTeX都能应付！
 ![2025-03-10_02-52-40.png](../../../.vuepress/public/src/2025-03-10_02-52-40.png)
 
-所有模板都已收录至 中国科学院大学网络信息中心的
+所有模板都已收录至 [:[twemoji:newspaper]:LaTeX Template Collections](/public-service/overleaf/latex-template-collections/)
 
 ### Overleaf CQMU
 

@@ -9,10 +9,10 @@ icon: twemoji:newspaper
 > CQMUtug将论文模板托管在云平台上以方便同学们下载使用，请访问以下地址查看
 
 ### CQMUtug
+<CardGrid>
 
-:::tip
-待完善
-:::
+</CardGrid>
+https://github.com/CQMUtug/CQMU_Exp-Homework_template
 
 ### 中国科技云LaTeX模板
 
