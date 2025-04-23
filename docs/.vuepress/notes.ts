@@ -3,7 +3,7 @@ import {defineNoteConfig, defineNotesConfig} from 'vuepress-theme-plume'
 const campusWiki = defineNoteConfig({
     dir: '大学百科',
     link: '/campus-wiki/',
-    sidebar: 'auto'
+    sidebar: 'auto',
 
 })
 

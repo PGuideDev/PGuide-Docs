@@ -22,8 +22,16 @@ export const navbar = defineNavbarConfig([
             {
                 icon: 'devicon:ros', text: 'ROS2',
                 items: [
-                    {icon: 'icon-park-twotone:install', text: 'ROS2系统安装', link: '/learning-notes/ROS2/VMWare-install/'},
-                    {icon: 'https://www.originbot.org/assets/img/favicon.png',text: '古月居OriginBot',link: '/learning-notes/ROS2/origin-bot-toolkit/'},
+                    {
+                        icon: 'icon-park-twotone:install',
+                        text: 'ROS2系统安装',
+                        link: '/learning-notes/ROS2/VMWare-install/'
+                    },
+                    {
+                        icon: 'https://www.originbot.org/assets/img/favicon.png',
+                        text: '古月居OriginBot',
+                        link: '/learning-notes/ROS2/origin-bot-toolkit/'
+                    },
                     {icon: '/icon/zzx.png', text: '中智讯智能小车一代', link: '/learning-notes/zcloud-car1/'},
                 ]
             },
@@ -48,7 +56,11 @@ export const navbar = defineNavbarConfig([
                 items: [
                     {icon: '/icon/yolo.svg', text: 'YOLO', link: '/learning-notes/computer-vision/YOLO/'},
                     {icon: 'devicon:opencv', text: 'OpenCV', link: '/learning-notes/computer-vision/OpenCV/'},
-                    {icon: 'vscode-icons:file-type-matlab', text: 'MATLAB', link: '/learning-notes/computer-vision/MATLAB/'}
+                    {
+                        icon: 'vscode-icons:file-type-matlab',
+                        text: 'MATLAB',
+                        link: '/learning-notes/computer-vision/MATLAB/'
+                    }
                 ]
             },
 
@@ -164,16 +176,46 @@ export const navbar = defineNavbarConfig([
         icon: '/icon/public-service.svg',
         text: '公共服务',
         items: [
-            {icon: '/icon/openai.svg', text: '生成式人工智能', link: '/public-service/GPT/'},
+            {
+                icon: '/icon/openai.svg',
+                text: '生成式人工智能',
+                items: [
+                    {
+                        icon: '/icon/openai.svg',
+                        text: 'GPT API公共调用网站及应用部署集合',
+                        link: '/public-service/GPT/',
+                    },
+                    {
+                        icon: 'https://lobechat.com/icons/icon-192x192.png',
+                        text: 'Lobe Chat',
+                        link: '/public-service/GPT/lobe-chat/',
+                        badge: '大模型聚合平台',
+                    },
+                    {
+                        icon: 'https://raw.githubusercontent.com/Dooy/chatgpt-web-midjourney-proxy/main/src/assets/avatar.jpg',
+                        text: 'MidJourneyProxy',
+                        link: '/public-service/GPT/MidJourneyProxy/',
+                        badge: '大模型聚合平台',
+                    },
+                    {
+                        icon: 'flat-color-icons:statistics',
+                        text: '使用分析',
+                        link: '/public-service/GPT/analyse/',
+                    }
+                ]
+
+            },
             {
                 icon: '/icon/mirror.svg',
                 text: '重庆医科大学开源软件镜像站',
-                link: '/public-service/cqmu-mirror/'
+                link: '/public-service/cqmu-mirror/',
+                badge: '即将上线！',
             },
             {
                 icon: '/icon/overleaf.svg',
                 text: 'Overleaf LaTeX协作平台',
-                link: '/public-service/overleaf/'
+                link: '/public-service/overleaf/',
+                badge: '即将上线！',
             },
             {
                 icon: 'skill-icons:git',
@@ -187,7 +229,8 @@ export const navbar = defineNavbarConfig([
                     {
                         icon: 'devicon:gitlab',
                         text: 'Gitlab EE代码托管平台',
-                        link: '/public-service/code-manage/gitlab-ee/'
+                        link: '/public-service/code-manage/gitlab-ee/',
+                        badge: '即将上线！',
                     },
                     {
                         icon: 'material-icon-theme:folder-gitea',
@@ -213,18 +256,26 @@ export const navbar = defineNavbarConfig([
                     {
                         icon: 'teenyicons:docker-outline',
                         text: 'docker私有镜像管理',
-                        link: '/public-service/data-center/docker-registry/'
+                        link: '/public-service/data-center/docker-registry/',
+                        badge: '即将上线！',
                     },
-                    {icon: 'ic:round-storage', text: 'PGuide OSS对象存储', link: '/public-service/data-center/minio/'},
+                    {
+                        icon: 'ic:round-storage',
+                        text: 'PGuide OSS对象存储',
+                        link: '/public-service/data-center/minio/',
+                        badge: '即将上线！',
+                    },
                     {
                         icon: 'fluent-emoji-flat:medical-symbol',
                         text: '全球医学公开数据导航',
-                        link: '/public-service/data-center/global-medical-open-data-web/'
+                        link: '/public-service/data-center/global-medical-open-data-web/',
+                        badge: '即将上线！',
                     },
                     {
                         icon: 'vscode-icons:file-type-word',
                         text: '文书及申报资料网',
-                        link: '/public-service/data-center/official-documents-web/'
+                        link: '/public-service/data-center/official-documents-web/',
+                        badge: '即将上线！',
                     },
                 ]
             },
@@ -264,7 +315,7 @@ export const navbar = defineNavbarConfig([
             {
                 icon: '/icon/baoyan.svg',
                 text: '保研篇',
-                link: '/campus-wiki/postgraduate-recommendation/'
+                link: '/campus-wiki/postgraduate-recommendation/',
             },
             {icon: '/icon/liuxue.svg', text: '留学篇', link: '/campus-wiki/study-abroad/'},
             {icon: '/icon/internship.svg', text: '实习篇', link: '/campus-wiki/internship/'},

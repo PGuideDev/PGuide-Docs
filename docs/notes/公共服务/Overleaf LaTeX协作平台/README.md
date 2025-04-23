@@ -4,6 +4,7 @@ createTime: 2025/02/19 10:52:51
 permalink: /public-service/overleaf/
 icon: /icon/overleaf.svg
 ---
+
 - 测试环境（预发布，与公网地址内容一致）：[https://latex.cqmu.online](https://latex.cqmu.online)
 - 内网地址：[http://192.168.183.171](http://192.168.183.171/)
 - 外网地址（暂未开通）：[https://latex.cqmu.edu.cn](https://latex.cqmu.edu.cn)
@@ -11,10 +12,14 @@ icon: /icon/overleaf.svg
 - 中国科技云开放通行证地址：[https://sharelatex.cstcloud.cn/](https://sharelatex.cstcloud.cn/)
 - 上海交通大学企业版地址：[https://latex.sjtu.edu.cn/login](https://latex.sjtu.edu.cn/login)
 
-更新日志：
+:::important 更新日志
 
+| 版本号   | 更新日期       | 更新内容                         |
+|-------|------------|------------------------------|
+| 5.5.1 | 2025/04/24 | 添加了 Times New Roman 支持       |
+| 5.5.0 | 2025/04/23 | 添加了 完整XeLaTeX和TeXLive2025 支持 |
 
-
+:::
 ## 简介
 
 **Overleaf LaTeX协作编辑器**是一款支持多人在线同步编辑、审议的LaTeX编辑器，支持Zotero、Github等现代应用集成，极大便利了广大科研工作者。
@@ -24,7 +29,8 @@ LaTeX最初设计用作学术论文的编写，后面逐渐发展成一款全能
 
 ### 注册账户
 
-联系 [:[noto:red-heart]:rand777](/friends/persons/) 或邮件联系[pguide.studio@outlook.com](mailto:pguide.studio@outlook.com) 注册账号，注册后请使用校内 _.cqmu.edu.cn_ 邮箱登录。
+联系 [:[noto:red-heart]:rand777](/friends/persons/)
+或邮件联系[pguide.studio@outlook.com](mailto:pguide.studio@outlook.com) 注册账号，注册后请使用校内 _.cqmu.edu.cn_ 邮箱登录。
 
 :::info 联系格式
 你好！我的学/工号是xxxxxxxx，是在校学生/教职工/科研机构人员，想申请Overleaf账号，谢谢！
@@ -117,7 +123,6 @@ Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在
 3. [x] 重庆医科大学本科生开题报告模板
 4. [x] Linux课程模板
 5. [ ] 重庆医科大学研究生毕业论文模板
-
 
 ## LaTeX
 
