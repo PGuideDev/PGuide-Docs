@@ -4,7 +4,7 @@ createTime: 2025/02/19 10:52:51
 permalink: /public-service/overleaf/
 icon: /icon/overleaf.svg
 ---
-
+- 测试环境：[https://latex.cqmu.online](https://latex.cqmu.online/)
 - 内网地址：[http://192.168.183.171](http://192.168.183.171/)
 - 外网地址（暂未开通）：[https://latex.cqmu.edu.cn](https://latex.cqmu.edu.cn)
 - 中文官网：[https://cn.overleaf.com/](https://cn.overleaf.com/)

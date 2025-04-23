@@ -48,7 +48,7 @@ Anaconda本身可到[清华大学镜像站](https://mirrors.tuna.tsinghua.edu.cn
 
 :::details 不同系统下的.condarc目录如下
 
-:[logos:microsoft-windows-icon]: C:\Users\<YourUserName>\.condarc
+:[logos:microsoft-windows-icon]: C:\Users-YourUserName>-.condarc
 
 :[devicon:linux]: ${HOME}/.condarc
 

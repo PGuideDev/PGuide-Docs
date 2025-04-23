@@ -56,10 +56,24 @@ groups:
         avatar: /icon/git.svg
         organization: PGuide Studio、Gitlab、Gitea
         desc: 重庆医科大学Gitlab企业版、Gitea企业版、PGuide Github群组，提供代码托管、项目管理、持续集成等服务。
-  - title: 重庆医科大学信息中心
+  - title: 重庆医科大学
     desc: CQMU Central NetWork
     list:
-      - name: 二级门户
+      - 
+        name: 医学信息学院
+        link: https://mi.cqmu.edu.cn/
+        location: 
+        avatar:
+        organization:
+        desc:
+      -
+        name:
+        link:
+        location:
+        avatar:
+        organization:
+        desc:
+      - name: 信息中心二级门户
         link: https://cnw.cqmu.edu.cn/
         location: 重庆医科大学
         avatar: /avatar/cqmu.svg
@@ -250,8 +264,8 @@ groups:
       name: 昇思MindSpore
       link: https://www.mindspore.cn/
       location: Global
-      avatar: https://www.mindspore.cn/_static/logo-zh-light.Bh-KLwUB.svg
-      organization: 华为MindSpore
+      avatar: /icon/mindspore.svg
+      organization: 华为昇思MindSpore
       desc: 分布式、全场景AI开源框架
 
 #    -
