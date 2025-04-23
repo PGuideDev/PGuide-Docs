@@ -17,25 +17,25 @@
     "vp-update": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.19",
+    "@vuepress/bundler-vite": "2.0.0-rc.21",
     "http-server": "^14.1.1",
-    "sass-embedded": "^1.85.1",
-    "typescript": "^5.8.2",
+    "sass-embedded": "^1.87.0",
+    "typescript": "^5.8.3",
     "vue": "^3.5.13",
-    "vuepress": "2.0.0-rc.19",
-    "vuepress-theme-plume": "1.0.0-rc.131"
+    "vuepress": "2.0.0-rc.21",
+    "vuepress-theme-plume": "1.0.0-rc.143"
   },
   "dependencies": {
-    "@waline/client": "^3.5.5",
+    "@waline/client": "^3.5.6",
     "annotation": "^0.1.0",
-    "artplayer": "^5.2.2",
+    "artplayer": "^5.2.3",
     "chart": "^0.1.2",
-    "dashjs": "^5.0.0",
+    "dashjs": "^5.0.1",
     "echarts": "^5.6.0",
     "flowchart": "^1.2.0",
-    "hls.js": "^1.5.20",
-    "mermaid": "^11.4.1",
+    "hls.js": "^1.6.2",
+    "mermaid": "^11.6.0",
     "mpegts.js": "^1.8.0",
-    "swiper": "^11.2.5"
+    "swiper": "^11.2.6"
   }
 }

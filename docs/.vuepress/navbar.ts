@@ -89,11 +89,6 @@ export const navbar = defineNavbarConfig([
                         link: '/project-docs/pixel-university-town/'
                     },
                     {
-                        icon: '/icon/command_block.gif',
-                        text: 'CQMUA服务器中心',
-                        link: '/project-docs/cqmua-center/'
-                    },
-                    {
                         icon: '/icon/analyse.svg',
                         text: '学情分析系统',
                         link: '/project-docs/study-analytic-system/'
@@ -275,27 +270,6 @@ export const navbar = defineNavbarConfig([
             {icon: '/icon/internship.svg', text: '实习篇', link: '/campus-wiki/internship/'},
             {icon: 'streamline:ai-science-spark-solid', text: '科研篇', link: '/campus-wiki/scientific-research/'}
         ]
-    },
-    {
-        icon: '/icon/manage.svg',
-        text: '后台管理',
-        items: [
-            {
-                icon: '/icon/OAuth2.svg',
-                text: 'OAuth登录(测试版)',
-                link: 'https://hrtcsm.logto.app/demo-app'
-            },
-            {icon: 'icon-park:data-lock', text: '数据中心', link: '/backend-manage/data-center/'},
-            {icon: '/icon/control.svg', text: '项导运维控制中台', link: '/backend-manage/pguide-maintenance-kit/'},
-            {icon: '/icon/vpn.svg', text: 'VPN服务', link: '/backend-manage/vpb-service/'},
-            {icon: '/icon/cloud.svg', text: '云计算资源调度中心', link: '/backend-manage/cloud-compute-invoke-center/'},
-            {icon: 'material-symbols:monitoring-rounded', text: '监控中心', link: '/backend-manage/monitor-center/'},
-            {
-                icon: '/icon/maintain.svg',
-                text: '服务器维护',
-                link: '/backend-manage/server-maintenance/'
-            },
-        ],
     },
     {
         icon: '/icon/link.svg',
