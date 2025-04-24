@@ -8,7 +8,7 @@ icon: /icon/mirror.svg
 ![cqmu-mirror-frontpage.png](../../../.vuepress/public/src/cqmu-mirror-frontpage.png)
 
 :::tip
-即将上线，现已支持校内访问
+即将上线
 :::
 
 ## 使用方式
