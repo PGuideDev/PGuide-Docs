@@ -6,27 +6,38 @@ icon: twemoji:newspaper
 ---
 
 ## 模板汇总
+
 > CQMUtug将论文模板托管在云平台上以方便同学们下载使用，请访问以下地址查看
 
-### CQMUtug
+重庆医科大学TeX User Group，包含所有开源模板和正在开发的代码，遵守[:[fluent-mdl2:branch-merge]:MIT协议](https://opensource.org/license/mit)。
+
+### :[mdi:github]:CQMUtug
+
 <CardGrid>
+<RepoCard repo="CQMUtug/CQMUThesis"></RepoCard>
+<RepoCard repo="CQMUtug/CQMU_Exp-Homework_template"></RepoCard>
+<RepoCard repo="CQMUtug/recommendation-letter"></RepoCard>
 
 </CardGrid>
-https://github.com/CQMUtug/CQMU_Exp-Homework_template
 
 ### 中国科技云LaTeX模板
 
-我们已在 *[:[/icon/cas.svg]:中国科学院大学网络信息中心](https://cnic.cas.cn/)* 支持的[:[]:中国科技云](https://www.cstcloud.cn/)上托管了所有LaTeX模板，包含常见期刊论文、简历、作业实验模板等，欢迎大家使用。
+<LinkCard icon="/icon/cas.svg" href="https://template-sharelatex.cstcloud.cn/" title="中国科技云LaTeX模板共享" >China
+Science & Technology Cloud</LinkCard>
 
-[https://template-sharelatex.cstcloud.cn/](https://template-sharelatex.cstcloud.cn/)
+我们已在 *[:[/icon/cas.svg]:中国科学院大学网络信息中心](https://cnic.cas.cn/)*
+支持的[中国科技云](https://www.cstcloud.cn/)上托管了所有LaTeX模板，包含常见期刊论文、简历、作业实验模板等，欢迎大家使用。
+
+> 使用qq、微信、通行证、OCRID、github登录均可
 
 ### Overleaf模板
 
-| 模板名称             | 链接 | 首页效果 |
-|------------------|----|------|
-| 重庆医科大学平时作业和小论文模板 |    |      |
+部分模板已经上传至overleaf官方模板库，开箱即用。
 
-
+| 模板名称             | 链接                                                                                                                                                                                   |
+|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 重庆医科大学平时作业和小论文模板 | [https://www.overleaf.com/latex/templates/cqmu-researchreport/qghkqhhtzfkp](https://www.overleaf.com/latex/templates/cqmu-researchreport/qghkqhhtzfkp)                               |
+| 推荐信模板            | [https://cn.overleaf.com/latex/templates/cqmu-recommendation-letter-template/ccdgjqsnfdxz](https://cn.overleaf.com/latex/templates/cqmu-recommendation-letter-template/ccdgjqsnfdxz) |
 
 ## 功能
 
@@ -44,6 +55,7 @@ SimpleTeX: [https://simpletex.cn/ai/latex_ocr](https://simpletex.cn/ai/latex_ocr
 
 
 ---
+
 ### 表格识别
 
 直接将论文中的公式转换为LaTeX格式的表格，支持多种格式的表格转换。
@@ -56,10 +68,8 @@ SimpleTeX: [https://simpletex.cn/ai/latex_ocr](https://simpletex.cn/ai/latex_ocr
 
 [https://tableconvert.com/](https://tableconvert.com/)
 
-
 :::details 包含各种各样的格式转换
 ![2025-04-06_19-15-48.png](../../../.vuepress/public/src/2025-04-06_19-15-48.png)
-    
 
 :::
 
@@ -76,9 +86,3 @@ SimpleTeX: [https://simpletex.cn/ai/latex_ocr](https://simpletex.cn/ai/latex_ocr
 ### 参考文献引用
 
 [Zotero]() 
-
----
-
-### 版本管理
-
-Git
