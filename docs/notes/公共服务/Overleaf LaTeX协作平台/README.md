@@ -1,5 +1,5 @@
 ---
-title: Overleaf LaTeX协作平台
+title: 协作平台简介及使用
 createTime: 2025/02/19 10:52:51
 permalink: /public-service/overleaf/
 icon: /icon/overleaf.svg
@@ -10,20 +10,18 @@ icon: /icon/overleaf.svg
 - 测试环境（预发布，与公网地址内容一致）：[https://latex.cqmu.online](https://latex.cqmu.online)
 - 内网地址：[http://192.168.183.171](http://192.168.183.171/)
 - 外网地址（暂未开通）：[https://latex.cqmu.edu.cn](https://latex.cqmu.edu.cn)
+
+---
+
 - 中文官网：[https://cn.overleaf.com/](https://cn.overleaf.com/)
+---
 - 中国科技云开放通行证地址：[https://sharelatex.cstcloud.cn/](https://sharelatex.cstcloud.cn/)
 - 上海交通大学企业版地址：[https://latex.sjtu.edu.cn/login](https://latex.sjtu.edu.cn/login)
 
-:::important 更新日志
-
-| 版本号      | 更新日期       | 更新内容                         |
-|----------|------------|------------------------------|
-| 5.5.2-rc | 2025/04/25 | 新用户密码强制8到12位                 |
-| 5.5.2    | 2025/04/24 | 添加了 FontAwesome 字体           |
-| 5.5.1    | 2025/04/24 | 添加了 Times New Roman 字体       |
-| 5.5.0    | 2025/04/23 | 添加了 完整XeLaTeX和TeXLive2025 支持 |
-
+:::info [查看更新日志](/public-service/overleaf/releases/)
 :::
+
+> 有任何建议或遇到使用问题，欢迎加入交流群噢！
 
 <CardGrid>
   <ImageCard

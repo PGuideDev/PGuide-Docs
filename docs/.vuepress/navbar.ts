@@ -215,7 +215,28 @@ export const navbar = defineNavbarConfig([
                 icon: '/icon/overleaf.svg',
                 text: 'Overleaf LaTeX协作平台',
                 link: '/public-service/overleaf/',
-                badge: '即将上线！',
+                items: [
+                    {
+                        icon: '/icon/overleaf.svg',
+                        text: '协作平台简介及使用',
+                        link: '/public-service/overleaf/'
+                    },
+                    {
+                        icon: 'twemoji:newspaper',
+                        text: 'LaTeX模板集合',
+                        link: '/public-service/overleaf/latex-template-collections/'
+                    },
+                    {
+                        icon: 'catppuccin:release',
+                        text: '更新日志',
+                        link: '/public-service/overleaf/releases/'
+                    },
+                    {
+                        icon: 'fluent:window-dev-edit-20-regular',
+                        text: '维护与开发手册',
+                        link: 'fluent:window-dev-edit-20-regular'
+                    },
+                ]
             },
             {
                 icon: 'skill-icons:git',
@@ -279,9 +300,6 @@ export const navbar = defineNavbarConfig([
                     },
                 ]
             },
-
-
-            {text: '', link: ''}
         ]
     },
     {
