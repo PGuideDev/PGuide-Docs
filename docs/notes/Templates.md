@@ -37,7 +37,7 @@ author=""
 :[]:
 
 :[noto:red-heart]:
-
+:[fluent-emoji-flat:red-heart]:
 /friends/persons/
 /friends/organizations/
 

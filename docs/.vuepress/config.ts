@@ -136,8 +136,11 @@ export default defineUserConfig({
                     rust: true,       // ::: rust-repl
                     kotlin: true,     // ::: kotlin-repl
                 },
+                timeline: true, // 启用时间线, https://theme-plume.vuejs.press/guide/markdown/timeline/
                 imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
+                annotation: true, // https://theme-plume.vuejs.press/guide/markdown/annotation/
             },
+
 
             /**
              * 在 Markdown 文件中导入其他 markdown 文件内容。

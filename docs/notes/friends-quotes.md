@@ -1,5 +1,5 @@
 ---
-title: ♥I miss you and I've not missed you~♥
+title: I miss you and I've not missed you~
 description: 添加社会链接
 permalink: /friends/quotes/
 createTime: 2025/03/06 16:40:46

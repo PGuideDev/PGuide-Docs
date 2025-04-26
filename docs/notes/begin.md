@@ -161,3 +161,33 @@ href="/friends/persons/">
 2. [注册github账号](https://github.com/signup)
 3. 点击下方`使用github登录`
 4. 评论
+
+## 致谢
+
+自项导文档站开设已来，已累计获得3万+的阅读量，共有50+位成员参与建设，感谢每一位同学、老师、大佬们的支持与贡献。我们会继续努力，争取在未来的日子里为大家提供更好的服务。
+
+### 里程碑
+
+::: timeline horizontal card
+- 项导文档语雀站
+  time=2024-05-26 icon=/icon/yuque.svg
+
+  rand777 在语雀建设第一版项导文档站，邀请了部分同学加入。
+
+- 建设里程碑01
+  time=2024-11-20 icon=tdesign:cooperate-filled
+
+  [:[/icon/yuque.svg]:语雀文档站](https://www.yuque.com/pguide/public)字数达10W，共有21位成员，此时并未在互联网开放，阅读量达4000。
+
+- 项导文档站开放
+  time=2025-01-22 type=success 
+
+  项导文档站在互联网公开访问，秉承着人人为我，我为人人的精神，吸引了许多优秀的同学加入建设。
+
+- 建设里程碑02
+  time=2025-03-11 type=important tdesign:cooperate-filled icon=tdesign:cooperate-filled
+
+  项导文档站总字数达8W，阅读量达3W+，共计50+位成员参与建设，感谢！
+  :::
+
+  

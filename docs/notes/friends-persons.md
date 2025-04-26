@@ -1,6 +1,6 @@
 ---
 friends: true
-title: ♥Thanks to these guys for contributing PGuide Docs~♥
+title: Thanks to these guys for contributing PGuide Docs~
 description: 排名不分先后
 permalink: /friends/persons/
 pageLayout: friends
