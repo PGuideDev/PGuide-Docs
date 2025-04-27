@@ -8,12 +8,14 @@ tags:
   - Docker
   - OSS 
 ---
-:::important 面向对象
-仅面向工作室成员使用，使用工作室统一认证账户登录。
+
+## Gitlab
+
+:::tip
+Gitlab 提供了私有的容器镜像仓库，使用 Gitlab 的 OAuth 认证方式登录。
 :::
 
-:::tip 即将上线
-[https://docker.pguide.studio/](https://docker.pguide.studio/)
-:::
+## Docker Registry
+
 
 

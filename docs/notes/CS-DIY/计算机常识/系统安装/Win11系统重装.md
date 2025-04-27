@@ -1,8 +1,8 @@
 ---
 title: Win11系统重装
 createTime: 2025/03/05 21:05:14
-permalink: /csdiy/computer-common-knowledge/update/Win11re-setup/
-icon: brandico:win8
+permalink: /csdiy/computer-common-knowledge/Win11re-setup/
+icon: logos:microsoft-windows-icon
 ---
 
 编写者：❤ [翻斗花园牛爷爷, Lily](/friends/persons/)

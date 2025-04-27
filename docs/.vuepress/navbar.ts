@@ -146,29 +146,56 @@ export const navbar = defineNavbarConfig([
         text: 'CS-DIY',
         items: [
             {icon: '/icon/code.svg', text: '前言', link: '/cs-diy/'},
-            {icon: 'twemoji:thinking-face', text: '公开课', link: '/csdiy/public-class/'},
-            {icon: 'mdi:tools', text: '必学工具', link: '/csdiy/tools-must/'},
-            // {
-            //     icon: 'mdi:tools',
-            //     text: '必学工具',
-            //     items: [
-            //         {icon: 'skill-icons:git',text: 'Git',link: '/csdiy/tools-must/git/'},
-            //         {icon: 'material-symbols:markdown',text: 'Markdown',link: '/csdiy/tools-must/markdown/'},
-            //         {icon: 'devicon:vim',text: 'Vim',link: '/csdiy/tools-must/Vim/'},
-            //         {icon: 'file-icons:latex',text: 'LaTeX',link: '/csdiy/tools-must/latex/'},
-            //         {icon: 'catppuccin:docker-compose',text: 'Docker',link: '/csdiy/tools-must/docker/'},
-            //         {icon: '',text: '',link: ''},
-            //         {icon: '',text: '',link: ''},
-            //         {icon: '',text: '',link: ''},
-            //     ]
-            // },
-            {icon: 'carbon:cics-program', text: '编程入门', link: '/csdiy/program-begin/'},
-            {icon: '/icon/dev-standard.svg', text: '开发规范', link: '/csdiy/dev-rules/'},
-            {icon: '/icon/path.svg', text: '学习路线', link: '/csdiy/study-path/'},
+            // {icon: 'mdi:tools', text: '必学工具', link: '/csdiy/tools-must/'},
+            {
+                icon: 'mdi:tools',
+                text: '必学工具',
+                items: [
+                    {icon: 'skill-icons:git',text: 'Git',link: '/csdiy/tools-must/git/', badge: '分布式代码版本管理工具'},
+                    {icon: 'material-symbols:markdown',text: 'Markdown',link: '/csdiy/tools-must/markdown/', badge: '高兼容性文本标记语言'},
+                    {icon: 'file-icons:latex',text: 'LaTeX',link: '/csdiy/tools-must/latex/', badge: '专业排版工具'},
+                    {icon: 'catppuccin:docker-compose',text: 'Docker',link: '/csdiy/tools-must/docker/', badge: '开发环境解决方案'},
+                    // {icon: '',text: '',link: ''},
+                    // {icon: '',text: '',link: ''},
+                    // {icon: '',text: '',link: ''},
+                ]
+            },
+            // {icon: 'carbon:cics-program', text: '编程入门', link: '/csdiy/program-begin/'},
+            {
+                icon: 'carbon:cics-program',
+                text: '编程入门',
+                items: [
+                    {icon: 'ant-design:code-outlined',text: '基础语法',link: '/csdiy/program-begin/grammar/', badge: '来听课叭'},
+                    {icon: 'lsicon:setting-outline',text: '环境配置',link: '/csdiy/program-begin/PYPI-mirror/', badge: '快人亿步'},
+                ]
+            },
+            // {icon: '/icon/dev-standard.svg', text: '开发规范', link: '/csdiy/dev-rules/what-dev-rules/'},
+            {
+                icon: '/icon/dev-standard.svg',
+                text: '开发规范',
+                items: [
+                    {icon: 'ic:baseline-rule-folder',text: '这是什么？',link: '/csdiy/dev-rules/what-dev-rules/'},
+                    {icon: 'ant-design:aliyun-outlined',text: '阿里系开发规范',link: '/csdiy/dev-rules/alibaba-rules/java-rule/'},
+                    // {icon: '',text: '',link: ''},
+                ]
+            },
+            // {icon: '/icon/path.svg', text: '学习路线', link: '/csdiy/study-path/'},
+            {
+                icon: '/icon/path.svg',
+                text: '学习路线',
+                items: [
+                    {icon: 'solar:code-line-duotone',text: '编程导航',link: 'https://www.codefather.cn/course/1789189862986850306', badge: '鱼皮小课堂'},
+                    {icon: 'logos:google-developers',text: '前端开发',link: '/csdiy/study-path/front-dev/', badge: 'Web Devs'},
+                    // {icon: '',text: '',link: ''},
+                ]
+            },
             {
                 icon: 'fa6-solid:computer',
                 text: '计算机常识',
-                link: '/csdiy/computer-common-knowledge/'
+                items: [
+                    {icon: 'logos:microsoft-windows-icon',text: '系统安装',link: '/csdiy/computer-common-knowledge/Win11re-setup/'},
+                    {icon: 'emojione-v1:dvd',text: '镜像刻录',link: '/csdiy/computer-common-knowledge/make-image/'},
+                ]
             }
         ]
     },

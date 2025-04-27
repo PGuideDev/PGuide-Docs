@@ -117,6 +117,7 @@ export default defineUserConfig({
              */
 
             markdownPower: {
+                collapse: true, // 启用折叠语法 ::: collapse
                 pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
                 caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
                 plot: true,         // 启用隐秘文本语法 !!xxxx!!

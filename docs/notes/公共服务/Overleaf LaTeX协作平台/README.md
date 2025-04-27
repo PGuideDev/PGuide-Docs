@@ -1,37 +1,43 @@
 ---
-title: 协作平台简介及使用
+title: LaTeX协作平台简介及使用
 createTime: 2025/02/19 10:52:51
 permalink: /public-service/overleaf/
 icon: /icon/overleaf.svg
 ---
 
-
-
-- 测试环境（预发布，与公网地址内容一致）：[https://latex.cqmu.online](https://latex.cqmu.online)
-- 内网地址：[http://192.168.183.171](http://192.168.183.171/)
-- 外网地址（暂未开通）：[https://latex.cqmu.edu.cn](https://latex.cqmu.edu.cn)
-
----
-
-- 中文官网：[https://cn.overleaf.com/](https://cn.overleaf.com/)
----
-- 中国科技云开放通行证地址：[https://sharelatex.cstcloud.cn/](https://sharelatex.cstcloud.cn/)
-- 上海交通大学企业版地址：[https://latex.sjtu.edu.cn/login](https://latex.sjtu.edu.cn/login)
-
 :::info [查看更新日志](/public-service/overleaf/releases/)
 :::
 
-> 有任何建议或遇到使用问题，欢迎加入交流群噢！
+
 
 <CardGrid>
-  <ImageCard
-    image="../../../.vuepress/public/src/2025-04-25_16-46-40.png"
-    title="Overleaf CQMU交流群"
-    description="群号:1046824912"
-    href="/"
-  />
+<LinkCard icon="/icon/overleaf.svg" href="https://latex.cqmu.online" title="公网测试环境" description="预发布，与公网地址内容一致"></LinkCard>
+<LinkCard icon="/icon/overleaf.svg" href="http://192.168.183.171" title="重医校园网内网地址" description="校园网可访问"></LinkCard>
+<LinkCard icon="/icon/overleaf.svg" href="https://latex.cqmu.edu.cn" title="重医校园网外网访问地址" description="暂未开通"></LinkCard>
+<LinkCard icon="/icon/overleaf.svg" href="https://cn.overleaf.com/" title="Overleaf 中文官网">https://cn.overleaf.com/</LinkCard>
+<LinkCard icon="/icon/overleaf.svg" href="https://sharelatex.cstcloud.cn/" title="中国科技云开放通行证">https://sharelatex.cstcloud.cn/login</LinkCard>
+<LinkCard icon="/icon/overleaf.svg" href="https://latex.sjtu.edu.cn/login" title="上海交通大学企业版">https://latex.sjtu.edu.cn/login</LinkCard>
 </CardGrid>
 
+---
+
+
+
+
+::: collapse
+
+- 有任何建议或遇到使用问题，欢迎[加入交流群](https://qm.qq.com/q/bt3h76SF1e)噢！
+
+  <CardGrid>
+    <ImageCard
+      image="../../../.vuepress/public/src/2025-04-25_16-46-40.png"
+      title="Overleaf CQMU交流群"
+      description="群号:1046824912"
+      href="https://qm.qq.com/q/bt3h76SF1e"
+    />
+  </CardGrid>
+
+:::
 ## 简介
 
 **Overleaf LaTeX协作编辑器**是一款支持多人在线同步编辑、审议的LaTeX编辑器，支持Zotero、Github等现代应用集成，极大便利了广大科研工作者。
