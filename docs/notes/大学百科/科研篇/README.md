@@ -5,3 +5,6 @@ permalink: /campus-wiki/scientific-research/
 icon: streamline:ai-science-spark-solid
 ---
 
+:::tip
+此处待完善
+:::

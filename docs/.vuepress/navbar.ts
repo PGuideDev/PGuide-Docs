@@ -329,7 +329,6 @@ export const navbar = defineNavbarConfig([
                 text: '考研篇',
                 link: '/campus-wiki/postgraduate-entrance-exam/'
             },
-            {icon: '/icon/kaogong.svg', text: '考公篇', link: '/campus-wiki/civil-service-exam/'},
             {
                 icon: '/icon/baoyan.svg',
                 text: '保研篇',

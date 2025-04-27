@@ -5,6 +5,6 @@ permalink: /campus-wiki/mathematical-modeling/MCM/
 ---
 
 
-## 工作室获奖情况
-
-rand777
+:::tip
+待完善
+:::

@@ -168,19 +168,19 @@ href="/friends/persons/">
 
 ### 里程碑
 
-::: timeline horizontal card
+::: timeline between card
 - 项导文档语雀站
   time=2024-05-26 icon=/icon/yuque.svg
 
   rand777 在语雀建设第一版项导文档站，邀请了部分同学加入。
 
-- 建设里程碑01
-  time=2024-11-20 icon=tdesign:cooperate-filled
+- 建设里程碑01 
+  time=2024-11-20 icon=tdesign:cooperate-filled type=important
 
   [:[/icon/yuque.svg]:语雀文档站](https://www.yuque.com/pguide/public)字数达10W，共有21位成员，此时并未在互联网开放，阅读量达4000。
 
 - 项导文档站开放
-  time=2025-01-22 type=success 
+  time=2025-01-22 type=success icon=/icon/logo.svg
 
   项导文档站在互联网公开访问，秉承着人人为我，我为人人的精神，吸引了许多优秀的同学加入建设。
 
@@ -188,6 +188,10 @@ href="/friends/persons/">
   time=2025-03-11 type=important tdesign:cooperate-filled icon=tdesign:cooperate-filled
 
   项导文档站总字数达8W，阅读量达3W+，共计50+位成员参与建设，感谢！
+- 建设里程碑03
+  time=2025-04-27 type=important tdesign:cooperate-filled icon=tdesign:cooperate-filled
+
+  项导文档站总字数达12W，阅读量达4W+!
   :::
 
   
