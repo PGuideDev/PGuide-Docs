@@ -35,20 +35,20 @@ export const navbar = defineNavbarConfig([
                     {icon: '/icon/zzx.png', text: '中智讯智能小车一代', link: '/learning-notes/zcloud-car1/'},
                 ]
             },
-            {
-                icon: 'logos:google-developers',
-                text: '前端开发',
-                items: [
-                    {icon: 'skill-icons:html', text: 'HTML CSS JS', link: '/learning-notes/frontend-dev/HTML/'},
-                    {icon: 'logos:react', text: 'React', link: '/learning-notes/react/'},
-                    {icon: 'logos:vue', text: 'Vue3', link: '/learning-notes/vue3/'}
-                ]
-            },
-            {
-                icon: 'fluent-color:data-scatter-32',
-                text: '后端开发',
-                link: '/learning-notes/backend-dev/'
-            },
+            // {
+            //     icon: 'logos:google-developers',
+            //     text: '前端开发',
+            //     items: [
+            //         {icon: 'skill-icons:html', text: 'HTML CSS JS', link: '/learning-notes/frontend-dev/HTML/'},
+            //         {icon: 'logos:react', text: 'React', link: '/learning-notes/react/'},
+            //         {icon: 'logos:vue', text: 'Vue3', link: '/learning-notes/vue3/'}
+            //     ]
+            // },
+            // {
+            //     icon: 'fluent-color:data-scatter-32',
+            //     text: '后端开发',
+            //     link: '/learning-notes/backend-dev/'
+            // },
 
             {
                 icon: 'solar:eye-scan-bold',
