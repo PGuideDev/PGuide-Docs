@@ -241,7 +241,7 @@ export const navbar = defineNavbarConfig([
             {
                 icon: '/icon/overleaf.svg',
                 text: 'Overleaf LaTeX协作平台',
-                link: '/public-service/overleaf/',
+
                 items: [
                     {
                         icon: '/icon/overleaf.svg',
@@ -261,7 +261,7 @@ export const navbar = defineNavbarConfig([
                     {
                         icon: 'fluent:window-dev-edit-20-regular',
                         text: '维护与开发手册',
-                        link: 'fluent:window-dev-edit-20-regular'
+                        link: '/public-service/overleaf/maintenance-dev-books/'
                     },
                 ]
             },
