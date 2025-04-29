@@ -20,7 +20,7 @@ export const navbar = defineNavbarConfig([
             {icon: 'logos:linux-tux', text: 'Linux', link: '/learning-notes/linux/'},
             {icon: '/icon/AI.svg', text: '机器学习', link: '/learning-notes/ml/'},
             {
-                icon: 'devicon:ros', text: 'ROS2',
+                icon: 'devicon:ros', text: '机器人操作系统',
                 items: [
                     {
                         icon: 'icon-park-twotone:install',
