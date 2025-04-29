@@ -17,20 +17,63 @@ export const navbar = defineNavbarConfig([
         text: '学习笔记',
         items: [
             {icon: '/icon/note.svg', text: '前言', link: '/learning-notes/'},
-            {icon: 'logos:linux-tux', text: 'Linux', link: '/learning-notes/linux/'},
-            {icon: '/icon/AI.svg', text: '机器学习', link: '/learning-notes/ml/'},
+            {
+                icon: 'logos:linux-tux',
+                text: 'Linux',
+                items: [{
+                    icon: 'logos:ubuntu',
+                    text: 'echo> what is linux ',
+                    link: '/learning-notes/linux/',
+                    badge: 'Linux发行版'
+                },
+                {
+                    icon: 'octicon:command-palette-24',
+                    text: 'Linux命令大全',
+                    link: '/learning-notes/linux/commands/',
+                    badge: '.sh'
+                },
+                {
+                    icon: 'logos:redhat',
+                    text: 'RedHat',
+                    link: '/learning-notes/linux/redhat/',
+                    badge: 'Linux发行版'
+                }]
+            },
+            {
+                icon: '/icon/AI.svg',
+                text: '机器学习',
+                items: [{
+                    icon: '/icon/mindspore.svg',
+                    text: 'MindSpore',
+                    link: '/learning-notes/3p909icx/',
+                    badge: '国产分布式、全场景AI框架'
+                },
+                {
+                    icon: 'devicon:tensorflow',
+                    text: 'TensorFlow',
+                    link: '/learning-notes/machine-learning/tensorflow/',
+                    badge: 'Google感知和语言理解软件库'
+                },
+                {
+                    icon: 'logos:pytorch-icon',
+                    text: 'PyTorch',
+                    link: '/learning-notes/machine-learning/pytorch/',
+                    badge: '构建深度学习模型的功能框架'
+                }]},
             {
                 icon: 'devicon:ros', text: '机器人操作系统',
                 items: [
                     {
                         icon: 'icon-park-twotone:install',
                         text: 'ROS2系统安装',
-                        link: '/learning-notes/ROS2/VMWare-install/'
+                        link: '/learning-notes/ROS2/VMWare-install/',
+                        badge: 'VMWare'
                     },
                     {
                         icon: 'https://www.originbot.org/assets/img/favicon.png',
                         text: '古月居OriginBot',
-                        link: '/learning-notes/ROS2/origin-bot-toolkit/'
+                        link: '/learning-notes/ROS2/origin-bot-toolkit/',
+                        badge: 'Guyuehome'
                     },
                     {icon: '/icon/zzx.png', text: '中智讯智能小车一代', link: '/learning-notes/zcloud-car1/'},
                 ]
@@ -54,12 +97,13 @@ export const navbar = defineNavbarConfig([
                 icon: 'solar:eye-scan-bold',
                 text: '计算机视觉',
                 items: [
-                    {icon: '/icon/yolo.svg', text: 'YOLO', link: '/learning-notes/computer-vision/YOLO/'},
-                    {icon: 'devicon:opencv', text: 'OpenCV', link: '/learning-notes/computer-vision/OpenCV/'},
+                    {icon: '/icon/yolo.svg', text: 'YOLO', link: '/learning-notes/computer-vision/YOLO/', badge: 'You Only Look Once'},
+                    {icon: 'devicon:opencv', text: 'OpenCV', link: '/learning-notes/computer-vision/OpenCV/', badge: 'Apache'},
                     {
                         icon: 'vscode-icons:file-type-matlab',
                         text: 'MATLAB',
-                        link: '/learning-notes/computer-vision/MATLAB/'
+                        link: '/learning-notes/computer-vision/MATLAB/',
+                        badge: 'MATLAB Inc.'
                     }
                 ]
             },
@@ -151,11 +195,27 @@ export const navbar = defineNavbarConfig([
                 icon: 'mdi:tools',
                 text: '必学工具',
                 items: [
-                    {icon: 'skill-icons:git',text: 'Git',link: '/csdiy/tools-must/git/', badge: '分布式代码版本管理工具'},
-                    {icon: 'material-symbols:markdown',text: 'Markdown',link: '/csdiy/tools-must/markdown/', badge: '高兼容性文本标记语言'},
-                    {icon: 'file-icons:latex',text: 'LaTeX',link: '/csdiy/tools-must/latex/', badge: '专业排版工具'},
-                    {icon: 'catppuccin:docker-compose',text: 'Docker',link: '/csdiy/tools-must/docker/', badge: '开发环境解决方案'},
-                    // {icon: '',text: '',link: ''},
+                    {
+                        icon: 'skill-icons:git',
+                        text: 'Git',
+                        link: '/csdiy/tools-must/git/',
+                        badge: '分布式代码版本管理工具'
+                    },
+                    {
+                        icon: 'material-symbols:markdown',
+                        text: 'Markdown',
+                        link: '/csdiy/tools-must/markdown/',
+                        badge: '高兼容性文本标记语言'
+                    },
+                    {icon: 'devicon:vim',text: 'Vim',link: '/csdiy/tools-must/Vim/',badge: '放下鼠标'},
+                    {icon: 'file-icons:latex', text: 'LaTeX', link: '/csdiy/tools-must/latex/', badge: '专业排版工具'},
+                    {
+                        icon: 'catppuccin:docker-compose',
+                        text: 'Docker',
+                        link: '/csdiy/tools-must/docker/',
+                        badge: '开发环境解决方案'
+                    },
+
                     // {icon: '',text: '',link: ''},
                     // {icon: '',text: '',link: ''},
                 ]
@@ -165,8 +225,18 @@ export const navbar = defineNavbarConfig([
                 icon: 'carbon:cics-program',
                 text: '编程入门',
                 items: [
-                    {icon: 'ant-design:code-outlined',text: '基础语法',link: '/csdiy/program-begin/grammar/', badge: '来听课叭'},
-                    {icon: 'lsicon:setting-outline',text: '环境配置',link: '/csdiy/program-begin/PYPI-mirror/', badge: '快人亿步'},
+                    {
+                        icon: 'ant-design:code-outlined',
+                        text: '基础语法',
+                        link: '/csdiy/program-begin/grammar/',
+                        badge: '来听课叭'
+                    },
+                    {
+                        icon: 'lsicon:setting-outline',
+                        text: '环境配置',
+                        link: '/csdiy/program-begin/PYPI-mirror/',
+                        badge: '快人亿步'
+                    },
                 ]
             },
             // {icon: '/icon/dev-standard.svg', text: '开发规范', link: '/csdiy/dev-rules/what-dev-rules/'},
@@ -174,8 +244,12 @@ export const navbar = defineNavbarConfig([
                 icon: '/icon/dev-standard.svg',
                 text: '开发规范',
                 items: [
-                    {icon: 'ic:baseline-rule-folder',text: '这是什么？',link: '/csdiy/dev-rules/what-dev-rules/'},
-                    {icon: 'ant-design:aliyun-outlined',text: '阿里系开发规范',link: '/csdiy/dev-rules/alibaba-rules/java-rule/'},
+                    {icon: 'ic:baseline-rule-folder', text: '这是什么？', link: '/csdiy/dev-rules/what-dev-rules/'},
+                    {
+                        icon: 'ant-design:aliyun-outlined',
+                        text: '阿里系开发规范',
+                        link: '/csdiy/dev-rules/alibaba-rules/java-rule/'
+                    },
                     // {icon: '',text: '',link: ''},
                 ]
             },
@@ -184,8 +258,18 @@ export const navbar = defineNavbarConfig([
                 icon: '/icon/path.svg',
                 text: '学习路线',
                 items: [
-                    {icon: 'solar:code-line-duotone',text: '编程导航',link: 'https://www.codefather.cn/course/1789189862986850306', badge: '鱼皮小课堂'},
-                    {icon: 'logos:google-developers',text: '前端开发',link: '/csdiy/study-path/front-dev/', badge: 'Web Devs'},
+                    {
+                        icon: 'solar:code-line-duotone',
+                        text: '编程导航',
+                        link: 'https://www.codefather.cn/course/1789189862986850306',
+                        badge: '鱼皮小课堂'
+                    },
+                    {
+                        icon: 'logos:google-developers',
+                        text: '前端开发',
+                        link: '/csdiy/study-path/front-dev/',
+                        badge: 'Web Devs'
+                    },
                     // {icon: '',text: '',link: ''},
                 ]
             },
@@ -193,8 +277,12 @@ export const navbar = defineNavbarConfig([
                 icon: 'fa6-solid:computer',
                 text: '计算机常识',
                 items: [
-                    {icon: 'logos:microsoft-windows-icon',text: '系统安装',link: '/csdiy/computer-common-knowledge/Win11re-setup/'},
-                    {icon: 'emojione-v1:dvd',text: '镜像刻录',link: '/csdiy/computer-common-knowledge/make-image/'},
+                    {
+                        icon: 'logos:microsoft-windows-icon',
+                        text: '系统安装',
+                        link: '/csdiy/computer-common-knowledge/Win11re-setup/'
+                    },
+                    {icon: 'emojione-v1:dvd', text: '镜像刻录', link: '/csdiy/computer-common-knowledge/make-image/'},
                 ]
             }
         ]

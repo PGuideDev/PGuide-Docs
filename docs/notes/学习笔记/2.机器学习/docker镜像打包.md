@@ -14,3 +14,9 @@ tags:
 - [:[fluent-color:data-area-20]:PGuide私有docker镜像管理平台](/public-service/data-center/docker-registry/)
 
 :::
+
+:::info 参考资料
+
+[https://cloud.tencent.com/developer/article/1893294](https://cloud.tencent.com/developer/article/1893294)
+
+:::
