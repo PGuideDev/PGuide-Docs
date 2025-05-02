@@ -323,13 +323,28 @@ export const navbar = defineNavbarConfig([
             {
                 icon: '/icon/mirror.svg',
                 text: '重庆医科大学开源软件镜像站',
-                link: '/public-service/cqmu-mirror/',
                 badge: '即将上线！',
+                items: [
+                    {
+                        icon: '/icon/mirror.svg',
+                        text: '镜像站介绍',
+                        link: '/public-service/cqmu-mirror/'
+                    },
+                    {
+                        icon: 'simple-icons:wikibooks',
+                        text: 'CQMU Mirror Wiki',
+                        link: '/public-service/cqmu-mirror/wiki/'
+                    },
+                    {
+                        icon: 'fluent:window-dev-edit-20-regular',
+                        text: '维护与开发手册',
+                        link: '/public-service/cqmu-mirror/maintenance-dev-books/'
+                    },
+                ]
             },
             {
                 icon: '/icon/overleaf.svg',
                 text: 'Overleaf LaTeX协作平台',
-
                 items: [
                     {
                         icon: '/icon/overleaf.svg',

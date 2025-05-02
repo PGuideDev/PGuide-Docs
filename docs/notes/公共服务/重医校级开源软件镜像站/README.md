@@ -7,6 +7,8 @@ icon: /icon/mirror.svg
 
 ![cqmu-mirror-frontpage.png](../../../.vuepress/public/src/cqmu-mirror-frontpage.png)
 
+重庆医科大学开源软件镜像站来自于清华大学开源的MirrorZ项目计划，旨在为重庆医科大学的师生提供一个方便、快速、安全的开源软件镜像站。测试后，重医内网下载速度可达1000MB/S。
+
 :::tip
 即将上线
 :::
