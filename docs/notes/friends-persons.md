@@ -396,6 +396,27 @@ list:
     backgroundColor:
     color:
     nameColor:
+  - name: 雨下得嘿小
+    link: 
+    avatar: /avatar/zhw.png
+    desc: 
+    location: 中国，重庆
+    organization: 重庆医科大学医学信息学院副教授
+    socials:
+    backgroundColor:
+    color:
+    nameColor:
+    
+#  - name:
+#    link:
+#    avatar:
+#    desc:
+#    location:
+#    organization:
+#    socials:
+#    backgroundColor:
+#    color:
+#    nameColor:
 #  - name:
 #    link:
 #    avatar:

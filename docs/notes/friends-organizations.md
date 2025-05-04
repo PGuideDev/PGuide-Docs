@@ -85,6 +85,13 @@ groups:
         avatar: /icon/hpc.svg
         organization: 重庆医科大学信息中心
         desc: 融合计算云门户
+      - 
+        name: 缙云计算机社团
+        link: 
+        location: 重庆医科大学
+        avatar: /avatar/cqmu.svg
+        organization: 重庆医科大学
+        desc: 重庆医科大学缙云计算机社团
   - title: The Apache Software Foundation
     desc: ASF's open source software is used ubiquitously around the world with more than 8,400 committers contributing to more than 320 active projects.
     list:
@@ -145,7 +152,14 @@ groups:
         location: 中国，浙江杭州西湖区
         avatar: /icon/W.svg
         organization: 西湖大学
-        desc: 新型非营利高端科研机构，含理工生医等多个研究方向。  
+        desc: 西湖大学前身，新型非营利高端科研机构，含理工生医等多个研究方向。  
+      -
+        name: WindyLab智能无人系统实验室
+        link: https://shiyuzhao.westlake.edu.cn/
+        location: 中国，浙江杭州
+        avatar: /icon/windylab.png
+        organization: 西湖大学
+        desc: 专注于机器人系统的创新理论和应用，特别是多机器人系统。我们对具有研究价值、意义和挑战性的下一代机器人系统感兴趣。
     
   - title: 中国教育和科研计算机网
     desc: 中国教育和科研计算机网CERNET是党中央、国务院指定的中国教育信息化的基础平台，也是中国最早的四大骨干网之一，为中国教育信息化及人才培养作出了突出贡献。除为教育系统用户提供基本互联网接入服务外，还受国务院授权，负责教育系统域名管理（edu.cn)，并承担各类大型国家教育信息化建设项目及研究任务。
@@ -175,7 +189,7 @@ groups:
         location: 中国，北京
         avatar: /avatar/qax.svg
         organization: 奇安信集团
-        desc: 
+        desc: Qianxin CROP.
   - title: 中国科学院大学
     desc: 中国科学院大学简称“国科大”，是一所以科教融合为办学模式、研究生教育为办学主体、精英化本科教育为办学特色的创新型大学。
     list:
@@ -317,7 +331,30 @@ groups:
       avatar: https://g.alicdn.com/sail-web/maas/2.7.39/favicon/128.ico
       organization: 阿里巴巴通义实验室
       desc: 共享 · 共创 · 共进，构建持续创新的 AI 开源生态
-
+  - title: 重庆大学
+    desc: Chongqing University
+    list:
+    - 
+      name: 国家卓越工程师学院
+      link: https://eie.cqu.edu.cn/
+      location: 重庆大学两江校区
+      avatar: /icon/eie.png
+      organization: 重庆大学国家卓越工程师学院
+      desc: 未来卓越工程师的摇篮
+    -
+      name: 学生交叉创新中心
+      link: https://sxic.cqu.edu.cn/
+      location: 重庆大学虎溪校区
+      avatar: https://sxic.cqu.edu.cn/sso2/media//backend/cover/a2e994b7703885b5593b664f8f0b1fd1.png
+      organization: 重庆大学学生交叉创新中心
+      desc:  2020年，为加快推进“人才链-创新链-产业链”深度融合，学校与两江新区共同建设明月湖—重庆大学新工科教育科创平台。
+    -
+      name: 光电工程学院
+      link: https://coe.cqu.edu.cn/
+      location: 重庆大学虎溪校区
+      avatar: https://coe.cqu.edu.cn/__local/4/C0/FD/9F815AE42AB35262389B7A2203E_5B617302_27BA3.jpg?e=.jpg
+      organization: 重庆大学光电工程学院
+      desc: 学院建有精密仪器及机械国家重点学科、光电技术及系统教育部重点实验室、新型微纳器件与系统技术重点学科实验室等基地平台
 #    -
 #      name:
 #      link:
@@ -327,7 +364,7 @@ groups:
 #      desc:
 
 #  - title: 
-#    dsc: 
+#    desc: 
 #    list:
 #    -
 #      name:

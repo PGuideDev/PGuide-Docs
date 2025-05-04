@@ -19,7 +19,7 @@ href="/"
 author=""
 />
 
-<LinkCard icon="" href="" title="" ></LinkCard>
+<LinkCard icon="" href="" title="" description=""></LinkCard>
 
 <RepoCard repo=""></RepoCard>
 

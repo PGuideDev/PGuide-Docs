@@ -107,6 +107,14 @@ export const navbar = defineNavbarConfig([
                     }
                 ]
             },
+            {
+                icon: 'pixel:cybersecurity',
+                text: '网络安全',
+                items: [
+                    {icon: 'ic:twotone-vpn-lock',text: '搭建VPN',link: '/learning-notes/cybersecurity/vpn-setup/'},
+                    // {icon: '',text: '',link: ''},
+                ]
+            },
 
         ]
     },
