@@ -328,6 +328,7 @@ export const navbar = defineNavbarConfig([
                 ]
 
             },
+
             {
                 icon: '/icon/mirror.svg',
                 text: '重庆医科大学开源软件镜像站',
@@ -350,6 +351,7 @@ export const navbar = defineNavbarConfig([
                     },
                 ]
             },
+
             {
                 icon: '/icon/overleaf.svg',
                 text: 'Overleaf LaTeX协作平台',
@@ -416,7 +418,6 @@ export const navbar = defineNavbarConfig([
                         icon: 'teenyicons:docker-outline',
                         text: 'docker私有镜像管理',
                         link: '/public-service/data-center/docker-registry/',
-                        badge: '即将上线！',
                     },
                     {
                         icon: 'ic:round-storage',
@@ -428,14 +429,21 @@ export const navbar = defineNavbarConfig([
                         icon: 'fluent-emoji-flat:medical-symbol',
                         text: '全球医学公开数据导航',
                         link: '/public-service/data-center/global-medical-open-data-web/',
-                        badge: '即将上线！',
                     },
                     {
                         icon: 'vscode-icons:file-type-word',
                         text: '文书及申报资料网',
                         link: '/public-service/data-center/official-documents-web/',
-                        badge: '即将上线！',
                     },
+                ]
+            },
+            {
+                icon: 'logos:google-cloud',
+                text: '云计算资源',
+                badge: '零信任',
+                items: [
+                    {icon: 'simple-icons:tailscale',text: '加入群组',link: ''},
+                    {icon: '',text: '',link: ''},
                 ]
             },
         ]

@@ -17,19 +17,21 @@
     "vp-update": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.21",
+    "@vuepress/bundler-vite": "2.0.0-rc.22",
+    "@vuepress/plugin-pwa": "2.0.0-rc.99",
     "http-server": "^14.1.1",
     "sass-embedded": "^1.87.0",
     "typescript": "^5.8.3",
     "vue": "^3.5.13",
-    "vuepress": "2.0.0-rc.21",
-    "vuepress-theme-plume": "1.0.0-rc.143"
+    "vuepress": "2.0.0-rc.22",
+    "vuepress-theme-plume": "1.0.0-rc.146"
   },
   "dependencies": {
+    "@vuepress/plugin-google-analytics": "2.0.0-rc.98",
+    "@vuepress/plugin-umami-analytics": "2.0.0-rc.99",
     "@waline/client": "^3.5.6",
     "annotation": "^0.1.0",
     "artplayer": "^5.2.3",
-    "chart": "^0.1.2",
     "dashjs": "^5.0.1",
     "echarts": "^5.6.0",
     "flowchart": "^1.2.0",

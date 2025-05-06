@@ -17,5 +17,11 @@ Gitlab 提供了私有的容器镜像仓库，使用 Gitlab 的 OAuth 认证方�
 
 ## Docker Registry
 
+工作室内网已搭建私有的 Docker Registry，使用 PGuide OAuth 认证方式登录。
+
+:::info
+- 支持 Docker Registry 的所有功能
+- 
+:::
 
 
