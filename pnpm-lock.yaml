@@ -9337,7 +9337,6 @@ snapshots:
       dashjs: 5.0.1
       hls.js: 1.6.2
       markdown-it: 14.1.0
-      mpegts.js: 1.8.0
     transitivePeerDependencies:
       - typescript
 
@@ -9431,7 +9430,6 @@ snapshots:
       - markmap-toolbar
       - markmap-view
       - mermaid
-      - mpegts.js
       - nprogress
       - qrcode
       - react
