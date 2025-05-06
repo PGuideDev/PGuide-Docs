@@ -27,3 +27,4 @@ pip3 install -U funasr funasr-onnx
 
 ### sherpa-onnx
 
+### pytorch
