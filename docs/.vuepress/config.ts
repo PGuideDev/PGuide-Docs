@@ -4,6 +4,7 @@ import {plumeTheme} from 'vuepress-theme-plume'
 import notes from "./notes";
 import {umamiAnalyticsPlugin} from "@vuepress/plugin-umami-analytics";
 import {googleAnalyticsPlugin} from "@vuepress/plugin-google-analytics";
+import {baiduAnalyticsPlugin} from "@vuepress/plugin-baidu-analytics";
 
 // export default {
 //     plugins:
@@ -23,6 +24,10 @@ export default defineUserConfig({
             // Google 分析
             id: 'G-RDX6MRNXSF',
             debug: true,
+        }),
+        baiduAnalyticsPlugin({
+            // Baidu 分析
+            id: 'efe5ce8fae653f1c20f5038be01c82e7'
         }),
     ],
     base: '/',

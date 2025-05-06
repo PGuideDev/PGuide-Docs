@@ -45,6 +45,9 @@ importers:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.22
         version: 2.0.0-rc.22(@types/node@22.14.1)(less@4.3.0)(sass-embedded@1.87.0)(sass@1.87.0)(stylus@0.64.0)(terser@5.39.0)(typescript@5.8.3)
+      '@vuepress/plugin-baidu-analytics':
+        specifier: 2.0.0-rc.99
+        version: 2.0.0-rc.99(typescript@5.8.3)(vuepress@2.0.0-rc.22(@vuepress/bundler-vite@2.0.0-rc.22(@types/node@22.14.1)(less@4.3.0)(sass-embedded@1.87.0)(sass@1.87.0)(stylus@0.64.0)(terser@5.39.0)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)))
       '@vuepress/plugin-pwa':
         specifier: 2.0.0-rc.99
         version: 2.0.0-rc.99(typescript@5.8.3)(vuepress@2.0.0-rc.22(@vuepress/bundler-vite@2.0.0-rc.22(@types/node@22.14.1)(less@4.3.0)(sass-embedded@1.87.0)(sass@1.87.0)(stylus@0.64.0)(terser@5.39.0)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)))
@@ -1840,6 +1843,11 @@ packages:
   '@vuepress/markdown@2.0.0-rc.22':
     resolution: {integrity: sha512-rpLoGZKf8XY7V+XIgaU/pTxLvymo7A/+j9pUX6kroYMguvE83AkfEZkFhJJ1yOhjVZWYW2v544NQfqhWkXqRqg==}
 
+  '@vuepress/plugin-baidu-analytics@2.0.0-rc.99':
+    resolution: {integrity: sha512-xiwFjQGWLLsmP/MySJjwHXQelnJCLEMPmSfVTlr9qi8PVi9mDKdqcqSiMipNktRH7MU5gAPbFt3xAWWQVe8VYw==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.22
+
   '@vuepress/plugin-cache@2.0.0-rc.99':
     resolution: {integrity: sha512-/TdPwBoAK8iAfP39JssQnvhvI8jhxIlKZm21gp85WGry0XK9DWyq0cmtIzZqixrJfthNxPYp+teg/U4rRr+yLg==}
     peerDependencies:
@@ -2651,9 +2659,6 @@ packages:
     resolution: {integrity: sha512-w+5mJ3GuFL+NjVtJlvydShqE1eN3h3PbI7/5LAsYJP/2qtuMXjfL2LpHSRqo4b4eSF5K/DH1JXKUAHSB2UW50g==}
     engines: {node: '>= 0.4'}
 
-  es6-promise@4.2.8:
-    resolution: {integrity: sha512-HJDGx5daxeIvxdBxvG2cb9g4tEvwIk3i8+nhX0yGrYmZUzbkdg8QbDevheDB8gd0//uPj4c1EQua8Q+MViT0/w==}
-
   esbuild@0.25.3:
     resolution: {integrity: sha512-qKA6Pvai73+M2FtftpNKRxJ78GIjmFXFxd/1DVBqGo/qNhLSfv+G12n9pNoWdytJC8U00TrViOwpjT0zgqQS8Q==}
     engines: {node: '>=18'}
@@ -3390,7 +3395,6 @@ packages:
 
   mlly@1.7.4:
     resolution: {integrity: sha512-qmdSIPC4bDJXgZTCR7XosJiNKySV7O215tsPtDN9iEO/7q/76b/ijtgRu/+epFXSJhijtTCCGp3DWS549P3xKw==}
-
 
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
@@ -4408,6 +4412,7 @@ packages:
       hls.js: ^1.6.2
       less: ^4.3.0
       markdown-it: ^14.1.0
+      mpegts.js: ^1.7.3
       sass: ^1.87.0
       sass-embedded: ^1.87.0
       stylus: ^0.64.0
@@ -4420,6 +4425,8 @@ packages:
       hls.js:
         optional: true
       markdown-it:
+        optional: true
+      mpegts.js:
         optional: true
 
   vuepress-plugin-replace-assets@1.0.0-rc.146:
@@ -4486,7 +4493,6 @@ packages:
 
   webpack-virtual-modules@0.6.2:
     resolution: {integrity: sha512-66/V2i5hQanC51vBQKPH4aI8NMAcBW59FVBs+rC7eGHupMyfn34q7rZIE+ETlJ+XTevqfUhVVBgSUNSW2flEUQ==}
-
 
   whatwg-encoding@2.0.0:
     resolution: {integrity: sha512-p41ogyeMUrw3jWclHWTQg1k05DSVXPLcVxRTYsXUk+ZooOCZLcoYgPZ/HL/D/N+uQPOtcp1me1WhBEaX02mhWg==}
@@ -6479,6 +6485,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@vuepress/plugin-baidu-analytics@2.0.0-rc.99(typescript@5.8.3)(vuepress@2.0.0-rc.22(@vuepress/bundler-vite@2.0.0-rc.22(@types/node@22.14.1)(less@4.3.0)(sass-embedded@1.87.0)(sass@1.87.0)(stylus@0.64.0)(terser@5.39.0)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)))':
+    dependencies:
+      '@vuepress/helper': 2.0.0-rc.99(typescript@5.8.3)(vuepress@2.0.0-rc.22(@vuepress/bundler-vite@2.0.0-rc.22(@types/node@22.14.1)(less@4.3.0)(sass-embedded@1.87.0)(sass@1.87.0)(stylus@0.64.0)(terser@5.39.0)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)))
+      vue: 3.5.13(typescript@5.8.3)
+      vuepress: 2.0.0-rc.22(@vuepress/bundler-vite@2.0.0-rc.22(@types/node@22.14.1)(less@4.3.0)(sass-embedded@1.87.0)(sass@1.87.0)(stylus@0.64.0)(terser@5.39.0)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3))
+    transitivePeerDependencies:
+      - typescript
+
   '@vuepress/plugin-cache@2.0.0-rc.99(vuepress@2.0.0-rc.22(@vuepress/bundler-vite@2.0.0-rc.22(@types/node@22.14.1)(less@4.3.0)(sass-embedded@1.87.0)(sass@1.87.0)(stylus@0.64.0)(terser@5.39.0)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)))':
     dependencies:
       ci-info: 4.2.0
@@ -7472,8 +7486,6 @@ snapshots:
       is-date-object: 1.1.0
       is-symbol: 1.1.1
 
-  es6-promise@4.2.8: {}
-
   esbuild@0.25.3:
     optionalDependencies:
       '@esbuild/aix-ppc64': 0.25.3
@@ -8309,8 +8321,6 @@ snapshots:
       pathe: 2.0.3
       pkg-types: 1.3.1
       ufo: 1.6.1
-
-
 
   ms@2.1.3: {}
 
@@ -9430,6 +9440,7 @@ snapshots:
       - markmap-toolbar
       - markmap-view
       - mermaid
+      - mpegts.js
       - nprogress
       - qrcode
       - react
@@ -9465,7 +9476,6 @@ snapshots:
   webidl-conversions@4.0.2: {}
 
   webpack-virtual-modules@0.6.2: {}
-
 
   whatwg-encoding@2.0.0:
     dependencies:
