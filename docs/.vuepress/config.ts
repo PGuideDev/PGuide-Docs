@@ -2,8 +2,29 @@ import {viteBundler} from '@vuepress/bundler-vite'
 import {defineUserConfig} from 'vuepress'
 import {plumeTheme} from 'vuepress-theme-plume'
 import notes from "./notes";
+import {umamiAnalyticsPlugin} from "@vuepress/plugin-umami-analytics";
+import {googleAnalyticsPlugin} from "@vuepress/plugin-google-analytics";
+
+// export default {
+//     plugins:
+// }
 
 export default defineUserConfig({
+    plugins: [
+        umamiAnalyticsPlugin({
+            // umami 分析
+            id: 'edaececa-cf6b-4ba3-9678-d57c73d7bc3c',
+            link: 'https://cloud.umami.is/script.js',
+            autoTrack: true,
+            cache: true,
+            hostUrl: 'https://docs.pguide.studio',
+        }),
+        googleAnalyticsPlugin({
+            // Google 分析
+            id: 'G-RDX6MRNXSF',
+            debug: true,
+        }),
+    ],
     base: '/',
     lang: 'zh-CN',
     title: 'PGuide Docs',
@@ -16,6 +37,7 @@ export default defineUserConfig({
 
     bundler: viteBundler(),
     shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
+
 
     theme: plumeTheme({
         /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
@@ -68,16 +90,20 @@ export default defineUserConfig({
         //   title: true,      // 是否生成标题
         // },
 
+
         plugins: {
             /**
              * Shiki 代码高亮
              * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
              */
+
+
+
             shiki: {
                 // 预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
                 twoslash: false, // 启用 twoslash
                 whitespace: false, // 启用 空格/Tab 高亮
-                    lineNumbers: true, // 启用行号
+                lineNumbers: true, // 启用行号
             },
 
             // 开发环境和生产环境都启用git贡献功能
@@ -105,11 +131,10 @@ export default defineUserConfig({
              * @see https://theme-plume.vuejs.press/config/plugins/markdown-enhance/
              */
             markdownEnhance: {
-                // chartjs: true,
                 echarts: true,
                 mermaid: true,
-                // flowchart: true,
             },
+
 
             /**
              *  markdown power
@@ -117,6 +142,7 @@ export default defineUserConfig({
              */
 
             markdownPower: {
+                codeTree: true, // 启用代码树语法 ::: code-tree
                 collapse: true, // 启用折叠语法 ::: collapse
                 pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
                 caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
@@ -154,7 +180,7 @@ export default defineUserConfig({
              * @see https://theme-plume.vuejs.press/config/plugins/markdown-math/
              */
             markdownMath: {
-              type: 'katex',
+                type: 'katex',
             },
 
             /**

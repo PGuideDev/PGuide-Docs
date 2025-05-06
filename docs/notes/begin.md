@@ -150,25 +150,11 @@ href="/friends/persons/">
 
 ## 关于我们
 
-项导文档，人人为我，我为人人。不必在意我们的名字，因为你就是下一个故事。
+_项导文档，人人为我，我为人人。不必在意我们的名字，因为你就是下一个故事。_
+
+> _PGuide Docs: Each exists for all, and all for each. Our names are but fleeting echoes, for within you lies the seed of the next tale._
 
 ### 贡献者名单
-
-[//]: # (<Swiper)
-
-[//]: # (:items="['https://avatars.githubusercontent.com/u/91131723?v=4', '/avatar/zxb.jpg', '/icon/zhihu.svg', '/icon/wechat.svg']")
-
-[//]: # (mode="carousel")
-
-[//]: # (:height="100")
-
-[//]: # (:slides-per-view="3")
-
-[//]: # (:space-between="20")
-
-[//]: # (:speed="5500")
-
-[//]: # (/>)
 
 所有贡献者名单：
 

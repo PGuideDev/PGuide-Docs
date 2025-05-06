@@ -22,3 +22,9 @@ pip install -r requirements.txt -i https://pypi.org/simple
 ```shell
 pip3 install -U funasr funasr-onnx
 ```
+
+## 生态系统
+
+### sherpa-onnx
+
+### pytorch
