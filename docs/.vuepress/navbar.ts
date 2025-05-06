@@ -442,8 +442,8 @@ export const navbar = defineNavbarConfig([
                 text: '云计算资源',
                 badge: '零信任',
                 items: [
-                    {icon: 'simple-icons:tailscale',text: '加入群组',link: ''},
-                    {icon: '',text: '',link: ''},
+                    {icon: 'simple-icons:tailscale',text: '加入群组',link: '/public-service/cloud-computing/join-group/'},
+                    {icon: 'arcticons:forticlient-vpn',text: '客户端下载',link: 'https://support.sangfor.com.cn/productSoftware/list?product_id=19&category_id=97', badge: 'ATrust'},
                 ]
             },
         ]
