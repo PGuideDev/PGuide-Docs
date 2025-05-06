@@ -26,18 +26,18 @@ export const navbar = defineNavbarConfig([
                     link: '/learning-notes/linux/',
                     badge: 'Linux发行版'
                 },
-                {
-                    icon: 'octicon:command-palette-24',
-                    text: 'Linux命令大全',
-                    link: '/learning-notes/linux/commands/',
-                    badge: '.sh'
-                },
-                {
-                    icon: 'logos:redhat',
-                    text: 'RedHat',
-                    link: '/learning-notes/linux/redhat/',
-                    badge: 'Linux发行版'
-                }]
+                    {
+                        icon: 'octicon:command-palette-24',
+                        text: 'Linux命令大全',
+                        link: '/learning-notes/linux/commands/',
+                        badge: '.sh'
+                    },
+                    {
+                        icon: 'logos:redhat',
+                        text: 'RedHat',
+                        link: '/learning-notes/linux/redhat/',
+                        badge: 'Linux发行版'
+                    }]
             },
             {
                 icon: '/icon/AI.svg',
@@ -48,18 +48,19 @@ export const navbar = defineNavbarConfig([
                     link: '/learning-notes/3p909icx/',
                     badge: '国产分布式、全场景AI框架'
                 },
-                {
-                    icon: 'devicon:tensorflow',
-                    text: 'TensorFlow',
-                    link: '/learning-notes/machine-learning/tensorflow/',
-                    badge: 'Google感知和语言理解软件库'
-                },
-                {
-                    icon: 'logos:pytorch-icon',
-                    text: 'PyTorch',
-                    link: '/learning-notes/machine-learning/pytorch/',
-                    badge: '构建深度学习模型的功能框架'
-                }]},
+                    {
+                        icon: 'devicon:tensorflow',
+                        text: 'TensorFlow',
+                        link: '/learning-notes/machine-learning/tensorflow/',
+                        badge: 'Google感知和语言理解软件库'
+                    },
+                    {
+                        icon: 'logos:pytorch-icon',
+                        text: 'PyTorch',
+                        link: '/learning-notes/machine-learning/pytorch/',
+                        badge: '构建深度学习模型的功能框架'
+                    }]
+            },
             {
                 icon: 'devicon:ros', text: '机器人操作系统',
                 items: [
@@ -97,8 +98,18 @@ export const navbar = defineNavbarConfig([
                 icon: 'solar:eye-scan-bold',
                 text: '计算机视觉',
                 items: [
-                    {icon: '/icon/yolo.svg', text: 'YOLO', link: '/learning-notes/computer-vision/YOLO/', badge: 'You Only Look Once'},
-                    {icon: 'devicon:opencv', text: 'OpenCV', link: '/learning-notes/computer-vision/OpenCV/', badge: 'Apache'},
+                    {
+                        icon: '/icon/yolo.svg',
+                        text: 'YOLO',
+                        link: '/learning-notes/computer-vision/YOLO/',
+                        badge: 'You Only Look Once'
+                    },
+                    {
+                        icon: 'devicon:opencv',
+                        text: 'OpenCV',
+                        link: '/learning-notes/computer-vision/OpenCV/',
+                        badge: 'Apache'
+                    },
                     {
                         icon: 'vscode-icons:file-type-matlab',
                         text: 'MATLAB',
@@ -111,7 +122,7 @@ export const navbar = defineNavbarConfig([
                 icon: 'pixel:cybersecurity',
                 text: '网络安全',
                 items: [
-                    {icon: 'ic:twotone-vpn-lock',text: '搭建VPN',link: '/learning-notes/cybersecurity/vpn-setup/'},
+                    {icon: 'ic:twotone-vpn-lock', text: '搭建VPN', link: '/learning-notes/cybersecurity/vpn-setup/'},
                     // {icon: '',text: '',link: ''},
                 ]
             },
@@ -199,6 +210,7 @@ export const navbar = defineNavbarConfig([
         items: [
             {icon: '/icon/code.svg', text: '前言', link: '/cs-diy/'},
             // {icon: 'mdi:tools', text: '必学工具', link: '/csdiy/tools-must/'},
+
             {
                 icon: 'mdi:tools',
                 text: '必学工具',
@@ -215,7 +227,7 @@ export const navbar = defineNavbarConfig([
                         link: '/csdiy/tools-must/markdown/',
                         badge: '高兼容性文本标记语言'
                     },
-                    {icon: 'devicon:vim',text: 'Vim',link: '/csdiy/tools-must/Vim/',badge: '放下鼠标'},
+                    {icon: 'devicon:vim', text: 'Vim', link: '/csdiy/tools-must/Vim/', badge: '放下鼠标'},
                     {icon: 'file-icons:latex', text: 'LaTeX', link: '/csdiy/tools-must/latex/', badge: '专业排版工具'},
                     {
                         icon: 'catppuccin:docker-compose',
@@ -226,6 +238,24 @@ export const navbar = defineNavbarConfig([
 
                     // {icon: '',text: '',link: ''},
                     // {icon: '',text: '',link: ''},
+                ]
+            },
+            {
+                icon: '/icon/path.svg',
+                text: '学习路线',
+                items: [
+                    {
+                        icon: '',
+                        text: 'CSDIY',
+                        link: 'https://csdiy.wiki/',
+                        badge: '一本计算机的自学指南'
+                    },
+                    {
+                        icon: 'solar:code-line-duotone',
+                        text: '编程导航',
+                        link: 'https://www.codefather.cn/course/1789189862986850306',
+                        badge: '鱼皮小课堂'
+                    },
                 ]
             },
             // {icon: 'carbon:cics-program', text: '编程入门', link: '/csdiy/program-begin/'},
@@ -262,25 +292,7 @@ export const navbar = defineNavbarConfig([
                 ]
             },
             // {icon: '/icon/path.svg', text: '学习路线', link: '/csdiy/study-path/'},
-            {
-                icon: '/icon/path.svg',
-                text: '学习路线',
-                items: [
-                    {
-                        icon: 'solar:code-line-duotone',
-                        text: '编程导航',
-                        link: 'https://www.codefather.cn/course/1789189862986850306',
-                        badge: '鱼皮小课堂'
-                    },
-                    {
-                        icon: 'logos:google-developers',
-                        text: '前端开发',
-                        link: '/csdiy/study-path/front-dev/',
-                        badge: 'Web Devs'
-                    },
-                    // {icon: '',text: '',link: ''},
-                ]
-            },
+
             {
                 icon: 'fa6-solid:computer',
                 text: '计算机常识',
@@ -312,13 +324,13 @@ export const navbar = defineNavbarConfig([
                         icon: 'https://lobechat.com/icons/icon-192x192.png',
                         text: 'Lobe Chat',
                         link: '/public-service/GPT/lobe-chat/',
-                        badge: '大模型聚合平台',
+                        badge: '对话大模型聚合平台',
                     },
                     {
-                        icon: 'https://raw.githubusercontent.com/Dooy/chatgpt-web-midjourney-proxy/main/src/assets/avatar.jpg',
-                        text: 'MidJourneyProxy',
-                        link: '/public-service/GPT/MidJourneyProxy/',
-                        badge: '大模型聚合平台',
+                        icon: 'https://mintlify.s3-us-west-1.amazonaws.com/lobevidol/_generated/favicon/apple-touch-icon.png?v=3',
+                        text: 'Vidol Studio',
+                        link: 'https://vidol.lobehub.com/',
+                        badge: '虚拟偶像互动平台',
                     },
                     {
                         icon: 'flat-color-icons:statistics',
@@ -442,8 +454,17 @@ export const navbar = defineNavbarConfig([
                 text: '云计算资源',
                 badge: '零信任',
                 items: [
-                    {icon: 'simple-icons:tailscale',text: '加入群组',link: '/public-service/cloud-computing/join-group/'},
-                    {icon: 'arcticons:forticlient-vpn',text: '客户端下载',link: 'https://support.sangfor.com.cn/productSoftware/list?product_id=19&category_id=97', badge: 'ATrust'},
+                    {
+                        icon: 'simple-icons:tailscale',
+                        text: '加入群组',
+                        link: '/public-service/cloud-computing/join-group/'
+                    },
+                    {
+                        icon: 'arcticons:forticlient-vpn',
+                        text: '客户端下载',
+                        link: 'https://support.sangfor.com.cn/productSoftware/list?product_id=19&category_id=97',
+                        badge: 'ATrust'
+                    },
                 ]
             },
         ]

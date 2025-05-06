@@ -28,8 +28,10 @@
     "vuepress-theme-plume": "1.0.0-rc.146"
   },
   "dependencies": {
+    "@iconify/json": "^2.2.335",
     "@vuepress/plugin-google-analytics": "2.0.0-rc.98",
     "@vuepress/plugin-umami-analytics": "2.0.0-rc.99",
+    "@vuepress/shiki-twoslash": "2.0.0-rc.99",
     "@waline/client": "^3.5.6",
     "annotation": "^0.1.0",
     "artplayer": "^5.2.3",
