@@ -95,21 +95,28 @@ export default defineUserConfig({
         //   title: true,      // 是否生成标题
         // },
 
+        /**
+         * Shiki 代码高亮
+         * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
+         */
+
+        codeHighlighter: {
+            themes: {light: 'vitesse-light', dark: 'vitesse-dark'},
+            notationDiff: true,
+            notationErrorLevel: true,
+            notationFocus: true,
+            notationHighlight: true,
+            notationWordHighlight: true,
+            highlightLines: true,
+            collapsedLines: 10,
+            lineNumbers: false,
+            twoslash: true,
+            // langs: ['vue', 'typescript', 'latex', 'matlab', 'java', 'c++', 'cmake']
+            whitespace: false,
+        },
 
         plugins: {
-            /**
-             * Shiki 代码高亮
-             * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
-             */
 
-
-
-            shiki: {
-                // 预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-                twoslash: false, // 启用 twoslash
-                whitespace: false, // 启用 空格/Tab 高亮
-                lineNumbers: true, // 启用行号
-            },
 
             // 开发环境和生产环境都启用git贡献功能
             git: process.env.NODE_ENV === 'production',
@@ -163,11 +170,6 @@ export default defineUserConfig({
                 jsfiddle: true,     // 启用嵌入 jsfiddle 语法 @[jsfiddle](user/id)
                 npmTo: true,        // 启用 npm-to 容器  ::: npm-to
                 demo: true,         // 启用 demo 容器  ::: demo
-                repl: {             // 启用 代码演示容器
-                    go: true,         // ::: go-repl
-                    rust: true,       // ::: rust-repl
-                    kotlin: true,     // ::: kotlin-repl
-                },
                 timeline: true, // 启用时间线, https://theme-plume.vuejs.press/guide/markdown/timeline/
                 imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
                 annotation: true, // https://theme-plume.vuejs.press/guide/markdown/annotation/
@@ -201,7 +203,7 @@ export default defineUserConfig({
             comment: {
                 provider: 'Giscus', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
                 comment: true,
-                repo: 'MultipledMe/PGuide-Docs',
+                repo: 'Lyrlark/PGuide-Docs',
                 repoId: 'R_kgDON5Sklw',
                 category: 'Q&A',
                 categoryId: 'DIC_kwDON5Skl84CneCO',

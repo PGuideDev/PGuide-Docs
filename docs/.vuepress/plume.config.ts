@@ -38,7 +38,7 @@ export default defineThemeConfig({
 
     social: [
         {icon: 'github', link: 'https://github.com/Lyrlark/PGuide-Docs'},
-        // {icon: 'gitlab', link: 'https://git.cqmu.edu.cn'},
+        {icon: 'gitlab', link: 'https://git.cqmu.edu.cn'},
         {icon: 'qq', link: 'https://qm.qq.com/q/Ur5Q6kyTsG'}
     ],
     navbarSocialInclude: ['github', 'qq'], // 允许显示在导航栏的 social 社交链接
