@@ -3,6 +3,7 @@ import {defineUserConfig} from 'vuepress'
 import {plumeTheme} from 'vuepress-theme-plume'
 import notes from "./notes";
 import {umamiAnalyticsPlugin} from "@vuepress/plugin-umami-analytics";
+import {googleAnalyticsPlugin} from "@vuepress/plugin-google-analytics";
 
 // export default {
 //     plugins:
@@ -11,12 +12,17 @@ import {umamiAnalyticsPlugin} from "@vuepress/plugin-umami-analytics";
 export default defineUserConfig({
     plugins: [
         umamiAnalyticsPlugin({
-            // umami 站点 ID
+            // umami 分析
             id: 'edaececa-cf6b-4ba3-9678-d57c73d7bc3c',
             link: 'https://cloud.umami.is/script.js',
             autoTrack: true,
             cache: true,
             hostUrl: 'https://docs.pguide.studio',
+        }),
+        googleAnalyticsPlugin({
+            // Google 分析
+            id: 'G-RDX6MRNXSF',
+            debug: true,
         }),
     ],
     base: '/',
@@ -125,10 +131,8 @@ export default defineUserConfig({
              * @see https://theme-plume.vuejs.press/config/plugins/markdown-enhance/
              */
             markdownEnhance: {
-                // chartjs: true,
                 echarts: true,
                 mermaid: true,
-                // flowchart: true,
             },
 
 
