@@ -477,19 +477,7 @@ icon: #可选项，侧边栏图标
 
 ### 遇到git推送异常？（SSL ERROR）
 
-1. 🌐 检查您的星际通讯器（Clash代理）及允许局域网是否开启
-
-![2025-03-05_03-51-27.png](../.vuepress/public/src/2025-03-05_03-51-27.png)
-
-2. 🛠️ 配置Git本地代理：
-   ```bash
-   git config --global http.proxy http://127.0.0.1:7890
-   git config --global https.proxy http://127.0.0.1:7890
-   ```
-3. 🚀 尝试推送：
-   ```bash
-   git push -u origin:dev/pyy
-   ```
+> [参考magic](/csdiy/tools-must/magic/clash-core/)
 
 ### 🧐 Giscus访问异常？
 
@@ -503,5 +491,5 @@ icon: #可选项，侧边栏图标
 ### 参考链接
 
 - [Plume 主题配置指南](https://theme-plume.vuejs.press/)
-- [VuePress 官方文档](https://v2.vuepress.vuejs.org/)
 - [pnpm 使用手册](https://pnpm.io/zh/motivation)
+- [VuePress 官方文档](https://vuepress.vuejs.org/)
