@@ -34,13 +34,13 @@ permalink: /contribute/
 
 :::info 基础知识
 
-[:[material-icon-theme:git]:git的使用](/csdiy/tools-must/git/)
+[::material-icon-theme:git:: git的使用](/csdiy/tools-must/git/)
 
-[:[octicon:markdown-16]:markdown基础语法](/csdiy/tools-must/markdown/)
+[::octicon:markdown-16:: markdown基础语法](/csdiy/tools-must/markdown/)
 
-[:[https://theme-plume.vuejs.press/plume.png]: VuePress Plume主题](https://theme-plume.vuejs.press/guide/intro/)
+[::https://theme-plume.vuejs.press/plume.png::  VuePress Plume主题](https://theme-plume.vuejs.press/guide/intro/)
 
-[:[devicon:typescript]:Typescript基础语法](https://www.runoob.com/typescript/ts-basic-syntax.html)
+[::devicon:typescript:: Typescript基础语法](https://www.runoob.com/typescript/ts-basic-syntax.html)
 
 :::
 
@@ -256,7 +256,7 @@ graph TD
 我不知道[git是什么](/csdiy/tools-must/git/)
 :::
 
-项导文档开发Git规范采用 [:[logos:angular-icon]:Angular 规范](https://zj-git-guide.readthedocs.io/zh-cn/latest/message/Angular%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF%E8%A7%84%E8%8C%83/)
+项导文档开发Git规范采用 [::logos:angular-icon:: Angular 规范](https://zj-git-guide.readthedocs.io/zh-cn/latest/message/Angular%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF%E8%A7%84%E8%8C%83/)
 
 ### 提交规范
 
@@ -382,11 +382,11 @@ icon: #可选项，侧边栏图标
 
 :::tabs
 
-@tab :[devicon:webstorm]:WebStorm创建
+@tab ::devicon:webstorm:: WebStorm创建
 
 ![2025-03-10_04-04-59.png](../.vuepress/public/src/2025-03-10_04-04-59.png)
 
-@tab :[line-md:github-loop]:Github创建
+@tab ::line-md:github-loop:: Github创建
 
 <LinkCard icon="line-md:github-loop" href="https://github.com/Lyrlark/PGuide-Docs/pulls" title="Create Pull Request" >PGuide Docs Github Page</LinkCard>
 

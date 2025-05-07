@@ -10,8 +10,8 @@ tags:
 ---
 
 :::tip 相关知识
-- [:[logos:docker-icon]:docker学习](/csdiy/tools-must/docker/)
-- [:[fluent-color:data-area-20]:PGuide私有docker镜像管理平台](/public-service/data-center/docker-registry/)
+- [::logos:docker-icon:: docker学习](/csdiy/tools-must/docker/)
+- [::fluent-color:data-area-20:: PGuide私有docker镜像管理平台](/public-service/data-center/docker-registry/)
 
 :::
 

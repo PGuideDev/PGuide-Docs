@@ -13,21 +13,21 @@ createTime: 2025/03/06 16:40:46
 
 | 图标                                  | 含义                                                                                |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| :[mingcute:qq-fill]:                | 添加QQ好友，点击即可添加                                                                     |
-| :[akar-icons:github-fill]:          | 个人github主页                                                                        |
-| :[fa-solid:blog]:                   | 个人博客页                                                                             |
-| :[mdi:web]:                         | 门户网站页，多为子页面                                                                       |
-| :[mingcute:bilibili-line]:          | 个人B站主页，[Bilibili](https://www.bilibili.com/)                                      |
-| :[fxemoji:email]:                   | 电子邮箱，点击即可联系                                                                       |
+| ::mingcute:qq-fill::                | 添加QQ好友，点击即可添加                                                                     |
+| ::akar-icons:github-fill::          | 个人github主页                                                                        |
+| ::fa-solid:blog::                   | 个人博客页                                                                             |
+| ::mdi:web::                         | 门户网站页，多为子页面                                                                       |
+| ::mingcute:bilibili-line::          | 个人B站主页，[Bilibili](https://www.bilibili.com/)                                      |
+| ::fxemoji:email::                   | 电子邮箱，点击即可联系                                                                       |
 | :[/icon/orcid.svg]:                 | ORCID，[什么是ORCID](https://info.orcid.org/zh-CN/%E4%BB%80%E4%B9%88%E6%98%AF-orcid/) |
-| :[academicons:google-scholar]:      | [谷歌学术](https://scholar.google.com/)个人主页                                           |
-| :[prime:twitter]:                   | [X社交平台](https://x.com/)，原twitter                                                  |
-| :[vscode-icons:file-type-pdf2]:     | 个人PDF简历                                                                           |
-| :[line-md:phone-call-twotone-loop]: | 个人/座机电话                                                                           |
-| :[mdi:facebook]:                    | [Facebook](https://www.facebook.com/)个人主页                                         |
-| :[mdi:wechat]:                      | 个人微信（暂未接入点击添加）                                                                    |
+| ::academicons:google-scholar::      | [谷歌学术](https://scholar.google.com/)个人主页                                           |
+| ::prime:twitter::                   | [X社交平台](https://x.com/)，原twitter                                                  |
+| ::vscode-icons:file-type-pdf2::     | 个人PDF简历                                                                           |
+| ::line-md:phone-call-twotone-loop:: | 个人/座机电话                                                                           |
+| ::mdi:facebook::                    | [Facebook](https://www.facebook.com/)个人主页                                         |
+| ::mdi:wechat::                      | 个人微信（暂未接入点击添加）                                                                    |
 
-[//]: # (| 图标 | :[mingcute:qq-fill]:  |   |   |   |   |   |   |   |   |)
+[//]: # (| 图标 | ::mingcute:qq-fill::   |   |   |   |   |   |   |   |   |)
 
 [//]: # (|----|---|---|---|---|---|---|---|---|---|)
 
@@ -39,6 +39,7 @@ createTime: 2025/03/06 16:40:46
 
 - 管理员/开发人员收到你的社交链接后，会根据你的需求添加到友情链接中。
 -
+
 前往github仓库的[friends文件夹](https://github.com/Lyrlark/PGuide-Docs/edit/master/docs/notes/friends-persons.md)
 自行编辑，提交PR即可。
 :::

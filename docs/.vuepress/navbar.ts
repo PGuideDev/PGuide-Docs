@@ -482,28 +482,58 @@ export const navbar = defineNavbarConfig([
             {
                 icon: 'carbon:container-software',
                 text: '常用软件',
-                link: '/campus-wiki/common-software/'
+                link: '/campus-wiki/common-software/',
+                badge: '整理中'
             },
             {
                 icon: '/icon/cert.svg',
                 text: '证书及技能考试',
-                link: '/campus-wiki/credential-skillful-exams/'
+                link: '/campus-wiki/credential-skillful-exams/',
+                badge: '整理中'
+
             },
             {icon: 'ic:baseline-school', text: '校内生活', link: '/campus-wiki/campus-life/'},
             {icon: '/icon/competition.svg', text: '竞赛篇', link: '/campus-wiki/competition/'},
             {
                 icon: '/icon/kaoyan.svg',
                 text: '考研篇',
-                link: '/campus-wiki/postgraduate-entrance-exam/'
+                link: '/campus-wiki/postgraduate-entrance-exam/',
+                badge: '整理中'
             },
+            {
+                icon: 'uim:bag',
+                text: '考公篇',
+                badge: '整理中',
+                items: [
+                    {icon: 'https://saduck.top/favicon.png', text: 'SaDuck', link: 'https://saduck.top/', badge: '我一定会上岸！'},
+                    // {icon: '', text: '', link: ''},
+                ]
+            },
+
             {
                 icon: '/icon/baoyan.svg',
                 text: '保研篇',
                 link: '/campus-wiki/postgraduate-recommendation/',
+                badge: '整理中'
             },
-            {icon: '/icon/liuxue.svg', text: '留学篇', link: '/campus-wiki/study-abroad/'},
-            {icon: '/icon/internship.svg', text: '实习篇', link: '/campus-wiki/internship/'},
-            {icon: 'streamline:ai-science-spark-solid', text: '科研篇', link: '/campus-wiki/scientific-research/'}
+            {
+                icon: '/icon/liuxue.svg',
+                text: '留学篇',
+                link: '/campus-wiki/study-abroad/',
+                badge: '整理中'
+            },
+            {
+                icon: '/icon/internship.svg',
+                text: '实习篇',
+                link: '/campus-wiki/internship/',
+                badge: '整理中'
+            },
+            {
+                icon: 'streamline:ai-science-spark-solid',
+                text: '科研篇',
+                link: '/campus-wiki/scientific-research/',
+                badge: '整理中'
+            }
         ]
     },
     {

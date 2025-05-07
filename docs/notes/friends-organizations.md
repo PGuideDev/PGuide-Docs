@@ -44,7 +44,7 @@ groups:
         avatar: https://lobechat.com/icons/icon-192x192.png
         organization: PGuide Studio、LobeHub
         desc: 一个聚合多种AI、支持PGuide OAuth的生成式人工智能调用平台
-      - name: 数据中心 
+      - name: 数据中心
         link: /public-service/data-center/
         location: 重庆医科大学
         avatar: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48ZyBmaWxsPSJub25lIj48cGF0aCBmaWxsPSJ1cmwoI2ZsdWVudENvbG9yRGF0YUFyZWEzMjApIiBkPSJNMjYgMjcuMDExYTMgMyAwIDAgMC0uMjUtLjAxMUg1LjI1YS4yNS4yNSAwIDAgMS0uMjUtLjI1VjEzLjQ4NGw1LjYwNi0yLjQwM2ExIDEgMCAwIDEgLjg0MS4wMjVsNS40NDcgMi43MjNMMjQuNCA4LjJBMSAxIDAgMCAxIDI2IDl6Ii8+PHBhdGggZmlsbD0idXJsKCNmbHVlbnRDb2xvckRhdGFBcmVhMzI0KSIgZmlsbC1vcGFjaXR5PSIwLjMiIGQ9Ik0yNiAyNy4wMTFhMyAzIDAgMCAwLS4yNS0uMDExSDUuMjVhLjI1LjI1IDAgMCAxLS4yNS0uMjVWMTMuNDg0bDUuNjA2LTIuNDAzYTEgMSAwIDAgMSAuODQxLjAyNWw1LjQ0NyAyLjcyM0wyNC40IDguMkExIDEgMCAwIDEgMjYgOXoiLz48cGF0aCBmaWxsPSJ1cmwoI2ZsdWVudENvbG9yRGF0YUFyZWEzMjEpIiBmaWxsLW9wYWNpdHk9IjAuMyIgZD0iTTI2IDI3LjAxMWEzIDMgMCAwIDAtLjI1LS4wMTFINS4yNWEuMjUuMjUgMCAwIDEtLjI1LS4yNVYxMy40ODRsNS42MDYtMi40MDNhMSAxIDAgMCAxIC44NDEuMDI1bDUuNDQ3IDIuNzIzTDI0LjQgOC4yQTEgMSAwIDAgMSAyNiA5eiIvPjxwYXRoIGZpbGw9InVybCgjZmx1ZW50Q29sb3JEYXRhQXJlYTMyMikiIGZpbGwtb3BhY2l0eT0iMC4zIiBkPSJNMjYgMjcuMDExYTMgMyAwIDAgMC0uMjUtLjAxMUg1LjI1YS4yNS4yNSAwIDAgMS0uMjUtLjI1VjEzLjQ4NGw1LjYwNi0yLjQwM2ExIDEgMCAwIDEgLjg0MS4wMjVsNS40NDcgMi43MjNMMjQuNCA4LjJBMSAxIDAgMCAxIDI2IDl6Ii8+PHBhdGggZmlsbD0idXJsKCNmbHVlbnRDb2xvckRhdGFBcmVhMzIzKSIgZD0iTTQuMjUgM2MuNjkgMCAxLjI1LjU2IDEuMjUgMS4yNXYyMC41YzAgLjk2Ni43ODQgMS43NSAxLjc1IDEuNzVoMjAuNWExLjI1IDEuMjUgMCAxIDEgMCAyLjVINy4yNUE0LjI1IDQuMjUgMCAwIDEgMyAyNC43NVY0LjI1QzMgMy41NiAzLjU2IDMgNC4yNSAzIi8+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJmbHVlbnRDb2xvckRhdGFBcmVhMzIwIiB4MT0iLTIuMjY5IiB4Mj0iMzIuMTE3IiB5MT0iMTAuMzc2IiB5Mj0iMzAuNzYxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIuMTY0IiBzdG9wLWNvbG9yPSIjM2JkNWZmIi8+PHN0b3Agb2Zmc2V0PSIuNTM3IiBzdG9wLWNvbG9yPSIjOWM2Y2ZlIi8+PHN0b3Agb2Zmc2V0PSIuOTA4IiBzdG9wLWNvbG9yPSIjZTY1NmViIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImZsdWVudENvbG9yRGF0YUFyZWEzMjEiIHgxPSIxNS41IiB4Mj0iMTUuNSIgeTE9IjI1IiB5Mj0iMjcuMDExIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzE2MzY5NyIgc3RvcC1vcGFjaXR5PSIwIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTYzNjk3Ii8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImZsdWVudENvbG9yRGF0YUFyZWEzMjIiIHgxPSI3IiB4Mj0iNSIgeTE9IjIxLjUiIHkyPSIyMS40NjYiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjMTYzNjk3IiBzdG9wLW9wYWNpdHk9IjAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxNjM2OTciLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iZmx1ZW50Q29sb3JEYXRhQXJlYTMyMyIgeDE9IjI2LjU2MyIgeDI9IjMuODA5IiB5MT0iNC42MjUiIHkyPSIzOC41MDUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjNzA3NzdkIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjYjljMGM3Ii8+PC9saW5lYXJHcmFkaWVudD48cmFkaWFsR3JhZGllbnQgaWQ9ImZsdWVudENvbG9yRGF0YUFyZWEzMjQiIGN4PSIwIiBjeT0iMCIgcj0iMSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtMTYuMTUzNzMgMTQuMjU4NDggLTE0LjM5MTY5IC0xNi4zMDQ2NSAyMi43NyAxMS4xNjgpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIuNjM2IiBzdG9wLWNvbG9yPSIjMGZhZmZmIiBzdG9wLW9wYWNpdHk9IjAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwMDY3YmYiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48L2c+PC9zdmc+
@@ -71,23 +71,20 @@ groups:
         avatar: /avatar/cqmu.svg
         organization: 重庆医科大学信息中心
         desc: 信息中心门户网站
-      -
-        name: 华为深度学习平台（内网）
+      - name: 华为深度学习平台（内网）
         link: http://192.168.194.11/
         location: 重庆医科大学
         avatar: /icon/huawei.svg
         organization: 重庆医科大学医学信息学院
         desc: Huawei DeepLearning platform
-      - 
-        name: 校超算平台（内网）
+      - name: 校超算平台（内网）
         link: http://172.16.190.220:6080/
         location: 重庆医科大学
         avatar: /icon/hpc.svg
         organization: 重庆医科大学信息中心
         desc: 融合计算云门户
-      - 
-        name: 缙云计算机社团
-        link: 
+      - name: 缙云计算机社团
+        link:
         location: 重庆医科大学
         avatar: /avatar/cqmu.svg
         organization: 重庆医科大学
@@ -102,7 +99,7 @@ groups:
         organization: The Apache Software Foundation
         desc: We believe in the power of community over code, known as The Apache Way. Thousands of people around the world contribute to ASF open source projects every day.
       - name: Apache AutoMQ
-        link: https://www.automq.com/zh
+        link: https://www.automq.com/
         avatar: https://www.automq.com/cdn.prod.website-files.com/67480fef30f9df5f84f31d36/67eb556b6430868c6d6a798c_automq-home-page.png
         location: Global
         organization: AutoMQ
@@ -139,52 +136,46 @@ groups:
   - title: 西湖大学
     desc: WestLake University
     list:
-      -
-        name: 信息技术中心
+      - name: 信息技术中心
         link: https://info.westlake.edu.cn/index.htm
         location: 中国，浙江杭州
         avatar: /icon/hpc.svg
         organization: 西湖大学
         desc: HPC base for WLU
-      -
-        name: 浙江西湖高等研究院
+      - name: 浙江西湖高等研究院
         link: https://www.wias.org.cn/
         location: 中国，浙江杭州西湖区
         avatar: /icon/W.svg
         organization: 西湖大学
-        desc: 西湖大学前身，新型非营利高端科研机构，含理工生医等多个研究方向。  
-      -
-        name: WindyLab智能无人系统实验室
+        desc: 西湖大学前身，新型非营利高端科研机构，含理工生医等多个研究方向。
+      - name: WindyLab智能无人系统实验室
         link: https://shiyuzhao.westlake.edu.cn/
         location: 中国，浙江杭州
         avatar: /icon/windylab.png
         organization: 西湖大学
         desc: 专注于机器人系统的创新理论和应用，特别是多机器人系统。我们对具有研究价值、意义和挑战性的下一代机器人系统感兴趣。
-    
+
   - title: 中国教育和科研计算机网
     desc: 中国教育和科研计算机网CERNET是党中央、国务院指定的中国教育信息化的基础平台，也是中国最早的四大骨干网之一，为中国教育信息化及人才培养作出了突出贡献。除为教育系统用户提供基本互联网接入服务外，还受国务院授权，负责教育系统域名管理（edu.cn)，并承担各类大型国家教育信息化建设项目及研究任务。
     list:
-      -
-        name: CERNET官网
+      - name: CERNET官网
         link: https://www.edu.cn/
         location: 中国，北京
         avatar: /avatar/cernet.svg
         organization: 中国教育和科研计算机网网络中心
         desc: CERNET Secured.
-      -
-        name: 校园网联合镜像站
+      - name: 校园网联合镜像站
         link: https://mirrors.cernet.edu.cn/
         location: 中国各高校
         avatar: https://mirrors.cernet.edu.cn/static/img/mirrorz.svg
         organization: 清华大学MirrorZ项目组
         desc: 本站提供对校园网镜像站的索引和跳转服务。
-        
+
 
   - title: 奇安信网神（北京）信息科技有限公司
     desc: 网络安全领军者
     list:
-      -
-        name: 官网
+      - name: 官网
         link: https://www.qianxin.com/
         location: 中国，北京
         avatar: /avatar/qax.svg
@@ -204,157 +195,149 @@ groups:
         avatar: https://passport.escience.cn/images/umtIcon-24.png
         location: 中国科学院计算机网络信息中心
         organization: 中科院文献情报中心
-        desc: 中国科技云通行证是基于中国科技云的统一账号系统，可以用于登录中国科技云各类科研应用服务，以及今后将逐步扩展的更多应用服务。中科院邮箱系统账号可作为中国科技云通行证账号直接登录。         
+        desc: 中国科技云通行证是基于中国科技云的统一账号系统，可以用于登录中国科技云各类科研应用服务，以及今后将逐步扩展的更多应用服务。中科院邮箱系统账号可作为中国科技云通行证账号直接登录。
 
   - title: MUA
     desc: Minecraft高校联盟（Minecraft University Alliance，简称MUA）是一个旨在联合全国高校MC爱好者，共同推动高校MC生态发展的公益性组织。
     list:
-      -
-        name: MUA官网
+      - name: MUA官网
         link: https://www.mualliance.cn/
         location: 中国
         avatar: /avatar/MUA.png
         organization: MUA
         desc: Minecraft University Alliance
-      -
-        name: 渝高联CQMUA官网
+      - name: 渝高联CQMUA官网
         link: https://3w.cqmua.cn/
         location: 中国，重庆市
         avatar: https://3w.cqmua.cn/logo.svg
         organization: CQMUA、MUA
         desc: 重庆 Minecraft 高校联盟
-      -
-        name: 闽高联CQMUA官网
+      - name: 闽高联CQMUA官网
         link: https://www.fjmua.cn/
         location: 中国，福建省
         avatar: https://files.catbox.moe/if2h8z.png
         organization: FJMUA、MUA
-        desc: 福建省 Minecraft 高校联盟        
-      - 
-        name: 和瑛社
+        desc: 福建省 Minecraft 高校联盟
+      - name: 和瑛社
         link: https://heryin.net/
         location: 中国
         avatar: http://heryin.net/_nuxt/heryin-illu.04a88114.svg
         organization: 和瑛社、MUA、云南大学、南开大学等
         desc: 终日乾乾，与时偕行
-      -
-        name: 南开大学Minecraft社区
+      - name: 南开大学Minecraft社区
         link: https://mcnku.net/
         location: 中国，天津市
         avatar: https://mcnku.net/assets/image/logo.svg
         organization: NKUMC、MUA
         desc: 南开大学Minecraft玩家自发成立的兴趣组织
-      -
-        name: 上海交通大学Minecraft社
+      - name: 上海交通大学Minecraft社
         link: https://mc.sjtu.cn
         location: 中国，上海市
         avatar: https://www.mualliance.cn/wp-content/uploads/2023/01/mcclub_%E9%80%8F%E6%98%8E%E8%83%8C%E6%99%AF-300x300.png
         organization: SJMC、MUA
-        desc: 上海交通大学Minecraft社（SJMC）是由一群热爱Minecraft及其衍生内容的交大学生们组成的文化艺术类社团，成立于2021年5月。       
+        desc: 上海交通大学Minecraft社（SJMC）是由一群热爱Minecraft及其衍生内容的交大学生们组成的文化艺术类社团，成立于2021年5月。
   - title: 北京大学信息科学技术学院
     desc: Peking University
     list:
-#    - 
-#      name: 
-#      link: 
-#      location:
-#      avatar:
-#      organization:
-#      desc:
-    -
-      name: CS-DIY
-      link: https://csdiy.wiki/
-      location: Global
-      avatar: https://csdiy.wiki/images/title.png
-      organization: zhongyinmin@pku.edu.cn
-      desc: 一本计算机的自学指南。
-      
+      #    - 
+      #      name: 
+      #      link: 
+      #      location:
+      #      avatar:
+      #      organization:
+      #      desc:
+      - name: CS-DIY
+        link: https://csdiy.wiki/
+        location: Global
+        avatar: https://csdiy.wiki/images/title.png
+        organization: zhongyinmin@pku.edu.cn
+        desc: 一本计算机的自学指南。
+
   - title: 华为技术有限公司
     desc: Huawei Corp,. Ltd.
     list:
-    -
-      name: 昇思MindSpore
-      link: https://www.mindspore.cn/
-      location: Global
-      avatar: /icon/mindspore.svg
-      organization: 华为昇思MindSpore
-      desc: 分布式、全场景AI开源框架
-    -
-      name: 华为开发者联盟
-      link: https://support.huaweicloud.com/
-      location: Global
-      avatar: /icon/huawei.svg
-      organization: 华为云
-      desc: 华为云是华为公司推出的云计算服务品牌，致力于为全球客户提供安全、可靠、高效、便捷的云服务。
+      - name: 昇思MindSpore
+        link: https://www.mindspore.cn/
+        location: Global
+        avatar: /icon/mindspore.svg
+        organization: 华为昇思MindSpore
+        desc: 分布式、全场景AI开源框架
+      - name: 华为开发者联盟
+        link: https://support.huaweicloud.com/
+        location: Global
+        avatar: /icon/huawei.svg
+        organization: 华为云
+        desc: 华为云是华为公司推出的云计算服务品牌，致力于为全球客户提供安全、可靠、高效、便捷的云服务。
   - title: 小米科技有限责任公司
     desc: Xiaomi Corp.
     list:
-    -
-      name: 小米官网
-      link: https://www.mi.com/
-      location: Global
-      avatar: /icon/xiaomi.svg
-      organization: 小米集团
-      desc: 让全球每个人都能享受科技带来的美好生活
-    -
-      name: 重医小米俱乐部
-      link: https://chenhy.pguide.studio/githubFindNew/mifan/mifans.html
-      location: 重庆医科大学
-      avatar: https://chenhy.pguide.studio/githubFindNew/pictures/CircleElysia.jpg
-      organization: 重庆小米
-      desc: 与用户做朋友，做用户心中最酷的公司。
-      
+      - name: 小米官网
+        link: https://www.mi.com/
+        location: Global
+        avatar: /icon/xiaomi.svg
+        organization: 小米集团
+        desc: 让全球每个人都能享受科技带来的美好生活
+      - name: 重医小米俱乐部
+        link: https://chenhy.pguide.studio/githubFindNew/mifan/mifans.html
+        location: 重庆医科大学
+        avatar: https://chenhy.pguide.studio/githubFindNew/pictures/CircleElysia.jpg
+        organization: 重庆小米
+        desc: 与用户做朋友，做用户心中最酷的公司。
+
   - title: 中国科学技术大学Linux用户组
     desc: USTC Linux User Group
-    list: 
-    -
-      name: Linux 101手册
-      link: https://101.lug.ustc.edu.cn/
-      location: Global
-      avatar: https://avatars.githubusercontent.com/u/8214475?s=48&v=4
-      organization: USTC LUG
-      desc: 一本Linux入门手册
-    -
-      name: USTC Mirror Help
-      link: https://mirrors.ustc.edu.cn/help/index.html
-      location: 中国，安徽合肥
-      avatar: https://avatars.githubusercontent.com/u/8214475?s=48&v=4
-      organization: USTC LUG
-      desc: USTC Mirror help pages generated by MkDocs and Material for MkDocs.
+    list:
+      - name: Linux 101手册
+        link: https://101.lug.ustc.edu.cn/
+        location: Global
+        avatar: https://avatars.githubusercontent.com/u/8214475?s=48&v=4
+        organization: USTC LUG
+        desc: 一本Linux入门手册
+      - name: USTC Mirror Help
+        link: https://mirrors.ustc.edu.cn/help/index.html
+        location: 中国，安徽合肥
+        avatar: https://avatars.githubusercontent.com/u/8214475?s=48&v=4
+        organization: USTC LUG
+        desc: USTC Mirror help pages generated by MkDocs and Material for MkDocs.
   - title: 魔搭社区
     desc: ModelScope 社区成立于 2022 年 6 月，是一个模型开源社区及创新平台，由阿里巴巴通义实验室（Institutefor Intelligent Computing），联合CCF开源发展委员会，共同作为项目发起方。社区联合国内 AI 领域合作伙伴与高校机构，致力于通过开放的社区合作，构建深度学习相关的模型开源社区，并开放相关模型创新技术，推动基于“模型即服务”（Model-as-a-Service）理念的模型应用生态的繁荣发展。
-    list: 
-    -
-      name: 魔搭社区官网
-      link: https://www.modelscope.cn/home
-      location: Global
-      avatar: https://g.alicdn.com/sail-web/maas/2.7.39/favicon/128.ico
-      organization: 阿里巴巴通义实验室
-      desc: 共享 · 共创 · 共进，构建持续创新的 AI 开源生态
+    list:
+      - name: 魔搭社区官网
+        link: https://www.modelscope.cn/home
+        location: Global
+        avatar: https://g.alicdn.com/sail-web/maas/2.7.39/favicon/128.ico
+        organization: 阿里巴巴通义实验室
+        desc: 共享 · 共创 · 共进，构建持续创新的 AI 开源生态
   - title: 重庆大学
     desc: Chongqing University
     list:
-    - 
-      name: 国家卓越工程师学院
-      link: https://eie.cqu.edu.cn/
-      location: 重庆大学两江校区
-      avatar: /icon/eie.png
-      organization: 重庆大学国家卓越工程师学院
-      desc: 未来卓越工程师的摇篮
-    -
-      name: 学生交叉创新中心
-      link: https://sxic.cqu.edu.cn/
-      location: 重庆大学虎溪校区
-      avatar: https://sxic.cqu.edu.cn/sso2/media//backend/cover/a2e994b7703885b5593b664f8f0b1fd1.png
-      organization: 重庆大学学生交叉创新中心
-      desc:  2020年，为加快推进“人才链-创新链-产业链”深度融合，学校与两江新区共同建设明月湖—重庆大学新工科教育科创平台。
-    -
-      name: 光电工程学院
-      link: https://coe.cqu.edu.cn/
-      location: 重庆大学虎溪校区
-      avatar: https://coe.cqu.edu.cn/__local/4/C0/FD/9F815AE42AB35262389B7A2203E_5B617302_27BA3.jpg?e=.jpg
-      organization: 重庆大学光电工程学院
-      desc: 学院建有精密仪器及机械国家重点学科、光电技术及系统教育部重点实验室、新型微纳器件与系统技术重点学科实验室等基地平台
+      - name: 国家卓越工程师学院
+        link: https://eie.cqu.edu.cn/
+        location: 重庆大学两江校区
+        avatar: /icon/eie.png
+        organization: 重庆大学国家卓越工程师学院
+        desc: 未来卓越工程师的摇篮
+      - name: 学生交叉创新中心
+        link: https://sxic.cqu.edu.cn/
+        location: 重庆大学虎溪校区
+        avatar: https://sxic.cqu.edu.cn/sso2/media//backend/cover/a2e994b7703885b5593b664f8f0b1fd1.png
+        organization: 重庆大学学生交叉创新中心
+        desc: 2020年，为加快推进“人才链-创新链-产业链”深度融合，学校与两江新区共同建设明月湖—重庆大学新工科教育科创平台。
+      - name: 光电工程学院
+        link: https://coe.cqu.edu.cn/
+        location: 重庆大学虎溪校区
+        avatar: https://coe.cqu.edu.cn/__local/4/C0/FD/9F815AE42AB35262389B7A2203E_5B617302_27BA3.jpg?e=.jpg
+        organization: 重庆大学光电工程学院
+        desc: 学院建有精密仪器及机械国家重点学科、光电技术及系统教育部重点实验室、新型微纳器件与系统技术重点学科实验室等基地平台
+  - title: SaDuck
+    desc: 免费公考知识库
+    list:
+      - name: SaDuck官网
+        link: https://saduck.top/
+        location: 中国
+        avatar: https://saduck.top/favicon.png
+        organization: 小鸭学长
+        desc: 无论你是初出茅庐的应届生，还是久经沙场的职场人士，本站始终为你的备考之旅保驾护航。
 #    -
 #      name:
 #      link:

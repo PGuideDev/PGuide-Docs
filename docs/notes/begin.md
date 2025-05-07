@@ -8,8 +8,8 @@ permalink: /begin/
 
 这同时也是一份献给重医学弟学妹们的礼物。如果这本书能对你们的本科生涯有哪怕一丝一毫的帮助，都是对我们极大的鼓励和慰藉。
 
-如果你觉得我们写得还不错，请在[:[line-md:github-twotone]:Github](https://github.com/Lyrlark/PGuide-Docs)
-上给我们点一个大大的:[fxemoji:star]:star，这是对我们最大的鼓励。
+如果你觉得我们写得还不错，请在[::line-md:github-twotone:: Github](https://github.com/Lyrlark/PGuide-Docs)
+上给我们点一个大大的::fxemoji:star:: star，这是对我们最大的鼓励。
 
 ---
 
