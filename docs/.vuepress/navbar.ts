@@ -32,12 +32,7 @@ export const navbar = defineNavbarConfig([
                         link: '/learning-notes/linux/commands/',
                         badge: '.sh'
                     },
-                    {
-                        icon: 'logos:redhat',
-                        text: 'RedHat',
-                        link: '/learning-notes/linux/redhat/',
-                        badge: 'Linux发行版'
-                    }]
+                ]
             },
             {
                 icon: '/icon/AI.svg',
@@ -62,7 +57,8 @@ export const navbar = defineNavbarConfig([
                     }]
             },
             {
-                icon: 'devicon:ros', text: '机器人操作系统',
+                icon: 'devicon:ros',
+                text: '机器人操作系统',
                 items: [
                     {
                         icon: 'icon-park-twotone:install',
@@ -122,7 +118,11 @@ export const navbar = defineNavbarConfig([
                 icon: 'pixel:cybersecurity',
                 text: '网络安全',
                 items: [
-                    {icon: 'ic:twotone-vpn-lock', text: '搭建VPN', link: '/learning-notes/cybersecurity/vpn-setup/'},
+                    {
+                        icon: 'ic:twotone-vpn-lock',
+                        text: '搭建VPN',
+                        link: '/learning-notes/cybersecurity/vpn-setup/'
+                    },
                     // {icon: '',text: '',link: ''},
                 ]
             },
@@ -152,7 +152,11 @@ export const navbar = defineNavbarConfig([
                         text: '全国大学生竞赛组队系统',
                         link: '/project-docs/match-competitions/'
                     },
-                    {icon: '/icon/zhiyu.png', text: '植愈：AI情绪小帮手', link: '/project-docs/plant-cure/'},
+                    {
+                        icon: '/icon/zhiyu.png',
+                        text: '植愈：AI情绪小帮手',
+                        link: '/project-docs/plant-cure/'
+                    },
                     {
                         icon: '/icon/robot.png',
                         text: '智慧中草药生态养护平台',
@@ -210,7 +214,6 @@ export const navbar = defineNavbarConfig([
         items: [
             {icon: '/icon/code.svg', text: '前言', link: '/cs-diy/'},
             // {icon: 'mdi:tools', text: '必学工具', link: '/csdiy/tools-must/'},
-
             {
                 icon: 'mdi:tools',
                 text: '必学工具',
@@ -286,7 +289,8 @@ export const navbar = defineNavbarConfig([
                     {
                         icon: 'ant-design:aliyun-outlined',
                         text: '阿里系开发规范',
-                        link: '/csdiy/dev-rules/alibaba-rules/java-rule/'
+                        link: '/csdiy/dev-rules/alibaba-rules/java-rule/',
+                        badge: '完善中'
                     },
                     // {icon: '',text: '',link: ''},
                 ]
@@ -300,7 +304,8 @@ export const navbar = defineNavbarConfig([
                     {
                         icon: 'logos:microsoft-windows-icon',
                         text: '系统安装',
-                        link: '/csdiy/computer-common-knowledge/Win11re-setup/'
+                        link: '/csdiy/computer-common-knowledge/Win11re-setup/',
+                        badge: 'Windows11'
                     },
                     {icon: 'emojione-v1:dvd', text: '镜像刻录', link: '/csdiy/computer-common-knowledge/make-image/'},
                 ]
@@ -505,7 +510,12 @@ export const navbar = defineNavbarConfig([
                 text: '考公篇',
                 badge: '整理中',
                 items: [
-                    {icon: 'https://saduck.top/favicon.png', text: 'SaDuck', link: 'https://saduck.top/', badge: '我一定会上岸！'},
+                    {
+                        icon: 'https://saduck.top/favicon.png',
+                        text: 'SaDuck',
+                        link: 'https://saduck.top/',
+                        badge: '我一定会上岸！'
+                    },
                     // {icon: '', text: '', link: ''},
                 ]
             },

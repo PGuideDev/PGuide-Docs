@@ -407,6 +407,48 @@ list:
     color:
     nameColor:
     
+  - name: lk
+    link: 
+    avatar: /avatar/lk.jpg
+    desc: 只有耕耘现在，才能让未来出彩！
+    location: 中国，重庆
+    organization: 重庆医科大学
+    socials:
+    backgroundColor:
+    color:
+    nameColor:
+  - name: 苗儿
+    link: 
+    avatar: /avatar/swy.jpg
+    desc: 
+    location: 中国，重庆
+    organization: 重庆医科大学
+    socials:
+      - icon: github
+        link: https://github.com/sangmiaoer
+    backgroundColor:
+    color:
+    nameColor:
+  - name: Corsair
+    link: 
+    avatar: /avatar/lf.png
+    desc: Corsair
+    location: 中国，重庆
+    organization: 清华大学、军事医学科学院、重庆医科大学
+    socials:
+    backgroundColor:
+    color:
+    nameColor:    
+  - name: b
+    link: 
+    avatar: /avatar/b.jpg 
+    desc: 
+    location: 中国，重庆
+    organization: 重庆医科大学
+    socials:
+    backgroundColor:
+    color:
+    nameColor:
 #  - name:
 #    link:
 #    avatar:
@@ -416,7 +458,7 @@ list:
 #    socials:
 #    backgroundColor:
 #    color:
-#    nameColor:
+#    nameColor:    
 #  - name:
 #    link:
 #    avatar:
