@@ -7,7 +7,7 @@ permalink: /contribute/
 首先感谢您的无私奉献，项导文档基于Vuepress的[plume主题构建](https://theme-plume.vuejs.press/)
 ，由多名成员共同维护，内容完全开源。
 
-<RepoCard repo="MultipledMe/PGuide-Docs"></RepoCard>
+<RepoCard repo="Lyrlark/PGuide-Docs"></RepoCard>
 
 ## 我是文档的编写者
 
@@ -388,7 +388,7 @@ icon: #可选项，侧边栏图标
 
 @tab :[line-md:github-loop]:Github创建
 
-<LinkCard icon="line-md:github-loop" href="https://github.com/MultipledMe/PGuide-Docs/pulls" title="Create Pull Request" >PGuide Docs Github Page</LinkCard>
+<LinkCard icon="line-md:github-loop" href="https://github.com/Lyrlark/PGuide-Docs/pulls" title="Create Pull Request" >PGuide Docs Github Page</LinkCard>
 
 ![2025-03-10_04-10-16.png](../.vuepress/public/src/2025-03-10_04-10-16.png)
 

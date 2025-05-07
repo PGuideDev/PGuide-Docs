@@ -111,7 +111,7 @@ After modifying navigation config, remember to `Ctrl+C` and restart the server. 
    ```
 3. 🚀 Try SSH Warp Drive:
    ```bash
-   git clone git@github.com:MultipledMe/PGuide-Docs.git
+   git clone git@github.com:Lyrlark/PGuide-Docs.git
    ```
 
 ### 🧐 Truth Gate Malfunction?

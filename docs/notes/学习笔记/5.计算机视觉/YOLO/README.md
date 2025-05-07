@@ -14,8 +14,5 @@ You Only Look Once (YOLO) 是一种最先进的实时物体检测系统。它是
 ## 相关项目
 
 <CardGrid>
-<LinkCard icon="" href="/project-docs/when2eat/" title="when2eat" >一个依赖于计算机视觉从而决定啥时候吃饭的项目</LinkCard>
-<LinkCard icon="" href="" title="" ></LinkCard>
-<LinkCard icon="" href="" title="" ></LinkCard>
-<LinkCard icon="" href="" title="" ></LinkCard>
+<LinkCard icon="" href="/project-docs/when2eat/" title="when2eat" >一个依靠计算机视觉从而决定啥时候吃饭的项目</LinkCard>
 </CardGrid>
