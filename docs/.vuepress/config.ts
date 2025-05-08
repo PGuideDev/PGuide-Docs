@@ -5,13 +5,28 @@ import notes from "./notes";
 import {umamiAnalyticsPlugin} from "@vuepress/plugin-umami-analytics";
 import {googleAnalyticsPlugin} from "@vuepress/plugin-google-analytics";
 import {baiduAnalyticsPlugin} from "@vuepress/plugin-baidu-analytics";
-
+import {pwaPlugin} from '@vuepress/plugin-pwa'
 // export default {
 //     plugins:
 // }
 
 export default defineUserConfig({
     plugins: [
+        pwaPlugin({
+            // pwa 插件
+            showInstall: true,
+            manifest: {
+                name: 'PGuide Docs',
+                short_name: '项导文档',
+                description: 'An open-source documentation site',
+                theme_color: '#3eaf7c',
+                start_url: '/',
+                display: 'standalone',
+            },
+            update: 'hint',
+            favicon: 'public/icon/logo.svg'
+        }),
+
         umamiAnalyticsPlugin({
             // umami 分析
             id: 'edaececa-cf6b-4ba3-9678-d57c73d7bc3c',
