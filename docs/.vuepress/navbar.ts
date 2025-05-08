@@ -483,7 +483,11 @@ export const navbar = defineNavbarConfig([
                 text: '申请学生邮箱',
                 link: '/campus-wiki/apply-student-email/'
             },
-            {icon: '/icon/teacher.svg', text: '老师们说', link: '/campus-wiki/teacher-talks/'},
+            {
+                icon: '/icon/teacher.svg',
+                text: '老师们说',
+                link: '/campus-wiki/teacher-talks/'
+            },
             {
                 icon: 'carbon:container-software',
                 text: '常用软件',
@@ -497,8 +501,16 @@ export const navbar = defineNavbarConfig([
                 badge: '整理中'
 
             },
-            {icon: 'ic:baseline-school', text: '校内生活', link: '/campus-wiki/campus-life/'},
-            {icon: '/icon/competition.svg', text: '竞赛篇', link: '/campus-wiki/competition/'},
+            {
+                icon: 'ic:baseline-school',
+                text: '校内生活',
+                link: '/campus-wiki/campus-life/'
+            },
+            {
+                icon: '/icon/competition.svg',
+                text: '竞赛篇',
+                link: '/campus-wiki/competition/'
+            },
             {
                 icon: '/icon/kaoyan.svg',
                 text: '考研篇',
@@ -516,10 +528,8 @@ export const navbar = defineNavbarConfig([
                         link: 'https://saduck.top/',
                         badge: '我一定会上岸！'
                     },
-                    // {icon: '', text: '', link: ''},
                 ]
             },
-
             {
                 icon: '/icon/baoyan.svg',
                 text: '保研篇',
@@ -548,11 +558,11 @@ export const navbar = defineNavbarConfig([
     },
     {
         icon: '/icon/link.svg',
-        text: '友情链接',
+        text: '更多',
         items: [
             {icon: '/icon/friend.svg', text: '个人', link: '/friends/persons/'},
             {icon: '/icon/organ.svg', text: '组织', link: '/friends/organizations/'},
-            {icon: 'fa-solid:quote-left', text: 'Q&A', link: '/friends/quotes/'},
+            {icon: 'fa-solid:quote-left', text: 'Q&A', link: '/friends/quotes/', badge: '常见问题'},
         ]
     },
 ])

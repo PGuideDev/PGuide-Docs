@@ -30,7 +30,7 @@ icon: /icon/overleaf.svg
 
   <CardGrid>
     <ImageCard
-      image="../../../.vuepress/public/src/2025-04-25_16-46-40.png"
+      image="/src/2025-04-25_16-46-40.png"
       title="Overleaf CQMU交流群"
       description="群号:1046824912"
       href="https://qm.qq.com/q/bt3h76SF1e"
