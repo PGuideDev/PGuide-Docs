@@ -153,6 +153,11 @@ export const navbar = defineNavbarConfig([
                         link: '/project-docs/match-competitions/'
                     },
                     {
+                        icon: 'arcticons:free-download-manager',
+                        text: '项目管理平台',
+                        link: '/project-docs/project-management-platform/'
+                    },
+                    {
                         icon: '/icon/zhiyu.png',
                         text: '植愈：AI情绪小帮手',
                         link: '/project-docs/plant-cure/'
@@ -197,7 +202,11 @@ export const navbar = defineNavbarConfig([
                         text: '云原生资源管理系统',
                         link: '/project-docs/cloud-manage/'
                     },
-                    {icon: 'line-md:loading-alt-loop', text: 'when2eat', link: '/project-docs/when2eat/'},
+                    {
+                        icon: 'line-md:loading-alt-loop',
+                        text: '啥时候吃饭',
+                        link: '/project-docs/when2eat/'
+                    },
                     {
                         icon: 'token-branded:wow',
                         text: 'Oh my API',
@@ -248,10 +257,10 @@ export const navbar = defineNavbarConfig([
                 text: '学习路线',
                 items: [
                     {
-                        icon: '',
+                        icon: 'https://avatars.githubusercontent.com/u/60659728?s=48&v=4',
                         text: 'CSDIY',
                         link: 'https://csdiy.wiki/',
-                        badge: '一本计算机的自学指南'
+                        badge: '计算机自学指南'
                     },
                     {
                         icon: 'solar:code-line-duotone',
@@ -557,12 +566,49 @@ export const navbar = defineNavbarConfig([
         ]
     },
     {
-        icon: '/icon/link.svg',
+        icon: 'icon-park-solid:more-four',
         text: '更多',
         items: [
-            {icon: '/icon/friend.svg', text: '个人', link: '/friends/persons/'},
-            {icon: '/icon/organ.svg', text: '组织', link: '/friends/organizations/'},
-            {icon: 'fa-solid:quote-left', text: 'Q&A', link: '/friends/quotes/', badge: '常见问题'},
+            {
+                icon: '/icon/link.svg',
+                text: '友情链接',
+                items: [
+                    {
+                        icon: '/icon/friend.svg',
+                        text: '个人',
+                        link: '/friends/persons/'
+                    },
+                    {
+                        icon: '/icon/organ.svg',
+                        text: '组织',
+                        link: '/friends/organizations/'
+                    },
+                    {
+                        icon: 'fa-solid:quote-left',
+                        text: 'Q&A',
+                        link: '/friends/quotes/',
+                        badge: '常见问题'
+                    },
+
+                ],
+            },
+            {icon: 'ic:outline-update', text: '更新日志', link: '/update-note/'},
         ]
     },
+// {
+//     icon: '',
+//     text: '',
+//     items: [
+//         {icon: '',text: '',link: ''},
+//         {icon: '',text: '',link: ''},
+//     ]
+// },
+// {
+//     icon: '',
+//     text: '',
+//     items: [
+//         {icon: '',text: '',link: ''},
+//         {icon: '',text: '',link: ''},
+//     ]
+// },
 ])

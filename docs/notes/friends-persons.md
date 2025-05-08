@@ -430,11 +430,11 @@ list:
     color:
     nameColor:
   - name: Corsair
-    link: 
-    avatar: /avatar/lf.png
+    link: https://mi.cqmu.edu.cn/info/1210/4615.htm
+    avatar: /avatar/lf.jpg
     desc: Corsair
     location: 中国，重庆
-    organization: 清华大学、军事医学科学院、重庆医科大学
+    organization: 清华大学、军事医学科学院等
     socials:
     backgroundColor:
     color:
@@ -444,11 +444,21 @@ list:
     avatar: /avatar/b.jpg 
     desc: 
     location: 中国，重庆
-    organization: 重庆医科大学
+    organization: 云南大学、重庆医科大学等
     socials:
     backgroundColor:
     color:
     nameColor:
+  - name: 
+    link:
+    avatar:
+    desc:
+    location:
+    organization:
+    socials:
+    backgroundColor:
+    color:
+    nameColor:         
 #  - name:
 #    link:
 #    avatar:

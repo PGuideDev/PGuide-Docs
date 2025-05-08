@@ -8,7 +8,7 @@ permalink: /project-docs/
 
 <CardGrid>
 <LinkCard icon="hugeicons:add-team" href="/project-docs/match-competitions/" title="全国大学生竞赛组队系统" >面向全国大学生的多维度竞赛匹配、组队系统。</LinkCard>
-<LinkCard icon="arcticons:free-download-manager" title="项目管理平台" >标准化管理学校内的项目综合一体化平台</LinkCard>
+<LinkCard icon="arcticons:free-download-manager" href="/project-docs//" title="项目管理平台" >标准化管理学校内的项目综合一体化平台</LinkCard>
 <LinkCard icon="/icon/zhiyu.png" href="/project-docs/plant-cure/" title="植愈：AI情绪小帮手" >守护精神花园的AI小助手，支持多种多模态大语言模型，独创双向提示词工程技术。</LinkCard>
 <LinkCard icon="/icon/robot.png" href="/project-docs/smart-car/" title="智慧中草药生态养护平台" >一种整合了机器人操作系统、Web前后端、物联网IOT的中草药自动化除草解决方案。</LinkCard>
 <LinkCard icon="/icon/univ-town.svg" href="/project-docs/pixel-university-town/" title="像素大学城" >是的伙计，我知道这听起来很疯狂，但是我们就是要在我的世界中复原整个大学城。</LinkCard>

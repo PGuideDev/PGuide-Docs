@@ -10,5 +10,7 @@ tags:
   - 硬件开发
 ---
 
-[https://github.com/PGuideDev/ToolScout](https://github.com/PGuideDev/ToolScout)
+项目负责人：[李徵](/friends/persons/)
+
+
 
