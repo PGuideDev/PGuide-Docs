@@ -508,7 +508,6 @@ export const navbar = defineNavbarConfig([
                 text: '证书及技能考试',
                 link: '/campus-wiki/credential-skillful-exams/',
                 badge: '整理中'
-
             },
             {
                 icon: 'ic:baseline-school',
