@@ -180,7 +180,7 @@ of the next tale._
 
 ## 怎么在评论区提问
 
-1. [科学上网](/csdiy/tools-must/magic/clash-core/windows/)或下载[watt toolkit](https://steampp.net/)
+1. 下载[watt toolkit](https://steampp.net/)
 2. [注册github账号](https://github.com/signup)
 3. 点击下方`使用github登录`
 4. 评论
