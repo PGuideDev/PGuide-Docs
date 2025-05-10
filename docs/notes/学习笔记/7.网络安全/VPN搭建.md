@@ -45,26 +45,26 @@ sequenceDiagram
     participant user1
     participant user2
     participant user3
-    participant TaliscaleServer as Taliscale Coordination Server
+    participant WireGuardServer as WireGuard Coordination Server
 
-    Note over user1,TaliscaleServer: 允许的交互
-    user1->>TaliscaleServer: 访问 100.105.14.79:*
-    TaliscaleServer-->>user1: ✅ ACCEPT (规则1: * → 100.105.14.79)
+    Note over user1,WireGuardServer: 允许的交互
+    user1->>WireGuardServer: 访问 100.105.14.79:*
+    WireGuardServer-->>user1: ✅ ACCEPT (规则1: * → 100.105.14.79)
     
-    user1->>TaliscaleServer: 访问 100.71.176.115:*
-    TaliscaleServer-->>user1: ✅ ACCEPT (规则2: user1 → user2/user3 IP)
+    user1->>WireGuardServer: 访问 100.71.176.115:*
+    WireGuardServer-->>user1: ✅ ACCEPT (规则2: user1 → user2/user3 IP)
     
-    user1->>TaliscaleServer: 访问 100.81.195.72:*
-    TaliscaleServer-->>user1: ✅ ACCEPT (规则2: user1 → user2/user3 IP)
+    user1->>WireGuardServer: 访问 100.81.195.72:*
+    WireGuardServer-->>user1: ✅ ACCEPT (规则2: user1 → user2/user3 IP)
 
-    Note over user2,TaliscaleServer: 被阻止的交互
-    user2->>TaliscaleServer: 访问 100.71.176.115:*
-    TaliscaleServer-->>user2: ❌ BLOCKED (ACL 显式阻止)
+    Note over user2,WireGuardServer: 被阻止的交互
+    user2->>WireGuardServer: 访问 100.71.176.115:*
+    WireGuardServer-->>user2: ❌ BLOCKED (ACL 显式阻止)
 
-    Note over user3,TaliscaleServer: 其他用户默认行为
-    user3->>TaliscaleServer: 访问 100.105.14.79:*
-    TaliscaleServer-->>user3: ✅ ACCEPT (规则1: * → 100.105.14.79)
+    Note over user3,WireGuardServer: 其他用户默认行为
+    user3->>WireGuardServer: 访问 100.105.14.79:*
+    WireGuardServer-->>user3: ✅ ACCEPT (规则1: * → 100.105.14.79)
     
-    user3->>TaliscaleServer: 尝试访问其他IP
-    TaliscaleServer-->>user3: ❓ 默认拒绝（无匹配规则）
+    user3->>WireGuardServer: 尝试访问其他IP
+    WireGuardServer-->>user3: ❓ 默认拒绝（无匹配规则）
 ```
