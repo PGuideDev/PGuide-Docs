@@ -5,6 +5,12 @@
 /*    font-family: "Maple Mono SemiBold", "思源黑体 CN Medium", sans-serif;*/
 /*    !*font-size: 16px;*!*/
 /*}*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&display=swap');
+
+* {
+    font-family: Consolas, "Noto Sans SC", monospace;
+}
+
 
 
 
