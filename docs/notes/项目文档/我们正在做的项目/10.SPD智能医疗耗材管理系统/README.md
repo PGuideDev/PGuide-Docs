@@ -9,6 +9,9 @@ tags:
   - Java
   - Vue3
 ---
-:::tip Java!!!
-DKwms!!!
-:::
+
+项目负责人 [@DKwms](/friends/persons/)
+
+> 使用磁卡的RFID读取药品标签数据，前台给出具体的后端数据如药品定义、作用、仓库余量。
+> 
+> 使用Spring Boot + Vue3 + RFID读卡器 + MySQL + Redis + Nginx + Docker + GitHub Actions + Jenkins + JUnit5 + Mockito + Swagger2 + Spring Security + JWT + Thymeleaf + Bootstrap4 的全栈项目。

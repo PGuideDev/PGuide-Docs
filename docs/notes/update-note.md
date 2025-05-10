@@ -6,7 +6,11 @@ permalink: /update-note/
 
 ## 2025-05
 
+### 2025-05-10
 
+- 项目文档
+  - 前言 
+  - [项目管理平台](/project-docs/project-management-platform/)
 
 ## 2025-04
 

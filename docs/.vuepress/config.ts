@@ -68,6 +68,15 @@ export default defineUserConfig({
         docsDir: 'docs',
         docsBranch: 'master',
 
+        copyright: {
+            license: {
+                name: 'MPL2.0', // 许可证名称
+                url: 'https://www.mozilla.org/en-US/MPL/2.0/' // 许可证地址
+            }
+        },
+
+        changelog: true,
+
         /* 页内信息 */
         // editLink: true,
         // lastUpdated: true,
@@ -75,7 +84,6 @@ export default defineUserConfig({
             mode: 'block',
         },
         // changelog: false,
-
         /**
          * 博客
          * @see https://theme-plume.vuejs.press/config/basic/#blog

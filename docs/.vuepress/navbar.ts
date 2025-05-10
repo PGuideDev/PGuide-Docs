@@ -148,6 +148,12 @@ export const navbar = defineNavbarConfig([
                 text: '我们正在做的项目',
                 items: [
                     {
+                        icon: 'material-icon-theme:folder-project',
+                        text: '前言',
+                        link: '/project-docs/'
+                    },
+
+                    {
                         icon: 'hugeicons:add-team',
                         text: '全国大学生竞赛组队系统',
                         link: '/project-docs/match-competitions/'
@@ -591,7 +597,12 @@ export const navbar = defineNavbarConfig([
 
                 ],
             },
-            {icon: 'ic:outline-update', text: '更新日志', link: '/update-note/'},
+            {
+                icon: 'ic:outline-update',
+                text: '更新日志',
+                link: '/update-note/'
+            },
+            {icon: '', text: '', link: ''},
         ]
     },
 // {
