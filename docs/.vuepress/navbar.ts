@@ -393,7 +393,6 @@ export const navbar = defineNavbarConfig([
                         text: '协作平台简介及使用',
                         link: '/public-service/overleaf/',
                         badge: '维护中',
-
                     },
                     {
                         icon: 'twemoji:newspaper',
