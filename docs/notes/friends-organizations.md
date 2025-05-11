@@ -67,28 +67,34 @@ groups:
         desc: College of Medical Informatics
       - name: 信息中心二级门户
         link: https://cnw.cqmu.edu.cn/
-        location: 重庆医科大学
+        location: 中国，重庆沙坪坝
         avatar: /avatar/cqmu.svg
         organization: 重庆医科大学信息中心
         desc: 信息中心门户网站
       - name: 华为深度学习平台（内网）
         link: http://192.168.194.11/
-        location: 重庆医科大学
+        location: 中国，浙江杭州
         avatar: /icon/huawei.svg
         organization: 重庆医科大学医学信息学院
         desc: Huawei DeepLearning platform
       - name: 校超算平台（内网）
         link: http://172.16.190.220:6080/
-        location: 重庆医科大学
+        location: 中国，重庆沙坪坝
         avatar: /icon/hpc.svg
-        organization: 重庆医科大学信息中心
+        organization: 重庆医科大学信息中心、曙光中科
         desc: 融合计算云门户
       - name: 缙云计算机社团
         link:
-        location: 重庆医科大学
+        location: 中国，重庆沙坪坝
         avatar: /avatar/cqmu.svg
         organization: 重庆医科大学
         desc: 重庆医科大学缙云计算机社团
+      - name: 外国语学院
+        link: https://foreign.cqmu.edu.cn/
+        location: 重庆医科大学
+        avatar: /avatar/cqmu.svg
+        organization: 重庆医科大学
+        desc: 重庆医科大学计算机协会
   - title: The Apache Software Foundation
     desc: ASF's open source software is used ubiquitously around the world with more than 8,400 committers contributing to more than 320 active projects.
     list:
@@ -116,7 +122,7 @@ groups:
         location: Global
         organization: Apache ECharts Team
         desc: An Open Source JavaScript Visualization Library
-      - name: Apache OpenCV
+      - name: Apache Tomcat
         link: https://tomcat.apache.org/
         avatar: https://tomcat.apache.org/res/images/tomcat.png
         location: Global
@@ -129,13 +135,31 @@ groups:
       - name: 官网
         link: https://medseek.site/
         avatar: https://www.medseek.site/wp-content/uploads/2025/02/cropped-logo.png
-        location: 重庆医科大学
+        location: China
         organization: Med Explorers+
         desc: A research team affiliated to the College of Basic Medical Science composed of undergraduates
+      - name: MedSeek Docs
+        link: https://docs.medseek.site/
+        avatar: https://www.medseek.site/wp-content/uploads/2025/02/cropped-logo.png
+        location: China
+        organization: Med Explorers+
+        desc: Docs for MedSeek.
 
   - title: 西湖大学
     desc: WestLake University
     list:
+      - name: 智能无人系统实验室
+        link: https://shiyuzhao.westlake.edu.cn/
+        location: 中国，浙江杭州
+        avatar: /icon/windylab.png
+        organization: 西湖大学 WindyLab
+        desc: 专注于机器人系统的创新理论和应用，特别是多机器人系统。我们对具有研究价值、意义和挑战性的下一代机器人系统感兴趣。
+      - name: 医学人工智能实验室
+        link: https://medai.lab.westlake.edu.cn/
+        location: 中国，浙江杭州
+        avatar: /icon/wlu.png
+        organization: 西湖大学 MedAILab
+        desc: Head for the health China of medical AI, applying AI technology to the field of medicine.
       - name: 信息技术中心
         link: https://info.westlake.edu.cn/index.htm
         location: 中国，浙江杭州
@@ -148,18 +172,7 @@ groups:
         avatar: /icon/W.svg
         organization: 西湖大学
         desc: 西湖大学前身，新型非营利高端科研机构，含理工生医等多个研究方向。
-      - name: WindyLab智能无人系统实验室
-        link: https://shiyuzhao.westlake.edu.cn/
-        location: 中国，浙江杭州
-        avatar: /icon/windylab.png
-        organization: 西湖大学
-        desc: 专注于机器人系统的创新理论和应用，特别是多机器人系统。我们对具有研究价值、意义和挑战性的下一代机器人系统感兴趣。
-      - name: 西湖大学医学人工智能实验室
-        link: https://medai.lab.westlake.edu.cn/
-        location: 中国，浙江杭州
-        avatar: /icon/wlu.png
-        organization: 西湖大学
-        desc: Head for the health China of medical AI, applying AI technology to the field of medicine.
+
 
   - title: 中国教育和科研计算机网
     desc: 中国教育和科研计算机网CERNET是党中央、国务院指定的中国教育信息化的基础平台，也是中国最早的四大骨干网之一，为中国教育信息化及人才培养作出了突出贡献。除为教育系统用户提供基本互联网接入服务外，还受国务院授权，负责教育系统域名管理（edu.cn)，并承担各类大型国家教育信息化建设项目及研究任务。
