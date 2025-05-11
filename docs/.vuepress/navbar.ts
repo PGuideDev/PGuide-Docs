@@ -595,7 +595,6 @@ export const navbar = defineNavbarConfig([
                         link: '/friends/quotes/',
                         badge: '常见问题'
                     },
-
                 ],
             },
             {
@@ -604,9 +603,9 @@ export const navbar = defineNavbarConfig([
                 link: '/update-note/'
             },
             {
-                icon: 'logos:vue',
+                icon: 'fluent-color:data-trending-20',
                 text: '站点统计',
-                // badge: 'Umami Cloud',
+                badge: 'Umami',
                 link: 'https://cloud.umami.is/share/BVmRNrfCbwRPmobS/docs.pguide.studio',
             },
         ]
