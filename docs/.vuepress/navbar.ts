@@ -253,6 +253,12 @@ export const navbar = defineNavbarConfig([
                         link: '/csdiy/tools-must/docker/',
                         badge: '开发环境解决方案'
                     },
+                    {
+                        icon: 'logos:emacs',
+                        text: 'Emacs',
+                        link: '/csdiy/tools-must/Emacs/',
+                        badge: '指尖舞蹈'
+                    },
 
                     // {icon: '',text: '',link: ''},
                     // {icon: '',text: '',link: ''},
@@ -427,9 +433,16 @@ export const navbar = defineNavbarConfig([
                         badge: '即将上线！',
                     },
                     {
+                        icon: 'simple-icons:gitee',
+                        text: 'Gitee CQMU',
+                        link: 'https://e.gitee.com/chongqing-medical-university_4/',
+                        badge: '码云企业版'
+                    },
+                    {
                         icon: 'material-icon-theme:folder-gitea',
                         text: 'PGuide Gitea',
-                        link: '/public-service/code-manage/pguide-gitea-ee/'
+                        link: '/public-service/code-manage/pguide-gitea-ee/',
+                        badge: '轻量级',
                     },
                 ]
             },
