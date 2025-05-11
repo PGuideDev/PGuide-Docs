@@ -1,6 +1,6 @@
 
 /*@import "https://cdn.jsdelivr.net/npm/@fontsource/maple-mono@5.2.5/index.min.css";*/
-/*@import "https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.0.3/index.min.css";*/
+@import "https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.0.3/index.min.css";
 /** {*/
 /*    font-family: "Noto Sans SC","Maple Mono SemiBold",  monospace;*/
 /*}*/
@@ -10,6 +10,12 @@
 * {
     font-family: Consolas, "Noto Sans SC", monospace;
 }
+.vp-link-card {
+
+}
+
+
+
 
 
 .vp-navbar .container {
