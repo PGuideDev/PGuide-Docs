@@ -603,7 +603,12 @@ export const navbar = defineNavbarConfig([
                 text: '更新日志',
                 link: '/update-note/'
             },
-            {icon: '', text: '', link: ''},
+            {
+                icon: 'logos:vue',
+                text: '站点统计',
+                // badge: 'Umami Cloud',
+                link: 'https://cloud.umami.is/share/BVmRNrfCbwRPmobS/docs.pguide.studio',
+            },
         ]
     },
 // {
