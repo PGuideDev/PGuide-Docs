@@ -391,12 +391,14 @@ export const navbar = defineNavbarConfig([
                     {
                         icon: '/icon/overleaf.svg',
                         text: '协作平台简介及使用',
-                        link: '/public-service/overleaf/'
+                        link: '/public-service/overleaf/',
+                        badge: '维护中',
+
                     },
                     {
                         icon: 'twemoji:newspaper',
                         text: 'LaTeX模板集合',
-                        link: '/public-service/overleaf/latex-template-collections/'
+                        link: '/public-service/overleaf/latex-template-collections/',
                     },
                     {
                         icon: 'catppuccin:release',
