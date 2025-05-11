@@ -11,3 +11,8 @@ icon: devicon:pypi
 
 ## UV
 
+https://docs.astral.sh/uv/getting-started/installation/
+
+### Windowws 
+
+### Linux 
