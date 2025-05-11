@@ -70,7 +70,8 @@ export default defineUserConfig({
 
         copyright: {
             license: {
-                name: 'MPL2.0', // 许可证名称
+                name: 'Mozilla Public License\n' +
+                    'Version 2.0', // 许可证名称
                 url: 'https://www.mozilla.org/en-US/MPL/2.0/' // 许可证地址
             }
         },
