@@ -449,16 +449,20 @@ list:
     backgroundColor:
     color:
     nameColor:
-  - name: 
+  - name: Macrodd2022
     link:
-    avatar:
+    avatar: /avatar/macro.png
     desc:
-    location:
-    organization:
+    location: 中国，重庆
+    organization: 西南大学
     socials:
+      - icon: qq
+        link: https://qm.qq.com/q/PNG1VCWgoY
+      - icon: github
+        link: https://github.com/Macrodd2022
     backgroundColor:
     color:
-    nameColor:         
+    nameColor:
 #  - name:
 #    link:
 #    avatar:
