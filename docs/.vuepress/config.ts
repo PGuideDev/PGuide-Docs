@@ -68,13 +68,13 @@ export default defineUserConfig({
         docsDir: 'docs',
         docsBranch: 'master',
 
-        copyright: {
-            license: {
-                name: 'Mozilla Public License\n' +
-                    'Version 2.0', // 许可证名称
-                url: 'https://www.mozilla.org/en-US/MPL/2.0/' // 许可证地址
-            }
-        },
+        // copyright: {
+        //     license: {
+        //         name: 'Mozilla Public License\n' +
+        //             'Version 2.0', // 许可证名称
+        //         url: 'https://www.mozilla.org/en-US/MPL/2.0/' // 许可证地址
+        //     }
+        // },
 
         changelog: true,
 
