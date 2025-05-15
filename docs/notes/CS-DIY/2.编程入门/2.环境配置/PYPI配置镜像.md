@@ -34,35 +34,35 @@ where uv
 ```
 找到uv的存储位置并复制到文件资源管理器的搜索栏，
 
-![img_9.png](img_9.png)
+[lwj2024223201](../../../../../../../../../java%E6%95%B0%E6%8D%AE%E5%AD%98%E6%94%BE/untitled2222222222/lwj2024223201)![img_9.png](img_9.png)
 
-![img_10.png](img_10.png)
+![2025-05-15_16-44-21.png](../../../../.vuepress/public/src/2025-05-15_16-44-21.png)
 
 3.直接在电脑搜索栏中，搜索"控制面板"，打开"控制面板"
 
 4.点击"系统与安全"
 
-![img_6.png](img_6.png)
+![2025-05-15_16-45-15.png](../../../../.vuepress/public/src/2025-05-15_16-45-15.png)
 
 5.点击"系统"
 
-![img_7.png](img_7.png)
+![2025-05-15_16-45-49.png](../../../../.vuepress/public/src/2025-05-15_16-45-49.png)
 
 6.点击"高级系统"
 
-![img_8.png](img_8.png)
+![2025-05-15_16-46-24.png](../../../../.vuepress/public/src/2025-05-15_16-46-24.png)
 
 7.点击"环境变量"
 
-![img_4.png](img_4.png)
+![2025-05-15_16-47-10.png](../../../../.vuepress/public/src/2025-05-15_16-47-10.png)
 
 8.点击"Path",点击"编辑"
 
-![img_14.png](img_14.png)
+![2025-05-15_16-47-57.png](../../../../.vuepress/public/src/2025-05-15_16-47-57.png)
 
 9.点击"新建",粘贴复制的Scripts文件地址，然后一路点确定
 
-![img_11.png](img_11.png)
+![2025-05-15_16-48-29.png](../../../../.vuepress/public/src/2025-05-15_16-48-29.png)
 
 10.最后打开一个新的命令提示符窗口，输入以下命令，验证更改
 
@@ -70,7 +70,7 @@ where uv
 uv
 ```
 
-![img_13.png](img_13.png)
+![2025-05-15_16-49-48.png](../../../../.vuepress/public/src/2025-05-15_16-49-48.png)
 
 出现这样的信息则表示添加成功
 
@@ -106,14 +106,14 @@ sudo apt install curl
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-![img_20.png](img_20.png)
+![2025-05-15_16-51-55.png](../../../../.vuepress/public/src/2025-05-15_16-51-55.png)
 
 输入以下命令验证是否安装成功:
 
 ```python
 uv --version
 ```
-![img_21.png](img_21.png)
+![2025-05-15_16-52-12.png](../../../../.vuepress/public/src/2025-05-15_16-52-12.png)
 
 若显示uv的版本信息，则表示安装成功
 
@@ -131,7 +131,7 @@ uv venv .venv
 ```python
 .venv\Scripts\activate
 ```
-![img_15.png](img_15.png)
+![2025-05-15_17-00-01.png](../../../../.vuepress/public/src/2025-05-15_17-00-01.png)
 
 2.兼容pip常用命令
 
@@ -140,14 +140,12 @@ uv venv .venv
 uv pip install <package>
 ```
 
-![img_17.png](img_17.png)
-
 ```python
 #卸载包
 uv pip uninstall <package>
 ```
 
-![img_18.png](img_18.png)
+![2025-05-15_17-02-32.png](../../../../.vuepress/public/src/2025-05-15_17-02-32.png)
 
 3.依赖编译和锁定
 
@@ -157,9 +155,9 @@ uv pip freeze >requirements.txt
 ```
 ```python
 #uv pip compile会读取requirements.txt文件中的依赖
-uv pip compile requirements.txt -o require
+uv pip compile requirments.txt -o require
 ```
-![img_19.png](img_19.png)
+![2025-05-15_17-05-52.png](../../../../.vuepress/public/src/2025-05-15_17-05-52.png)
 
 4.本地项目包管理
 
@@ -168,7 +166,7 @@ uv pip compile requirements.txt -o require
 ```python
 uv add numpy
 ```
-![img_22.png](img_22.png)
+![2025-05-15_17-06-42.png](../../../../.vuepress/public/src/2025-05-15_17-06-42.png)
 
 ### 小结
 
