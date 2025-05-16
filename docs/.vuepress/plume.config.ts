@@ -3,29 +3,29 @@ import {navbar} from './navbar'
 import notes from './notes'
 
 // 首页异步检查各服务在线状态
-async function checkStatus() {
-    // TODO: 迁移至内网 Uptime
-    try {
-        const response = await fetch('https://status.cqmu.online/api/badge/14/status');
-        if (response.ok) {
-            const svgText = await response.text();
-            if (svgText.includes('Status: Up')) {
-                return '所有服务均在线';
-            }
-        }
-        return '部分服务离线（此处待维护）';
-    } catch (error) {
-        console.error('Error fetching status:', error);
-        return '服务离线';
-    }
-}
-
-// 返回信息
-
-async function getFooterMessage() {
-    const statusMessage = await checkStatus();
-    return `${statusMessage} <a href="https://status.cqmu.online/" target="_blank"><img src="https://status.cqmu.online/api/badge/14/status?style=plastic" alt="Status Badge" style="vertical-align: middle; display: inline-block;"></a>`;
-}
+// async function checkStatus() {
+//     // TODO: 迁移至内网 Uptime
+//     try {
+//         const response = await fetch('https://status.cqmu.online/api/badge/14/status');
+//         if (response.ok) {
+//             const svgText = await response.text();
+//             if (svgText.includes('Status: Up')) {
+//                 return '所有服务均在线';
+//             }
+//         }
+//         return '部分服务离线（此处待维护）';
+//     } catch (error) {
+//         console.error('Error fetching status:', error);
+//         return '服务离线';
+//     }
+// }
+//
+// // 返回信息
+//
+// async function getFooterMessage() {
+//     const statusMessage = await checkStatus();
+//     return `${statusMessage} <a href="https://status.cqmu.online/" target="_blank"><img src="https://status.cqmu.online/api/badge/14/status?style=plastic" alt="Status Badge" style="vertical-align: middle; display: inline-block;"></a>`;
+// }
 
 
 /**
@@ -58,7 +58,7 @@ export default defineThemeConfig({
 
     /* 站点页脚，message显示在线情况 */
     footer: {
-        message: await getFooterMessage(),
+        // message: await getFooterMessage(),
         copyright: 'PGuide Studio © 2023-2025',
     },
     notFound: {
