@@ -11,20 +11,34 @@ import {pwaPlugin} from '@vuepress/plugin-pwa'
 // }
 
 export default defineUserConfig({
+
+    //
+
     plugins: [
         pwaPlugin({
             // pwa 插件
+
             showInstall: true,
             manifest: {
                 name: 'PGuide Docs',
                 short_name: '项导文档',
                 description: 'An open-source documentation site',
+                lang: 'en',
+                background_color: '#ffffff',
                 theme_color: '#3eaf7c',
+                orientation: 'portrait-primary',
                 start_url: '/',
-                display: 'standalone',
+                display: 'fullscreen',
+                icons:[
+                    {
+                        src: 'icon/logo.png',
+                        type: 'image/png',
+                        sizes: '200x200'
+                    }
+                ],
             },
             update: 'hint',
-            favicon: 'public/icon/logo.svg'
+            favicon: 'icon/favicon.ico',
         }),
 
         umamiAnalyticsPlugin({
@@ -224,17 +238,21 @@ export default defineUserConfig({
              * 评论 comments
              * @see https://theme-plume.vuejs.press/guide/features/comments/
              */
+            // comment: {
+            //     provider: 'Giscus', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
+            //     comment: true,
+            //     repo: 'Lyrlark/PGuide-Docs',
+            //     repoId: 'R_kgDON5Sklw',
+            //     category: 'Q&A',
+            //     categoryId: 'DIC_kwDON5Skl84CneCO',
+            //     mapping: 'pathname',
+            //     reactionsEnabled: true,
+            //     inputPosition: 'top',
+            // },
             comment: {
-                provider: 'Giscus', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-                comment: true,
-                repo: 'Lyrlark/PGuide-Docs',
-                repoId: 'R_kgDON5Sklw',
-                category: 'Q&A',
-                categoryId: 'DIC_kwDON5Skl84CneCO',
-                mapping: 'pathname',
-                reactionsEnabled: true,
-                inputPosition: 'top',
-            },
+                provider: 'Waline',
+                serverURL: 'https://comment.pguide.studio'
+            }
         },
 
         /**
