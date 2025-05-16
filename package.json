@@ -1,7 +1,7 @@
 {
-  "name": "p-guide-docs",
+  "name": "pguide-docs",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.4.22-rc",
   "description": "项导文档",
   "packageManager": "pnpm@10.3.0",
   "author": "rand777 <losmosga@foxmail.com>",
