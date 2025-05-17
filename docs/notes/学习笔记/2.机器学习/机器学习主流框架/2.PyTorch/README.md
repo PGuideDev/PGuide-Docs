@@ -1,7 +1,7 @@
 ---
 title: PyTorch
 createTime: 2025/04/30 06:31:30
-permalink: /learning-notes/p5fbwyiq/
+permalink: /learning-notes/machine-learning/pytorch/
 icon: logos:pytorch-icon
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 华为昇思MindSpore
 createTime: 2025/04/30 06:31:36
-permalink: /learning-notes/3p909icx/
+permalink: /learning-notes/machine-learning/mindspore/
 icon: /icon/mindspore.svg
 ---
 

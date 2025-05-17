@@ -5,4 +5,5 @@ permalink: /csdiy/program-begin/java/
 icon: logos:java
 ---
 
-Java入门
+
+@[bilibili](BV1fh411y7R8)

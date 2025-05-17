@@ -37,12 +37,13 @@ export const navbar = defineNavbarConfig([
             {
                 icon: '/icon/AI.svg',
                 text: '机器学习',
-                items: [{
-                    icon: '/icon/mindspore.svg',
-                    text: 'MindSpore',
-                    link: '/learning-notes/3p909icx/',
-                    badge: '国产分布式、全场景AI框架'
-                },
+                items: [
+                    {
+                        icon: '/icon/mindspore.svg',
+                        text: 'MindSpore',
+                        link: '/learning-notes/machine-learning/mindspore/',
+                        badge: '国产分布式、全场景AI框架'
+                    },
                     {
                         icon: 'devicon:tensorflow',
                         text: 'TensorFlow',
@@ -72,7 +73,11 @@ export const navbar = defineNavbarConfig([
                         link: '/learning-notes/ROS2/origin-bot-toolkit/',
                         badge: 'Guyuehome'
                     },
-                    {icon: '/icon/zzx.png', text: '中智讯智能小车一代', link: '/learning-notes/zcloud-car1/'},
+                    {
+                        icon: '/icon/zzx.png',
+                        text: '中智讯智能小车一代',
+                        link: '/learning-notes/zcloud-car1/'
+                    },
                 ]
             },
             // {
@@ -245,8 +250,18 @@ export const navbar = defineNavbarConfig([
                         link: '/csdiy/tools-must/markdown/',
                         badge: '高兼容性文本标记语言'
                     },
-                    {icon: 'devicon:vim', text: 'Vim', link: '/csdiy/tools-must/Vim/', badge: '放下鼠标'},
-                    {icon: 'file-icons:latex', text: 'LaTeX', link: '/csdiy/tools-must/latex/', badge: '专业排版工具'},
+                    {
+                        icon: 'devicon:vim',
+                        text: 'Vim',
+                        link: '/csdiy/tools-must/Vim/',
+                        badge: '放下鼠标'
+                    },
+                    {
+                        icon: 'file-icons:latex',
+                        text: 'LaTeX',
+                        link: '/csdiy/tools-must/latex/',
+                        badge: '专业排版工具'
+                    },
                     {
                         icon: 'catppuccin:docker-compose',
                         text: 'Docker',
@@ -306,7 +321,11 @@ export const navbar = defineNavbarConfig([
                 icon: '/icon/dev-standard.svg',
                 text: '开发规范',
                 items: [
-                    {icon: 'ic:baseline-rule-folder', text: '这是什么？', link: '/csdiy/dev-rules/what-dev-rules/'},
+                    {
+                        icon: 'ic:baseline-rule-folder',
+                        text: '这是什么？',
+                        link: '/csdiy/dev-rules/what-dev-rules/'
+                    },
                     {
                         icon: 'ant-design:aliyun-outlined',
                         text: '阿里系开发规范',
@@ -328,7 +347,11 @@ export const navbar = defineNavbarConfig([
                         link: '/csdiy/computer-common-knowledge/Win11re-setup/',
                         badge: 'Windows11'
                     },
-                    {icon: 'emojione-v1:dvd', text: '镜像刻录', link: '/csdiy/computer-common-knowledge/make-image/'},
+                    {
+                        icon: 'emojione-v1:dvd',
+                        text: '镜像刻录',
+                        link: '/csdiy/computer-common-knowledge/make-image/'
+                    },
                 ]
             }
         ]
@@ -520,14 +543,80 @@ export const navbar = defineNavbarConfig([
             {
                 icon: 'carbon:container-software',
                 text: '常用软件',
-                link: '/campus-wiki/common-software/',
-                badge: '整理中'
+                items: [
+                    {
+                        icon: 'fluent-color:code-20',
+                        text: 'IDE',
+                        link: '/campus-wiki/common-software/IDE/',
+                        badge: '集成开发环境'
+                    },
+                    {
+                        icon: 'ooui:articles-rtl',
+                        text: '文献管理',
+                        link: '/campus-wiki/document-management/',
+                        badge: ''
+                    },
+                    {
+                        icon: 'twemoji:notebook-with-decorative-cover',
+                        text: '笔记软件',
+                        link: '/campus-wiki/common-softwares/note-softwares/',
+                    },
+                    {
+                        icon: 'vscode-icons:file-type-word',
+                        text: '办公软件',
+                        link: '/campus-wiki/common-softwares/office/MS/apply-ee/',
+                        badge: 'Office'
+                    },
+                ]
             },
             {
                 icon: '/icon/cert.svg',
                 text: '证书及技能考试',
-                link: '/campus-wiki/credential-skillful-exams/',
-                badge: '整理中'
+                items: [
+                    {
+                        icon: 'icon-park-twotone:six-key',
+                        text: '四、六级考试',
+                        link: '/campus-wiki/credential-skillful-exams/CET/',
+                        badge: 'CET、SET'
+                    },
+                    {
+                        icon: '/icon/iltes.svg',
+                        text: '雅思 ILTES',
+                        link: '/campus-wiki/credential-skillful-exams/iltes/',
+                        badge: ''
+                    },
+                    {
+                        icon: '/icon/tofel.svg',
+                        text: '托福 TOEFL',
+                        link: '/campus-wiki/credential-skillful-exams/toefl/',
+                        badge: ''
+                    },
+                    {
+                        icon: '/icon/duolinguo.svg',
+                        text: '多邻国 duolinguo',
+                        link: '/campus-wiki/credential-skillful-exams/duolinguo/',
+                        badge: '多快好省'
+                    },
+                    {
+                        icon: 'https://bm.ruankao.org.cn/asset/image/public/logo.png',
+                        text: '软考',
+                        link: '/campus-wiki/credential-skillful-exams/ruankao/',
+                        badge: '宇宙机'
+                    },
+                    {
+                        icon: 'hugeicons:computer-programming-01',
+                        text: '计算机等级考试',
+                        link: '/campus-wiki/credential-skillful-exams/NCRE/',
+                        badge: '适合大学生'
+                    },
+                    {
+                        icon: '',
+                        text: '',
+                        link: '',
+                        badge: ''
+                    },
+
+                ]
             },
             {
                 icon: 'ic:baseline-school',

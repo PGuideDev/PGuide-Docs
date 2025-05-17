@@ -2,7 +2,7 @@
 title: Typora
 createTime: 2025/03/05 04:06:47
 permalink: /campus-wiki/common-softwares/note-softwares/typora/
-icon: /icon/Typora.svg
+icon: https://typoraio.cn/img/favicon-128.png
 ---
 
 ## Typora是什么？

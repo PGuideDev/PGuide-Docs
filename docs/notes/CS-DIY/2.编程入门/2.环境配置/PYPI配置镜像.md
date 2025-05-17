@@ -1,5 +1,5 @@
 ---
-title: PYPI配置镜像
+title: PYPI包管理
 createTime: 2025/04/28 00:19:22
 permalink: /csdiy/program-begin/PYPI-mirror/
 icon: devicon:pypi
@@ -14,7 +14,7 @@ icon: devicon:pypi
 
 ## UV 从安装到使用
 
-https://docs.astral.sh/uv/getting-started/installation/
+[https://docs.astral.sh/uv/getting-started/installation/](https://docs.astral.sh/uv/getting-started/installation/)
 ### 安装
 
 #### Windows
@@ -173,3 +173,8 @@ uv add numpy
 UV是是一个用Rust编写的现代Python打包工具，它的核心目标是极速替代pip、pip-tools和venv等工具的功能。
 
 如果你厌倦了等待pip解析和安装依赖，那么uv绝对值得你尝试。开始使用uv venv和uv pip install,体验一下“瞬间”完成依赖安装的快感吧！
+
+
+## 配置镜像
+
+参考[PYPI镜像配置](/public-service/cqmu-mirror/wiki/#pypi)
