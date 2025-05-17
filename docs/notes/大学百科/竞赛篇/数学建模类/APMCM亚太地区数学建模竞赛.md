@@ -8,3 +8,9 @@ permalink: /campus-wiki/xm3n9ru9/
 :::tip
 待完善
 :::
+
+## 我们的故事
+
+### APMCM2023
+
+- rand777等获得Honorable Mention

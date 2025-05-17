@@ -12,6 +12,10 @@ permalink: /templates/
 待完善
 :::
 
+::noto:red-heart::
+
+/friends/persons/
+/friends/organizations/
 
 <ImageCard
 image=""
@@ -38,10 +42,7 @@ author=""
 
 :[]:
 
-:[noto:red-heart]:
-:[fluent-emoji-flat:red-heart]:
-/friends/persons/
-/friends/organizations/
+
 
 [:[noto:red-heart]:rand777](/friends/persons/)
 

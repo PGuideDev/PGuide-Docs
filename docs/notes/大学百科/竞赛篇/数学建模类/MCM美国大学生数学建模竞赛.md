@@ -8,3 +8,10 @@ permalink: /campus-wiki/mathematical-modeling/MCM/
 :::tip
 待完善
 :::
+
+
+## 我们的故事
+
+### MCM2023
+
+- rand777、陆小曼等获得Honorable Mention
