@@ -178,12 +178,11 @@ of the next tale._
 
 > 工作室名为 PGuide Studio ，中文为 项导工作室。P代表Project，Guide代表引导或指南。我们希望能为大家提供一个编程类项目学习的指南，将这些项目代代相传。
 
-## 怎么在评论区提问
+## 怎么在评论区互动
 
-1. 下载[watt toolkit](https://steampp.net/)
-2. [注册github账号](https://github.com/signup)
-3. 点击下方`使用github登录`
-4. 评论
+1. 转到注册界面：[https://comment.pguide.studio/ui/register](https://comment.pguide.studio/ui/register)
+2. 使用Markdown格式提问
+3. 邮件收到回复
 
 ## 致谢
 
