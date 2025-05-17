@@ -94,7 +94,7 @@ groups:
         location: 重庆医科大学
         avatar: /avatar/cqmu.svg
         organization: 重庆医科大学
-        desc: 重庆医科大学计算机协会
+        desc: 重庆医科大学外国语学院
   - title: The Apache Software Foundation
     desc: ASF's open source software is used ubiquitously around the world with more than 8,400 committers contributing to more than 320 active projects.
     list:
