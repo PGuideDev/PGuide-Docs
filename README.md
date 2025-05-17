@@ -13,7 +13,7 @@
 
 ### 项目文档
 
-> [构建心目中最帅的项目](https://docs.pguide.studio/project-docs/cqmua-center/)
+> [构建梦想中的项目](https://docs.pguide.studio/project-docs/)
 
 ### CS-DIY
 
