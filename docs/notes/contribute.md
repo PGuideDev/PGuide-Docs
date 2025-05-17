@@ -479,11 +479,6 @@ icon: #可选项，侧边栏图标
 
 > [参考magic](/csdiy/tools-must/magic/clash-core/)
 
-### 🧐 Giscus访问异常？
-
-当看到奇怪的Giscus错误提示时不用惊慌，这是跨域资源请求的小精灵在调皮，对我们的文档城堡没有影响：
-![2025-03-10_03-47-41.png](../.vuepress/public/src/2025-03-10_03-47-41.png)
-
 ---
 
 ## 附录
