@@ -451,7 +451,7 @@ list:
     nameColor:
   - name: Macrodd2022
     link:
-    avatar: /avatar/macro.png
+    avatar: https://avatars.githubusercontent.com/u/38821898?v=4
     desc: Make a difference.
     location: 中国，重庆
     organization: 西南大学
