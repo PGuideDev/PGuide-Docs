@@ -537,8 +537,13 @@ export const navbar = defineNavbarConfig([
             },
             {
                 icon: '/icon/teacher.svg',
-                text: '老师们说',
+                text: '良师赠语',
                 link: '/campus-wiki/teacher-talks/'
+            },
+            {
+                icon: 'ic:baseline-school',
+                text: '校内生活',
+                link: '/campus-wiki/campus-life/'
             },
             {
                 icon: 'carbon:container-software',
@@ -609,68 +614,132 @@ export const navbar = defineNavbarConfig([
                         link: '/campus-wiki/credential-skillful-exams/NCRE/',
                         badge: '适合大学生'
                     },
+
+                ]
+            },
+            {
+                icon: '/icon/competition.svg',
+                text: '竞赛篇',
+                items: [
                     {
-                        icon: '',
-                        text: '',
-                        link: '',
+                        icon: 'mingcute:ai-line',
+                        text: '人工智能及未来技术类',
+                        link: '/campus-wiki/competition/AI-future/',
+                    },
+                    {
+                        icon: 'game-icons:team-idea',
+                        text: '创新创业类',
+                        link: '/campus-wiki/competition/innovate/',
+                        badge: ''
+                    },
+                    {
+                        icon: 'file-icons:3d-model',
+                        text: '数学建模类',
+                        link: '/campus-wiki/competition/math-modeling/',
+                        badge: ''
+                    },
+                    {
+                        icon: 'mynaui:math',
+                        text: '纯学科类竞赛',
+                        link: '/campus-wiki/competition/subjects/',
+                        badge: ''
+                    },
+                    {
+                        icon: 'material-symbols:code',
+                        text: '编程竞赛类',
+                        link: '/campus-wiki/competition/code/',
                         badge: ''
                     },
 
                 ]
             },
             {
-                icon: 'ic:baseline-school',
-                text: '校内生活',
-                link: '/campus-wiki/campus-life/'
-            },
-            {
-                icon: '/icon/competition.svg',
-                text: '竞赛篇',
-                link: '/campus-wiki/competition/'
-            },
-            {
                 icon: '/icon/kaoyan.svg',
-                text: '考研篇',
-                link: '/campus-wiki/postgraduate-entrance-exam/',
-                badge: '整理中'
-            },
-            {
-                icon: 'uim:bag',
-                text: '考公篇',
-                badge: '整理中',
+                text: '我有志于从事深层次研究',
                 items: [
                     {
-                        icon: 'https://saduck.top/favicon.png',
-                        text: 'SaDuck',
-                        link: 'https://saduck.top/',
-                        badge: '我一定会上岸！'
+                        icon: '/icon/kaoyan.svg',
+                        text: '全国硕士研究生统考',
+                        link: '/campus-wiki/postgraduate-entrance-exam/',
+                        badge: '整理中'
                     },
+                    {
+                        icon: '/icon/baoyan.svg',
+                        text: '推荐免试硕士、直博研究生',
+                        link: '/campus-wiki/postgraduate-recommendation/',
+                        badge: '整理中'
+                    },
+                    {
+                        icon: 'academicons:cv',
+                        text: '申请考核制攻读博士研究生',
+                        link: '/campus-wiki/postgraduate-recommendation/',
+                        badge: '整理中'
+                    },
+                    {
+                        icon: '/icon/liuxue.svg',
+                        text: '港澳台及出国留学深造',
+                        link: '/campus-wiki/study-abroad/',
+                        badge: '整理中'
+                    },
+                    {
+                        icon: 'streamline:ai-science-spark-solid',
+                        text: '科研如何开展',
+                        link: '/campus-wiki/scientific-research/',
+                        badge: '整理中'
+                    }
                 ]
             },
             {
-                icon: '/icon/baoyan.svg',
-                text: '保研篇',
-                link: '/campus-wiki/postgraduate-recommendation/',
-                badge: '整理中'
+                icon: 'uim:bag',
+                text: '我在现实中的实践检验真理',
+                badge: '整理中',
+                items: [
+                    {
+                        icon: '/icon/internship.svg',
+                        text: '实习投递',
+                        link: '/campus-wiki/internship/',
+                        badge: '整理中'
+                    },
+                    {
+                        icon: 'https://saduck.top/favicon.png',
+                        text: '考公知识库SaDuck',
+                        link: 'https://saduck.top/',
+                        badge: '我一定会上岸！'
+                    },
+                    {
+                        icon: 'https://t2.chei.com.cn/ncss/jyxw/images/logo/logo-text.svg',
+                        text: '',
+                        link: 'https://www.ncss.cn/',
+                        badge: '官方背书'
+                    },
+                    {
+                        icon: 'https://www.newjobs.com.cn/template/1/default/images/logo.png',
+                        text: '中国国家人才网',
+                        link: 'https://www.newjobs.com.cn/',
+                        badge: ''
+                    },
+                    {
+                        icon: 'https://www.cqtalent.com/cqrcwnew/resource/images/index/logo.png',
+                        text: '重庆市人才工作网',
+                        link: 'https://www.cqtalent.com/',
+                        badge: ''
+                    },
+                    {
+                        icon: 'https://img1.dxycdn.com/t/s7/2024/0809/238/0804545057939971281.png',
+                        text: '丁香人才网',
+                        link: 'https://www.jobmd.cn/',
+                        badge: '医疗信息化'
+                    },
+                    {
+                        icon: '',
+                        text: '',
+                        link: '',
+                        badge: ''
+                    },
+                ]
             },
-            {
-                icon: '/icon/liuxue.svg',
-                text: '留学篇',
-                link: '/campus-wiki/study-abroad/',
-                badge: '整理中'
-            },
-            {
-                icon: '/icon/internship.svg',
-                text: '实习篇',
-                link: '/campus-wiki/internship/',
-                badge: '整理中'
-            },
-            {
-                icon: 'streamline:ai-science-spark-solid',
-                text: '科研篇',
-                link: '/campus-wiki/scientific-research/',
-                badge: '整理中'
-            }
+
+
         ]
     },
     {
@@ -726,6 +795,12 @@ export const navbar = defineNavbarConfig([
 //     items: [
 //         {icon: '',text: '',link: ''},
 //         {icon: '',text: '',link: ''},
+//     {
+//         icon: '',
+//         text: '',
+//         link: '',
+//         badge: ''
+//     },
 //     ]
 // },
 ])

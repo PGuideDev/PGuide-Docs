@@ -6,7 +6,7 @@ icon: arcticons:free-download-manager
 ---
 
 ## 项目管理平台
-- 负责人：陈竑宇
+- 负责人：[::noto:red-heart::翻斗花园牛爷爷](/friends/persons/)
 - 本项目为高校师生设计的项目管理平台，分为学生端和教师端两个子系统，支持课程/毕设项目全流程管理，包括文件上传、任务发布、权限控制等功能。
 - 系统采用前后端分离架构，技术栈以 Java SpringBoot（后端） + Vue3 + Element-Plus（前端） 为核心，满足轻量化、易维护、低成本部署需求。
 
@@ -14,7 +14,8 @@ icon: arcticons:free-download-manager
 #### 学生端
 1. 用户管理
 
-- 学生自主注册/登录（手机号/邮箱验证）。
+- 学生自主注册/登录（手机号/
+- 邮箱验证）。
 
 - 可查看个人资料，修改密码。
 

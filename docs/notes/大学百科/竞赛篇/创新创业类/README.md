@@ -1,7 +1,8 @@
 ---
 title: 创新创业类
 createTime: 2025/03/05 10:38:47
-permalink: /campus-wiki/innovate/
+permalink: /campus-wiki/competition/innovate/
+icon: game-icons:team-idea
 ---
 
 怎么说呢，这类比赛上下限都挺高的。有些人说它是水赛，的确很水，因为大多数学校各学院会按领导的意思拉项目凑数，参赛队伍可能并非自愿参加，项目质量参差不齐；
