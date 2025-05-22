@@ -64,7 +64,7 @@ Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在
 ### 如何使用模板
 
 以[重医简历参考模板V1.7.4R](/campus-wiki/internship/resume/#latex-参考模板)
-为例，点击[此处](https://cos.cqmu.online/docs/CQMU-%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BFV1.7.4%20R.zip)
+为例，点击[此处](https://pguide-public-1323011919.cos.ap-chengdu.myqcloud.com/docs/CQMU-%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BFV1.7.4%20R.zip)
 下载，建议使用[:[/icon/orcid.svg]:ORCID账号](https://info.orcid.org/zh-CN/%E4%BB%80%E4%B9%88%E6%98%AF-orcid/)
 登录，登录后你应该看到这个界面：
 
@@ -117,15 +117,15 @@ Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在
 ::: details 重庆医科大学简历参考模板
 [大学百科-实习篇-简历制作与修改](/campus-wiki/internship/resume/)
 
-@[pdf height="600px"](https://cos.cqmu.online/docs/CQMU_%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BFV1_7_4_R.pdf)
+@[pdf height="600px"](https://pguide-public-1323011919.cos.ap-chengdu.myqcloud.com/docs/CQMU_%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BFV1_7_4_R.pdf)
 :::
 
 ::: details 重庆医科大学本科生毕业论文（设计）示例模板
-@[pdf height="600px"](https://cos.cqmu.online/docs/cqmu-bs-thesis.pdf)
+@[pdf height="600px"](https://pguide-public-1323011919.cos.ap-chengdu.myqcloud.com/docs/cqmu-bs-thesis.pdf)
 :::
 
 ::: details 推荐信模板
-@[pdf height="600px"](https://cos.cqmu.online/docs/recommand-cqmu.pdf)
+@[pdf height="600px"](https://pguide-public-1323011919.cos.ap-chengdu.myqcloud.com/docs/recommand-cqmu.pdf)
 :::
 
 ::: details 平时作业和小论文模板
