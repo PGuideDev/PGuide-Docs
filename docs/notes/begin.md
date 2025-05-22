@@ -220,4 +220,8 @@ of the next tale._
   time=2025-04-27 type=important tdesign:cooperate-filled icon=tdesign:cooperate-filled
 
   项导文档站总字数达12W，阅读量达4W+!
+- 建设里程碑04
+  time=2025-05-20 type=important tdesign:cooperate-filled icon=tdesign:cooperate-filled
+
+  项导文档站总字数达15W，阅读量达8W，共有77位成员、18个组织加入建设。
   :::
