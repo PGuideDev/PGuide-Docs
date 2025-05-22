@@ -95,9 +95,9 @@ export default defineUserConfig({
         /* 页内信息 */
         // editLink: true,
         // lastUpdated: true,
-        contributors: {
-            mode: 'block',
-        },
+        // contributors: {
+        //     mode: 'block',
+        // },
         // changelog: false,
         /**
          * 博客
