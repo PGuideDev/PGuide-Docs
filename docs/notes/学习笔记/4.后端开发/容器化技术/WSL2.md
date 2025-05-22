@@ -5,6 +5,5 @@ permalink: /learning-notes/container/WSL2/
 icon: logos:linux-tux
 ---
 
-[//]: # (TODO: zxb待填写)
 
 https://learn.microsoft.com/zh-cn/windows/wsl/install
