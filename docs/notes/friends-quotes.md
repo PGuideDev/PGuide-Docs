@@ -72,4 +72,4 @@ createTime: 2025/03/06 16:40:46
 
 QQ添加好友链接的方式如下：
 
-@[artPlayer](https://cos.cqmu.online/docs/video/qq-share.mp4)
+@[artPlayer](https://pguide-public-1323011919.cos.ap-chengdu.myqcloud.com/docs/video/qq-share.mp4)

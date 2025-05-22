@@ -225,7 +225,7 @@ pnpm run docs:dev
 
 > 避免IDE错误识别缓存TODO、svg命名空间错误
 
-@[artPlayer](https://cos.cqmu.online/docs/2025-03-10_03-56-14.mp4)
+@[artPlayer](https://pguide-public-1323011919.cos.ap-chengdu.myqcloud.com/docs/2025-03-10_03-56-14.mp4)
 
 7. 阅读开发规范章
 
