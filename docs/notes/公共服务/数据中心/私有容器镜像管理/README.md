@@ -5,6 +5,7 @@ permalink: /public-service/data-center/docker-registry/
 icon: teenyicons:docker-outline
 tags:
   - PGuide OAuth
+  - PGuide VPN
   - Docker
   - OSS 
 ---
