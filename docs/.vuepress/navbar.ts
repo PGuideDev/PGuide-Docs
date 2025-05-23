@@ -784,15 +784,51 @@ export const navbar = defineNavbarConfig([
             {
                 icon: 'fluent-color:data-trending-20',
                 text: '站点统计',
-                badge: 'Umami',
-                link: 'https://cloud.umami.is/share/BVmRNrfCbwRPmobS/docs.pguide.studio',
+                items: [
+                    {
+                        icon: 'simple-icons:umami',
+                        text: 'Umami Cloud',
+                        link: 'https://cloud.umami.is/share/BVmRNrfCbwRPmobS/docs.pguide.studio',
+                    },
+                    {
+                        icon: 'devicon:google',
+                        text: 'Google analytics',
+                        link: 'https://analytics.google.com/analytics/web/#/p472592389',
+                    },
+                ]
             },
+
             {
-                icon: '',
-                text: '',
-                link: '',
-                badge: ''
+                icon: 'logos:serverless',
+                text: '服务器状态',
+                items: [
+                    {
+                        icon: 'https://uptime.kuma.pet/img/icon.svg',
+                        text: '公开服务监控',
+                        link: 'http://100.126.170.14:3001/status/pguide',
+                        badge: {type: 'warning', text: 'PGuide VPN'}
+                    },
+                    {
+                        icon: 'logos:grafana',
+                        text: '服务器实时流量',
+                        link: 'https://status.pguide.studio/',
+                        badge: {type: 'warning', text: 'PGuide VPN'}
+                    },
+                    {
+                        icon: 'catppuccin:vercel-ignore',
+                        text: 'Vercel Serverless',
+                        link: 'https://www.vercel-status.com/',
+                        badge: {type: 'tip', text: '官方'}
+                    },
+                    {
+                        icon: 'line-md:github-loop',
+                        text: 'github status',
+                        link: 'https://www.githubstatus.com/',
+                        badge: {type: 'tip', text: '官方'}
+                    },
+                ]
             },
+
         ]
     },
 // {
