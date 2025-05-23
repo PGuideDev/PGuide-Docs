@@ -436,12 +436,13 @@ export const navbar = defineNavbarConfig([
                         icon: '/icon/overleaf.svg',
                         text: '协作平台简介及使用',
                         link: '/public-service/overleaf/',
-                        badge: {type: 'danger', text: '维护中'}
+                        badge: {type: 'danger', text: '外网未开通'}
                     },
                     {
                         icon: 'twemoji:newspaper',
                         text: 'LaTeX模板集合',
                         link: '/public-service/overleaf/latex-template-collections/',
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: 'catppuccin:release',
@@ -485,7 +486,8 @@ export const navbar = defineNavbarConfig([
                     {
                         icon: 'https://alist.nn.ci/logo.svg',
                         text: 'Alist动态软件镜像站',
-                        link: '/public-service/data-center/pguide-alist/'
+                        link: '/public-service/data-center/pguide-alist/',
+                        badge: {type: 'tip', text: '在线'}
                     },
                     {
                         icon: 'line-md:download-loop',
@@ -496,6 +498,7 @@ export const navbar = defineNavbarConfig([
                         icon: 'teenyicons:docker-outline',
                         text: 'docker私有镜像管理',
                         link: '/public-service/data-center/docker-registry/',
+                        badge: {type: 'warning', text: 'PGuide VPN'}
                     },
                     {
                         icon: 'ic:round-storage',
@@ -507,11 +510,13 @@ export const navbar = defineNavbarConfig([
                         icon: 'fluent-emoji-flat:medical-symbol',
                         text: '全球医学公开数据导航',
                         link: '/public-service/data-center/global-medical-open-data-web/',
+                        badge: {type: 'info', text: '即将上线'}
                     },
                     {
                         icon: 'vscode-icons:file-type-word',
                         text: '文书及申报资料网',
                         link: '/public-service/data-center/official-documents-web/',
+                        badge: {type: 'info', text: '即将上线'}
                     },
                 ]
             },
@@ -795,6 +800,11 @@ export const navbar = defineNavbarConfig([
                         text: 'Google analytics',
                         link: 'https://analytics.google.com/analytics/web/#/p472592389',
                     },
+                    {
+                        icon: 'ri:baidu-fill',
+                        text: 'Baidu analytics',
+                        link: 'https://tongji.baidu.com/main/overview/10000683125/overview/index',
+                    },
                 ]
             },
 
@@ -811,7 +821,7 @@ export const navbar = defineNavbarConfig([
                     {
                         icon: 'logos:grafana',
                         text: '服务器实时流量',
-                        link: 'https://status.pguide.studio/',
+                        link: 'http://100.126.170.14:3000/',
                         badge: {type: 'warning', text: 'PGuide VPN'}
                     },
                     {
