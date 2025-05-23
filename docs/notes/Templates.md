@@ -27,7 +27,9 @@ author=""
 
 <LinkCard icon="" href="" title="" description=""></LinkCard>
 
+<CardGrid>
 <RepoCard repo=""></RepoCard>
+</CardGrid>
 
 @[pdf height="600"]()
 
