@@ -141,12 +141,12 @@ export const navbar = defineNavbarConfig([
             {
                 icon: 'openmoji:european-name-badge',
                 text: '项目相关规范',
-                link: '/project-docs/standards/name-project/'
+                link: '/project-docs/standards/name-project/',
             },
             {
                 icon: 'carbon:license-third-party',
                 text: '项目知识产权',
-                link: '/project-docs/project-intellectual-property/'
+                link: '/project-docs/project-intellectual-property/',
             },
             {
                 icon: 'codicon:github-project',
@@ -155,73 +155,87 @@ export const navbar = defineNavbarConfig([
                     {
                         icon: 'material-icon-theme:folder-project',
                         text: '前言',
-                        link: '/project-docs/'
+                        link: '/project-docs/',
+                        badge: {type: 'warning', text: '整理中'}
                     },
 
                     {
                         icon: 'hugeicons:add-team',
                         text: '全国大学生竞赛组队系统',
-                        link: '/project-docs/match-competitions/'
+                        link: '/project-docs/match-competitions/',
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: 'arcticons:free-download-manager',
                         text: '项目管理平台',
-                        link: '/project-docs/project-management-platform/'
+                        link: '/project-docs/project-management-platform/',
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: '/icon/zhiyu.png',
                         text: '植愈：AI情绪小帮手',
-                        link: '/project-docs/plant-cure/'
+                        link: '/project-docs/plant-cure/',
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: '/icon/robot.png',
                         text: '智慧中草药生态养护平台',
-                        link: '/project-docs/smart-car/'
+                        link: '/project-docs/smart-car/',
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: '/icon/univ-town.svg',
                         text: '像素大学城',
-                        link: '/project-docs/pixel-university-town/'
+                        link: '/project-docs/pixel-university-town/',
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: '/icon/analyse.svg',
                         text: '学情分析系统',
-                        link: '/project-docs/study-analytic-system/'
+                        link: '/project-docs/study-analytic-system/',
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: 'line-md:speed-twotone-loop',
                         text: '掌中方圆',
-                        link: '/project-docs/control-my-panel/'
+                        link: '/project-docs/control-my-panel/',
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: 'icon-park:transport',
                         text: 'SPD智能医疗耗材管理系统',
-                        link: '/project-docs/spd/'
+                        link: '/project-docs/spd/',
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: 'material-symbols:dropper-eye-outline-sharp',
                         text: '医智慧眼',
-                        link: '/project-docs/see-the-components/'
+                        link: '/project-docs/see-the-components/',
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: 'svg-spinners:blocks-wave',
                         text: '千手万象',
-                        link: '/project-docs/various-gestures/'
+                        link: '/project-docs/various-gestures/',
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: 'line-md:cloud-alt-tags-twotone-loop',
                         text: '云原生资源管理系统',
-                        link: '/project-docs/cloud-manage/'
+                        link: '/project-docs/cloud-manage/',
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: 'line-md:loading-alt-loop',
                         text: '啥时候吃饭',
-                        link: '/project-docs/when2eat/'
+                        link: '/project-docs/when2eat/',
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: 'token-branded:wow',
                         text: 'Oh my API',
-                        link: '/project-docs/oh-my-api/'
+                        link: '/project-docs/oh-my-api/',
+                        badge: {type: 'warning', text: '整理中'}
                     },
                 ],
             },
@@ -306,13 +320,13 @@ export const navbar = defineNavbarConfig([
                         icon: 'ant-design:code-outlined',
                         text: '基础语法',
                         link: '/csdiy/program-begin/grammar/',
-                        badge: '来听课叭'
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: 'lsicon:setting-outline',
                         text: '环境配置',
                         link: '/csdiy/program-begin/PYPI-mirror/',
-                        badge: '快人亿步'
+                        badge: {type: 'warning', text: '整理中'}
                     },
                 ]
             },
@@ -330,7 +344,7 @@ export const navbar = defineNavbarConfig([
                         icon: 'ant-design:aliyun-outlined',
                         text: '阿里系开发规范',
                         link: '/csdiy/dev-rules/alibaba-rules/java-rule/',
-                        badge: '完善中'
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     // {icon: '',text: '',link: ''},
                 ]
@@ -350,7 +364,8 @@ export const navbar = defineNavbarConfig([
                     {
                         icon: 'emojione-v1:dvd',
                         text: '镜像刻录',
-                        link: '/csdiy/computer-common-knowledge/make-image/'
+                        link: '/csdiy/computer-common-knowledge/make-image/',
+                        badge: {type: 'warning', text: '整理中'}
                     },
                 ]
             }
@@ -393,12 +408,12 @@ export const navbar = defineNavbarConfig([
             {
                 icon: '/icon/mirror.svg',
                 text: '重庆医科大学开源软件镜像站',
-                badge: '即将上线！',
                 items: [
                     {
                         icon: '/icon/mirror.svg',
                         text: '镜像站介绍',
-                        link: '/public-service/cqmu-mirror/'
+                        link: '/public-service/cqmu-mirror/',
+                        badge: {type: 'info', text: '即将上线'}
                     },
                     {
                         icon: 'simple-icons:wikibooks',
@@ -421,7 +436,7 @@ export const navbar = defineNavbarConfig([
                         icon: '/icon/overleaf.svg',
                         text: '协作平台简介及使用',
                         link: '/public-service/overleaf/',
-                        badge: '维护中',
+                        badge: {type: 'danger', text: '维护中'}
                     },
                     {
                         icon: 'twemoji:newspaper',
@@ -453,19 +468,13 @@ export const navbar = defineNavbarConfig([
                         icon: 'devicon:gitlab',
                         text: 'Gitlab EE代码托管平台',
                         link: '/public-service/code-manage/gitlab-ee/',
-                        badge: '即将上线！',
+                        badge: {type: 'info', text: '即将上线'}
                     },
                     {
                         icon: 'simple-icons:gitee',
                         text: 'Gitee CQMU',
                         link: 'https://e.gitee.com/chongqing-medical-university_4/',
-                        badge: '码云企业版'
-                    },
-                    {
-                        icon: 'material-icon-theme:folder-gitea',
-                        text: 'PGuide Gitea',
-                        link: '/public-service/code-manage/pguide-gitea-ee/',
-                        badge: '轻量级',
+                        badge: {type: 'tip', text: '重庆医科大学'},
                     },
                 ]
             },
@@ -492,7 +501,7 @@ export const navbar = defineNavbarConfig([
                         icon: 'ic:round-storage',
                         text: 'PGuide OSS对象存储',
                         link: '/public-service/data-center/minio/',
-                        badge: '即将上线！',
+                        badge: {type: 'info', text: '即将上线'}
                     },
                     {
                         icon: 'fluent-emoji-flat:medical-symbol',
@@ -588,25 +597,25 @@ export const navbar = defineNavbarConfig([
                         icon: '/icon/iltes.svg',
                         text: '雅思 ILTES',
                         link: '/campus-wiki/credential-skillful-exams/iltes/',
-                        badge: ''
+                        badge: '2170'
                     },
                     {
                         icon: '/icon/tofel.svg',
                         text: '托福 TOEFL',
                         link: '/campus-wiki/credential-skillful-exams/toefl/',
-                        badge: ''
+                        badge: '995'
                     },
                     {
                         icon: '/icon/duolinguo.svg',
                         text: '多邻国 duolinguo',
                         link: '/campus-wiki/credential-skillful-exams/duolinguo/',
-                        badge: '多快好省'
+                        badge: '多、快、好、省'
                     },
                     {
                         icon: 'https://bm.ruankao.org.cn/asset/image/public/logo.png',
                         text: '软考',
                         link: '/campus-wiki/credential-skillful-exams/ruankao/',
-                        badge: '宇宙机'
+                        badge: '宇宙机，我爱考'
                     },
                     {
                         icon: 'hugeicons:computer-programming-01',
@@ -661,44 +670,43 @@ export const navbar = defineNavbarConfig([
                         icon: '/icon/kaoyan.svg',
                         text: '全国硕士研究生统考',
                         link: '/campus-wiki/postgraduate-entrance-exam/',
-                        badge: '整理中'
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: '/icon/baoyan.svg',
                         text: '推荐免试硕士、直博研究生',
                         link: '/campus-wiki/postgraduate-recommendation/',
-                        badge: '整理中'
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: 'academicons:cv',
                         text: '申请考核制攻读博士研究生',
                         link: '/campus-wiki/postgraduate-recommendation/',
-                        badge: '整理中'
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: '/icon/liuxue.svg',
                         text: '港澳台及出国留学深造',
                         link: '/campus-wiki/study-abroad/',
-                        badge: '整理中'
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: 'streamline:ai-science-spark-solid',
                         text: '科研如何开展',
                         link: '/campus-wiki/scientific-research/',
-                        badge: '整理中'
+                        badge: {type: 'warning', text: '整理中'}
                     }
                 ]
             },
             {
                 icon: 'uim:bag',
                 text: '我在现实中的实践检验真理',
-                badge: '整理中',
                 items: [
                     {
                         icon: '/icon/internship.svg',
                         text: '实习投递',
                         link: '/campus-wiki/internship/',
-                        badge: '整理中'
+                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: 'https://saduck.top/favicon.png',
@@ -778,6 +786,12 @@ export const navbar = defineNavbarConfig([
                 text: '站点统计',
                 badge: 'Umami',
                 link: 'https://cloud.umami.is/share/BVmRNrfCbwRPmobS/docs.pguide.studio',
+            },
+            {
+                icon: '',
+                text: '',
+                link: '',
+                badge: ''
             },
         ]
     },
