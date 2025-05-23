@@ -619,7 +619,7 @@ export const navbar = defineNavbarConfig([
             },
             {
                 icon: '/icon/competition.svg',
-                text: '竞赛篇',
+                text: '5.竞赛篇',
                 items: [
                     {
                         icon: 'mingcute:ai-line',
@@ -655,7 +655,7 @@ export const navbar = defineNavbarConfig([
             },
             {
                 icon: '/icon/kaoyan.svg',
-                text: '我有志于从事深层次研究',
+                text: '6.我有志于从事深层次研究',
                 items: [
                     {
                         icon: '/icon/kaoyan.svg',
@@ -691,7 +691,7 @@ export const navbar = defineNavbarConfig([
             },
             {
                 icon: 'uim:bag',
-                text: '我在现实中的实践检验真理',
+                text: '7.我在现实中的实践检验真理',
                 badge: '整理中',
                 items: [
                     {
@@ -708,7 +708,7 @@ export const navbar = defineNavbarConfig([
                     },
                     {
                         icon: 'https://t2.chei.com.cn/ncss/jyxw/images/logo/logo-text.svg',
-                        text: '',
+                        text: '国家大学生就业服务平台',
                         link: 'https://www.ncss.cn/',
                         badge: '官方背书'
                     },
