@@ -11,7 +11,6 @@ icon: /icon/overleaf.svg
 
 
 <CardGrid>
-<LinkCard icon="/icon/overleaf.svg" href="https://latex.cqmu.online" title="公网测试环境" description="预发布，与公网地址内容一致"></LinkCard>
 <LinkCard icon="/icon/overleaf.svg" href="http://192.168.183.171" title="重医校园网内网地址" description="校园网可访问"></LinkCard>
 <LinkCard icon="/icon/overleaf.svg" href="https://latex.cqmu.edu.cn" title="重医校园网外网访问地址" description="暂未开通"></LinkCard>
 <LinkCard icon="/icon/overleaf.svg" href="https://cn.overleaf.com/" title="Overleaf 中文官网">https://cn.overleaf.com/</LinkCard>
