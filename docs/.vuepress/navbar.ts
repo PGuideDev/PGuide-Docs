@@ -531,11 +531,6 @@ export const navbar = defineNavbarConfig([
         text: '大学百科',
         items: [
             {
-                icon: '/icon/email.svg',
-                text: '申请学生邮箱',
-                link: '/campus-wiki/apply-student-email/'
-            },
-            {
                 icon: '/icon/teacher.svg',
                 text: '良师赠语',
                 link: '/campus-wiki/teacher-talks/'
@@ -616,6 +611,11 @@ export const navbar = defineNavbarConfig([
                     },
 
                 ]
+            },
+            {
+                icon: '/icon/email.svg',
+                text: '申请学生邮箱',
+                link: '/campus-wiki/apply-student-email/'
             },
             {
                 icon: '/icon/competition.svg',
