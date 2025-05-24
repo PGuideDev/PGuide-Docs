@@ -10,7 +10,17 @@ tags:
   - Vue3
 ---
 
-> 智慧中草药生态养护平台开始建设于 2023年12月，目前已在内网开通访问，项目负责人：[::noto:red-heart::rand777](/friends/persons/)
+> 智慧中草药生态养护平台开始建设于 2023年12月，目前已在内网开通访问。
+> 
+> 项目负责人：[::noto:red-heart::rand777](/friends/persons/)
+
+:::note 需要的前置知识
+
+- [::skill-icons:ros-light::ROS机器人操作系统](https://docs.ros.org/en/foxy/index.html)
+- [::logos:vue::Vue3前端框架](https://cn.vuejs.org/)
+
+:::
+
 
 ## 项目简介<Badge type="tip" text="v2.0.4_release" />
 
