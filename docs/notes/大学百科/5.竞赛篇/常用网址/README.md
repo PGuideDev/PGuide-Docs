@@ -1,5 +1,5 @@
 ---
-title: 竞赛篇
+title: 5.竞赛篇
 createTime: 2025/03/04 06:15:35
 permalink: /campus-wiki/competition/
 icon: '/icon/competition.svg'
