@@ -229,13 +229,13 @@ export const navbar = defineNavbarConfig([
                         icon: 'line-md:loading-alt-loop',
                         text: '啥时候吃饭',
                         link: '/project-docs/when2eat/',
-                        badge: {type: 'warning', text: '整理中'}
+                        badge: {type: 'tip', text: 'YOLO'}
                     },
                     {
                         icon: 'token-branded:wow',
                         text: 'Oh my API',
                         link: '/project-docs/oh-my-api/',
-                        badge: {type: 'warning', text: '整理中'}
+                        badge: {type: 'tip', text: 'ECharts'}
                     },
                 ],
             },
@@ -792,17 +792,17 @@ export const navbar = defineNavbarConfig([
                 items: [
                     {
                         icon: 'simple-icons:umami',
-                        text: 'Umami Cloud',
+                        text: 'umami Cloud',
                         link: 'https://cloud.umami.is/share/BVmRNrfCbwRPmobS/docs.pguide.studio',
                     },
                     {
                         icon: 'devicon:google',
-                        text: 'Google analytics',
+                        text: 'google analytics',
                         link: 'https://analytics.google.com/analytics/web/#/p472592389',
                     },
                     {
                         icon: 'ri:baidu-fill',
-                        text: 'Baidu analytics',
+                        text: 'baidu analytics',
                         link: 'https://tongji.baidu.com/main/overview/10000683125/overview/index',
                     },
                 ]
@@ -810,7 +810,7 @@ export const navbar = defineNavbarConfig([
 
             {
                 icon: 'logos:serverless',
-                text: '服务器状态',
+                text: '服务状态',
                 items: [
                     {
                         icon: 'https://uptime.kuma.pet/img/icon.svg',
@@ -825,8 +825,14 @@ export const navbar = defineNavbarConfig([
                         badge: {type: 'warning', text: 'PGuide VPN'}
                     },
                     {
+                        icon: 'logos:docker-icon',
+                        text: 'docker镜像服务站',
+                        link: 'http://100.126.170.14:5003/',
+                        badge: {type: 'warning', text: 'PGuide VPN'}
+                    },
+                    {
                         icon: 'catppuccin:vercel-ignore',
-                        text: 'Vercel Serverless',
+                        text: 'vercel serverless',
                         link: 'https://www.vercel-status.com/',
                         badge: {type: 'tip', text: '官方'}
                     },
