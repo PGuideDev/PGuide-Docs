@@ -12,6 +12,7 @@ tags:
 
 <RepoCard repo="DingGe3/Oh-My-Api"></RepoCard>
 
+> 项目负责人：[::noto:red-heart::QingYe](/friends/persons/)
 
 ## 项目介绍
 
@@ -63,6 +64,7 @@ erDiagram
 ## 项目配置
 
 推荐IDE: VSCode，使用教程参考：[PGuide文档](/campus-wiki/common-software/IDE/VSCode/)
+详见https://github.com/DingGe3/Oh-My-Api的README文件
 
 ### 安装依赖
 
@@ -90,4 +92,14 @@ pip install -r requirements.txt
 时间、模型、IP、prompt、completion、token、积分消耗、当前余额积分、请求ID、key、info
 
 [//]: # (TODO: lhr待完善)
+
+## 项目依赖技术架构
+
+后端：node.js运行环境  
+express架构定义路由  
+jsonwebtoken实现身份认证  
+cors跨域共享  
+前端：vue架构开发  
+echarts实现图表显示  
+逻辑层：使用Python处理数据，统一由前端调用  
 
