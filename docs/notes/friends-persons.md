@@ -10,7 +10,7 @@ list:
     avatar: https://avatars.githubusercontent.com/u/91131723?v=4
     desc: True nobility resides in the human's spirit and its boundless intellect.
     location: 中国，广东深圳
-    organization: Apache、项导工作室、CQMUA等
+    organization: Apache、北京大学、项导工作室等
     socials:
       - icon: { svg: '<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path fill="currentColor" d="M172.2 226.8c-14.6-2.9-28.2 8.9-28.2 23.8V301c0 10.2 7.1 18.4 16.7 22c18.2 6.8 31.3 24.4 31.3 45c0 26.5-21.5 48-48 48s-48-21.5-48-48V120c0-13.3-10.7-24-24-24H24c-13.3 0-24 10.7-24 24v248c0 89.5 82.1 160.2 175 140.7c54.4-11.4 98.3-55.4 109.7-109.7c17.4-82.9-37-157.2-112.5-172.2M209 0c-9.2-.5-17 6.8-17 16v31.6c0 8.5 6.6 15.5 15 15.9c129.4 7 233.4 112 240.9 241.5c.5 8.4 7.5 15 15.9 15h32.1c9.2 0 16.5-7.8 16-17C503.4 139.8 372.2 8.6 209 0m.3 96c-9.3-.7-17.3 6.7-17.3 16.1v32.1c0 8.4 6.5 15.3 14.8 15.9c76.8 6.3 138 68.2 144.9 145.2c.8 8.3 7.6 14.7 15.9 14.7h32.2c9.3 0 16.8-8 16.1-17.3c-8.4-110.1-96.5-198.2-206.6-206.7"/></svg>' }
         link: https://www.rand777.space/
@@ -58,14 +58,12 @@ list:
     color:
     nameColor:
   - name: DKwms
-    link: https://dkwms.pguide.studio
+    link: 
     avatar: https://avatars.githubusercontent.com/u/98271041?v=4
     desc: 楼上的好恐怖呀
     location: 中国，重庆沙坪坝
     organization: 项导工作室
     socials:
-      - icon: qq
-        link:
       - icon: github
         link: https://github.com/DKwms
     backgroundColor:
@@ -92,8 +90,6 @@ list:
     location: 中国，重庆沙坪坝
     organization: 重庆医科大学外国语学院教师
     socials:
-      - icon: qq
-        link:
     backgroundColor:
     color:
     nameColor:
@@ -115,7 +111,7 @@ list:
     color:
     nameColor:
   - name: fangzhang
-    link: https://fangzhang.pguide.studio
+    link: 
     avatar: /avatar/zhaoshuai.jpg
     desc: 小和尚摸不着头脑
     location: 中国，新疆奎屯
@@ -154,7 +150,7 @@ list:
     avatar: https://avatars.githubusercontent.com/u/77864650
     desc: 夜寒不近流苏，只怜他、后庭梅瘦。
     location: 中国，山东临沂
-    organization: MPSMC、项导工作室、CQMUA等
+    organization: MPSMC
     socials:
       - icon: qq
         link:
@@ -172,10 +168,6 @@ list:
     location: 中国，甘肃武威
     organization: 重庆医科大学医学信息学院教师
     socials:
-      - icon: qq
-        link:
-      - icon: github
-        link:
     backgroundColor:
     color:
     nameColor:
@@ -202,7 +194,7 @@ list:
     avatar: https://www.yinminzhong.com/assets/images/photos/avatar.jpg
     desc: I have a broad interest in building efficient systems for training and serving deep learning models, with a primary focus on large language models (LLMs) currently.
     location: 中国，北京市
-    organization: 北京大学博士、字节跳动AML、达摩院等
+    organization: Deepseek、字节跳动AML、达摩院等
     socials:
       - icon: { svg: '<svg xmlns="http://www.w3.org/2000/svg" width="384" height="512" viewBox="0 0 384 512"><path fill="currentColor" d="M343.759 106.662V79.43L363.524 64h-213.89L20.476 176.274h85.656a82 82 0 0 0-.219 6.225c0 20.845 7.22 38.087 21.672 51.861c14.453 13.797 32.252 20.648 53.327 20.648c4.923 0 9.75-.368 14.438-1.024c-2.907 6.5-4.374 12.523-4.374 18.142c0 9.875 4.499 20.43 13.467 31.642c-39.234 2.67-68.061 9.732-86.437 21.163c-10.531 6.5-19 14.704-25.39 24.531c-6.391 9.9-9.578 20.515-9.578 31.962c0 9.648 2.062 18.336 6.219 26.062c4.156 7.726 9.578 14.07 16.312 18.984c6.718 4.968 14.469 9.101 23.219 12.469c8.734 3.344 17.406 5.718 26.061 7.062A167 167 0 0 0 180.555 448c13.469 0 26.953-1.734 40.547-5.187c13.562-3.485 26.28-8.642 38.171-15.493c11.86-6.805 21.515-16.086 28.922-27.718c7.39-11.68 11.094-24.805 11.094-39.336c0-11.016-2.25-21.039-6.75-30.14c-4.468-9.073-9.938-16.542-16.452-22.345c-6.501-5.813-13-11.155-19.516-15.968c-6.5-4.845-12-9.75-16.468-14.813c-4.485-5.046-6.735-10.054-6.735-14.984c0-4.921 1.734-9.672 5.216-14.265c3.455-4.61 7.674-9.048 12.61-13.306c4.937-4.25 9.875-8.968 14.796-14.133c4.922-5.147 9.141-11.827 12.61-20.008c3.485-8.18 5.203-17.445 5.203-27.757c0-13.453-2.547-24.46-7.547-33.314c-.594-1.022-1.218-1.803-1.875-3.022l56.907-46.672v17.119c-7.393.93-6.624 5.345-6.624 10.635V245.96c0 5.958 4.875 10.834 10.834 10.834h3.989c5.958 0 10.833-4.875 10.833-10.834V117.293c0-5.277.778-9.688-6.561-10.63m-107.36 222.48c1.14.75 3.704 2.78 7.718 6.038c4.05 3.243 6.797 5.695 8.266 7.414a444 444 0 0 1 6.376 7.547c2.813 3.375 4.718 6.304 5.718 8.734q1.5 3.717 3.047 8.946a38.3 38.3 0 0 1 1.485 10.562c0 17.048-6.564 29.68-19.656 37.859c-13.125 8.18-28.767 12.274-46.938 12.274c-9.187 0-18.203-1.093-27.063-3.196c-8.843-2.116-17.311-5.336-25.39-9.601c-8.078-4.258-14.577-10.204-19.5-17.797c-4.938-7.64-7.407-16.415-7.407-26.25c0-10.32 2.797-19.29 8.422-26.906c5.594-7.625 12.938-13.391 22.032-17.315c9.063-3.946 18.25-6.742 27.562-8.398a158 158 0 0 1 28.438-2.555c4.47 0 7.936.25 10.405.696c.455.219 3.032 2.07 7.735 5.563c4.704 3.462 7.625 5.595 8.75 6.384zm-3.359-100.579c-7.406 8.86-17.734 13.288-30.953 13.288c-11.86 0-22.298-4.764-31.266-14.312c-9-9.523-15.422-20.328-19.344-32.43c-3.937-12.109-5.906-23.984-5.906-35.648q.002-20.54 10.781-34.976c7.187-9.65 17.5-14.485 30.938-14.485c11.875 0 22.374 5.038 31.437 15.157c9.094 10.085 15.61 21.413 19.517 33.968c3.922 12.54 5.873 24.53 5.873 35.984c0 13.446-3.702 24.61-11.076 33.454z"/></svg>' }
         link: https://scholar.google.com/citations?user=UUM_zLwAAAAJ&hl=zh-CN&oi=ao
@@ -234,10 +226,8 @@ list:
     avatar: /avatar/xx.png
     desc: Wednesday afternoon 2:00
     location: 中国，重庆沙坪坝
-    organization: 哈尔滨工业大学
+    organization: 哈尔滨工业大学、重庆医科大学等
     socials:
-      - icon: qq
-        link:
     backgroundColor:
     color:
     nameColor:
@@ -297,7 +287,7 @@ list:
     color:
     nameColor:
   - name: Steven-Zhangyuchen
-    link: https://github.com/Steven-Zhangyuchen
+    link: 
     avatar: /avatar/zyc.jpg
     desc: 锤子哦
     location: 中国，四川成都
