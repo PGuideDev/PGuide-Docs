@@ -181,13 +181,13 @@ of the next tale._
 
 ## 怎么在评论区互动
 
-1. 转到注册界面：[https://comment.pguide.studio/ui/register](https://comment.pguide.studio/ui/register)
+1. 转到[登录界面](https://comment.pguide.studio/ui/login?lng=zh-CN)
 2. 使用Markdown格式提问
 3. 邮件收到回复
 
 ## 致谢
 
-自项导文档站开设已来，已累计获得4万+的阅读量，共有50+位成员参与建设，感谢每一位同学、老师、大佬们的支持与贡献。我们会继续努力，争取在未来的日子里为大家提供更好的服务。
+自项导文档站开设已来，已累计获得10万+的阅读量，共有80+位成员参与建设，感谢每一位同学、老师、大佬们的支持与贡献。我们会继续努力，争取在未来的日子里为大家提供更好的服务和文档支持。
 
 ### 里程碑
 
@@ -213,15 +213,19 @@ of the next tale._
   通过 PullRequest 入选[Vuepress Plume主题选集](https://theme-plume.vuejs.press/demos/)，感谢Plume团队的支持与认可。
 
 - 建设里程碑02
-  time=2025-03-11 type=important tdesign:cooperate-filled icon=tdesign:cooperate-filled
+  time=2025-03-11 type=important icon=tdesign:cooperate-filled
 
   项导文档站总字数达8W，阅读量达3W+，共计50+位成员参与建设，感谢！
 - 建设里程碑03
-  time=2025-04-27 type=important tdesign:cooperate-filled icon=tdesign:cooperate-filled
+  time=2025-04-27 type=important icon=tdesign:cooperate-filled
 
   项导文档站总字数达12W，阅读量达4W+!
 - 建设里程碑04
-  time=2025-05-20 type=important tdesign:cooperate-filled icon=tdesign:cooperate-filled
+  time=2025-05-20 type=important  icon=tdesign:cooperate-filled
 
   项导文档站总字数达15W，阅读量达8W，共有77位成员、18个组织加入建设。
+- 获得奖项01
+  time=2025-05-24 type=warning  icon=healthicons:award-trophy
+
+  项导文档获中国计算机设计大赛省级一等奖，创造=={我校最好成绩}==.info。同时，祝贺工作室项目[::token-branded:wow::Oh my API](/project-docs/oh-my-api/)获得省级三等奖。
   :::
