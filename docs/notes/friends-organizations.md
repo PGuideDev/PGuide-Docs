@@ -106,7 +106,7 @@ groups:
         desc: We believe in the power of community over code, known as The Apache Way. Thousands of people around the world contribute to ASF open source projects every day.
       - name: Apache AutoMQ
         link: https://www.automq.com/
-        avatar: https://www.automq.com/cdn.prod.website-files.com/67480fef30f9df5f84f31d36/67eb556b6430868c6d6a798c_automq-home-page.png
+        avatar: https://www.automq.com/cdn-cgi/image/format=avif,quality=90/https://cdn.prod.website-files.com/67480fef30f9df5f84f31d36/67eb556b6430868c6d6a798c_automq-home-page.png
         location: Global
         organization: AutoMQ
         desc: AutoMQ is a cloud-native alternative to Kafka by decoupling durability to S3 and EBS. 10x Cost-Effective. No Cross-AZ Traffic Cost. Autoscale in seconds. Single-digit ms latency.

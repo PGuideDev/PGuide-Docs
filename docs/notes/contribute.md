@@ -394,6 +394,15 @@ icon: #可选项，侧边栏图标
 
 :::
 
+### 徽章badge使用规范
+
+1. 整理中的文档、服务使用`badge: {type: 'warning', text: '整理中'}`；
+2. 维护中的文档、服务使用`badge: {type: 'danger', text: '维护中'}`
+3. 已完成的文档、服务可使用`badge: {type: 'success', text: '概要'}`；
+4. 即将上线的文档、服务使用`badge: {type: 'info', text: '即将上线'}`；
+
+![2025-05-25_04-53-00.png](../.vuepress/public/src/2025-05-25_04-53-00.png)
+
 ## 静态资源管理规范
 
 这里是为了规范您的**图片、视频、PDF、矢量图**引用方法，Plume Vuepress推荐你引用静态资源的方式如下（非必要）：
