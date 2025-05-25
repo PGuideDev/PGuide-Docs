@@ -227,5 +227,5 @@ of the next tale._
 - 获得奖项01
   time=2025-05-24 type=warning  icon=healthicons:award-trophy
 
-  项导文档获中国计算机设计大赛省级一等奖，创造=={我校最好成绩}==.info。同时，祝贺工作室项目[::token-branded:wow::Oh my API](/project-docs/oh-my-api/)获得省级三等奖。
+  项导文档获[::https://2025.jsjds.com.cn/assets/logo2-1fc42965.png::中国计算机设计大赛](/campus-wiki/competition/4c/)省级一等奖，创造==我校最好成绩=={.tip}。<br>同时，祝贺工作室项目[::token-branded:wow::Oh my API](/project-docs/oh-my-api/)获得省级三等奖。 
   :::
