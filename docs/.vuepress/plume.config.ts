@@ -40,7 +40,6 @@ export default defineThemeConfig({
         {icon: 'gitlab', link: 'https://git.cqmu.edu.cn'},
         {icon: 'qq', link: 'https://qm.qq.com/q/Ur5Q6kyTsG'},
         {icon: 'npm', link: 'https://www.npmjs.com/package/vuepress-theme-plume'},
-        {icon: 'juejin', link: 'https://juejin.cn/user/1234567890'}, // 掘金
     ],
     navbarSocialInclude: ['github', 'qq', 'gitlab', 'npm'], // 允许显示在导航栏的 social 社交链接
     aside: true, // 页内侧边栏， 默认显示在右侧
