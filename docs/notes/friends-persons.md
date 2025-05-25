@@ -1,7 +1,7 @@
 ---
 friends: true
 title: Thanks to these guys for contributing PGuide Docs~
-description: 排名不分先后
+description: 以下为愿意公开身份的贡献者们，排名不分先后，感谢你们的支持！
 permalink: /friends/persons/
 pageLayout: friends
 list:
