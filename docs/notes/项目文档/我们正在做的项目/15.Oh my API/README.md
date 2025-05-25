@@ -91,7 +91,6 @@ pip install -r requirements.txt
 
 时间、模型、IP、prompt、completion、token、积分消耗、当前余额积分、请求ID、key、info
 
-[//]: # (TODO: lhr待完善)
 
 ## 项目依赖技术架构
 

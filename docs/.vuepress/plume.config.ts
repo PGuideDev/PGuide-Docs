@@ -4,7 +4,6 @@ import notes from './notes'
 
 // 首页异步检查各服务在线状态
 // async function checkStatus() {
-//     // TODO: 迁移至内网 Uptime
 //     try {
 //         const response = await fetch('https://status.cqmu.online/api/badge/14/status');
 //         if (response.ok) {
