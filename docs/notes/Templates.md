@@ -42,11 +42,11 @@ author=""
 <LinkCard icon="" href="" title="" ></LinkCard>
 </CardGrid>
 
-:[]:
+::]:
 
 
 
-[:[noto:red-heart]:rand777](/friends/persons/)
+[:[noto:red-heart::rand777](/friends/persons/)
 
 :::: steps
 1. 步骤 1

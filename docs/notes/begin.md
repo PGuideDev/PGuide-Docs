@@ -201,7 +201,7 @@ of the next tale._
 - 建设里程碑01
   time=2024-11-20 icon=tdesign:cooperate-filled type=important
 
-  [:[/icon/yuque.svg]:语雀文档站](https://www.yuque.com/pguide/public)字数达10W，共有21位成员，此时并未在互联网开放，阅读量达4000。
+  [::::语雀文档站](https://www.yuque.com/pguide/public)字数达10W，共有21位成员，此时并未在互联网开放，阅读量达4000。
 
 - 项导文档站开放
   time=2025-01-22 type=success icon=/icon/logo.svg

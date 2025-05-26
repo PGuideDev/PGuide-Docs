@@ -26,7 +26,7 @@ Missing Semester可以帮助你找到学习计算机的乐趣，不妨先看看�
 
 ### Build our projects
 
-千里之行，始于足下。从一个小项目开始，慢慢积累经验。先看看 :[mdi:tools]:[计算机必学工具](/csdiy/tools-must/)吧
+千里之行，始于足下。从一个小项目开始，慢慢积累经验。先看看 ::mdi:tools::[计算机必学工具](/csdiy/tools-must/)吧
 
 ---
 

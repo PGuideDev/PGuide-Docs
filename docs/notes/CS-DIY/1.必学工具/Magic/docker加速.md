@@ -6,7 +6,7 @@ icon: lineicons:docker
 ---
 
 :::info 相关知识
-- 计算机必学工具[:[catppuccin:docker-compose]:docker](/csdiy/tools-must/docker/)
+- 计算机必学工具[::catppuccin:docker-compose::docker](/csdiy/tools-must/docker/)
 - daemon守护进程
 
 :::

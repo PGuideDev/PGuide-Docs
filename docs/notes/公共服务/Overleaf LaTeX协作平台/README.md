@@ -46,7 +46,7 @@ LaTeX最初设计用作学术论文的编写，后面逐渐发展成一款全能
 
 ### 注册账户
 
-联系 [:[noto:red-heart]:rand777](/friends/persons/)
+联系 [::noto:red-heart::rand777](/friends/persons/)
 或邮件联系[pguide.studio@outlook.com](mailto:pguide.studio@outlook.com) 注册账号，注册后请使用校内 _.cqmu.edu.cn_ 邮箱登录。
 
 :::info 联系格式
@@ -96,14 +96,14 @@ Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在
 在 [Overleaf的模板网](https://cn.overleaf.com/latex/templates)中，你可以看到很多类型的模板，这些和文字相关的工作LaTeX都能应付！
 ![2025-03-10_02-52-40.png](../../../.vuepress/public/src/2025-03-10_02-52-40.png)
 
-所有模板都已收录至 [:[twemoji:newspaper]:LaTeX Template Collections](/public-service/overleaf/latex-template-collections/)
+所有模板都已收录至 [::twemoji:newspaper::LaTeX Template Collections](/public-service/overleaf/latex-template-collections/)
 
 ### Overleaf CQMU
 
 :::tip 需要连接校园网：电脑连接有线网络或MCQMU无线网络
 [http://192.168.183.171](http://192.168.183.171)
 
-校园网内网已经可以访问，在做最终准备，为同学们开通外网访问，如您需要注册，请联系 [:[noto:red-heart]:rand777](/friends/persons/)。
+校园网内网已经可以访问，在做最终准备，为同学们开通外网访问，如您需要注册，请联系 [::noto:red-heart::rand777](/friends/persons/)。
 
 :::
 
@@ -128,7 +128,7 @@ Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在
 :::
 
 ::: details 平时作业和小论文模板
-到[:[simple-icons:overleaf]:Overleaf](https://cn.overleaf.com/latex/templates/cqmu-researchreport/qghkqhhtzfkp)
+到[::simple-icons:overleaf::Overleaf](https://cn.overleaf.com/latex/templates/cqmu-researchreport/qghkqhhtzfkp)
 查看
 
 :::
@@ -173,5 +173,5 @@ Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在
 
 ### 学习LaTeX
 
-请参考计算机必学工具 [:[simple-icons:latex]:LaTeX](/csdiy/tools-must/latex/)
+请参考计算机必学工具 [::simple-icons:latex::LaTeX](/csdiy/tools-must/latex/)
 
