@@ -200,6 +200,12 @@ groups:
         avatar: /avatar/qax.svg
         organization: 奇安信集团
         desc: Qianxin CROP.
+      - name: 奇安信网神网络安全实训系统(内网)
+        link: https://192.168.194.65/
+        location: 中国，北京
+        avatar: /avatar/qax.svg
+        organization: 奇安信集团
+        desc: 奇安信网神安全实验室是奇安信集团旗下的安全研究机构，致力于网络安全技术研究和创新。
   - title: 中国科学院大学
     desc: 中国科学院大学简称“国科大”，是一所以科教融合为办学模式、研究生教育为办学主体、精英化本科教育为办学特色的创新型大学。
     list:
