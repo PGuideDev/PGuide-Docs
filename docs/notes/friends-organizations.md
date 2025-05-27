@@ -59,11 +59,11 @@ groups:
   - title: 重庆医科大学
     desc: Chongqing Medical University
     list:
-      - name: 医学信息学院
+      - name: 人工智能医学学院
         link: https://mi.cqmu.edu.cn/
         location: 中国，重庆沙坪坝
         avatar: /avatar/cqmu.svg
-        organization: 重庆医科大学
+        organization: 重庆医科大学原医学信息学院
         desc: College of Medical Informatics
       - name: 信息中心二级门户
         link: https://cnw.cqmu.edu.cn/
