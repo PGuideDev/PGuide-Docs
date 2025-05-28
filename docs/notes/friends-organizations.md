@@ -63,7 +63,7 @@ groups:
         link: https://mi.cqmu.edu.cn/
         location: 中国，重庆沙坪坝
         avatar: /avatar/cqmu.svg
-        organization: 重庆医科大学原医学信息学院
+        organization: 重庆医科大学人工智能医学学院
         desc: College of Medical Informatics
       - name: 信息中心二级门户
         link: https://cnw.cqmu.edu.cn/
@@ -75,7 +75,7 @@ groups:
         link: http://192.168.194.11/
         location: 中国，浙江杭州
         avatar: /icon/huawei.svg
-        organization: 重庆医科大学医学信息学院
+        organization: 重庆医科大学人工智能医学学院
         desc: Huawei DeepLearning platform
       - name: 校超算平台（内网）
         link: http://172.16.190.220:6080/
