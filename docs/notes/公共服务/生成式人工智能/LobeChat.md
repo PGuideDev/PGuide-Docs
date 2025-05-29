@@ -31,12 +31,12 @@ LobeChat OpenSource LLM chat platform.
 ### 输入密码
 随便点击一个，弹出输入密码提示框，输入密码后重新生成了即为成功
 
-@[artPlayer](https://pguide-public-1323011919.cos.ap-chengdu.myqcloud.com/docs/video/2025-03-04_02-39-00.mp4)
+@[artPlayer](https://cos.pguide.cloud/docs/video/2025-03-04_02-39-00.mp4)
 
 ### 三方接口
 OpenAI下调用了OpenAI的香港代理，支持多种对话模型，以DeepSeek为例，相较之下，价格为DeepSeek官方的八折，且更加流畅，切换方式：
 
-@[artPlayer](https://pguide-public-1323011919.cos.ap-chengdu.myqcloud.com/docs/video/2025-03-04_03-25-52.mp4)
+@[artPlayer](https://cos.pguide.cloud/docs/video/2025-03-04_03-25-52.mp4)
 
 ### 
 
