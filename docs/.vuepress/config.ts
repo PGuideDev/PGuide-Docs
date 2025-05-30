@@ -25,7 +25,7 @@ export default defineUserConfig({
                 description: 'An open-source documentation site',
                 lang: 'en',
                 background_color: '#ffffff',
-                theme_color: '#3eaf7c',
+                theme_color: '#abf1fa',
                 orientation: 'portrait-primary',
                 start_url: '/',
                 display: 'fullscreen',
