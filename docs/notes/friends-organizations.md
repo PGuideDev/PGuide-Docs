@@ -353,8 +353,8 @@ groups:
         avatar: https://saduck.top/favicon.png
         organization: 小鸭学长
         desc: 无论你是初出茅庐的应届生，还是久经沙场的职场人士，本站始终为你的备考之旅保驾护航。
-  - title: LaTeX
-    desc: LaTeX 是一种基于 TeX 的排版系统，由图灵奖得主 Lamport 开发，而 TeX 则是由 Knuth 最初开发，这两位都是计算机界的巨擘。
+  - title: CTAN
+    desc: The Comprehensive TeX Archive Network (CTAN) is the central place for all kinds of material around TeX. CTAN has currently 6756 packages. 3059 contributors have contributed to it. Most of the packages are free and can be downloaded and used immediately.
     list: 
     -
       name: LoongTeX
@@ -363,24 +363,18 @@ groups:
       avatar: https://www.loongtex.com/img/logo_old.svg
       organization: 青橙造物
       desc: 写作不是思考的终点，而是思考本身👇一键开启高效科研写作之旅。
-    - title: Overleaf
-      desc: Overleaf 是一个在线 LaTeX 编辑器，提供了丰富的模板和协作功能，适合团队合作和学术写作。
-      list:
-        - name: Overleaf官网
-          link: https://www.overleaf.com/
-          location: Global
-          avatar: /icon/overleaf.svg
-          organization: Overleaf Ltd.
-          desc: 在线 LaTeX 编辑器，支持实时协作和版本控制。
-    - title: TeXPage
-      desc: TeXPage 是一个在线 LaTeX 编辑器，提供了丰富的模板和协作功能，适合团队合作和学术写作。
-      list:
-        - name: TeXPage官网
-          link: https://texpage.com/
-          location: Global
-          avatar: https://texpage.com/favicon.ico
-          organization: TeXPage Team
-          desc: 在线 LaTeX 编辑器，支持实时协作和版本控制。
+    - name: Overleaf官网
+      link: https://www.overleaf.com/
+      location: Global
+      avatar: /icon/overleaf.svg
+      organization: Overleaf Ltd.
+      desc: 在线 LaTeX 编辑器，支持实时协作和版本控制。
+    - name: TeXPage官网
+      link: https://texpage.com/
+      location: Global
+      avatar: https://texpage.com/favicon.ico
+      organization: TeXPage Team
+      desc: 在线 LaTeX 编辑器，支持实时协作和版本控制。      
 #    -
 #      name:
 #      link:
