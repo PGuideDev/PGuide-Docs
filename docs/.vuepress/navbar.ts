@@ -504,7 +504,7 @@ export const navbar = defineNavbarConfig([
                         icon: 'ic:round-storage',
                         text: 'PGuide OSS对象存储',
                         link: '/public-service/data-center/minio/',
-                        badge: {type: 'info', text: '即将上线'}
+                        badge: {type: 'warning', text: 'PGuide VPN'}
                     },
                     {
                         icon: 'fluent-emoji-flat:medical-symbol',
