@@ -6,8 +6,6 @@ permalink: /templates/
 
 这里有常用的组件和语法糖的使用示例。
 
-[//]: # (TODO: 图标语法糖更换、调查文件树mpegts.js|webworkify-webpack)
-
 :::tip
 待完善
 :::
