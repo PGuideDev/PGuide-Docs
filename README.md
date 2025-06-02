@@ -1,5 +1,5 @@
 # 🌱 项导文档 - 共建知识花园
-[![OpenSource](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F-%E5%BC%80%E6%BA%90%E4%B9%8B%E6%97%85-brightgreen)](https://opensource.org)
+
 ![pguide-doc.png](docs/.vuepress/public/src/pguide-doc.png)
 万物互联的时代，知识的传递如同满天星火。本项目的每一页文档，都是社区伙伴们智慧的结晶。在此诚邀您与我们携手，共同浇灌这株属于每个人成长的知识树👫
 
@@ -29,8 +29,6 @@
 我深知一个人的力量始终是弱小的，项导文档欢迎您的加入，请参考[贡献指南](https://docs.pguide.studio/contribute/)。
 
 ---
-
-
 
 ## 🌈 星光留言板
 > "我们不是在编写代码，而是在编织联结世界的网络" —— 期待您的第一次贡献！遇到任何未知星域，欢迎在Issues发射信号弹~
