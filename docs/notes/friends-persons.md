@@ -402,15 +402,17 @@ list:
     avatar: /avatar/lk.jpg
     desc: 只有耕耘现在，才能让未来出彩！
     location: 中国，重庆
-    organization: 重庆医科大学
+    organization: 中国医学会、陆军军医大学等
     socials:
+      - icon: github
+        link: https://github.com/sangmiaoer
     backgroundColor:
     color:
     nameColor:
   - name: 苗儿
     link:
     avatar: /avatar/swy.jpg
-    desc:
+    desc: 😀
     location: 中国，重庆
     organization: 重庆医科大学
     socials:

@@ -8,24 +8,6 @@ groups:
   - title: PGuide Studio
     desc: An interesting team who builds projects as their dreams.
     list:
-      - name: 项导工作室官网(迁移中)
-        link: https://www.pguide.studio
-        avatar: https://docs.pguide.studio/icon/logo.svg
-        location: Global distribution
-        organization: PGuide Studio
-        desc: 心向未名山水远，志在新途日月长。
-      - name: 语雀文档
-        link: https://www.yuque.com/pguide/public
-        avatar: /icon/yuque.svg
-        location: Global distribution
-        organization: PGuide Studio Yuque
-        desc: Gracious thoughts stay in with simple words.
-      - name: PGuide Status
-        link: https://status.cqmu.online/
-        location: Global distribution
-        avatar: https://uptime.kuma.pet/img/icon.svg
-        organization: PGuide Studio
-        desc: 基于Uptime Kuma的多源站点状态监控Vue界面
       - name: 重庆医科大学校级镜像站
         link: /public-service/cqmu-mirror/
         location: 重庆医科大学、CERNET Federation
@@ -83,6 +65,12 @@ groups:
         avatar: /icon/hpc.svg
         organization: 重庆医科大学信息中心、曙光中科
         desc: 融合计算云门户
+      - name: 重庆医科大学Linux软件仓库（内网）
+        link: http://192.168.164.128/
+        location: 中国，重庆沙坪坝
+        avatar: https://www.centos.org/assets/img/centos-symbol.svg
+        organization: 重庆医科大学信息中心
+        desc: CentOS、Rocky Linux、AlmaLinux等Linux发行版的RPM软件仓库
       - name: 缙云计算机社团
         link:
         location: 中国，重庆沙坪坝
@@ -95,6 +83,18 @@ groups:
         avatar: /avatar/cqmu.svg
         organization: 重庆医科大学
         desc: 重庆医科大学外国语学院
+      - name: 重庆医科大学图书馆
+        link: https://lib.cqmu.edu.cn/
+        location: 中国，重庆沙坪坝
+        avatar: /avatar/cqmu.svg
+        organization: 重庆医科大学图书馆
+        desc: 重庆医科大学图书馆官网
+      - name: 重庆医科大学校友会
+        link: https://alumni.cqmu.edu.cn/
+        location: 中国，重庆沙坪坝
+        avatar: /avatar/cqmu.svg
+        organization: 重庆医科大学校友会
+        desc: 重庆医科大学校友会官网
   - title: The Apache Software Foundation
     desc: ASF's open source software is used ubiquitously around the world with more than 8,400 committers contributing to more than 320 active projects.
     list:
