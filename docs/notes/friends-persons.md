@@ -144,23 +144,6 @@ list:
     backgroundColor:
     color:
     nameColor:
-
-  - name: sectly
-    link: https://b.mpsmc.cn/about/
-    avatar: https://avatars.githubusercontent.com/u/77864650
-    desc: 夜寒不近流苏，只怜他、后庭梅瘦。
-    location: 中国，山东临沂
-    organization: MPSMC
-    socials:
-      - icon: qq
-        link:
-      - icon: github
-        link:
-      - icon: bilibili
-        link: https://space.bilibili.com/454932997
-    backgroundColor:
-    color:
-    nameColor:
   - name: 淡抹、 青春
     link:
     avatar: /avatar/zyy.jpg
