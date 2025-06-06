@@ -469,7 +469,7 @@ export const navbar = defineNavbarConfig([
                         icon: 'devicon:gitlab',
                         text: 'Gitlab EE代码托管平台',
                         link: '/public-service/code-manage/gitlab-ee/',
-                        badge: {type: 'info', text: '即将上线'}
+                        badge: {type: 'danger', text: '外网未开通'}
                     },
                     {
                         icon: 'simple-icons:gitee',
