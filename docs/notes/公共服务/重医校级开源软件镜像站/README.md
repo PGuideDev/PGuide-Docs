@@ -36,18 +36,4 @@ icon: /icon/mirror.svg
 > 版本号：
 > 
 > 下载链接：
-> 
-
-## 出现bug?
-:::tip
-此处待完善
-:::
-## 不好！有病毒！
-
-请及时向我们[发送邮件](mailto:losmosga@foxmail.com)，我们会及时介入审核镜像源安全。
-
-## 服务器状态
-
-:::tip
-此处待完善，预定域名：[http://status.pguide.studio/cqmu-mirror](http://status.pguide.studio/cqmu-mirror)
-:::
+>

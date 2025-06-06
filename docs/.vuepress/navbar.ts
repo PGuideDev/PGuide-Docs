@@ -413,7 +413,7 @@ export const navbar = defineNavbarConfig([
                         icon: '/icon/mirror.svg',
                         text: '镜像站介绍',
                         link: '/public-service/cqmu-mirror/',
-                        badge: {type: 'info', text: '即将上线'}
+                        badge: {type: 'tip', text: '在线'}
                     },
                     {
                         icon: 'simple-icons:wikibooks',
@@ -492,7 +492,8 @@ export const navbar = defineNavbarConfig([
                     {
                         icon: 'line-md:download-loop',
                         text: '常用软件推荐及下载',
-                        link: '/public-service/data-center/common-softwares-recommand-and-download/'
+                        link: '/public-service/data-center/common-softwares-recommand-and-download/',
+                        badge: {type: 'tip', text: '在线'}
                     },
                     {
                         icon: 'teenyicons:docker-outline',
