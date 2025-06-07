@@ -18,19 +18,19 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.23",
-    "@vuepress/plugin-baidu-analytics": "2.0.0-rc.106",
-    "@vuepress/plugin-pwa": "2.0.0-rc.106",
+    "@vuepress/plugin-baidu-analytics": "2.0.0-rc.108",
+    "@vuepress/plugin-pwa": "2.0.0-rc.108",
     "http-server": "^14.1.1",
-    "sass-embedded": "^1.89.0",
+    "sass-embedded": "^1.89.1",
     "typescript": "^5.8.3",
     "vue": "^3.5.16",
     "vuepress": "2.0.0-rc.23",
-    "vuepress-theme-plume": "1.0.0-rc.152"
+    "vuepress-theme-plume": "1.0.0-rc.153"
   },
   "dependencies": {
-    "@iconify/json": "^2.2.342",
-    "@vuepress/plugin-google-analytics": "2.0.0-rc.103",
-    "@vuepress/plugin-umami-analytics": "2.0.0-rc.106",
+    "@iconify/json": "^2.2.346",
+    "@vuepress/plugin-google-analytics": "2.0.0-rc.107",
+    "@vuepress/plugin-umami-analytics": "2.0.0-rc.108",
     "@vuepress/shiki-twoslash": "2.0.0-rc.106",
     "@waline/client": "^3.5.7",
     "annotation": "^0.1.0",
@@ -38,7 +38,7 @@
     "dashjs": "^5.0.3",
     "echarts": "^5.6.0",
     "flowchart": "^1.2.0",
-    "hls.js": "^1.6.2",
+    "hls.js": "^1.6.5",
     "mermaid": "^11.6.0",
     "swiper": "^11.2.8"
   }
