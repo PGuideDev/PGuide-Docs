@@ -374,7 +374,24 @@ groups:
       location: Global
       avatar: https://texpage.com/favicon.ico
       organization: TeXPage Team
-      desc: 在线 LaTeX 编辑器，支持实时协作和版本控制。      
+      desc: 在线 LaTeX 编辑器，支持实时协作和版本控制。     
+  - title: 腾讯科技（深圳）有限公司
+    desc: 腾讯于1998年11月成立，是一家互联网公司，通过技术丰富互联网用户的生活，助力企业数字化升级。我们的使命是“用户为本科技向善”。
+    list:
+    -
+      name: 云原生构建
+      link: https://cnb.cool/
+      location: 深圳市南山区
+      avatar: https://docs.cnb.cool/square.png
+      organization: 腾讯云
+      desc: 基于 Docker 生态，对环境、缓存、插件进行抽象，通过声明式的语法，帮助开发者以更酷的方式构建软件。     
+#    -
+#      name:
+#      link:
+#      location:
+#      avatar:
+#      organization:
+#      desc:      
 #    -
 #      name:
 #      link:
