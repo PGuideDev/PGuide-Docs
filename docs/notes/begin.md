@@ -228,4 +228,14 @@ of the next tale._
   time=2025-05-24 type=warning  icon=healthicons:award-trophy
 
   项导文档获[::https://2025.jsjds.com.cn/assets/logo2-1fc42965.png::中国计算机设计大赛](/campus-wiki/competition/4c/)省级一等奖，创造==我校最好成绩=={.tip}。<br>同时，祝贺工作室项目[::token-branded:wow::Oh my API](/project-docs/oh-my-api/)获得省级三等奖。 
-  :::
+- 建设里程碑05
+  time=2025-06-11 type=important  icon=tdesign:cooperate-filled
+
+  项导文档站总字数达16W，阅读量达10W，共有82位成员、25个组织加入建设。
+
+- 未来
+  time=2077-07-07 type=tip  icon=token:future
+
+  我们的故事还在继续，欢迎加入建设！
+:::
+
