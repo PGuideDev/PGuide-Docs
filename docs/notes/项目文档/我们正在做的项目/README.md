@@ -13,9 +13,9 @@ permalink: /project-docs/
 :::
 
 快来看看我们都做了些什么好玩的项目吧！
-
+<span><Badge>LANGUAGE</Badge><Badge type="warning" text="FRAMEWORKS" /></span>
 <CardGrid>
-<LinkCard icon="hugeicons:add-team" href="/project-docs/match-competitions/" title="全国大学生竞赛组队系统" ><Badge>Java</Badge>面向全国大学生的多维度竞赛匹配、组队系统。</LinkCard>
+<LinkCard icon="hugeicons:add-team" href="/project-docs/match-competitions/" title="全国大学生竞赛组队系统" ><span><Badge>Java</Badge><Badge type="warning" text="Spring+Vue3" /></span>面向全国大学生的多维度竞赛匹配、组队系统。</LinkCard>
 <LinkCard icon="arcticons:free-download-manager" href="/project-docs/project-management-platform/" title="项目管理平台" ><Badge>Go</Badge>标准化管理学校内的项目综合一体化平台</LinkCard>
 <LinkCard icon="/icon/zhiyu.png" href="/project-docs/plant-cure/" title="植愈：AI情绪小帮手" ><Badge>Java</Badge>守护精神花园的AI小助手，支持多种多模态大语言模型，独创双向提示词工程技术。</LinkCard>
 <LinkCard icon="/icon/robot.png" href="/project-docs/smart-car/" title="智慧中草药生态养护平台" ><Badge>Java</Badge>一种整合了机器人操作系统、Web前后端、物联网IOT的中草药自动化除草解决方案。</LinkCard>
