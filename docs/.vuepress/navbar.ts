@@ -783,11 +783,6 @@ export const navbar = defineNavbarConfig([
                 ],
             },
             {
-                icon: 'ic:outline-update',
-                text: '更新日志',
-                link: '/update-note/'
-            },
-            {
                 icon: 'fluent-color:data-trending-20',
                 text: '站点统计',
                 items: [
@@ -843,9 +838,20 @@ export const navbar = defineNavbarConfig([
                         link: 'https://www.githubstatus.com/',
                         badge: {type: 'tip', text: '官方'}
                     },
+                    {
+                        icon: 'streamline-cyber:network',
+                        text: 'ping检测',
+                        link: 'https://ping.chinaz.com/docs.pguide.studio',
+                        badge: '站长工具'
+                    },
                 ]
             },
 
+            {
+                icon: 'ic:outline-update',
+                text: '更新日志',
+                link: '/update-note/'
+            },
         ]
     },
 // {
