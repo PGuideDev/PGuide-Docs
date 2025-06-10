@@ -320,7 +320,6 @@ export const navbar = defineNavbarConfig([
                         icon: 'ant-design:code-outlined',
                         text: '基础语法',
                         link: '/csdiy/program-begin/grammar/',
-                        badge: {type: 'warning', text: '整理中'}
                     },
                     {
                         icon: 'lsicon:setting-outline',
@@ -344,7 +343,6 @@ export const navbar = defineNavbarConfig([
                         icon: 'ant-design:aliyun-outlined',
                         text: '阿里系开发规范',
                         link: '/csdiy/dev-rules/alibaba-rules/java-rule/',
-                        badge: {type: 'warning', text: '整理中'}
                     },
                     // {icon: '',text: '',link: ''},
                 ]
