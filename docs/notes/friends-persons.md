@@ -443,7 +443,7 @@ list:
     avatar: https://zhheo.com/img/avatar.jpg
     desc: 让设计师主导产品，来构建令人难忘的体验。
     location: 中国，北京
-    organization: 大连工业大学,halo,DaoCloud等
+    organization: 大连工业大学、halo、DaoCloud等
     socials:
       - icon: github
         link: https://github.com/zhheo
@@ -454,6 +454,30 @@ list:
     backgroundColor:
     color:
     nameColor:
+  - name: WJZ_P
+    link: https://wjz-p.github.io/
+    avatar: https://wjz-p.github.io/smile.jpg
+    desc: 我是一名热爱编程的开发者，热衷于好玩的技术。
+    location: 中国，重庆
+    organization: 腾讯（深圳）、重庆大学
+    socials: 
+      - icon: github
+        link: https://github.com/WJZ-P
+    backgroundColor:
+    color:
+    nameColor: 
+  - name: Echoker
+    link: 
+    avatar: https://avatars.githubusercontent.com/u/39339568?v=4
+    desc: hentai
+    location: 中国，重庆
+    organization: Maple Cloud、重庆科技大学等
+    socials:
+      - icon: github
+        link: https://github.com/echoker
+    backgroundColor:
+    color:
+    nameColor:      
 #  - name:
 #    link:
 #    avatar:
