@@ -156,7 +156,6 @@ export const navbar = defineNavbarConfig([
                         icon: 'material-icon-theme:folder-project',
                         text: '前言',
                         link: '/project-docs/',
-                        badge: {type: 'warning', text: '整理中'}
                     },
 
                     {
@@ -217,12 +216,6 @@ export const navbar = defineNavbarConfig([
                         icon: 'svg-spinners:blocks-wave',
                         text: '千手万象',
                         link: '/project-docs/various-gestures/',
-                        badge: {type: 'warning', text: '整理中'}
-                    },
-                    {
-                        icon: 'line-md:cloud-alt-tags-twotone-loop',
-                        text: '云原生资源管理系统',
-                        link: '/project-docs/cloud-manage/',
                         badge: {type: 'warning', text: '整理中'}
                     },
                     {
