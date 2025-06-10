@@ -458,7 +458,7 @@ list:
     link: https://wjz-p.github.io/
     avatar: https://wjz-p.github.io/smile.jpg
     desc: 我是一名热爱编程的开发者，热衷于好玩的技术。
-    location: 中国，重庆
+    location: 中国，广东广州
     organization: 腾讯（深圳）、重庆大学
     socials: 
       - icon: github
