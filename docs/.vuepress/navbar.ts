@@ -365,7 +365,6 @@ export const navbar = defineNavbarConfig([
                         icon: 'emojione-v1:dvd',
                         text: '镜像刻录',
                         link: '/csdiy/computer-common-knowledge/make-image/',
-                        badge: {type: 'warning', text: '整理中'}
                     },
                 ]
             }
