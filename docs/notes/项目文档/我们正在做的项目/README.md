@@ -25,7 +25,6 @@ permalink: /project-docs/
 <LinkCard icon="icon-park:transport" href="/project-docs/spd/" title="SPD智能医疗耗材管理系统" ><Badge>Java</Badge>可恶啊，是RFID读取药品标签数据吗？你这家伙，之前怎么没有这么好用的东西。</LinkCard>
 <LinkCard icon="material-symbols:dropper-eye-outline-sharp" href="/project-docs/see-the-components/" title="医智慧眼" ><Badge>Python</Badge>使用高精度三维计算机视觉重建技术，分析可能遗漏的小型医疗设备。</LinkCard>
 <LinkCard icon="svg-spinners:blocks-wave" href="/project-docs/various-gestures/" title="千手万象" ><Badge>Python</Badge>使用手势控制电脑行为的桌面应用，比如PPT翻页，手指激光笔，隔空投放等。</LinkCard>
-<LinkCard icon="line-md:cloud-alt-tags-twotone-loop" href="/project-docs/cloud-manage/" title="云原生资源管理系统" ><Badge>Rust</Badge>一个兼容不同云厂商云原生资源、容器服务、网络接口的一站式平台。</LinkCard>
 <LinkCard icon="line-md:loading-alt-loop" href="/project-docs/when2eat/" title="啥时候吃饭" ><Badge>Python</Badge>一个科学决策什么时候去食堂吃饭的项目，让你合理避开吃饭高峰期。</LinkCard>
 <LinkCard icon="token-branded:wow" href="/project-docs/oh-my-api/" title="Oh my API!" ><Badge>Python</Badge>哇AI真好用，API调用随用随取。布豪！我的钱包，得有个提醒和查看的界面。</LinkCard>
 </CardGrid>
