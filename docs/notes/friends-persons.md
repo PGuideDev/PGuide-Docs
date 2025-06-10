@@ -454,7 +454,6 @@ list:
     backgroundColor:
     color:
     nameColor:
- 
 #  - name:
 #    link:
 #    avatar:

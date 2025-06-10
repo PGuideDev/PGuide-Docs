@@ -278,7 +278,7 @@ groups:
         organization: 华为昇思MindSpore
         desc: 分布式、全场景AI开源框架
       - name: 华为开发者联盟
-        link: https://support.huaweicloud.com/
+        link: https://developer.huaweicloud.com/
         location: Global
         avatar: /icon/huawei.svg
         organization: 华为云
@@ -357,6 +357,13 @@ groups:
     desc: The Comprehensive TeX Archive Network (CTAN) is the central place for all kinds of material around TeX. CTAN has currently 6756 packages. 3059 contributors have contributed to it. Most of the packages are free and can be downloaded and used immediately.
     list: 
     -
+      name: CTAN官网
+      link: https://ctan.org/
+      location: Global
+      avatar: https://ctan.org/assets/skin/gray/images/ctan-lion-d371c25e7eefcd9e0ada8e810fc88127.svg
+      organization: TUGers around the world
+      desc: Comprehensive TeX Archive Network           
+    -
       name: LoongTeX
       link: https://www.loongtex.com/
       location: Global
@@ -399,7 +406,36 @@ groups:
 #      avatar:
 #      organization:
 #      desc:
-
+  - title: 江理一起来学
+    desc: 诗琪学长的信息化学习平台，提供了丰富的学习资源和课程，旨在帮助学生提升信息化素养和技能。
+    list:
+    -
+      name: 故事的开始
+      link: https://mp.weixin.qq.com/s/JMGgpIF9VYlfWXxQIi84Zg
+      location: 中国，江西
+      avatar: /avatar/jl.png
+      organization: 江理一起来学微信公众号
+      desc: 嗨！我是计科211史诗琪
+#  - title: 
+#    desc: 
+#    list:
+#    -
+#      name:
+#      link:
+#      location:
+#      avatar:
+#      organization:
+#      desc:        
+#  - title: 
+#    desc: 
+#    list:
+#    -
+#      name:
+#      link:
+#      location:
+#      avatar:
+#      organization:
+#      desc:        
 #  - title: 
 #    desc: 
 #    list:
