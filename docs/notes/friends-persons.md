@@ -470,7 +470,7 @@ list:
     link: 
     avatar: https://avatars.githubusercontent.com/u/39339568?v=4
     desc: hentai
-    location: 中国，重庆
+    location: 中国，福建
     organization: Maple Cloud、重庆科技大学等
     socials:
       - icon: github
