@@ -22,14 +22,14 @@ icon: devicon:pypi
 
 1.打开命令提示符，输入以下命令
 
-```python
+```shell
 pip install uv
 ```
 安装成功后，将uv添加到环境变量，这样即使切换到虚拟环境也可以使用:
 
 2.打开命令提示符窗口，输入
 
-```python
+```shell
 where uv
 ```
 找到uv的存储位置并复制到文件资源管理器的搜索栏，
@@ -66,7 +66,7 @@ where uv
 
 10.最后打开一个新的命令提示符窗口，输入以下命令，验证更改
 
-```python
+```shell
 uv
 ```
 
@@ -78,12 +78,12 @@ uv
 
 1.打开PowerShell,执行以下代码:
 
-```python
+```shell
 irm https://astral.sh/uv/install.ps1 | iex
 ```
 2.输入以下代码查看是否安装成功:
 
-```python
+```shell
 uv --version
 ```
 
@@ -91,7 +91,7 @@ uv --version
 
 * 使用pipx:
 
-```python
+```shell
 pipx install uv
 ```
 
@@ -101,7 +101,7 @@ pipx install uv
 
 1.打开终端，输入以下命令:
 
-```python
+```shell
 sudo apt install curl
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
@@ -110,7 +110,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 输入以下命令验证是否安装成功:
 
-```python
+```shell
 uv --version
 ```
 ![2025-05-15_16-52-12.png](../../../../.vuepress/public/src/2025-05-15_16-52-12.png)
@@ -123,24 +123,24 @@ uv --version
 
 打开命令提示符，输入以下命令,创建虚拟环境:
 
-```python
+```shell
 uv venv .venv
 ```
 
 激活环境:
-```python
+```shell
 .venv\Scripts\activate
 ```
 ![2025-05-15_17-00-01.png](../../../../.vuepress/public/src/2025-05-15_17-00-01.png)
 
 2.兼容pip常用命令
 
-```python
+```shell
 #安装一个包
 uv pip install <package>
 ```
 
-```python
+```shell
 #卸载包
 uv pip uninstall <package>
 ```
@@ -149,11 +149,11 @@ uv pip uninstall <package>
 
 3.依赖编译和锁定
 
-```python
+```shell
 #使用uv pip freeze >命令生成requirements.txt文件，这个命令会列出当前虚拟环境中所有已安装的包以及版本号，并将它们写入到文件中
 uv pip freeze >requirements.txt
 ```
-```python
+```shell
 #uv pip compile会读取requirements.txt文件中的依赖
 uv pip compile requirments.txt -o require
 ```
@@ -163,7 +163,7 @@ uv pip compile requirments.txt -o require
 
 如果你需要管理本地项目依赖，可以使用uv add命令
 
-```python
+```shell
 uv add numpy
 ```
 ![2025-05-15_17-06-42.png](../../../../.vuepress/public/src/2025-05-15_17-06-42.png)
