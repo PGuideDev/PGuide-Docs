@@ -237,6 +237,12 @@ groups:
         avatar: https://3w.cqmua.cn/logo.svg
         organization: CQMUA、MUA
         desc: 重庆 Minecraft 高校联盟
+      - name: CQMUA Server Status
+        link: https://server.cqmua.cn
+        location: 中国，重庆市
+        avatar: https://3w.cqmua.cn/logo.svg
+        organization: CQMUA、MUA
+        desc: 重庆 Minecraft 高校联盟服务器监控页面        
       - name: 闽高联CQMUA官网
         link: https://www.fjmua.cn/
         location: 中国，福建省
@@ -266,7 +272,7 @@ groups:
         location: 中国，云南省
         avatar: 
         organization: YNUMC、MUA
-        desc: 云南大学Minecraft社区是一个由Minecraft爱好者自主发起的团体，成立于2022年9月。               
+        desc: 云南大学Minecraft社区是一个由Minecraft爱好者自主发起的团体，成立于2022年9月。           
 
   - title: 华为技术有限公司
     desc: Huawei Corp,. Ltd.
