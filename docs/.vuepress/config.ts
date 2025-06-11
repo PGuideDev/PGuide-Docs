@@ -212,6 +212,7 @@ export default defineUserConfig({
                 imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
                 annotation: true, // https://theme-plume.vuejs.press/guide/markdown/annotation/
                 abbr: true, // 启用缩略词功能
+                field: true, // 启用字段容器功能
             },
 
 
