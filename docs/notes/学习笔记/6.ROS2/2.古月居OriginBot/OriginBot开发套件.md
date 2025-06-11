@@ -8,7 +8,7 @@ icon: https://www.originbot.org/assets/img/favicon.png
 OriginBot使用与开发过程主要在PC端完成，完成以上Ubuntu和ROS2的环境配置后，还需要将OriginBot的PC端功能包下载到电脑上，并且完成编译，便于后续操作使用。
 
 :::tip
-如果你觉得下载过慢，可以参照[VMWare安装](../1.VMWare安装.md)中的`ROS2系统安装`下`配置镜像源`操作。
+如果你觉得下载过慢，可以参照[VMWare安装](../1.1ROS2系统安装.md)中的`ROS2系统安装`下`配置镜像源`操作。
 :::
 
 :::steps
