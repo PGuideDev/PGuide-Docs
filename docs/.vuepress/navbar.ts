@@ -357,6 +357,11 @@ export const navbar = defineNavbarConfig([
                         text: '镜像刻录',
                         link: '/csdiy/computer-common-knowledge/make-image/',
                     },
+                    {
+                        icon: 'material-symbols-light:computer-outline-rounded',
+                        text: '电脑开荒网',
+                        link: 'https://www.xn--h0t470cimi8hc.ink/',
+                    },
                 ]
             }
         ]
