@@ -13,14 +13,14 @@ permalink: /project-docs/
 
 ---
 
-请特别注意<Badge type="danger" text="LICENSE" />的相关许可，并非所有项目都可以自由使用或修改。在使用前仔细阅读相关许可协议。
+请特别注意<Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="LICENSE" />的相关许可，并非所有项目都可以自由使用或修改。在使用前仔细阅读相关许可协议。
 
 :::
 
 快来看看我们都做了些什么好玩的项目吧！
-<span><Badge>LANGUAGES</Badge><Badge type="warning" text="FRAMEWORKS" /><Badge type="danger" text="LICENSE" /></span>
+<span><Badge>LANGUAGES</Badge><Badge type="warning" text="FRAMEWORKS" /><Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="LICENSE" /></span>
 <CardGrid>
-<LinkCard icon="hugeicons:add-team" href="/project-docs/match-competitions/" title="全国大学生竞赛组队系统" ><span><Badge>Java+Vue3</Badge><Badge type="warning" text="Spring" /><Badge type="danger" text="CCBY4.0" /></span>面向全国大学生的多维度竞赛匹配、组队系统。</LinkCard>
+<LinkCard icon="hugeicons:add-team" href="/project-docs/match-competitions/" title="全国大学生竞赛组队系统" ><span><Badge>Java+Vue3</Badge><Badge type="warning" text="Spring" /><Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="CCBY4.0" /></span>面向全国大学生的多维度竞赛匹配、组队系统。</LinkCard>
 <LinkCard icon="arcticons:free-download-manager" href="/project-docs/project-management-platform/" title="项目管理平台" ><Badge>Go</Badge>标准化管理学校内的项目综合一体化平台</LinkCard>
 <LinkCard icon="/icon/zhiyu.png" href="/project-docs/plant-cure/" title="植愈：AI情绪小帮手" ><Badge>Java</Badge>守护精神花园的AI小助手，支持多种多模态大语言模型，独创双向提示词工程技术。</LinkCard>
 <LinkCard icon="/icon/robot.png" href="/project-docs/smart-car/" title="智慧中草药生态养护平台" ><Badge>Java</Badge>一种整合了机器人操作系统、Web前后端、物联网IOT的中草药自动化除草解决方案。</LinkCard>
