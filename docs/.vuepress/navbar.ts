@@ -128,7 +128,10 @@ export const navbar = defineNavbarConfig([
                         text: '搭建VPN',
                         link: '/learning-notes/cybersecurity/vpn-setup/'
                     },
-                    // {icon: '',text: '',link: ''},
+                    {
+                        icon: 'https://hello-ctf.com/logo.png',
+                        text: 'Hello~CTF',
+                        link: 'https://hello-ctf.com/'},
                 ]
             },
 
@@ -740,9 +743,9 @@ export const navbar = defineNavbarConfig([
                         badge: '医疗信息化'
                     },
                     {
-                        icon: '',
-                        text: '',
-                        link: '',
+                        icon: '/icon/cqmu.svg',
+                        text: '重庆医科大学就业信息网',
+                        link: 'https://cqmu.cqbys.com/',
                         badge: ''
                     },
                 ]
