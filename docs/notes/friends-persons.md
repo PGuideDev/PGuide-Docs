@@ -6,7 +6,7 @@ permalink: /friends/persons/
 pageLayout: friends
 list:
   - name: rand777
-    link: https://explore.rand777.space
+    link: https://rand777.pguide.studio
     avatar: https://avatars.githubusercontent.com/u/91131723?v=4
     desc: True nobility resides in the human's spirit and its boundless intellect.
     location: 中国，广东深圳
