@@ -839,8 +839,14 @@ export const navbar = defineNavbarConfig([
                     {
                         icon: 'streamline-cyber:network',
                         text: 'ping检测',
+                        link: 'https://ping.chinaz.com/docs.pguide.cloud',
+                        badge: '国内镜像站点'
+                    },
+                    {
+                        icon: 'streamline-cyber:network',
+                        text: 'ping检测',
                         link: 'https://ping.chinaz.com/docs.pguide.studio',
-                        badge: '站长工具'
+                        badge: '国际主站点'
                     },
                 ]
             },
