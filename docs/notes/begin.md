@@ -232,10 +232,16 @@ of the next tale._
   time=2025-06-11 type=important  icon=tdesign:cooperate-filled
 
   项导文档站总字数达16W，阅读量达10W，共有82位成员、25个组织加入建设。
+- 基础设施建设01
+  time=2025-06-15 type=success icon=qlementine-icons:build-16
+
+  支持了在线编辑、评论区、搜索、服务器状态查询等多种功能。各种网络优化下大陆地区访问速度大幅提升，[国际主站点](https://ping.chinaz.com/docs.pguide.studio)平均延迟低于100ms，[国内镜像站点平均延迟](https://ping.chinaz.com/docs.pguide.cloud)低于20ms，优化了用户体验。
 
 - 未来
   time=2077-07-07 type=tip  icon=token:future
 
   我们的故事还在继续，欢迎加入建设！
 :::
+
+
 
