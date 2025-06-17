@@ -29,8 +29,31 @@ SpringBoot、Mybatis、Mybatis Plus、Spring Cloud Alibaba、Gateway、Nacos、O
 
 ::: file-tree
 
-- PGuide-Back
-- PGuide-Front
-- PGuide-Manage
-
+- PGuide-Back 后端目录
+  - pguide-api 接口层
+  - pguide-auth 鉴权中心
+  - pguide-business-providers 业务模块
+  - pguide-code-generator 代码生成器（待完成，暂时使用的是ruoyi）
+  - pguide-commons 工具包
+    - pguide-common-core 基础工具包
+    - pguide-common-download 下载工具包
+    - pguide-common-page 分页工具包
+    - pguide-common-redis redis工具包
+    - pguide-common-search elasticsearch工具包
+    - pguide-common-security 鉴权工具包
+  - pguide-demo demo
+  - pguide-entity 实体类
+  - pguide-gateway
+    - sc-gateway 网关
+  - pguide-service service层
+  - pguide-third-integration 整合第三方依赖
+- PGuide-Front 前端目录
+  - pguide-auth-ui 鉴权中心前端
+  - pguide-match-ui 项目组队前端
+  - pguide-ui-demo 测试页面
+- PGuide-Manage 管理系统目录
+  - PGuide-Manage
+  - ruoyi-ui 基于ruoyi开发的开发管理系统及demo
+- .gitignore
+- README.md
 :::
