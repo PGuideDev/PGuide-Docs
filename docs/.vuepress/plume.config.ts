@@ -1,6 +1,25 @@
 import {defineThemeConfig} from 'vuepress-theme-plume'
 import {navbar} from './navbar'
 import notes from './notes'
+// import fetch from 'node-fetch';
+// import fs from 'fs';
+
+
+
+// async function fetchCommits() {
+//   const res = await fetch('https://api.github.com/repos/Lyrlark/PGuide-Docs/commits?sha=master');
+//   const commits = await res.json();
+//   return commits.map(c => `commit id:"${c.sha.slice(0,7)}" tag:"${c.commit.message.split('\n')[0]}"`).join('\n');
+// }
+//
+// async function updateGitGraph() {
+//   const graph = await fetchCommits();
+//   let md = fs.readFileSync('docs/notes/begin.md', 'utf-8');
+//   md = md.replace(/```git-graph[\s\S]*?```/, '```git-graph\n' + graph + '\n```');
+//   fs.writeFileSync('docs/notes/begin.md', md);
+// }
+//
+// updateGitGraph();
 
 // 首页异步检查各服务在线状态
 // async function checkStatus() {
