@@ -3,8 +3,7 @@ import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 // import NpmBadge from 'vuepress-theme-plume/features/NpmBadge.vue'
 // import NpmBadgeGroup from 'vuepress-theme-plume/features/NpmBadgeGroup.vue'
 import Swiper from 'vuepress-theme-plume/features/Swiper.vue'
-import CustomComponent from './theme/components/Custom.vue'
-
+import {SpeedInsights} from '@vercel/speed-insights/vue'
 import './theme/styles/custom.css'
 
 export default defineClientConfig({
