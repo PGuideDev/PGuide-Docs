@@ -6,13 +6,8 @@ import {umamiAnalyticsPlugin} from "@vuepress/plugin-umami-analytics";
 import {googleAnalyticsPlugin} from "@vuepress/plugin-google-analytics";
 import {baiduAnalyticsPlugin} from "@vuepress/plugin-baidu-analytics";
 import {pwaPlugin} from '@vuepress/plugin-pwa'
-// export default {
-//     plugins:
-// }
 
 export default defineUserConfig({
-
-    //
 
     plugins: [
         pwaPlugin({
@@ -29,7 +24,7 @@ export default defineUserConfig({
                 orientation: 'portrait-primary',
                 start_url: '/',
                 display: 'fullscreen',
-                icons:[
+                icons: [
                     {
                         src: 'icon/logo.png',
                         type: 'image/png',
@@ -90,7 +85,13 @@ export default defineUserConfig({
         //     }
         // },
 
-        changelog: true,
+        changelog: {
+            maxCount: 10, // 最大变更日志数量
+            repoUrl: 'https://github.com/Lyrlark/PGuide-Docs',
+            commitUrlPattern: ':repo/commit/:hash',
+            issueUrlPattern: ':repo/issues/:issue',
+            tagUrlPattern: ':repo/releases/tag/:tag'
+        },
 
         /* 页内信息 */
         // editLink: true,
