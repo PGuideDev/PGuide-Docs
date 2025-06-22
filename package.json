@@ -32,7 +32,7 @@
     "@vercel/speed-insights": "^1.2.0",
     "@vuepress/plugin-google-analytics": "2.0.0-rc.107",
     "@vuepress/plugin-umami-analytics": "2.0.0-rc.110",
-    "@vuepress/shiki-twoslash": "2.0.0-rc.108",
+    "@vuepress/shiki-twoslash": "2.0.0-rc.110",
     "@waline/client": "^3.5.7",
     "annotation": "^0.1.0",
     "artplayer": "^5.2.3",
