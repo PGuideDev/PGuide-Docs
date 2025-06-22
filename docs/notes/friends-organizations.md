@@ -8,36 +8,103 @@ groups:
   - title: PGuide Studio
     desc: An interesting team who builds projects as their dreams.
     list:
-      - name: 重庆医科大学校级镜像站
-        link: /public-service/cqmu-mirror/
-        location: 重庆医科大学、CERNET Federation
-        avatar: /icon/mirror.svg
-        organization: CQMU Mirror Group、PGuide Studio
-        desc: 一个面向西南地区的开源软件镜像站
-      - name: Overleaf CQMU
-        link: /public-service/overleaf/
+      - name: 项导工作室官网（即将上线）
+        link: https://www.pguide.studio
         location: Global distribution
-        avatar: /icon/overleaf.svg
-        organization: CQMUtug、PGuide Studio
-        desc: LaTeX 在线协作编辑器，Co-writing in LaTeX!
-      - name: PGuide LobeChat
-        link: /public-service/GPT/lobe-chat/
-        location: Global distribution
-        avatar: https://lobechat.com/icons/icon-192x192.png
-        organization: PGuide Studio、LobeHub
-        desc: 一个聚合多种AI、支持PGuide OAuth的生成式人工智能调用平台
-      - name: 数据中心
-        link: /public-service/data-center/
-        location: 重庆医科大学
-        avatar: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48ZyBmaWxsPSJub25lIj48cGF0aCBmaWxsPSJ1cmwoI2ZsdWVudENvbG9yRGF0YUFyZWEzMjApIiBkPSJNMjYgMjcuMDExYTMgMyAwIDAgMC0uMjUtLjAxMUg1LjI1YS4yNS4yNSAwIDAgMS0uMjUtLjI1VjEzLjQ4NGw1LjYwNi0yLjQwM2ExIDEgMCAwIDEgLjg0MS4wMjVsNS40NDcgMi43MjNMMjQuNCA4LjJBMSAxIDAgMCAxIDI2IDl6Ii8+PHBhdGggZmlsbD0idXJsKCNmbHVlbnRDb2xvckRhdGFBcmVhMzI0KSIgZmlsbC1vcGFjaXR5PSIwLjMiIGQ9Ik0yNiAyNy4wMTFhMyAzIDAgMCAwLS4yNS0uMDExSDUuMjVhLjI1LjI1IDAgMCAxLS4yNS0uMjVWMTMuNDg0bDUuNjA2LTIuNDAzYTEgMSAwIDAgMSAuODQxLjAyNWw1LjQ0NyAyLjcyM0wyNC40IDguMkExIDEgMCAwIDEgMjYgOXoiLz48cGF0aCBmaWxsPSJ1cmwoI2ZsdWVudENvbG9yRGF0YUFyZWEzMjEpIiBmaWxsLW9wYWNpdHk9IjAuMyIgZD0iTTI2IDI3LjAxMWEzIDMgMCAwIDAtLjI1LS4wMTFINS4yNWEuMjUuMjUgMCAwIDEtLjI1LS4yNVYxMy40ODRsNS42MDYtMi40MDNhMSAxIDAgMCAxIC44NDEuMDI1bDUuNDQ3IDIuNzIzTDI0LjQgOC4yQTEgMSAwIDAgMSAyNiA5eiIvPjxwYXRoIGZpbGw9InVybCgjZmx1ZW50Q29sb3JEYXRhQXJlYTMyMikiIGZpbGwtb3BhY2l0eT0iMC4zIiBkPSJNMjYgMjcuMDExYTMgMyAwIDAgMC0uMjUtLjAxMUg1LjI1YS4yNS4yNSAwIDAgMS0uMjUtLjI1VjEzLjQ4NGw1LjYwNi0yLjQwM2ExIDEgMCAwIDEgLjg0MS4wMjVsNS40NDcgMi43MjNMMjQuNCA4LjJBMSAxIDAgMCAxIDI2IDl6Ii8+PHBhdGggZmlsbD0idXJsKCNmbHVlbnRDb2xvckRhdGFBcmVhMzIzKSIgZD0iTTQuMjUgM2MuNjkgMCAxLjI1LjU2IDEuMjUgMS4yNXYyMC41YzAgLjk2Ni43ODQgMS43NSAxLjc1IDEuNzVoMjAuNWExLjI1IDEuMjUgMCAxIDEgMCAyLjVINy4yNUE0LjI1IDQuMjUgMCAwIDEgMyAyNC43NVY0LjI1QzMgMy41NiAzLjU2IDMgNC4yNSAzIi8+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJmbHVlbnRDb2xvckRhdGFBcmVhMzIwIiB4MT0iLTIuMjY5IiB4Mj0iMzIuMTE3IiB5MT0iMTAuMzc2IiB5Mj0iMzAuNzYxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIuMTY0IiBzdG9wLWNvbG9yPSIjM2JkNWZmIi8+PHN0b3Agb2Zmc2V0PSIuNTM3IiBzdG9wLWNvbG9yPSIjOWM2Y2ZlIi8+PHN0b3Agb2Zmc2V0PSIuOTA4IiBzdG9wLWNvbG9yPSIjZTY1NmViIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImZsdWVudENvbG9yRGF0YUFyZWEzMjEiIHgxPSIxNS41IiB4Mj0iMTUuNSIgeTE9IjI1IiB5Mj0iMjcuMDExIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzE2MzY5NyIgc3RvcC1vcGFjaXR5PSIwIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTYzNjk3Ii8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImZsdWVudENvbG9yRGF0YUFyZWEzMjIiIHgxPSI3IiB4Mj0iNSIgeTE9IjIxLjUiIHkyPSIyMS40NjYiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjMTYzNjk3IiBzdG9wLW9wYWNpdHk9IjAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxNjM2OTciLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iZmx1ZW50Q29sb3JEYXRhQXJlYTMyMyIgeDE9IjI2LjU2MyIgeDI9IjMuODA5IiB5MT0iNC42MjUiIHkyPSIzOC41MDUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjNzA3NzdkIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjYjljMGM3Ii8+PC9saW5lYXJHcmFkaWVudD48cmFkaWFsR3JhZGllbnQgaWQ9ImZsdWVudENvbG9yRGF0YUFyZWEzMjQiIGN4PSIwIiBjeT0iMCIgcj0iMSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtMTYuMTUzNzMgMTQuMjU4NDggLTE0LjM5MTY5IC0xNi4zMDQ2NSAyMi43NyAxMS4xNjgpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIuNjM2IiBzdG9wLWNvbG9yPSIjMGZhZmZmIiBzdG9wLW9wYWNpdHk9IjAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwMDY3YmYiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48L2c+PC9zdmc+
+        avatar: /icon/logo.svg
         organization: PGuide Studio
-        desc: docker私有镜像站、MinIO对象存储、FTP共享、Alist动态开源软件镜像站
-      - name: Git代码托管平台
-        link: /public-service/code-manage/gitlab-ee/
+        desc: Start from here, we build projects as our dreams.
+      - name: 项导开源生态（即将上线）
+        link: https://ecosystem.pguide.studio
         location: Global distribution
-        avatar: /icon/git.svg
-        organization: PGuide Studio、Gitlab、Gitea
-        desc: 重庆医科大学Gitlab企业版、Gitea企业版、PGuide Github群组，提供代码托管、项目管理、持续集成等服务。
+        avatar: /icon/eco.png
+        organization: PGuide Studio OS Ecosystem
+        desc: We share, contribute, and grow together!
+      - name: 项导网络技术部（即将上线）
+        link: https://network.pguide.studio
+        location: Global distribution
+        avatar: /icon/pnet.png
+        organization: PGuide Studio Network Team
+        desc: We connect the world, see its beauty and truth, and share it with you.
+      - name: 项导前端开发部（即将上线）
+        link: https://frontend.pguide.studio
+        location: Global distribution
+        avatar: /icon/fweb.png
+        organization: PGuide Studio Frontend Team
+        desc: Use frameworks to build the web pages, and use creativity to make it better.
+      - name: 项导后端开发部（即将上线）
+        link: https://backend.pguide.studio
+        location: Global distribution
+        avatar: /icon/backend.png
+        organization: PGuide Studio Backend Team
+        desc: To those who build the future, we are the ones who make it happen.
+      - name: 项导人工智能部（即将上线）
+        link: https://ai.pguide.studio
+        location: Global distribution   
+        avatar: /icon/ai.png
+        organization: PGuide Studio AI
+        desc: Combine Medicine with AI, here comes the future of healthcare.
+      - name: 项导艺术设计部（即将上线）
+        link: https://art.pguide.studio
+        location: Global distribution
+        avatar: /icon/design.png
+        organization: PGuide Studio Art Team
+        desc: Explore the world with creativity, design the future with art.
+      - name: 项导云原生（即将上线）
+        link: https://native.pguide.cloud
+        location: Global distribution
+        avatar: /icon/cloud.png
+        organization: PGuide Studio Cloud Native Team
+        desc: Simplify the complexity of cloud native, build a better future with technology.
+      - name: 项导年鉴（即将上线）
+        link: https://memory.pguide.studio
+        location: Global distribution
+        avatar: /icon/year.png
+        organization: PGuide Studio Memory
+        desc: Recalling our drinks on Noon Bridge of yore,where gathered heroes now no more.      
+      - name: 项导荣誉墙（即将上线）
+        link: https://honor.pguide.studio
+        location: Global distribution
+        avatar: /icon/honor.png
+        organization: PGuide Studio Honor Gallery
+        desc: Our past story and honors earned, wishing they inspire you to join us!     
+#      - name: 
+#        link: 
+#        location: 
+#        avatar:
+#        organization: 
+#        desc:     
+                                                        
+#      - name: 重庆医科大学校级镜像站
+#        link: /public-service/cqmu-mirror/
+#        location: 重庆医科大学、CERNET Federation
+#        avatar: /icon/mirror.svg
+#        organization: CQMU Mirror Group、PGuide Studio
+#        desc: 一个面向西南地区的开源软件镜像站
+#      - name: Overleaf CQMU
+#        link: /public-service/overleaf/
+#        location: Global distribution
+#        avatar: /icon/overleaf.svg
+#        organization: CQMUtug、PGuide Studio
+#        desc: LaTeX 在线协作编辑器，Co-writing in LaTeX!
+#      - name: PGuide LobeChat
+#        link: /public-service/GPT/lobe-chat/
+#        location: Global distribution
+#        avatar: https://lobechat.com/icons/icon-192x192.png
+#        organization: PGuide Studio、LobeHub
+#        desc: 一个聚合多种AI、支持PGuide OAuth的生成式人工智能调用平台
+#      - name: 数据中心
+#        link: /public-service/data-center/
+#        location: 重庆医科大学
+#        avatar: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48ZyBmaWxsPSJub25lIj48cGF0aCBmaWxsPSJ1cmwoI2ZsdWVudENvbG9yRGF0YUFyZWEzMjApIiBkPSJNMjYgMjcuMDExYTMgMyAwIDAgMC0uMjUtLjAxMUg1LjI1YS4yNS4yNSAwIDAgMS0uMjUtLjI1VjEzLjQ4NGw1LjYwNi0yLjQwM2ExIDEgMCAwIDEgLjg0MS4wMjVsNS40NDcgMi43MjNMMjQuNCA4LjJBMSAxIDAgMCAxIDI2IDl6Ii8+PHBhdGggZmlsbD0idXJsKCNmbHVlbnRDb2xvckRhdGFBcmVhMzI0KSIgZmlsbC1vcGFjaXR5PSIwLjMiIGQ9Ik0yNiAyNy4wMTFhMyAzIDAgMCAwLS4yNS0uMDExSDUuMjVhLjI1LjI1IDAgMCAxLS4yNS0uMjVWMTMuNDg0bDUuNjA2LTIuNDAzYTEgMSAwIDAgMSAuODQxLjAyNWw1LjQ0NyAyLjcyM0wyNC40IDguMkExIDEgMCAwIDEgMjYgOXoiLz48cGF0aCBmaWxsPSJ1cmwoI2ZsdWVudENvbG9yRGF0YUFyZWEzMjEpIiBmaWxsLW9wYWNpdHk9IjAuMyIgZD0iTTI2IDI3LjAxMWEzIDMgMCAwIDAtLjI1LS4wMTFINS4yNWEuMjUuMjUgMCAwIDEtLjI1LS4yNVYxMy40ODRsNS42MDYtMi40MDNhMSAxIDAgMCAxIC44NDEuMDI1bDUuNDQ3IDIuNzIzTDI0LjQgOC4yQTEgMSAwIDAgMSAyNiA5eiIvPjxwYXRoIGZpbGw9InVybCgjZmx1ZW50Q29sb3JEYXRhQXJlYTMyMikiIGZpbGwtb3BhY2l0eT0iMC4zIiBkPSJNMjYgMjcuMDExYTMgMyAwIDAgMC0uMjUtLjAxMUg1LjI1YS4yNS4yNSAwIDAgMS0uMjUtLjI1VjEzLjQ4NGw1LjYwNi0yLjQwM2ExIDEgMCAwIDEgLjg0MS4wMjVsNS40NDcgMi43MjNMMjQuNCA4LjJBMSAxIDAgMCAxIDI2IDl6Ii8+PHBhdGggZmlsbD0idXJsKCNmbHVlbnRDb2xvckRhdGFBcmVhMzIzKSIgZD0iTTQuMjUgM2MuNjkgMCAxLjI1LjU2IDEuMjUgMS4yNXYyMC41YzAgLjk2Ni43ODQgMS43NSAxLjc1IDEuNzVoMjAuNWExLjI1IDEuMjUgMCAxIDEgMCAyLjVINy4yNUE0LjI1IDQuMjUgMCAwIDEgMyAyNC43NVY0LjI1QzMgMy41NiAzLjU2IDMgNC4yNSAzIi8+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJmbHVlbnRDb2xvckRhdGFBcmVhMzIwIiB4MT0iLTIuMjY5IiB4Mj0iMzIuMTE3IiB5MT0iMTAuMzc2IiB5Mj0iMzAuNzYxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIuMTY0IiBzdG9wLWNvbG9yPSIjM2JkNWZmIi8+PHN0b3Agb2Zmc2V0PSIuNTM3IiBzdG9wLWNvbG9yPSIjOWM2Y2ZlIi8+PHN0b3Agb2Zmc2V0PSIuOTA4IiBzdG9wLWNvbG9yPSIjZTY1NmViIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImZsdWVudENvbG9yRGF0YUFyZWEzMjEiIHgxPSIxNS41IiB4Mj0iMTUuNSIgeTE9IjI1IiB5Mj0iMjcuMDExIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzE2MzY5NyIgc3RvcC1vcGFjaXR5PSIwIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTYzNjk3Ii8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImZsdWVudENvbG9yRGF0YUFyZWEzMjIiIHgxPSI3IiB4Mj0iNSIgeTE9IjIxLjUiIHkyPSIyMS40NjYiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjMTYzNjk3IiBzdG9wLW9wYWNpdHk9IjAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxNjM2OTciLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iZmx1ZW50Q29sb3JEYXRhQXJlYTMyMyIgeDE9IjI2LjU2MyIgeDI9IjMuODA5IiB5MT0iNC42MjUiIHkyPSIzOC41MDUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjNzA3NzdkIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjYjljMGM3Ii8+PC9saW5lYXJHcmFkaWVudD48cmFkaWFsR3JhZGllbnQgaWQ9ImZsdWVudENvbG9yRGF0YUFyZWEzMjQiIGN4PSIwIiBjeT0iMCIgcj0iMSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtMTYuMTUzNzMgMTQuMjU4NDggLTE0LjM5MTY5IC0xNi4zMDQ2NSAyMi43NyAxMS4xNjgpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIuNjM2IiBzdG9wLWNvbG9yPSIjMGZhZmZmIiBzdG9wLW9wYWNpdHk9IjAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwMDY3YmYiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48L2c+PC9zdmc+
+#        organization: PGuide Studio
+#        desc: docker私有镜像站、MinIO对象存储、FTP共享、Alist动态开源软件镜像站
+#      - name: Git代码托管平台
+#        link: /public-service/code-manage/gitlab-ee/
+#        location: Global distribution
+#        avatar: /icon/git.svg
+#        organization: PGuide Studio、Gitlab、Gitea
+#        desc: 重庆医科大学Gitlab企业版、Gitea企业版、PGuide Github群组，提供代码托管、项目管理、持续集成等服务。
   - title: 重庆医科大学
     desc: Chongqing Medical University
     list:
@@ -95,6 +162,30 @@ groups:
         avatar: /avatar/cqmu.svg
         organization: 重庆医科大学校友会
         desc: 重庆医科大学校友会官网
+      - name: 重庆医科大学TeX用户组
+        link: 
+        location: 
+        avatar:
+        organization: 
+        desc: 
+      - name: 重庆医科大学Linux用户组
+        link: 
+        location: 
+        avatar:
+        organization: 
+        desc: 
+      - name: 重庆医科大学算法兴趣组
+        link: 
+        location: 
+        avatar:
+        organization: 
+        desc: 
+      - name: 重庆医科大学蓝桥杯参赛队
+        link: 
+        location: 
+        avatar:
+        organization: 
+        desc:         
   - title: The Apache Software Foundation
     desc: ASF's open source software is used ubiquitously around the world with more than 8,400 committers contributing to more than 320 active projects.
     list:
@@ -378,7 +469,7 @@ groups:
         organization: 小鸭学长
         desc: 无论你是初出茅庐的应届生，还是久经沙场的职场人士，本站始终为你的备考之旅保驾护航。
   - title: CTAN
-    desc: The Comprehensive TeX Archive Network (CTAN) is the central place for all kinds of material around TeX. CTAN has currently 6756 packages. 3059 contributors have contributed to it. Most of the packages are free and can be downloaded and used immediately.
+    desc: The Comprehensive TeX Archive Network (CTAN) is the central place for all kinds of material around TeX. Most of the packages are free and can be downloaded and used immediately.
     list: 
     -
       name: CTAN官网
