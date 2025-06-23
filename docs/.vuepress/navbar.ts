@@ -39,6 +39,12 @@ export const navbar = defineNavbarConfig([
                 text: '机器学习',
                 items: [
                     {
+                        icon: 'material-icon-theme:test-jsx',
+                        text: '在线训练平台',
+                        link: '/learning-notes/machine-learning/online-training-platform/',
+                        badge: '赛博炼丹'
+                    },
+                    {
                         icon: '/icon/mindspore.svg',
                         text: 'MindSpore',
                         link: '/learning-notes/machine-learning/mindspore/',
@@ -80,20 +86,53 @@ export const navbar = defineNavbarConfig([
                     },
                 ]
             },
-            // {
-            //     icon: 'logos:google-developers',
-            //     text: '前端开发',
-            //     items: [
-            //         {icon: 'skill-icons:html', text: 'HTML CSS JS', link: '/learning-notes/frontend-dev/HTML/'},
-            //         {icon: 'logos:react', text: 'React', link: '/learning-notes/react/'},
-            //         {icon: 'logos:vue', text: 'Vue3', link: '/learning-notes/vue3/'}
-            //     ]
-            // },
-            // {
-            //     icon: 'fluent-color:data-scatter-32',
-            //     text: '后端开发',
-            //     link: '/learning-notes/backend-dev/'
-            // },
+            {
+                icon: 'logos:google-developers',
+                text: '前端开发',
+                items: [
+                    {
+                        icon: 'skill-icons:html',
+                        text: 'HTML CSS JS',
+                        link: '/learning-notes/frontend-dev/HTML/'
+                    },
+                    {
+                        icon: 'logos:react',
+                        text: 'React 框架',
+                        link: '/learning-notes/react/'
+                    },
+                    {
+                        icon: 'logos:vue',
+                        text: 'Vue3 框架',
+                        link: '/learning-notes/vue3/'
+                    }
+                ]
+            },
+            {
+                icon: 'fluent-color:data-scatter-32',
+                text: '后端开发',
+                items: [
+                    {
+                        icon: 'devicon:spring',
+                        text: 'Spring 框架',
+                        link: 'https://spring.io/'
+                    },
+                    {
+                        icon: 'vscode-icons:file-type-django',
+                        text: 'Django 框架',
+                        link: 'https://www.djangoproject.com/',
+                    },
+                    {
+                        icon: 'devicon:flask',
+                        text: 'Flask 框架',
+                        link: 'https://flask.palletsprojects.com/zh-cn/stable/',
+                    },
+                    {
+                        icon: 'catppuccin:devcontainer',
+                        text: '容器化技术',
+                        link: '/learning-notes/container/',
+                    },
+                ]
+            },
 
             {
                 icon: 'solar:eye-scan-bold',
@@ -129,9 +168,16 @@ export const navbar = defineNavbarConfig([
                         link: '/learning-notes/cybersecurity/vpn-setup/'
                     },
                     {
+                        icon: '/avatar/qax.svg',
+                        text: '奇安信实训平台',
+                        link: 'https://192.168.194.65/',
+                        badge: {type: 'warning', text: '校园网内可用'}
+                    },
+                    {
                         icon: 'https://hello-ctf.com/logo.png',
                         text: 'Hello~CTF',
-                        link: 'https://hello-ctf.com/'},
+                        link: 'https://hello-ctf.com/'
+                    },
                 ]
             },
 
@@ -339,12 +385,16 @@ export const navbar = defineNavbarConfig([
                         icon: 'ant-design:aliyun-outlined',
                         text: '阿里系开发规范',
                         link: '/csdiy/dev-rules/alibaba-rules/java-rule/',
+                        badge: {type: 'tip', text: 'Java'}
                     },
-                    // {icon: '',text: '',link: ''},
+                    {
+                        icon: 'material-icon-theme:python',
+                        text: 'PEP',
+                        link: 'https://peps.python.org/',
+                        badge: {type: 'tip', text: 'Python'}
+                    },
                 ]
             },
-            // {icon: '/icon/path.svg', text: '学习路线', link: '/csdiy/study-path/'},
-
             {
                 icon: 'fa6-solid:computer',
                 text: '计算机常识',
@@ -366,7 +416,18 @@ export const navbar = defineNavbarConfig([
                         link: 'https://www.xn--h0t470cimi8hc.ink/',
                     },
                 ]
-            }
+            },
+            {
+                icon: '',
+                text: '实用资源',
+                items: [
+                    {
+                        icon: 'logos:element',
+                        text: '图标、组件库',
+                        link: '/csdiy/indeeded-src/icons-components/element-plus/'
+                    }
+                ]
+            },
         ]
     },
     {
@@ -486,6 +547,12 @@ export const navbar = defineNavbarConfig([
                         text: 'Alist动态软件镜像站',
                         link: '/public-service/data-center/pguide-alist/',
                         badge: {type: 'tip', text: '在线'}
+                    },
+                    {
+                        icon: 'ri:baidu-fill',
+                        text: '百度网盘企业版',
+                        link: '/public-service/data-center/baidu-netdisk-enterprise/',
+                        badge: {type: 'warning', text: 'PGuide VPN'}
                     },
                     {
                         icon: 'line-md:download-loop',

@@ -44,6 +44,12 @@ groups:
         avatar: /icon/ai.png
         organization: PGuide Studio AI
         desc: Combine Medicine with AI, here comes the future of healthcare.
+      - name: 项导硬件工程部（即将上线）
+        link: https://hardware.pguide.studio
+        location: Global distribution   
+        avatar: /icon/ee.png
+        organization: PGuide Studio Hardware Dev Team
+        desc: Combine Medicine with AI, here comes the future of healthcare.        
       - name: 项导艺术设计部（即将上线）
         link: https://art.pguide.studio
         location: Global distribution
@@ -56,6 +62,12 @@ groups:
         avatar: /icon/cloud.png
         organization: PGuide Studio Cloud Native Team
         desc: Simplify the complexity of cloud native, build a better future with technology.
+      - name: 项导数据中心（即将上线）
+        link: https://dc.pguide.studio
+        location: Global distribution
+        avatar: /icon/data.png
+        organization: PGuide Studio Data Group
+        desc: Bit revealed the dancing of 0 and 1, in which we once been observed the world.
       - name: 项导年鉴（即将上线）
         link: https://memory.pguide.studio
         location: Global distribution
@@ -68,12 +80,13 @@ groups:
         avatar: /icon/honor.png
         organization: PGuide Studio Honor Gallery
         desc: Our past story and honors earned, wishing they inspire you to join us!     
+
 #      - name: 
 #        link: 
 #        location: 
 #        avatar:
 #        organization: 
-#        desc:     
+#        desc:           
                                                         
 #      - name: 重庆医科大学校级镜像站
 #        link: /public-service/cqmu-mirror/
@@ -114,6 +127,30 @@ groups:
         avatar: /avatar/cqmu.svg
         organization: 重庆医科大学人工智能医学学院
         desc: College of Medical Artificial Intelligence
+      - name: 重庆医科大学TeX用户组
+        link: https://github.com/cqmutug
+        location: 重庆医科大学
+        avatar: https://avatars.githubusercontent.com/u/205358617?s=200&v=4
+        organization: CQMUtug
+        desc: Every time I read a LaTeX document, I think.wow, this must be correct!
+      - name: 重庆医科大学Linux用户组
+        link: https://github.com/cqmulug
+        location: 重庆医科大学
+        avatar: /icon/cqmulug.png
+        organization: CQMULUG
+        desc: echo "Hello, Linux World!" | sudo tee /etc/motd
+      - name: 重庆医科大学算法竞赛兴趣组
+        link: https://github.com/cqmuio
+        location: 重庆医科大学
+        avatar: /icon/CQMU-io.png
+        organization: CQMUio
+        desc: Wanna PASS every test.   
+      - name: 重庆医科大学Minecraft社（敬请期待）
+        link: https://www.cymc.club
+        location: Global distribution
+        avatar: /avatar/cymc.png
+        organization: CYMC
+        desc: ChongYi Minecraft Club         
       - name: 信息中心二级门户
         link: https://cnw.cqmu.edu.cn/
         location: 中国，重庆沙坪坝
@@ -162,30 +199,7 @@ groups:
         avatar: /avatar/cqmu.svg
         organization: 重庆医科大学校友会
         desc: 重庆医科大学校友会官网
-      - name: 重庆医科大学TeX用户组
-        link: 
-        location: 
-        avatar:
-        organization: 
-        desc: 
-      - name: 重庆医科大学Linux用户组
-        link: 
-        location: 
-        avatar:
-        organization: 
-        desc: 
-      - name: 重庆医科大学算法兴趣组
-        link: 
-        location: 
-        avatar:
-        organization: 
-        desc: 
-      - name: 重庆医科大学蓝桥杯参赛队
-        link: 
-        location: 
-        avatar:
-        organization: 
-        desc:         
+
   - title: The Apache Software Foundation
     desc: ASF's open source software is used ubiquitously around the world with more than 8,400 committers contributing to more than 320 active projects.
     list:
