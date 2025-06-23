@@ -4,6 +4,10 @@ createTime: 2025/02/22 16:59:04
 permalink: /contribute/
 ---
 
+:::info V1.7.18.20250624_rc
+最新修订时间为 2025年6月24日0:17
+:::
+
 首先感谢您的无私奉献，项导文档基于Vuepress的[plume主题构建](https://theme-plume.vuejs.press/)
 ，由多名成员共同维护，内容完全开源。
 
@@ -23,10 +27,11 @@ permalink: /contribute/
 
 不想这样麻烦也可以的，联系[rand777](https://qm.qq.com/q/2iLBaNcsnO)
 并获取语雀编辑权限，或将word文档/PDF文档/PPT发送给[rand777](https://qm.qq.com/q/2iLBaNcsnO)
+。我们会将您的文档转换为markdown格式并发布到项导文档站，按照您的要求对其进行署名。
 
 ### 其他注意事项
 
-请参考`文档编写规范`
+请参考[文档编写规范](/contribute/#文档编写规范)
 
 ## 我是文档站的开发者
 
@@ -40,8 +45,6 @@ permalink: /contribute/
 
 [::https://theme-plume.vuejs.press/plume.png::  VuePress Plume主题](https://theme-plume.vuejs.press/guide/intro/)
 
-[::devicon:typescript:: Typescript基础语法](https://www.runoob.com/typescript/ts-basic-syntax.html)
-
 :::
 
 随后，QQ联系 [rand777](https://qm.qq.com/q/2iLBaNcsnO) 加入项导文档github开发组。
@@ -54,8 +57,11 @@ permalink: /contribute/
 
 先大致了解下项目的结构
 
-::: file-tree
-
+::: file-tree title="项目结构"
+- .github
+  - ISSUE_TEMPLATE #issue模板
+      - ++ bug_report.md #bug报告模板
+      - ++ feature_request.md #功能请求模板
 - docs
     - .vuepress
         - .cache #缓存文件夹
@@ -65,10 +71,10 @@ permalink: /contribute/
         - public #静态资源文件夹
             - avatar #头像文件夹
                 - …
-            - src #图片文件夹
-                - …
             - icon #矢量图标文件夹
                 - …
+            - src #图片文件夹
+                - …              
         - theme #主题设置文件夹
             - style #主题自定义文件夹
                 - custom.css #自定义主题
@@ -83,7 +89,7 @@ permalink: /contribute/
             - …
         - 公共服务 #项导公开的服务
             - …
-        - 后台管理 #后台管理界面
+        - -- 后台管理 #后台管理界面（已删除）
             - …
         - 大学百科 #大学百科全书
             - …
@@ -97,7 +103,8 @@ permalink: /contribute/
         - friends-persons.md #友情链接-个人页
         - friends-quotes.md #友情链接-常见问题页
         - Templates.md #Vuepress Plume模板页
-    - README.md
+        - ++ update-note.md #更新日志页
+    - README.md #首页
 - .gitattributes #git属性设置
 - .gitignore #不进行git的文件(夹)
 - .npmrc #npm包管理设置
@@ -105,15 +112,29 @@ permalink: /contribute/
 - pnpm-lock.yaml #所有pnpm包依赖
 - README.md #中文项导文档介绍
 - README-en.md #英文项导文档介绍
+- ++ vercel.json #Vercel部署配置
 - …
-  :::
+:::
 
 ---
 
 ### 配置开发环境
 
 :::info 开发环境
-这里假设你的电脑是windows10或11的操作系统
+
+支持跨平台开发：::logos:microsoft-windows-icon size=1.5em:: ::wpf:macos size=1.5em:: ::flat-color-icons:linux size=1.5em::
+
+---
+推荐配置：
+- ::file-icons:intel size=1.5em::Intel i5-12400或::file-icons:amd size=1.5em::AMD Ryzen 5 3600X及以上
+- ::bi:memory size=1.5em::16GBDDR4或LPDDR4X内存及以上
+- ::material-symbols:hard-disk-sharp::500G SSD或NVMe固态硬盘
+
+---
+软件需求：
+- ::devicon:webstorm size=1.5em::WebStorm或::vscode-icons:file-type-vscode size=1.5em::VS Code
+- ::vscode-icons:file-type-node size=1.5em::Node.js LTS 22.16.0(2025年6月23日)
+- ::material-icon-theme:git size=1.5em::git
 :::
 
 1. 下载WebStorm
@@ -137,31 +158,21 @@ NVM（全名：Node.js Version Manager）可以帮助我们更高效地管理不
 
 3. 导入项目
 
-打开WebStorm后，你可以直接在WebStorm上点击“克隆仓库（Clone Repository ）”，登录github账号进行导入
-
-![2025-03-21_06-14-24.png](../.vuepress/public/src/2025-03-21_06-14-24.png)
-![2025-03-21_06-16-11.png](../.vuepress/public/src/2025-03-21_06-16-11.png)
 git使用HTTPS协议导入
-> 导入失败请参考“常见问题及解决方案”
+> 导入失败请参考“[常见问题及解决方案](#git推送-ssl-error)”
 
 :::tabs
 
-@tab 从github克隆（推荐）
+@tab 从Github克隆（推荐）
 
    ```shell
    git clone https://github.com/PGuideDev/PGuide-Docs.git
    ```
 
-@tab 从gitlab克隆
+@tab 从Gitlab CQMU克隆
 
    ```shell
-   git clone https://zds.cqmu.edu.cn/pguide-studio/pguide-docs.git
-   ```
-
-@tab 从gitea克隆
-
-   ```shell
-   git clone https://git.cqmu.online/PGuideStudio/PGuide-Docs.git
+   git clone https://git.cqmu.edu.cn/PGuideDev/pguide-docs.git
    ```
 
 :::
@@ -177,19 +188,19 @@ git也可以使用SSH协议导入，需要[配置SSH](/csdiy/tools-must/git/#设
    git clone git@github.com/PGuideDev/PGuide-Docs.git
    ```
 
-@tab 从gitlab克隆
+@tab 从Gitlab CQMU克隆
 
    ```shell
-   git clone git@zds.cqmu.edu.cn/pguide-studio/pguide-docs.git
-   ```
-
-@tab 从gitea克隆
-
-   ```shell
-   git clone git@git.cqmu.online/PGuideStudio/PGuide-Docs.git
+   git clone git@git.cqmu.edu.cn/pguide-studio/pguide-docs.git
    ```
 
 :::
+
+如果您已在开发者行列中，打开WebStorm后，直接在WebStorm上点击“克隆仓库（Clone Repository ）”，登录github账号进行导入
+
+![2025-03-21_06-14-24.png](../.vuepress/public/src/2025-03-21_06-14-24.png)
+![2025-06-24_00-05-01.png](../.vuepress/public/src/2025-06-24_00-05-01.png)
+
 
 4. 安装项目依赖
 
@@ -260,16 +271,18 @@ graph TD
 
 ### 提交规范
 
-采用 **Conventional Commits** 标准：
+采用 **[Conventional Commits](https://zj-git-guide.readthedocs.io/zh-cn/latest/message/Conventional%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83/)** 标准：
 
-- `feat`: 新功能，比如引入了PDF导入
-- `fix`: Bug 修复，比如不显示图标了
-- `docs`: 文档更新
-- `style`: 代码格式（空格、分号等）
-- `refactor`: 代码重构，比如把图片A换为了图片B
-- `perf`: 性能优化，比如删除了不必要的大图片
-- `test`: 测试相关，比如测试跨域访问
-- `chore`: 构建/工具变更，比如ESlint配置修改
+| 类型         | 说明                   | 示例                                                      |
+|------------|----------------------|---------------------------------------------------------|
+| `feat`     | 新功能，比如引入了PDF导入       | feat: add @vuepress-plume-theme/pdf function            |
+| `fix`      | Bug 修复，比如不显示图标了      | fix(chore): fixed the version caused icon display error |
+| `docs`     | 文档更新                 | docs(update-note.md): update the doc                    |
+| `style`    | 代码格式（空格、分号等）         | style: pep8 formatted                                   |
+| `refactor` | 代码重构，比如把图片A换为图片B     | refactor: change A2B                                    |
+| `perf`     | 性能优化，比如删除了大图片        | perf(src/*.img): upload2oss                             |
+| `test`     | 测试相关，比如测试跨域访问        | test(CORS): add 3rd party auth                          |
+| `chore`    | 构建/工具变更，比如ESlint配置修改 | chore(eslint): update es@1.0.0 to es@1.0.1              |
 
 **示例**：
 
@@ -281,9 +294,10 @@ graph TD
 @tab 终端中提交
 
 ```bash
+git add .
 git commit -m "feat: 添加用户登录功能"
 ```
-
+![2025-06-23_17-31-50.png](../.vuepress/public/src/2025-06-23_17-31-50.png)
 :::
 
 ### WebStorm拉取开发分支
@@ -307,7 +321,7 @@ git commit -m "feat: 添加用户登录功能"
 3. 提交分支到远程仓库
 
 :::important 远程仓库
-统一提交到github
+统一提交到github，新开发者有一个`新`的标签
 :::
 ![2025-03-21_06-44-42.png](../.vuepress/public/src/2025-03-21_06-44-42.png)
 
@@ -342,7 +356,8 @@ git commit -m "feat: 添加用户登录功能"
 
 ### 内容规范
 
-- 文档统一使用markdown格式，创建在`docs\notes`对应文件夹下，请注意修改永久链接[permalink](/contribute/#permalink)
+- 文档统一使用markdown格式，创建在`docs\notes`
+  对应文件夹下，请注意修改永久链接[permalink](/contribute/#permalink)
 - VuePress Plume主题默认从二级标题开始，右侧侧边栏只渲染到三级标题
 - 每行markdown请空一行
 
@@ -362,6 +377,7 @@ icon: #可选项，侧边栏图标
 ```
 
 ### permalink
+
 注意更新permalink，要和同级目录相同的前缀；
 
 例如：
@@ -388,7 +404,8 @@ icon: #可选项，侧边栏图标
 
 @tab ::line-md:github-loop:: Github创建
 
-<LinkCard icon="line-md:github-loop" href="https://github.com/Lyrlark/PGuide-Docs/pulls" title="Create Pull Request" >PGuide Docs Github Page</LinkCard>
+<LinkCard icon="line-md:github-loop" href="https://github.com/Lyrlark/PGuide-Docs/pulls" title="Create Pull Request" >
+PGuide Docs Github Page</LinkCard>
 
 ![2025-03-10_04-10-16.png](../.vuepress/public/src/2025-03-10_04-10-16.png)
 
@@ -482,13 +499,66 @@ icon: #可选项，侧边栏图标
 [//]: # (TODO: 需要高等数学.pdf)
 ```
 
-## 🆘 常见问题及解决方案
+## 常见问题及解决方案
 
-### 遇到git推送异常？（SSL ERROR）
+### git推送 SSL ERROR
 
-> [参考magic](/csdiy/tools-must/magic/clash-core/)
+> [参考magic配置三方代理](/csdiy/tools-must/magic/clash-core/)
+> 
+> [参考host配置本机正向代理](/csdiy/tools-must/magic/host/)
 
----
+git配置本地代理，此处默认您的代理端口在本地且 http/https 端口号为7890
+
+```shell
+# 设置全局 HTTP 代理
+git config --global http.proxy http://127.0.0.1:7890
+
+# 设置全局 HTTPS 代理
+git config --global https.proxy http://127.0.0.1:7890
+```
+
+### 依赖版本错误
+
+每个rc版本的依赖包可能会有不同的版本要求，您可以尝试以下步骤：
+
+:::steps
+
+1. 找到冲突的依赖包
+   ![2025-06-22_16-42-03.png](../.vuepress/public/src/2025-06-22_16-42-03.png)
+2. 在终端中输入以下命令，强制安装指定版本的依赖包
+
+```bash
+pnpm add @<package-name/subpackage>@<version>
+```
+
+例如
+
+```shell
+pnpm add @vuepress/shiki-twoslash@2.0.0-rc.110
+```
+
+:::
+
+3. 再次启动应用
+
+```shell
+pnpm run docs:dev
+```
+
+### 长期未更新安装不了包
+
+可以尝试去缓存启动web应用
+
+```shell
+vuepress dev docs --clean-cache --clean-temp
+```
+
+先删除`docs/.vuepress/.temp`, `docs/.vuepress/.cache`和`node_modules`文件夹，然后重新安装依赖
+
+```shell
+pnpm i
+```
+
 
 ## 附录
 
