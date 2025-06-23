@@ -5,13 +5,12 @@ permalink: /public-service/code-manage/gitlab-ee/
 icon: devicon:gitlab
 ---
 
-支持外置绑定登录：::logos:microsoft-icon =1.5em:: ::octicon:mark-github-16 =1.5em:: ::logos:bitbucket =1.5em:: ::https://3w.cqmua.cn/logo.svg =1.4em:: 
+支持外置绑定登录：::logos:microsoft-icon =1.5em:: ::ri:dingding-fill =1.5em:: ::octicon:mark-github-16 =1.5em:: ::logos:bitbucket =1.5em:: ::https://3w.cqmua.cn/logo.svg =1.4em:: 
 
 <CardGrid>
 <LinkCard icon="devicon:gitlab" href="http://192.168.183.202" title="重医校园网内网地址" description="校园网可访问"></LinkCard>
 <LinkCard icon="devicon:gitlab" href="https://git.cqmu.edu.cn/" title="Gitlab极狐" description="外网暂未开通"></LinkCard>
 </CardGrid>
-
 
 
 
