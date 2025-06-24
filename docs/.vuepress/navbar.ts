@@ -425,6 +425,11 @@ export const navbar = defineNavbarConfig([
                         icon: 'logos:element',
                         text: '图标、组件库',
                         link: '/csdiy/indeeded-src/icons-components/element-plus/'
+                    },
+                    {
+                        icon: 'streamline-logos:github-logo-1',
+                        text: 'CTF档案',
+                        link: 'https://github.com/CTF-Archives'
                     }
                 ]
             },
@@ -549,12 +554,6 @@ export const navbar = defineNavbarConfig([
                         badge: {type: 'tip', text: '在线'}
                     },
                     {
-                        icon: 'ri:baidu-fill',
-                        text: '百度网盘企业版',
-                        link: '/public-service/data-center/baidu-netdisk-enterprise/',
-                        badge: {type: 'warning', text: 'PGuide VPN'}
-                    },
-                    {
                         icon: 'line-md:download-loop',
                         text: '常用软件推荐及下载',
                         link: '/public-service/data-center/common-softwares-recommand-and-download/',
@@ -564,6 +563,18 @@ export const navbar = defineNavbarConfig([
                         icon: 'teenyicons:docker-outline',
                         text: 'docker私有镜像管理',
                         link: '/public-service/data-center/docker-registry/',
+                        badge: {type: 'warning', text: 'PGuide VPN'}
+                    },
+                    {
+                        icon: 'mdi:sql-query',
+                        text: '在线数据库及SQL练习网',
+                        link: '/public-service/data-center/online-sql/',
+                        badge: {type: 'info', text: '即将上线'}
+                    },
+                    {
+                        icon: 'ri:baidu-fill',
+                        text: '百度网盘企业版',
+                        link: '/public-service/data-center/baidu-netdisk-enterprise/',
                         badge: {type: 'warning', text: 'PGuide VPN'}
                     },
                     {
