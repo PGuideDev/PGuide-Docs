@@ -126,7 +126,7 @@ groups:
         location: 中国，重庆沙坪坝
         avatar: /avatar/cqmu.svg
         organization: 重庆医科大学人工智能医学学院
-        desc: College of Medical Artificial Intelligence
+        desc: College of Artificial Intelligence Medicine
       - name: 重庆医科大学TeX用户组
         link: https://github.com/cqmutug
         location: 重庆医科大学
@@ -545,16 +545,23 @@ groups:
       avatar: /avatar/jl.png
       organization: 江理一起来学微信公众号
       desc: 嗨！我是计科211史诗琪
-#  - title: 
-#    desc: 
-#    list:
-#    -
-#      name:
-#      link:
-#      location:
-#      avatar:
-#      organization:
-#      desc:        
+  - title: 循镜科技有限公司 
+    desc: 创新教育&安全服务供应商
+    list: 
+    -
+      name: Chain Mirror Platform
+      link: https://platform.cyclens.tech/
+      location: Global
+      avatar: https://platform.cyclens.tech/assets/cyclens_logo.png
+      organization: Cyclens
+      desc: 专业的web3开发和安全练习平台，提升自己获得成就       
+    -
+      name: Hello CTF
+      link: https://hello-ctf.com/
+      location: Global
+      avatar: https://hello-ctf.com/assets/images/logo.png
+      organization: Cyclens
+      desc: Hello CTF是免费开源的CTF入门教程，拥有全面的知识点锦集、配套的题目靶场和完善的工具系统。
 #  - title: 
 #    desc: 
 #    list:
