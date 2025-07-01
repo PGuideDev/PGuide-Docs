@@ -17,18 +17,18 @@
     "vp-update": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.23",
+    "@vuepress/bundler-vite": "2.0.0-rc.24",
     "@vuepress/plugin-baidu-analytics": "2.0.0-rc.110",
     "@vuepress/plugin-pwa": "2.0.0-rc.110",
     "http-server": "^14.1.1",
     "sass-embedded": "^1.89.2",
     "typescript": "^5.8.3",
     "vue": "^3.5.17",
-    "vuepress": "2.0.0-rc.23",
-    "vuepress-theme-plume": "1.0.0-rc.154"
+    "vuepress": "2.0.0-rc.24",
+    "vuepress-theme-plume": "1.0.0-rc.155"
   },
   "dependencies": {
-    "@iconify/json": "^2.2.351",
+    "@iconify/json": "^2.2.354",
     "@vercel/speed-insights": "^1.2.0",
     "@vuepress/plugin-google-analytics": "2.0.0-rc.107",
     "@vuepress/plugin-umami-analytics": "2.0.0-rc.110",
@@ -45,6 +45,6 @@
     "markmap-view": "^0.18.12",
     "mermaid": "^11.7.0",
     "node-fetch": "^3.3.2",
-    "swiper": "^11.2.8"
+    "swiper": "^11.2.10"
   }
 }
