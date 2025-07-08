@@ -61,7 +61,3 @@ max_token就是一次对话中GPT返回给您的最多token数量，这个可以
 LobeChat OpenSource LLM chat platform.
 
 </LinkCard>
-
-<LinkCard icon="https://raw.githubusercontent.com/Dooy/chatgpt-web-midjourney-proxy/main/src/assets/avatar.jpg" href="/public-service/GPT/MidJourneyProxy/" title="ChatGPT MidJourneyProxy" >
-PGuide GPT
-</LinkCard>

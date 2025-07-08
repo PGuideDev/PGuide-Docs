@@ -6,6 +6,8 @@ permalink: /templates/
 
 这里有常用的组件和语法糖的使用示例。
 
+<span><Badge>LANGUAGE</Badge><Badge type="warning" text="FRAMEWORK" /><Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="LICENSE" /></span>
+
 :::tip
 待完善
 :::

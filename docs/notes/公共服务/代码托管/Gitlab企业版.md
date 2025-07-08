@@ -5,7 +5,7 @@ permalink: /public-service/code-manage/gitlab-ee/
 icon: devicon:gitlab
 ---
 
-支持外置绑定登录：::logos:microsoft-icon =1.5em:: ::ri:dingding-fill =1.5em:: ::octicon:mark-github-16 =1.5em:: ::logos:bitbucket =1.5em:: ::https://3w.cqmua.cn/logo.svg =1.4em:: 
+支持外置绑定登录 ::octicon:mark-github-16 =1.5em::
 
 <CardGrid>
 <LinkCard icon="devicon:gitlab" href="http://192.168.183.202" title="重医校园网内网地址" description="校园网可访问"></LinkCard>
@@ -15,9 +15,8 @@ icon: devicon:gitlab
 
 
 :::info 注意事项
-- 注册审核需要管理员审核，请联系[::fluent-emoji-flat:red-heart::DKwms](/friends/persons/)或[::fluent-emoji-flat:red-heart::rand777](https://qm.qq.com/q/2iLBaNcsnO)
 - 请使用校内邮箱注册，标志为 _学号/工号@[stu.]cqmu.edu.cn_，如2021000001@stu.cqmu.edu.cn或teacher@cqmu.edu.cn，若有其他情况请单独联系上述管理员
-- 为保护账户安全，强制使用2FA认证[+vuepress]，请下载Microsoft Authenticator或Google Authenticator等应用进行认证，见2FA认证。
+- 为保护账户安全，所有用户强制使用2FA认证[+vuepress]，请下载Microsoft Authenticator或Google Authenticator等应用进行认证，见2FA认证。
 :::
 
 [+vuepress]:
@@ -27,7 +26,7 @@ icon: devicon:gitlab
 
 ## Gitlab CQMU
 
-:::tip 相关知识
+:::note 关于Git
 计算机必学工具之一[::skill-icons:git::git](/csdiy/tools-must/git/)
 :::
 
@@ -35,6 +34,7 @@ gitlab是一个类似于github的代码托管平台,极狐中国代理了gitlab,
 
 <LinkCard icon="devicon:gitlab" href="https://gitlab.cn/docs/" title="Gitlab Docs" ></LinkCard>
 
+管理员已开启 DevOps 流水线功能，用户可以自主使用其功能
 
 
 
@@ -43,17 +43,16 @@ gitlab是一个类似于github的代码托管平台,极狐中国代理了gitlab,
 
 ### 注册账号
 
-#### CQMU Account
-
-#### Github
-
-### 提出issue
-
-以 [::/icon/mirror.svg::CQMU Mirror](/public-service/cqmu-mirror/)为例：
-
-登录后进入具体的项目界面，选中计划，点击议题，创建即可
-
-![2025-03-21_04-12-09.png](../../../.vuepress/public/src/2025-03-21_04-12-09.png)
+请使用 **学生/教职工** 账号登录，以 @*.cqmu.edu.cn 为标志
 
 ### 2FA认证
 
+> 这里以Microsoft Authenticator为例，手机应用商店搜索即可
+
+:::important
+请勿更改设备时间
+:::
+
+### 绑定外置登录
+
+##

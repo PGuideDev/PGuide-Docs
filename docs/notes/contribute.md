@@ -126,8 +126,8 @@ permalink: /contribute/
 
 ---
 推荐配置：
-- ::file-icons:intel size=1.5em::Intel i5-12400或::file-icons:amd size=1.5em::AMD Ryzen 5 3600X及以上
-- ::bi:memory size=1.5em::16GBDDR4或LPDDR4X内存及以上
+- ::file-icons:intel size=1.5em::Intel i5-12400 ::file-icons:amd size=1.5em::AMD Ryzen 5 3600X ::wpf:macos size=1.5em:: Apple M1及以上
+- ::bi:memory size=1.5em::16GB DDR4或LPDDR4X 内存及以上
 - ::material-symbols:hard-disk-sharp::500G SSD或NVMe固态硬盘
 
 ---
@@ -310,6 +310,10 @@ git commit -m "feat: 添加用户登录功能"
 >
 > 选择git，输入仓库URL，完成后等待WebStorm拉取代码
 
+或者您可以使用fork的方式添加到您的github账号下，点击右上角的Fork按钮：
+
+![2025-07-07_17-18-04.png](../.vuepress/public/src/2025-07-07_17-18-04.png)
+
 2. 牵出开发分支
 
 每个人单独一条开发分支，以 `dev/你的名字某字母`定义，例如彭于晏的开发分支为 `dev/pyy`
@@ -440,7 +444,7 @@ PGuide Docs Github Page</LinkCard>
 - 视频文件：.mp4文件，帧率16/24FPS，放入项导腾讯云对象存储，参考[对象存储](/contribute/#对象存储)
 - PDF文件：请尽量精简，不需要的页面不上传，放入项导腾讯云对象存储，参考[对象存储](/contribute/#对象存储)
 
-  :::
+:::
 
 ### 截图工具设置
 
