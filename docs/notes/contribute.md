@@ -4,7 +4,7 @@ createTime: 2025/02/22 16:59:04
 permalink: /contribute/
 ---
 
-:::info V1.7.18.20250624_rc
+:::info V1.7.18.20250711_release
 最新修订时间为 2025年7月11日21:33
 :::
 
