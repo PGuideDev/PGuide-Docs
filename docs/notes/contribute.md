@@ -5,7 +5,7 @@ permalink: /contribute/
 ---
 
 :::info V1.7.18.20250624_rc
-最新修订时间为 2025年6月24日0:17
+最新修订时间为 2025年7月11日21:33
 :::
 
 首先感谢您的无私奉献，项导文档基于Vuepress的[plume主题构建](https://theme-plume.vuejs.press/)
@@ -158,15 +158,43 @@ NVM（全名：Node.js Version Manager）可以帮助我们更高效地管理不
 
 3. 导入项目
 
-git使用HTTPS协议导入
+作为开源项目，可以使用 fork 的方式将项目导入到您的github账号下，或者直接克隆到本地。
+
+:::note 从哪儿导入
+在学校优先gitlab，国内gitee，会魔法就github
+:::
+
+:::tabs 
+
+@tab Gitee
+
+![2025-07-11_21-48-50.png](../.vuepress/public/src/2025-07-11_21-48-50.png)
+
+@tab Github
+
+![2025-07-11_21-50-30.png](../.vuepress/public/src/2025-07-11_21-50-30.png)
+
+@tab Gitlab CQMU
+
+![2025-07-11_21-52-44.png](../.vuepress/public/src/2025-07-11_21-52-44.png)
+
+:::
+
+或者git使用HTTPS协议导入
 > 导入失败请参考“[常见问题及解决方案](#git推送-ssl-error)”
 
 :::tabs
 
+@tab 从Gitee克隆
+
+   ```shell
+   git clone https://gitee.com/rand777/PGuide-Docs.git
+   ```
+
 @tab 从Github克隆（推荐）
 
    ```shell
-   git clone https://github.com/PGuideDev/PGuide-Docs.git
+   git clone https://github.com/Lyrlark/PGuide-Docs.git
    ```
 
 @tab 从Gitlab CQMU克隆
@@ -182,16 +210,22 @@ git也可以使用SSH协议导入，需要[配置SSH](/csdiy/tools-must/git/#设
 
 :::tabs
 
+@tab 从Gitee克隆
+
+   ```shell
+   git clone git@gitee.com:rand777/PGuide-Docs.git
+   ```
+
 @tab 从github克隆
 
    ```shell
-   git clone git@github.com/PGuideDev/PGuide-Docs.git
+   git clone git@github.com/Lyrlark/PGuide-Docs.git
    ```
 
 @tab 从Gitlab CQMU克隆
 
    ```shell
-   git clone git@git.cqmu.edu.cn/pguide-studio/pguide-docs.git
+   git clone git@git.cqmu.edu.cn/PGuideDev/pguide-docs.git
    ```
 
 :::
