@@ -428,20 +428,6 @@ list:
     backgroundColor:
     color:
     nameColor:
-  - name: Macrodd2022
-    link:
-    avatar: https://avatars.githubusercontent.com/u/38821898?v=4
-    desc: Make a difference.
-    location: 中国，重庆
-    organization: 西南大学
-    socials:
-      - icon: qq
-        link: https://qm.qq.com/q/PNG1VCWgoY
-      - icon: github
-        link: https://github.com/Macrodd2022
-    backgroundColor:
-    color:
-    nameColor:
   - name: 张洪hoe
     link: https://zhheo.com/
     avatar: https://zhheo.com/img/avatar.jpg
