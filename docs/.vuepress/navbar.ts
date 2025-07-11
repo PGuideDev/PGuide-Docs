@@ -351,6 +351,7 @@ export const navbar = defineNavbarConfig([
                         link: 'https://www.codefather.cn/course/1789189862986850306',
                         badge: '鱼皮小课堂'
                     },
+
                 ]
             },
             // {icon: 'carbon:cics-program', text: '编程入门', link: '/csdiy/program-begin/'},
