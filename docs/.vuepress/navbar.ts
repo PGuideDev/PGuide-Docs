@@ -351,7 +351,11 @@ export const navbar = defineNavbarConfig([
                         link: 'https://www.codefather.cn/course/1789189862986850306',
                         badge: '鱼皮小课堂'
                     },
-
+                    {
+                        icon: 'line-md:github-loop',
+                        text: 'Code RoadMap',
+                        link: 'https://github.com/forthespada/developer-roadmap-zh-CN',
+                    },
                 ]
             },
             // {icon: 'carbon:cics-program', text: '编程入门', link: '/csdiy/program-begin/'},
@@ -431,7 +435,17 @@ export const navbar = defineNavbarConfig([
                         icon: 'streamline-logos:github-logo-1',
                         text: 'CTF档案',
                         link: 'https://github.com/CTF-Archives'
-                    }
+                    },
+                    {
+                        icon: 'fluent-color:book-16',
+                        text: 'CS Books',
+                        link: 'https://github.com/forthespada/CS-Books'
+                    },
+                                        {
+                        icon: 'line-md:github-loop',
+                        text: 'Awesome Courses',
+                        link: 'https://github.com/forthespada/Awsome-Courses',
+                    },
                 ]
             },
         ]
