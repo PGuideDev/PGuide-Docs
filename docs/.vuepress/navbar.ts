@@ -220,6 +220,12 @@ export const navbar = defineNavbarConfig([
                         badge: {type: 'warning', text: '整理中'}
                     },
                     {
+                        icon: '/icon/command_block.gif',
+                        text: 'CQMUA服务器中心',
+                        link: '/project-docs/cqmua-center/',
+                        badge: {type: 'tip', text: 'Vue SPA'}
+                    },
+                    {
                         icon: '/icon/zhiyu.png',
                         text: '植愈：AI情绪小帮手',
                         link: '/project-docs/plant-cure/',
