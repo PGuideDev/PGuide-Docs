@@ -10,6 +10,8 @@ tags:
   - ECharts
 ---
 
+负责人：[::noto:red-heart::@Lily](/friends/persons/)
+
 哈哈，这个项目是一个科学决策什么时候去食堂吃饭的项目，让你合理避开重医吃饭高峰期。
 ::: echarts 人群分布热力图
 ```js
@@ -189,103 +191,113 @@ option = {
 const height = 500
 ```
 :::
-::: echarts 重医食堂实时人数示例动态折线图
+::: echarts 重医食堂人数示例动态折线图
 ```js
-const oneDay = 86400000
-const data = []
-let now = new Date(1997, 9, 3)
-let value = Math.random() * 1000
+let maleData = [];
+let femaleData = [];
+let oneMinute = 60 * 1000;
+let base = +new Date(2025, 07, 16, 6, 0, 0); // 设置为当天6点
+for (let i = 0; i < 14 * 6; i++) { // 从6点到20点，每10分钟一个点
+  let now = new Date(base + i * 10 * oneMinute);
+  let hour = now.getHours();
+  let maleCount, femaleCount;
 
-function randomData() {
-  now = new Date(+now + oneDay)
-  value = value + Math.random() * 21 - 10
-  return {
-    name: now.toString(),
-    value: [
-      [now.getFullYear(), now.getMonth() + 1, now.getDate()].join('/'),
-      Math.round(value),
-    ],
+  if (hour >= 11 && hour <= 13) { // 午饭高峰期
+    maleCount = Math.round(Math.random() * 300 + 200); // 男生数据，y值范围为200到500
+    femaleCount = Math.round(Math.random() * 200 + 150); // 女生数据，y值范围为150到350
+  } else if (hour >= 17 && hour <= 19) { // 晚饭高峰期
+    maleCount = Math.round(Math.random() * 250 + 150); // 男生数据，y值范围为150到400
+    femaleCount = Math.round(Math.random() * 150 + 100); // 女生数据，y值范围为100到250
+  } else { // 非饭点时间
+    maleCount = Math.round(Math.random() * 100 + 50); // 男生数据，y值范围为50到150
+    femaleCount = Math.round(Math.random() * 80 + 30); // 女生数据，y值范围为30到110
   }
+
+  maleData.push([+now, maleCount]);
+  femaleData.push([+now, femaleCount]);
 }
-
-for (let i = 0; i < 1000; i++) data.push(randomData())
-
-const option = {
+option = {
   tooltip: {
     trigger: 'axis',
-    formatter(params) {
-      params = params[0]
-      const date = new Date(params.name)
-      return (
-        `${date.getDate()
-        }/${
-          date.getMonth() + 1
-        }/${
-          date.getFullYear()
-        } : ${
-          params.value[1]}`
-      )
-    },
-    axisPointer: {
-      animation: false,
-    },
+    position: function (pt) {
+      return [pt[0], '10%'];
+    }
+  },
+  title: {
+    left: 'center',
+    text: '一天内人数统计折线图'
+  },
+  toolbox: {
+    feature: {
+      dataZoom: {
+        yAxisIndex: 'none'
+      },
+      restore: {},
+      saveAsImage: {}
+    }
   },
   xAxis: {
     type: 'time',
-    splitLine: {
-      show: false,
-    },
+    boundaryGap: false
   },
   yAxis: {
     type: 'value',
-    boundaryGap: [0, '100%'],
-    splitLine: {
-      show: false,
-    },
+    min: 50, // 设置y轴最小值为50
+    boundaryGap: [0, '100%']
   },
-  toolbox: {
-    show: true,
-    feature: {
-      mark: {
-        show: true,
-      },
-      dataView: {
-        show: true,
-        readOnly: false,
-      },
-      restore: {
-        show: true,
-      },
-      saveAsImage: {
-        show: true,
-      },
-    },
-  },
-  series: [
+  dataZoom: [
     {
-      name: 'Fake Data',
-      type: 'line',
-      showSymbol: false,
-      data,
+      type: 'inside',
+      start: 0,
+      end: 100
     },
+    {
+      start: 0,
+      end: 100
+    }
   ],
-}
-const timeId = setInterval(() => {
-  if (myChart._disposed)
-    return clearInterval(timeId)
-
-  for (let i = 0; i < 5; i++) {
-    data.shift()
-    data.push(randomData())
+series: [
+  {
+    name: '男生人数统计',
+    type: 'line',
+    smooth: true,
+    symbol: 'none',
+    areaStyle: {},
+    data: maleData
+  },
+  {
+    name: '女生人数统计',
+    type: 'line',
+    smooth: true,
+    symbol: 'none',
+    areaStyle: {
+      color: 'pink' // 用粉色表示女生
+    },
+    data: femaleData
+  },
+  {
+    name: '时间标记',
+    type: 'line',
+    markLine: {
+      symbol: 'none',
+      data: [
+        {
+          xAxis: new Date(2025, 7, 16, 11, 20, 0),
+          lineStyle: {
+            type: 'dashed'
+          }
+        },
+        {
+          xAxis: new Date(2025, 7, 16, 12, 40, 0),
+          lineStyle: {
+            type: 'dashed'
+          }
+        }
+      ]
+    }
   }
-  myChart.setOption({
-    series: [
-      {
-        data,
-      },
-    ],
-  })
-}, 1000)
+]
+};
 ```
 :::
 

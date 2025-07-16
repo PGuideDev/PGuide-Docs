@@ -24,4 +24,6 @@ tags:
 
 语雀：[https://www.yuque.com/pguide/cqmua](https://www.yuque.com/pguide/cqmua)
 
-渝高联: [https://3w.cqmua.cn/union-server/union-restore/](https://3w.cqmua.cn/union-server/union-restore/)
+渝高联: [https://www.cqmua.cn/union-server/union-restore/](https://www.cqmua.cn/union-server/union-restore/)
+
+wiki: [https://wiki.cqmua.cn/](https://wiki.cqmua.cn/)
