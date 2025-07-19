@@ -5,21 +5,21 @@ permalink: /csdiy/program-begin/PYPI-mirror/
 icon: devicon:pypi
 ---
 
-对于Python而言，现在出现了许许多多新型的包管理器(package manager)，编者目前最推荐 uv。
+对于Python而言，现在出现了许许多多新型的包管理器(package manager)，编者目前最推荐 uv。当然，作为开放的互联网，其他的包管理器（pip，poetry，conda）也有其独特的优势和使用场景。
 
 编写者：[::noto:red-heart:: Lily, rand777  ](/friends/persons/)                        
 
+## Astral-UV
 
-
-
-## UV 从安装到使用
 
 [https://docs.astral.sh/uv/getting-started/installation/](https://docs.astral.sh/uv/getting-started/installation/)
 ### 安装
 
 #### Windows
-* 通过pip安装(推荐)
 
+:::tabs
+
+@tab pip安装
 1.打开命令提示符，输入以下命令
 
 ```shell
@@ -64,7 +64,17 @@ where uv
 
 ![2025-05-15_16-48-29.png](../../../../.vuepress/public/src/2025-05-15_16-48-29.png)
 
-10.最后打开一个新的命令提示符窗口，输入以下命令，验证更改
+@tab Powershell安装
+
+```shell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+:::
+
+
+
+最后打开一个新的命令提示符窗口，输入以下命令，验证更改
 
 ```shell
 uv
@@ -174,7 +184,11 @@ UV是是一个用Rust编写的现代Python打包工具，它的核心目标是�
 
 如果你厌倦了等待pip解析和安装依赖，那么uv绝对值得你尝试。开始使用uv venv和uv pip install,体验一下“瞬间”完成依赖安装的快感吧！
 
+### 参考资料
+
+- [rand777的博客](https://blog.rand777.space/article/20250717/)
 
 ## 配置镜像
 
 参考[PYPI镜像配置](/public-service/cqmu-mirror/wiki/#pypi)
+
