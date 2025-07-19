@@ -10,6 +10,10 @@ tags:
   - Java
 ---
 
+:::note
+此页面正在完善中
+:::
+
 项目负责人：[::noto:red-heart::rand777](/friends/persons/)
 
 省流：在我的世界里复原大学城高校建筑。
@@ -19,6 +23,11 @@ tags:
 ## 复原工程
 
 复原工程是一项宏大的项目，渝高联早在2024年10月就已讨论过联合复原的可能性。模式上参考了福建省闽高联。过去的半年内，管理员一直在进行基础设施的建设和规划，也在积极向其他高校寻求建议与合作。
+
+- Bluemap: [https://mc.cqmu.edu.cn:6000](https://mc.cqmu.edu.cn:6000)
+- Dynamap: [https://mc.cqmu.edu.cn:8000](https://mc.cqmu.edu.cn:8000)
+
+服务器入口域名：mc.cqmu.edu.cn
 
 ### 文档支持
 
