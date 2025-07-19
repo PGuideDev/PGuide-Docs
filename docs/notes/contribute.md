@@ -414,6 +414,15 @@ icon: #可选项，侧边栏图标
 ---
 ```
 
+:::note 我暂时没写完
+请在开头中添加
+
+```yaml
+draft: true
+```
+
+:::
+
 ### permalink
 
 注意更新permalink，要和同级目录相同的前缀；
