@@ -50,4 +50,16 @@ tags:
 
 渝高联: [https://www.cqmua.cn/union-server/union-restore/](https://www.cqmua.cn/union-server/union-restore/)
 
-wiki: [https://wiki.cqmua.cn/](https://wiki.cqmua.cn/)
+[//]: # (wiki: [https://wiki.cqmua.cn/]&#40;https://wiki.cqmua.cn/&#41;)
+
+MUA高校复原经验：[https://hi-ysumc.feishu.cn/wiki/Y7bBwyWvuiUPKekCTb1cHZVvnOb](https://hi-ysumc.feishu.cn/wiki/Y7bBwyWvuiUPKekCTb1cHZVvnOb)
+
+山东科技大学：[https://www.sdustmc.cn/archives/185](https://www.sdustmc.cn/archives/185)
+
+## 项目进行原则
+
+多校联合复原工程十分复杂，涉及到的高校众多，参与人员也非常多。为了保证项目的顺利进行，我们制定了以下原则：
+
+- 不以复原为目的和终点，视作社区建设的里程碑
+- 非盈利，纯粹的兴趣爱好
+- 奖励那些值得奖励的人
