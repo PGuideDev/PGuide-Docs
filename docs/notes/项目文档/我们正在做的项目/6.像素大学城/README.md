@@ -29,6 +29,21 @@ tags:
 
 服务器入口域名：mc.cqmu.edu.cn
 
+## 技术路线
+
+### 大疆-三维高斯泼溅
+
+@bilibili(BV1N1gwzoEei)
+
+### Minecraft插件
+
+- Obj2Schematic: https://objtoschematic.com/
+- FastAsyncWorldEdit: https://intellectualsites.github.io/download/fawe.html
+
+### Blender
+
+- Blender: https://www.blender.org/
+
 ### 文档支持
 
 语雀：[https://www.yuque.com/pguide/cqmua](https://www.yuque.com/pguide/cqmua)
