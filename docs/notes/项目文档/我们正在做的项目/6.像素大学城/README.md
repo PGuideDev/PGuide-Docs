@@ -6,7 +6,7 @@ icon: '/icon/univ-town.svg'
 tags:
   - CQMUA
   - Minecraft
-  - Lua
+  - 计算机图形学
   - Java
 ---
 
@@ -33,7 +33,7 @@ tags:
 
 ### 大疆-三维高斯泼溅
 
-@bilibili(BV1N1gwzoEei)
+@[bilibili](BV1N1gwzoEei)
 
 ### Minecraft插件
 
