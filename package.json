@@ -1,11 +1,10 @@
 {
   "name": "pguide-docs",
   "type": "module",
-  "version": "1.5.22-rc",
+  "version": "1.6.1-rc",
   "description": "项导文档",
-  "packageManager": "pnpm@10.3.0",
-  "author": "rand777 <losmosga@foxmail.com>",
-  "license": "MIT",
+  "author": "rand777 <rand777@pguide.studio>",
+  "license": "MPL2.0",
   "engines": {
     "node": "^18.20.0 || >=20.0.0"
   },
