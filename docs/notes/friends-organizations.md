@@ -337,23 +337,17 @@ groups:
         organization: MUA
         desc: Minecraft University Alliance
       - name: 渝高联CQMUA官网
-        link: https://3w.cqmua.cn/
+        link: https://www.cqmua.cn/
         location: 中国，重庆市
-        avatar: https://3w.cqmua.cn/logo.svg
+        avatar: https://www.cqmua.cn/logo.svg
         organization: CQMUA、MUA
         desc: 重庆 Minecraft 高校联盟
       - name: CQMUA Server Status
         link: https://server.cqmua.cn
         location: 中国，重庆市
-        avatar: https://3w.cqmua.cn/logo.svg
+        avatar: https://www.cqmua.cn/logo.svg
         organization: CQMUA、MUA
         desc: 重庆 Minecraft 高校联盟服务器监控页面        
-      - name: 闽高联CQMUA官网
-        link: https://www.fjmua.cn/
-        location: 中国，福建省
-        avatar: https://files.catbox.moe/if2h8z.png
-        organization: FJMUA、MUA
-        desc: 福建省 Minecraft 高校联盟
       - name: 和瑛社
         link: https://heryin.net/
         location: 中国
