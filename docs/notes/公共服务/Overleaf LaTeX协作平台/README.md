@@ -47,7 +47,7 @@ LaTeX最初设计用作学术论文的编写，后面逐渐发展成一款全能
 ### 注册账户
 
 联系 [::noto:red-heart::rand777](/friends/persons/)
-或邮件联系[pguide.studio@outlook.com](mailto:pguide.studio@outlook.com) 注册账号，注册后请使用校内 _.cqmu.edu.cn_ 邮箱登录。
+或[邮件联系](mailto:contact@pguide.studio) 注册账号，注册后请使用校内 _.cqmu.edu.cn_ 邮箱登录。
 
 :::info 联系格式
 你好！我的学/工号是xxxxxxxx，是在校学生/教职工/科研机构人员，想申请Overleaf账号，谢谢！

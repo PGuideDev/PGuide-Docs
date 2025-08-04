@@ -20,7 +20,7 @@ permalink: /contribute/
 在您完成markdown类型文档编写后可以
 
 - 通过github创建合并请求
-- email到[我们的邮箱](mailto:losmosga@foxmail.com)
+- email到[我们的邮箱](mailto:contact@pguide.studio)
 - QQ发送给 [rand777](https://qm.qq.com/cgi-bin/qm/qr?k=9s5V15fEzwzHuawmc-QQZ615NPTp9oEZ)
 
 ### 我想直接写一篇文档
