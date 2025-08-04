@@ -21,7 +21,7 @@ export default defineUserConfig({
                 description: 'An open-source documentation site',
                 lang: 'en',
                 background_color: '#ffffff',
-                theme_color: '#cbfaab',
+                theme_color: '#ffffff',
                 orientation: 'portrait-primary',
                 start_url: '/',
                 display: 'fullscreen',
@@ -69,6 +69,7 @@ export default defineUserConfig({
     shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
 
     theme: plumeTheme({
+        lastUpdated: { formatOptions: { dateStyle: 'short', timeStyle: 'short' } },
 
         markdown: {
             echarts: true, // 启用 ECharts 支持
@@ -78,6 +79,22 @@ export default defineUserConfig({
             pdf: true, // 启用 PDF 支持
             bilibili: true, // 启用 Bilibili 视频支持
             youtube: true, // 启用 YouTube 视频支持
+            codeTree: true, // 启用代码树语法 ::: code-tree
+            collapse: true, // 启用折叠语法 ::: collapse
+            caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
+            plot: true,         // 启用隐秘文本语法 !!xxxx!!
+            artPlayer: true,    // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
+            audioReader: true,  // 启用嵌入音频朗读功能 语法 @[audioReader](url)
+            codepen: true,      // 启用嵌入 codepen 语法 @[codepen](user/slash)
+            codeSandbox: true,  // 启用嵌入 codeSandbox 语法 @[codeSandbox](id)
+            jsfiddle: true,     // 启用嵌入 jsfiddle 语法 @[jsfiddle](user/id)
+            npmTo: true,        // 启用 npm-to 容器  ::: npm-to
+            demo: true,         // 启用 demo 容器  ::: demo
+            timeline: true, // 启用时间线, https://theme-plume.vuejs.press/guide/markdown/timeline/
+            imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
+            annotation: true, // https://theme-plume.vuejs.press/guide/markdown/annotation/
+            abbr: true, // 启用缩略词功能
+            field: true, // 启用字段容器功能
         },
 
         /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
@@ -167,10 +184,6 @@ export default defineUserConfig({
 
         plugins: {
 
-
-            // 开发环境和生产环境都启用git贡献功能
-            git: process.env.NODE_ENV === 'production',
-
             /* 本地搜索, 默认启用 */
             search: false,
 
@@ -184,35 +197,6 @@ export default defineUserConfig({
             //   apiKey: '',
             //   indexName: '',
             // },
-
-            /* 文章字数统计、阅读时间，设置为 false 则禁用 */
-            // readingTime: true,
-
-
-            /**
-             *  markdown power
-             * @see https://theme-plume.vuejs.press/config/plugin/markdown-power/
-             */
-
-            markdownPower: {
-                codeTree: true, // 启用代码树语法 ::: code-tree
-                collapse: true, // 启用折叠语法 ::: collapse
-                caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
-                plot: true,         // 启用隐秘文本语法 !!xxxx!!
-                artPlayer: true,    // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
-                audioReader: true,  // 启用嵌入音频朗读功能 语法 @[audioReader](url)
-                codepen: true,      // 启用嵌入 codepen 语法 @[codepen](user/slash)
-                codeSandbox: true,  // 启用嵌入 codeSandbox 语法 @[codeSandbox](id)
-                jsfiddle: true,     // 启用嵌入 jsfiddle 语法 @[jsfiddle](user/id)
-                npmTo: true,        // 启用 npm-to 容器  ::: npm-to
-                demo: true,         // 启用 demo 容器  ::: demo
-                timeline: true, // 启用时间线, https://theme-plume.vuejs.press/guide/markdown/timeline/
-                imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
-                annotation: true, // https://theme-plume.vuejs.press/guide/markdown/annotation/
-                abbr: true, // 启用缩略词功能
-                field: true, // 启用字段容器功能
-            },
-
 
             /**
              * 在 Markdown 文件中导入其他 markdown 文件内容。
