@@ -9,11 +9,18 @@ tags:
   - 前端开发
 ---
 
-[https://server.cqmua.cn/](https://server.cqmua.cn/)
+:::note 需要的知识
+- Vue3
+- WebStorm / VS Code
+:::
+
+<CardGrid>
+<RepoCard repo="CQMUA/server-center"></RepoCard>
+<LinkCard icon="https://server.cqmua.cn/CQMUA-Logo-transp.png" href="https://server.cqmua.cn" title="CQMUA服务器中心" >CQMUA server center</LinkCard>
+</CardGrid>
 
 <Swiper :items="['/src/2025-03-17_02-24-07.png','/src/2025-03-17_02-18-57.png']" effect="cards" pauseOnMouseEnter="true"></Swiper>
 
-<RepoCard repo="CQMUA/server-center"></RepoCard>
 
 ## CQMUA是什么？
 
