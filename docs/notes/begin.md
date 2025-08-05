@@ -15,7 +15,7 @@ permalink: /begin/
 
 ---
 
-项导文档目前包括了以下部分，如果你有其他好的建议，或者想加入贡献者的行列，欢迎邮件 [PGuide Studio](mailto:losmosga@foxmail.com)
+项导文档目前包括了以下部分，如果你有其他好的建议，或者想加入贡献者的行列，欢迎邮件 [PGuide Studio](mailto:rand777@pguide.studio)
 阅读[贡献指南](/contribute/)，在下方评论区提问：
 
 <CardGrid>
@@ -43,7 +43,7 @@ href="/project-docs/">
 - 💡 具体实现教程
 - 💡 团队协作经验
 
-想做项目却不知从何下手？快来看这里～>
+学了知识怎么应用？想做项目却不知从何下手？快来看这里～>
 </LinkCard>
 
 <LinkCard
@@ -65,7 +65,7 @@ title="公共服务"
 href="/public-service/">
 学长学姐为你准备的校园生存工具箱，助力有目标的大学生活～
 
-* ✅ DeepSeek免费用
+* ✅ 各家模型免费用
 * ✅ 常用软件下载
 * ✅ 生活服务入口
 
@@ -238,6 +238,16 @@ of the next tale._
   time=2025-06-15 type=success icon=qlementine-icons:build-16
 
   支持了在线编辑、评论区、搜索、服务器状态查询等多种功能。各种网络优化下大陆地区访问速度大幅提升，[国际主站点](https://ping.chinaz.com/docs.pguide.studio)平均延迟低于100ms，[国内镜像站点平均延迟](https://ping.chinaz.com/docs.pguide.cloud)低于20ms，优化了用户体验。
+
+- 获得奖项02
+  time=2025-07-31 type=warning  icon=healthicons:award-trophy
+
+  项导文档获[::https://2025.jsjds.com.cn/assets/logo2-1fc42965.png::中国计算机设计大赛](/campus-wiki/competition/4c/)全国三等奖，继续加油！
+
+- 建设里程碑06
+  time=2025-08-06 type=important  icon=tdesign:cooperate-filled
+
+  项导文档站总字数达17W，阅读量达15W，共有92位成员、28个组织加入建设。
 
 - 未来
   time=2077-07-07 type=tip  icon=token:future
