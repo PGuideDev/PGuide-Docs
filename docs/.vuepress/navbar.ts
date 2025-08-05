@@ -1,5 +1,3 @@
-// noinspection JSDeprecatedSymbols
-
 import {defineNavbarConfig} from 'vuepress-theme-plume'
 
 export const navbar = defineNavbarConfig([
@@ -28,9 +26,15 @@ export const navbar = defineNavbarConfig([
                 },
                     {
                         icon: 'octicon:command-palette-24',
-                        text: 'Linux命令大全',
+                        text: 'Linux入门及命令',
                         link: '/learning-notes/linux/commands/',
                         badge: '.sh'
+                    },
+                    {
+                        icon: 'https://wiki.linux.do/_next/image?url=%2Flogo.png&w=96&q=75',
+                        text: 'Linux Do Wiki',
+                        link: 'https://wiki.linux.do/',
+                        badge: 'Linux社区'
                     },
                 ]
             },
@@ -301,6 +305,12 @@ export const navbar = defineNavbarConfig([
                 text: '必学工具',
                 items: [
                     {
+                        icon: 'line-md:question',
+                        text: '缺失的一课',
+                        link: 'https://www.criwits.top/missing/',
+                        badge: ''
+                    },
+                    {
                         icon: 'skill-icons:git',
                         text: 'Git',
                         link: '/csdiy/tools-must/git/',
@@ -361,10 +371,22 @@ export const navbar = defineNavbarConfig([
                         icon: 'line-md:github-loop',
                         text: 'Code RoadMap',
                         link: 'https://github.com/forthespada/developer-roadmap-zh-CN',
+                        badge: '一个传奇'
+                    },
+                    {
+                        icon: 'lsicon:education-filled',
+                        text: 'OI Wiki',
+                        link: 'https://oi-wiki.org/',
+                        badge: '算法百科'
+                    },
+                    {
+                        icon: 'https://ctf-wiki.org/static/img/logo.png',
+                        text: 'CTF-wiki',
+                        link: 'https://ctf-wiki.org/',
+                        badge: '挖洞丧失人性'
                     },
                 ]
             },
-            // {icon: 'carbon:cics-program', text: '编程入门', link: '/csdiy/program-begin/'},
             {
                 icon: 'carbon:cics-program',
                 text: '编程入门',
@@ -656,6 +678,24 @@ export const navbar = defineNavbarConfig([
                 icon: 'ic:baseline-school',
                 text: '校内生活',
                 link: '/campus-wiki/campus-life/'
+            },
+            {
+                icon: 'https://colleges.chat/assets/images/favicon.webp',
+                text: '大学百科指北',
+                link: 'https://colleges.chat/',
+                badge: '生活'
+            },
+            {
+                icon: 'https://ac-wiki.org/assets/logo_clear.png',
+                text: 'Ac-Wiki',
+                link: 'https://ac-wiki.org/',
+                badge: '大学生的百科全书'
+            },
+            {
+                icon: '',
+                text: '',
+                link: '',
+                badge: ''
             },
             {
                 icon: 'carbon:container-software',
