@@ -256,4 +256,51 @@ of the next tale._
 :::
 
 
+## 一起学习
 
+项导文档的设计思想是通过新同学的阅读中产生的疑惑来完善文档，将所学知识应用到真实的开发场景中。我们虽然名义上是医科大的同学，但同样对计算机充满好奇与热情。
+
+从现实条件上讲，每个人的精力和经验有限，计算机领域知识相关性强、迭代速度快，文档维护只能尽力而为。如果您对某篇文档有更好的建议，可以参考贡献指南来加入文档的建设。
+
+好在互联网上，不乏有更优秀的前辈们探索的道路与智慧的结晶。如果您也是类似的开源文档、项目开发者，欢迎[添加友情链接](/friends/quotes/#我该怎样添加社会链接)，互相交流学习。下面是项导文档中参考和引用的优秀开源项目：
+
+<CardGrid>
+<RepoCard repo="Ac-Wiki/Ac-Wiki"></RepoCard>
+<RepoCard repo="chenyme/LinuxDoWiki"></RepoCard>
+<RepoCard repo="ustclug/Linux101-docs"></RepoCard>
+<RepoCard repo="ustclug/Linux201-docs"></RepoCard>
+<RepoCard repo="criwits/missing-web/"></RepoCard>
+<RepoCard repo="pkuflyingpig/cs-self-learning/"></RepoCard>
+<RepoCard repo="forthespada/developer-roadmap-zh-CN"></RepoCard>
+<RepoCard repo="OI-wiki/OI-wiki"></RepoCard>
+<RepoCard repo="ProbiusOfficial/Hello-CTF"></RepoCard>
+<RepoCard repo="ctf-wiki/ctf-wiki"></RepoCard>
+<RepoCard repo="CTF-Archives/.github"></RepoCard>
+<RepoCard repo="forthespada/CS-Books"></RepoCard>
+<RepoCard repo="forthespada/Awsome-Courses"></RepoCard>
+<RepoCard repo="Snailclimb/JavaGuide"></RepoCard>
+<RepoCard repo="/CollegesChat/university-information/"></RepoCard>
+</CardGrid>
+
+较为完整的目录：
+
+- Ac Wiki
+- Linux Do Wiki
+- Linux 101
+- Linux 201
+- 你缺失的那门计算机课
+- CSDIY
+- 编程导航
+- Code RoadMap
+- OI Wiki
+- CTF Wiki
+- Hello CTF
+- 电脑开荒网
+- Python PEP
+- CTF Archive
+- CS Books
+- Awesome Courses
+- Java Guide
+- 大学生活指北
+
+> 以上，对互联网开源精神致敬，对世界的美好致谢。
