@@ -69,7 +69,6 @@ export default defineUserConfig({
     shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
 
     theme: plumeTheme({
-        lastUpdated: { formatOptions: { dateStyle: 'short', timeStyle: 'short' } },
 
         markdown: {
             echarts: true, // 启用 ECharts 支持
@@ -113,20 +112,12 @@ export default defineUserConfig({
         //     }
         // },
 
-        changelog: {
-            maxCount: 10, // 最大变更日志数量
-            repoUrl: 'https://github.com/Lyrlark/PGuide-Docs',
-            commitUrlPattern: ':repo/commit/:hash',
-            issueUrlPattern: ':repo/issues/:issue',
-            tagUrlPattern: ':repo/releases/tag/:tag'
-        },
-
         /* 页内信息 */
-        // editLink: true,
-        // lastUpdated: true,
-        // contributors: {
-        //     mode: 'block',
-        // },
+        editLink: true,
+        lastUpdated: true,
+        contributors: {
+            mode: 'block',
+        },
         // changelog: false,
         /**
          * 博客
