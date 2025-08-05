@@ -368,6 +368,12 @@ export const navbar = defineNavbarConfig([
                         badge: '鱼皮小课堂'
                     },
                     {
+                        icon: 'material-icon-theme:java',
+                        text: 'Java Guide',
+                        link: 'https://javaguide.cn/',
+                        badge: 'Coffee'
+                    },
+                    {
                         icon: 'line-md:github-loop',
                         text: 'Code RoadMap',
                         link: 'https://github.com/forthespada/developer-roadmap-zh-CN',
