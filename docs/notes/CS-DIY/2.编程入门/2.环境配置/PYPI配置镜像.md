@@ -5,6 +5,12 @@ permalink: /csdiy/program-begin/PYPI-mirror/
 icon: devicon:pypi
 ---
 
+:::error
+
+此处文档存在一定疏漏，待订正。
+
+:::
+
 对于Python而言，现在出现了许许多多新型的包管理器(package manager)，编者目前最推荐 uv。当然，作为开放的互联网，其他的包管理器（pip，poetry，conda）也有其独特的优势和使用场景。
 
 编写者：[::noto:red-heart:: Lily, rand777  ](/friends/persons/)                        
@@ -33,8 +39,6 @@ pip install uv
 where uv
 ```
 找到uv的存储位置并复制到文件资源管理器的搜索栏，
-
-[lwj2024223201](../../../../../../../../../java%E6%95%B0%E6%8D%AE%E5%AD%98%E6%94%BE/untitled2222222222/lwj2024223201)![img_9.png](img_9.png)
 
 ![2025-05-15_16-44-21.png](../../../../.vuepress/public/src/2025-05-15_16-44-21.png)
 
