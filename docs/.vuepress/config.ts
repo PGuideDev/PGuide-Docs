@@ -117,6 +117,12 @@ export default defineUserConfig({
         lastUpdated: true,
         contributors: {
             mode: 'block',
+            info: [
+                {
+                    username: 'LyrLark', // github username
+                    alias: ['rand777'], // 别名，本地 git 配置中的用户名
+                }
+            ]
         },
         // changelog: false,
         /**
@@ -174,6 +180,7 @@ export default defineUserConfig({
         },
 
         plugins: {
+
 
             /* 本地搜索, 默认启用 */
             search: false,
