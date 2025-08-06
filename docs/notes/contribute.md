@@ -29,6 +29,8 @@ permalink: /contribute/
 并获取语雀编辑权限，或将word文档/PDF文档/PPT发送给[rand777](https://qm.qq.com/q/2iLBaNcsnO)
 。我们会将您的文档转换为markdown格式并发布到项导文档站，按照您的要求对其进行署名。
 
+或者，在每篇文档的最下方有 `编辑此页` 功能，使用即可进行编辑。
+
 ### 其他注意事项
 
 请参考[文档编写规范](/contribute/#文档编写规范)
