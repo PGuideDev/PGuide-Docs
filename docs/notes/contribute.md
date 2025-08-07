@@ -4,8 +4,8 @@ createTime: 2025/02/22 16:59:04
 permalink: /contribute/
 ---
 
-:::info V1.7.18.20250711_release
-最新修订时间为 2025年7月11日21:33
+:::info V1.8.2.20250808_release
+最新修订时间为 2025年8月8日02:54
 :::
 
 首先感谢您的无私奉献，项导文档基于Vuepress的[plume主题构建](https://theme-plume.vuejs.press/)
@@ -396,10 +396,41 @@ git commit -m "feat: 添加用户登录功能"
 
 ### 内容规范
 
+- 请在每篇文档的最上方使用 ::noto:red-heart::谁谁谁 以便我们了解您，可在 `docs/templates.md` 中添加您的作者信息
 - 文档统一使用markdown格式，创建在`docs\notes`
   对应文件夹下，请注意修改永久链接[permalink](/contribute/#permalink)
-- VuePress Plume主题默认从二级标题开始，右侧侧边栏只渲染到三级标题
+- VuePress Plume主题默认从二级标题开始，支持到六级标题，但建议控制在四级内
 - 每行markdown请空一行
+
+### 修改、完善文档
+
+- 未完成请使用下面的语法标注在文档最上方：
+
+:::danger 这是一篇未完成的文档
+
+:::
+
+- 如果是已经完成但未校对的
+
+:::note 本文已完成，等待校对
+
+:::
+
+- 如果是已经完成且已校对的
+
+:::tip 本文已完成并校对
+
+:::
+
+- 文档中存在需要修改、不足之处
+
+:::warning 修改原因、不足之处描述
+
+:::
+
+- 如果您对已经完成且已校对的有更好建议的
+
+到 github 提出issue，选择文档修改类，将该 issue 和文档链接起来，指派(Assign)文档编写者为Assignee；或者简单地[加入我们的开发群](https://qm.qq.com/q/Ur5Q6kyTsG)，在线交流一下？
 
 ### 新增页面
 
