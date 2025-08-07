@@ -1,131 +1,49 @@
-# 🌍 PGuide Docs - Cultivating a Knowledge Garden Together
+# 🌱 Project Guide Document - Co-building the Knowledge Garden
 
-In this interconnected era, knowledge flows like stardust across the cosmos. Every page in this project embodies the collective wisdom of our community. We invite you to join hands in nurturing this ever-growing knowledge tree that belongs to all contributors. 🌱
+![pguide-doc.png](docs/.vuepress/public/src/pguide-doc.png)  
+In the era of interconnected everything, the transmission of knowledge is like a sky full of stars. Every page of this project’s documentation is the crystallization of the wisdom of community partners. Here, we sincerely invite you to join hands with us to nurture this knowledge tree that belongs to everyone's growth. 👫
 
-![Community Collaboration](docs/.vuepress/public/src/pull_requests.png)
+> Great news, this document has been selected as a [Plume Vuepress Case Study](https://theme-plume.vuejs.press/demos/#%E6%96%87%E6%A1%A3)
 
-## 🌟 Golden Rule
-**"When you discover constellations in our documentation, light a path for future travelers"** — Every patch you contribute becomes a stepping stone toward a better open-source world.
+## Document Contents
 
----
+### Learning Notes
 
-## 🛠️ Developer's Toolkit
+> Share your [computer learning insights](https://docs.pguide.studio/learning-notes/) with others!
 
-### Core Infrastructure
-- **Node.js** v18.20.0+ (Recommend using Node Version Manager)
-- **Package Manager**: pnpm 8+ or Yarn 2+ (Modern package management required)
+### Project Documentation
 
-### Recommended Gear
-- 🛡️ Environment Guardian: [nvm-windows](https://github.com/coreybutler/nvm-windows)
-- 🖥️ Code Forge: WebStorm / VSCode (With Vue ecosystem plugins)
+> Build the [project of your dreams with imagination](https://docs.pguide.studio/project-docs/)
 
----
+### CS-DIY
 
-## 📂 Codex Structure
+> Some [little knowledge about computers](https://docs.pguide.studio/cs-diy/)!!! Inspiration comes from [CSDIY](https://csdiy.wiki/)
 
-```
-PGuide-Docs/
-├── docs/                    # Chronicle Scrolls (Content Repository)
-└── .vuepress/              # Magic Workshop
-    ├── public/             # Treasure Chest (Static Assets)
-    ├── theme/              # Castle Blueprints (Theme Configuration)
-    ├── client.ts          # Portal Keeper (Client Options)
-    ├── config.ts          # Grand Encyclopedia (Global Config)
-    ├── navbar.ts          # Signposts (Navigation Setup)
-    ├── notes.ts           # Treasure Map (Document Structure)
-    └── plume.config.ts    # Palette (Theme Styling)
-```
+### Public Services
+
+> Some [public services and related knowledge popularization](https://docs.pguide.studio/public-service/)
+
+### University Encyclopedia
+
+> At the crossroads of life, where [should we go?](https://docs.pguide.studio/campus-wiki/apply-student-email/)?
+
+## 🌟 Warm Tips
+**"When you discover stars in the text, please also light a lamp for those who come after."** — Every book you lay down is a step toward a better open source world.
+
+But the power of one person is always limited. The project guide document welcomes your participation. Please refer to our [Contribution Guide](https://docs.pguide.studio/contribute/).
 
 ---
 
-## 🚀 Quickstart Guide
+## 🌈 Starlight Message Board
+> "We are not just writing code; we are weaving a network that connects the world." — Looking forward to your first contribution! If you encounter any unknown star realms, feel free to send a signal through Issues~
 
-### 🏗️ Setup Foundations
-```bash
-# Newcomers should install nvm first
-nvm install lts
+Every document page is equipped with a comment section. You can participate in the interaction after logging in with [walline](https://comment.pguide.studio/ui).
 
-# Configure Mirror Sources (Choose your express lane):
-nvm node_mirror https://mirrors.cernet.edu.cn/nodejs-release/  # Campus Network
-nvm node_mirror https://mirrors.aliyun.com/nodejs-release/     # Alibaba Cloud Express
-
-# Equip Modern Toolchain
-npm install -g pnpm  # Faster npm alternative
-pnpm i              # Install arcane ingredients
-pnpm run docs:dev   # Open local preview portal
-```
-
-### ✨ Hot-Reload Tips
-After modifying navigation config, remember to `Ctrl+C` and restart the server. Wait for "VuePress dev server listening" message to confirm portal activation.
-
+![Alt](https://repobeats.axiom.co/api/embed/277806b39e1a868ff6f2a389a82b2041932a4bc0.svg "Repobeats analytics image")
 ---
 
-## 🌉 Contribution Workflow
+## Frequently Asked Questions
 
-### Code Subway Protocol
-1. Create local branch `dev/[your-name]`
-2. When ready to commit:
-   - `Ctrl+Shift+K` to summon commit magic
-   - Recommended message format (Following [Angular Commit Convention](https://www.conventionalcommits.org)):
-     ```
-     docs: Add stargazing navigation to README
-     fix: Resolve 404 wormhole issue
-     feat: Implement cosmic hyperlink module
-     ```
-3. Visit [Github Station](https://github.com/xxxx) and click "New pull request"
+### Feeling that loading is slow or stuck?
 
----
-
-## 🧭 Pitfall Survival Guide
-
-### Resource Plane Rules
-- 🎨 Store vector graphics in `/public/*` (Reference directly: `/AI.svg`)
-- 📹 Video resources in `src/video`, usage example:
-  ```markdown
-  <!-- Sample video embed -->
-  ```
-- 🔍 Encountering errors? Try this reboot spell:
-  ```bash
-  pnpm update && pnpm upgrade
-  ```
-
-### Arcane Markdown Recipes
-```markdown
-<!-- Pixpin Snapshot Magic -->
-![Configuration Demo 1](public/src/stellar-config-1.png)
-![Configuration Demo 2](public/src/stellar-config-2.png)
-*Press F2 to archive cosmic screenshots*
-```
-
----
-
-## 🆘 FAQ Compendium
-
-### Git Push Failed? (SSL Error)
-1. 🌐 Check your Stellar Communicator (Clash Proxy) settings
-![2025-03-05_03-51-27.png](docs/.vuepress/public/src/2025-03-05_03-51-27.png)
-2. 🛠️ Configure Git Express Lane:
-   ```bash
-   git config --global http.proxy http://127.0.0.1:7890
-   git config --global https.proxy http://127.0.0.1:7890
-   ```
-3. 🚀 Try SSH Warp Drive:
-   ```bash
-   git clone git@github.com:Lyrlark/PGuide-Docs.git
-   ```
-
-### 🧐 Truth Gate Malfunction?
-Don't panic when seeing Giscus CORS errors – these are just mischievous cross-origin sprites that won't affect our documentation castle:
-
-![2025-03-04_00-55-06.png](docs/.vuepress/public/src/2025-03-04_00-55-06.png)
-
----
-
-## 🌌 Starlight Forum
-> "We're not just writing code – we're weaving the web that connects worlds" — Anticipating your first contribution! For uncharted territories, launch signal flares in our Issues section.
-
-[![Embrace Open Source](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F-Open_Source_Journey-brightgreen)](https://opensource.org)
-
---- 
-
-*Translated with preservation of original metaphors and technical accuracy*
+We tested extensively before launch and optimized a lot for static resources and edge access. Usually no big problem. If the content hasn't updated, just refresh it. It might be caused by browser cache.

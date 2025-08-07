@@ -303,6 +303,7 @@ series: [
 
 
 ## 项目简介
+<RepoCard repo="PGuideDev/when2eat"></RepoCard>
 
 使用YOLO、OpenCV等计算机视觉识别框架，检测画面中人数，在网页端、APP端显示实时人流量，通过机器学习算法推测最合理的吃饭时间区间。
 
