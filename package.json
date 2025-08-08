@@ -14,6 +14,7 @@
     "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
     "docs:build": "vuepress build docs --clean-cache --clean-temp",
     "docs:preview": "http-server docs/.vuepress/dist",
+    "build:package": "pnpm -r --stream build",
     "vp-update": "pnpm dlx vp-update"
   },
   "devDependencies": {
