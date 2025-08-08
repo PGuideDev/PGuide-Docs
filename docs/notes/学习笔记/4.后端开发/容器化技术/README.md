@@ -4,6 +4,10 @@ createTime: 2025/02/24 07:46:34
 permalink: /learning-notes/container/
 icon: /container.svg
 ---
+:::warning 该文档为人工智能模型 DeepSeek R1 生成，请谨慎对待，待审查
+
+:::
+
 # 容器化技术及其在后端开发中的必要性
 
 ## 什么是容器化技术？

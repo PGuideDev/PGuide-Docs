@@ -5,6 +5,11 @@ permalink: /learning-notes/cybersecurity/vpn-setup/
 icon: pixel:cybersecurity
 ---
 
+编写者：[::noto:red-heart::rand777](/friends/persons/)
+:::note 本文已完成，等待校对
+
+:::
+
 ## WireGuard
 
 WireGuard 是一个开源的 VPN 协议，旨在提供更快、更安全的连接。它比传统的 VPN 协议（如 OpenVPN 和 IPSec）更轻量级，易于配置和使用。

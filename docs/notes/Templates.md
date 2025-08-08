@@ -8,10 +8,32 @@ permalink: /templates/
 
 <span><Badge>LANGUAGE</Badge><Badge type="warning" text="FRAMEWORK" /><Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="LICENSE" /></span>
 <LinkCard icon="" href="" title="" description=""></LinkCard>
-
 <LinkCard icon="" href="" title="" description=""><span><Badge>LANGUAGE</Badge><Badge type="warning" text="FRAMEWORK" /><Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="LICENSE" /></span></LinkCard>
-:::tip
-待完善
+
+
+
+- 未完成请使用下面的语法标注在文档最上方：
+
+:::danger 这是一篇未完成的文档
+
+:::
+
+- 如果是已经完成但未校对的
+
+:::note 本文已完成，等待校对
+
+:::
+
+- 如果是已经完成且已校对的
+
+:::tip 本文已完成并校对
+
+:::
+
+- 文档中存在需要修改、不足之处
+
+:::warning 修改原因、不足之处描述
+
 :::
 
 ::noto:red-heart::

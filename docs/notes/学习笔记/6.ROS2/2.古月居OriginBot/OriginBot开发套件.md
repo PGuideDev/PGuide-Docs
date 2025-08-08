@@ -4,6 +4,10 @@ createTime: 2025/02/25 05:19:11
 permalink: /learning-notes/ROS2/origin-bot-toolkit/
 icon: https://www.originbot.org/assets/img/favicon.png
 ---
+编写者：[::noto:red-heart::rand777](/friends/persons/)
+:::note 本文已完成，等待校对
+
+:::
 
 OriginBot使用与开发过程主要在PC端完成，完成以上Ubuntu和ROS2的环境配置后，还需要将OriginBot的PC端功能包下载到电脑上，并且完成编译，便于后续操作使用。
 

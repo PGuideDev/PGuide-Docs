@@ -14,7 +14,6 @@ export const navbar = defineNavbarConfig([
         icon: '/icon/note.svg',
         text: '学习笔记',
         items: [
-            {icon: '/icon/note.svg', text: '前言', link: '/learning-notes/'},
             {
                 icon: 'logos:linux-tux',
                 text: 'Linux',
