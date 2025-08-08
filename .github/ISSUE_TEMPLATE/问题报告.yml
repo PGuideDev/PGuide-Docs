@@ -28,8 +28,8 @@ body:
     id: package
     attributes:
       label: 包名
-      description: 您要报告哪个包
-      value: vuepress-theme-plume
+      description: 您要报告哪个报错的包
+      value: 
       placeholder: package name
     validations:
       required: true
