@@ -9,14 +9,26 @@
     "node": "^18.20.0 || >=20.0.0"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
     "build": "pnpm clean && pnpm build:package",
     "build:package": "pnpm -r --stream build",
-    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
-    "docs:build": "vuepress build docs --clean-cache --clean-temp",
-    "docs:preview": "http-server docs/.vuepress/dist",
-    "build:package": "pnpm -r --stream build",
-    "vp-update": "pnpm dlx vp-update"
+    "clean": "pnpm -r --stream clean",
+    "dev": "pnpm --stream '/(dev:package|docs:dev)/'",
+    "dev:package": "pnpm --parallel dev",
+    "docs:dev": "wait-on -d 100 theme/lib/node/index.js && pnpm -F=docs docs:dev",
+    "docs:build": "pnpm -F=docs docs:build",
+    "docs:clean": "pnpm -F=docs docs:clean",
+    "docs:serve": "pnpm -F=docs docs:serve",
+    "lint": "pnpm lint:check && pnpm lint:css",
+    "lint:fix": "pnpm lint:check --fix && pnpm lint:css --fix",
+    "lint:check": "eslint .",
+    "lint:css": "stylelint **/*.{css,vue}",
+    "test": "cross-env TZ=Etc/UTC vitest --coverage",
+    "prepare": "husky",
+    "release": "pnpm release:check && pnpm release:version && pnpm -r publish && pnpm release:sync",
+    "release:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "release:check": "pnpm lint && pnpm build",
+    "release:sync": "node scripts/mirror-sync.mjs",
+    "release:version": "bumpp package.json plugins/*/package.json theme/package.json cli/package.json --execute=\"pnpm release:changelog\" --commit \"build: publish v%s\" --all --tag --push"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.24",
