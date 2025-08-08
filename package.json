@@ -10,6 +10,7 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
+    "build": "pnpm clean && pnpm build:package",
     "build:package": "pnpm -r --stream build",
     "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
     "docs:build": "vuepress build docs --clean-cache --clean-temp",
