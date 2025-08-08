@@ -5,7 +5,12 @@ permalink: /learning-notes/ml/personal/db1/
 icon: /avatar/db1.jpg
 ---
 
-编写者: [@db1](/friends/persons/)
+编写者：[::noto:red-heart::db1](/friends/persons/)
+
+:::note 本文已完成，等待校对
+
+:::
+
 ## 代码示例
 
 **监督机器学习的代码示例及步骤(以scikit-learn框架为例)：**

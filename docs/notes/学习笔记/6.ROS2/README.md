@@ -5,11 +5,9 @@ permalink: /learning-notes/ROS2/
 icon: devicon:ros
 ---
 
-Robot Operating System 2
+机器人操作系统（ROS）是一套软件库和工具，帮助你构建机器人应用。从驱动程序到先进算法，以及强大的开发者工具，ROS 提供了实现下一个机器人项目所需的一切。而且它是开源的。完整项目详情请见：https://ROS.org
 
-The Robot Operating System (ROS) is a set of software libraries and tools that help you build robot applications. From drivers to state-of-the-art algorithms, and with powerful developer tools, ROS has what you need for your next robotics project. And it's all open source. Full project details on [ROS.org](https://ROS.org)
-
-## Repo List for developing ROS2
+## ROS2的核心库与文档
 
 <CardGrid>
 <RepoCard repo="ros2/ros2"></RepoCard>
@@ -17,7 +15,7 @@ The Robot Operating System (ROS) is a set of software libraries and tools that h
 <RepoCard repo="ros2/rclcpp"></RepoCard>
 </CardGrid>
 
-## Attached links
+## 相关链接
 
 - [ROS2](https://ros.org)
 - [古月居](https://guyuehome.com)

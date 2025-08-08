@@ -5,6 +5,10 @@ permalink: /learning-notes/ml/productive-application/sensevoice/
 icon: iconoir:voice
 ---
 
+:::danger 这是一篇未完成的文档
+
+:::
+
 <RepoCard repo="FunAudioLLM/SenseVoice"></RepoCard>
 
 
