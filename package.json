@@ -8,6 +8,10 @@
   "engines": {
     "node": "^18.20.0 || >=20.0.0"
   },
+  "engines": {
+    "node": "^20.9.0 || >=22.1.0",
+    "pnpm": ">=9"
+  },
   "scripts": {
     "build": "pnpm clean && pnpm build:package",
     "build:package": "pnpm -r --stream build",
