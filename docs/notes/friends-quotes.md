@@ -27,16 +27,16 @@ createTime: 2025/03/06 16:40:46
 | ::mdi:facebook =24px::                    | [Facebook](https://www.facebook.com/)个人主页                                         |
 | ::mdi:wechat =24px::                      | 个人微信（暂未接入点击添加）                                                                    |
 
-## 我该怎样添加社会链接
+## 我该怎样添加社会/友情链接
 
 :::info 不同的添加方式
 
 - 管理员/开发人员收到你的社交链接后，会根据你的需求添加到友情链接中。
 - 前往github仓库的 [friends文件夹](https://github.com/Lyrlark/PGuide-Docs/edit/master/docs/notes/friends-persons.md)
   自行编辑，提交PR即可。
-  :::
+:::
 
-:::tip 目前可编辑的字段
+:::note 目前可编辑的字段
 | 字段 | 含义 |
 |----------------|-----------------------------------|
 | name | 您的呢称 |
@@ -49,7 +49,7 @@ createTime: 2025/03/06 16:40:46
 | backgroundColor| 好友卡片的背景颜色 |
 | color | 好友卡片的文字颜色 |
 | nameColor | 好友卡片的姓名颜色 |
-
+:::
 示例：
 
 ```yaml
@@ -66,7 +66,7 @@ createTime: 2025/03/06 16:40:46
       link:
 ```
 
-:::
+
 
 ### QQ
 
