@@ -17,7 +17,7 @@
     "docs:dev": "wait-on -d 100 theme/lib/node/index.js && pnpm -F=docs docs:dev",
     "docs:build": "pnpm -F=docs docs:build",
     "docs:clean": "pnpm -F=docs docs:clean",
-    "docs:serve": "pnpm -F=docs docs:serve",
+    "docs:serve": "pnpm -F=docs docs:serve"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.24",
