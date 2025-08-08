@@ -94,6 +94,18 @@ export default defineUserConfig({
             annotation: true, // https://theme-plume.vuejs.press/guide/markdown/annotation/
             abbr: true, // 启用缩略词功能
             field: true, // 启用字段容器功能
+            table: {
+                // 表格默认对齐方式 'left' | 'center' | 'right'
+                align: 'left',
+                // 表格宽度是否为最大内容宽度
+                // 行内元素不再自动换行，超出容器宽度时表格显示滚动条
+                maxContent: false,
+                /**
+                 * 复制为 html/markdown
+                 * true 相当于 `all`，相当于同时启用 html 和 markdown
+                 */
+                copy: true, // true | 'all' | 'html' | 'md'
+            }
         },
 
         /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */

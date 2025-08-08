@@ -452,7 +452,7 @@ export const navbar = defineNavbarConfig([
                     {
                         icon: 'material-symbols-light:computer-outline-rounded',
                         text: '电脑开荒网',
-                        link: 'https://www.xn--h0t470cimi8hc.ink/',
+                        link: 'https://www.cyhaoka.vip/',
                     },
                 ]
             },
@@ -503,17 +503,6 @@ export const navbar = defineNavbarConfig([
                         link: '/public-service/GPT/lobe-chat/',
                         badge: '对话大模型聚合平台',
                     },
-                    {
-                        icon: 'https://mintlify.s3-us-west-1.amazonaws.com/lobevidol/_generated/favicon/apple-touch-icon.png?v=3',
-                        text: 'Vidol Studio',
-                        link: 'https://vidol.lobehub.com/',
-                        badge: '虚拟偶像互动平台',
-                    },
-                    {
-                        icon: 'flat-color-icons:statistics',
-                        text: '使用分析',
-                        link: '/public-service/GPT/analyse/',
-                    }
                 ]
 
             },
