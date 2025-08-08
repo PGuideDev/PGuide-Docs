@@ -9,11 +9,15 @@
     "node": "^18.20.0 || >=20.0.0"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
-    "docs:build": "vuepress build docs --clean-cache --clean-temp",
-    "docs:preview": "http-server docs/.vuepress/dist",
-    "vp-update": "pnpm dlx vp-update"
+    "build": "pnpm clean && pnpm build:package",
+    "build:package": "pnpm -r --stream build",
+    "clean": "pnpm -r --stream clean",
+    "dev": "pnpm --stream '/(dev:package|docs:dev)/'",
+    "dev:package": "pnpm --parallel dev",
+    "docs:dev": "wait-on -d 100 theme/lib/node/index.js && pnpm -F=docs docs:dev",
+    "docs:build": "pnpm -F=docs docs:build",
+    "docs:clean": "pnpm -F=docs docs:clean",
+    "docs:serve": "pnpm -F=docs docs:serve"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.24",
