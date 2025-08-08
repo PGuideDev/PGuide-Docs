@@ -1,0 +1,55 @@
+name: 完善文档
+description: 有些文档可能过时、资源丢失、未编辑完成等等，或者您有更好的建议，可以在此提出。
+title: '[Improve Docs]'
+labels:
+  - improvement
+assignees: LyrLark
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 检查清单
+      description: |-
+        确保你遵循了以下步骤：
+      options:
+        - label: 我知道项导文档使用了缓存，已刷新页面
+          required: true
+  - type: checkboxes
+    id: operating-systems
+    attributes:
+      label: 您发现的问题是？
+      description: 您可以选择多个选项。如果与这些无关，请不要选择任何选项。
+      options:
+        - label: 文档描述不够明确
+        - label: 文档中链接失效
+        - label: 文档步骤繁琐
+        - label: 文档未添加状态信息
+        - label: 文档未添加作者信息
+        - label: 其他（请在下面填写）
+        
+  - type: input
+    id: advice
+    attributes:
+      label: 建议
+      description: 您的其他建议
+      value: 
+      placeholder: advice
+    validations:
+      required: false
+
+  - type: input
+    id: link
+    attributes:
+      label: 链接
+      description: 您在哪篇文章发现的？请填写网址
+      value: 
+      placeholder: url
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 描述该错误
+
+        > 如有需要，请添加截图和日志以帮助我们完善文档。
