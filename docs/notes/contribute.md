@@ -4,7 +4,6 @@ createTime: 2025/02/22 16:59:04
 permalink: /contribute/
 ---
 编写者：[::noto:red-heart::rand777](/friends/persons/)
-编写者：[::noto:red-heart::](/friends/persons/)
 
 :::tip 本文已完成并校对
 
