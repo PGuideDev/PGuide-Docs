@@ -1,6 +1,6 @@
 name: 功能请求
 description: 为此项目提出一个想法，比如加一个护眼模式？
-title: '[功能请求]'
+title: '[Feature Request]'
 labels:
   - enhancement
 assignees: LyrLark
