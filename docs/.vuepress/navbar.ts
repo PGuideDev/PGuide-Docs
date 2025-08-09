@@ -29,12 +29,6 @@ export const navbar = defineNavbarConfig([
                         link: '/learning-notes/linux/commands/',
                         badge: '.sh'
                     },
-                    {
-                        icon: 'https://wiki.linux.do/_next/image?url=%2Flogo.png&w=96&q=75',
-                        text: 'Linux Do Wiki',
-                        link: 'https://wiki.linux.do/',
-                        badge: 'Linux社区'
-                    },
                 ]
             },
             {
@@ -603,12 +597,6 @@ export const navbar = defineNavbarConfig([
                         badge: {type: 'warning', text: 'PGuide VPN'}
                     },
                     {
-                        icon: 'mdi:sql-query',
-                        text: '在线数据库及SQL练习网',
-                        link: '/public-service/data-center/online-sql/',
-                        badge: {type: 'info', text: '即将上线'}
-                    },
-                    {
                         icon: 'ri:baidu-fill',
                         text: '百度网盘企业版',
                         link: '/public-service/data-center/baidu-netdisk-enterprise/',
@@ -624,13 +612,7 @@ export const navbar = defineNavbarConfig([
                         icon: 'fluent-emoji-flat:medical-symbol',
                         text: '全球医学公开数据导航',
                         link: '/public-service/data-center/global-medical-open-data-web/',
-                        badge: {type: 'info', text: '即将上线'}
-                    },
-                    {
-                        icon: 'vscode-icons:file-type-word',
-                        text: '文书及申报资料网',
-                        link: '/public-service/data-center/official-documents-web/',
-                        badge: {type: 'info', text: '即将上线'}
+                        badge: {type: 'warning', text: 'PGuide VPN'}
                     },
                 ]
             },
@@ -765,7 +747,7 @@ export const navbar = defineNavbarConfig([
             },
             {
                 icon: '/icon/competition.svg',
-                text: '竞赛篇',
+                text: '竞赛',
                 items: [
                     {
                         icon: 'mingcute:ai-line',
@@ -799,92 +781,90 @@ export const navbar = defineNavbarConfig([
 
                 ]
             },
-            {
-                icon: '/icon/kaoyan.svg',
-                text: '我有志于从事深层次研究',
-                items: [
-                    {
-                        icon: '/icon/kaoyan.svg',
-                        text: '全国硕士研究生统考',
-                        link: '/campus-wiki/postgraduate-entrance-exam/',
-                        badge: {type: 'warning', text: '整理中'}
-                    },
-                    {
-                        icon: '/icon/baoyan.svg',
-                        text: '推荐免试硕士、直博研究生',
-                        link: '/campus-wiki/postgraduate-recommendation/',
-                        badge: {type: 'warning', text: '整理中'}
-                    },
-                    {
-                        icon: 'academicons:cv',
-                        text: '申请考核制攻读博士研究生',
-                        link: '/campus-wiki/postgraduate-recommendation/',
-                        badge: {type: 'warning', text: '整理中'}
-                    },
-                    {
-                        icon: '/icon/liuxue.svg',
-                        text: '港澳台及出国留学深造',
-                        link: '/campus-wiki/study-abroad/',
-                        badge: {type: 'warning', text: '整理中'}
-                    },
-                    {
-                        icon: 'streamline:ai-science-spark-solid',
-                        text: '科研如何开展',
-                        link: '/campus-wiki/scientific-research/',
-                        badge: {type: 'warning', text: '整理中'}
-                    }
-                ]
-            },
-            {
-                icon: 'uim:bag',
-                text: '我在现实中的实践检验真理',
-                items: [
-                    {
-                        icon: '/icon/internship.svg',
-                        text: '实习投递',
-                        link: '/campus-wiki/internship/',
-                        badge: {type: 'warning', text: '整理中'}
-                    },
-                    {
-                        icon: 'https://saduck.top/favicon.png',
-                        text: '考公知识库SaDuck',
-                        link: 'https://saduck.top/',
-                        badge: '我一定会上岸！'
-                    },
-                    {
-                        icon: 'https://t2.chei.com.cn/ncss/jyxw/images/logo/logo-text.svg',
-                        text: '',
-                        link: 'https://www.ncss.cn/',
-                        badge: '官方背书'
-                    },
-                    {
-                        icon: 'https://www.newjobs.com.cn/template/1/default/images/logo.png',
-                        text: '中国国家人才网',
-                        link: 'https://www.newjobs.com.cn/',
-                        badge: ''
-                    },
-                    {
-                        icon: 'https://www.cqtalent.com/cqrcwnew/resource/images/index/logo.png',
-                        text: '重庆市人才工作网',
-                        link: 'https://www.cqtalent.com/',
-                        badge: ''
-                    },
-                    {
-                        icon: 'https://img1.dxycdn.com/t/s7/2024/0809/238/0804545057939971281.png',
-                        text: '丁香人才网',
-                        link: 'https://www.jobmd.cn/',
-                        badge: '医疗信息化'
-                    },
-                    {
-                        icon: '/icon/cqmu.svg',
-                        text: '重庆医科大学就业信息网',
-                        link: 'https://cqmu.cqbys.com/',
-                        badge: ''
-                    },
-                ]
-            },
-
-
+            // {
+            //     icon: '/icon/kaoyan.svg',
+            //     text: '我有志于从事深层次研究',
+            //     items: [
+            //         {
+            //             icon: '/icon/kaoyan.svg',
+            //             text: '全国硕士研究生统考',
+            //             link: '/campus-wiki/postgraduate-entrance-exam/',
+            //             badge: {type: 'warning', text: '整理中'}
+            //         },
+            //         {
+            //             icon: '/icon/baoyan.svg',
+            //             text: '推荐免试硕士、直博研究生',
+            //             link: '/campus-wiki/postgraduate-recommendation/',
+            //             badge: {type: 'warning', text: '整理中'}
+            //         },
+            //         {
+            //             icon: 'academicons:cv',
+            //             text: '申请考核制攻读博士研究生',
+            //             link: '/campus-wiki/postgraduate-recommendation/',
+            //             badge: {type: 'warning', text: '整理中'}
+            //         },
+            //         {
+            //             icon: '/icon/liuxue.svg',
+            //             text: '港澳台及出国留学深造',
+            //             link: '/campus-wiki/study-abroad/',
+            //             badge: {type: 'warning', text: '整理中'}
+            //         },
+            //         {
+            //             icon: 'streamline:ai-science-spark-solid',
+            //             text: '科研如何开展',
+            //             link: '/campus-wiki/scientific-research/',
+            //             badge: {type: 'warning', text: '整理中'}
+            //         }
+            //     ]
+            // },
+            // {
+            //     icon: 'uim:bag',
+            //     text: '我在现实中的实践检验真理',
+            //     items: [
+            //         {
+            //             icon: '/icon/internship.svg',
+            //             text: '实习投递',
+            //             link: '/campus-wiki/internship/',
+            //             badge: {type: 'warning', text: '整理中'}
+            //         },
+            //         {
+            //             icon: 'https://saduck.top/favicon.png',
+            //             text: '考公知识库SaDuck',
+            //             link: 'https://saduck.top/',
+            //             badge: '我一定会上岸！'
+            //         },
+            //         {
+            //             icon: 'https://t2.chei.com.cn/ncss/jyxw/images/logo/logo-text.svg',
+            //             text: '',
+            //             link: 'https://www.ncss.cn/',
+            //             badge: '官方背书'
+            //         },
+            //         {
+            //             icon: 'https://www.newjobs.com.cn/template/1/default/images/logo.png',
+            //             text: '中国国家人才网',
+            //             link: 'https://www.newjobs.com.cn/',
+            //             badge: ''
+            //         },
+            //         {
+            //             icon: 'https://www.cqtalent.com/cqrcwnew/resource/images/index/logo.png',
+            //             text: '重庆市人才工作网',
+            //             link: 'https://www.cqtalent.com/',
+            //             badge: ''
+            //         },
+            //         {
+            //             icon: 'https://img1.dxycdn.com/t/s7/2024/0809/238/0804545057939971281.png',
+            //             text: '丁香人才网',
+            //             link: 'https://www.jobmd.cn/',
+            //             badge: '医疗信息化'
+            //         },
+            //         {
+            //             icon: '/icon/cqmu.svg',
+            //             text: '重庆医科大学就业信息网',
+            //             link: 'https://cqmu.cqbys.com/',
+            //             badge: ''
+            //         },
+            //     ]
+            // },
         ]
     },
     {

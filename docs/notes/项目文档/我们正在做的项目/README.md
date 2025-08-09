@@ -4,6 +4,10 @@ createTime: 2025/02/24 06:37:58
 permalink: /project-docs/
 ---
 
+:::danger 这是一篇未完成的文档
+
+:::
+
 :::info 须知
 这些项目均为我们团队的创新项目，部分项目可能会涉及到一些商业化的内容，但我们并不打算将其商业化，知识产权由团队成员所有，经协商同意后发布到互联网。
 
@@ -13,21 +17,21 @@ permalink: /project-docs/
 
 ---
 
-请特别注意<Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="LICENSE" />的相关许可，并非所有项目都可以自由使用或修改。在使用前仔细阅读相关许可协议。
+请特别注意 <Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="LICENSE" /> 的相关许可，并非所有项目都可以自由使用或修改。在使用前仔细阅读相关许可协议。
 
 :::
 
 快来看看我们都做了些什么好玩的项目吧！
-<span><Badge>LANGUAGES</Badge><Badge type="warning" text="FRAMEWORKS" /><Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="LICENSE" /></span>
+<span><Badge>LANGUAGES</Badge> <Badge type="warning" text="FRAMEWORKS" /> <Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="LICENSE" /></span>
 <CardGrid>
 <LinkCard icon="hugeicons:add-team" href="/project-docs/match-competitions/" title="全国大学生竞赛组队系统" ><span><Badge>Java、Vue3</Badge><Badge type="warning" text="Spring" /><Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="CCBY 4.0" /></span>面向全国大学生的多维度竞赛匹配、组队系统。</LinkCard>
 <LinkCard icon="arcticons:free-download-manager" href="/project-docs/project-management-platform/" title="项目管理平台" ><span><Badge>Go、React</Badge><Badge type="warning" text="Django" /><Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="CCBY 4.0" /></span>标准化管理学校内的项目综合一体化平台</LinkCard>
-<LinkCard icon="/icon/command_block.gif" href="/project-docs/cqmua-center/" title="CQMUA服务器中心" description=""><span><Badge>Vue3</Badge><Badge type="warning" text="None" /><Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="MIT" /></span>查看MUA、CQMUA各公开服务器状态的集中式面板</LinkCard>
+<LinkCard icon="/icon/command_block.gif" href="/project-docs/cqmua-center/" title="CQMUA服务器中心" description=""><span><Badge>TypeScript</Badge><Badge type="warning" text="Vue3" /><Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="MIT" /></span>查看MUA、CQMUA各公开服务器状态的集中式面板</LinkCard>
 <LinkCard icon="/icon/zhiyu.png" href="/project-docs/plant-cure/" title="植愈：AI情绪小帮手" ><span><Badge>Java、Three.js、Vue.js</Badge><Badge type="warning" text="Spring" /><Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="Apache 2.0" /></span>
 守护精神花园的AI小助手，支持多种多模态大语言模型，独创双向提示词工程技术。</LinkCard>
 <LinkCard icon="/icon/robot.png" href="/project-docs/smart-car/" title="智慧中草药生态养护平台" ><span><Badge>Java、Vue3、MQTT</Badge><Badge type="warning" text="ROS2、Spring" /><Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="Apache 2.0" /></span>
 一种整合了机器人操作系统、Web前后端、物联网IOT的中草药自动化除草解决方案。</LinkCard>
-<LinkCard icon="/icon/univ-town.svg" href="/project-docs/pixel-university-town/" title="像素大学城" ><span><Badge>Java、WebGL</Badge><Badge type="warning" text="None" /><Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="LICENSE" /></span>
+<LinkCard icon="/icon/univ-town.svg" href="/project-docs/pixel-university-town/" title="像素大学城" ><span><Badge>Java、WebGL</Badge><Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="BSP2.0" /></span>
 是的伙计，我知道这听起来很疯狂，但是我们就是要在我的世界中复原整个大学城。</LinkCard>
 <LinkCard icon="/icon/analyse.svg" href="/project-docs/study-analytic-system/" title="学情分析系统" ><span><Badge>Python、Vue3</Badge><Badge type="warning" text="Flask、InfluxDB" /><Badge color="#8e5cd9" bg-color="rgba(159, 122, 234, 0.16)" text="CCBY 3.0" /></span>
 针对树维教务系统重新设计的成绩分析系统，融合（缝合）了AI的智慧。</LinkCard>

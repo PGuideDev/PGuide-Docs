@@ -9,7 +9,9 @@ tags:
   - IOT
   - Vue3
 ---
+:::danger 这是一篇未完成的文档
 
+:::
 > 智慧中草药生态养护平台开始建设于 2023年12月，目前已在内网开通访问。
 > 
 > 项目负责人：[::noto:red-heart::rand777](/friends/persons/)

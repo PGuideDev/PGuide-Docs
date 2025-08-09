@@ -4,7 +4,9 @@ createTime: 2025/03/04 05:05:32
 permalink: /project-docs/study-analytic-system/
 icon: '/icon/analyse.svg'
 ---
+:::danger 这是一篇未完成的文档
 
+:::
 
 ## 核心功能需求
 

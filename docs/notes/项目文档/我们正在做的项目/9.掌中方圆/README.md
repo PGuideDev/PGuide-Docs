@@ -4,7 +4,9 @@ createTime: 2025/03/04 05:05:40
 permalink: /project-docs/control-my-panel/
 icon: line-md:speed-twotone-loop
 ---
+:::danger 这是一篇未完成的文档
 
+:::
 ## 项目简介
 
 掌中方圆，是一个为用户提供控制面板服务的平台。用一块圆形的屏幕，掌握一切。

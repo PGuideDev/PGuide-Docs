@@ -10,13 +10,13 @@ permalink: /begin/
 
 这同时也是一份献给重医学弟学妹们的礼物。如果这本书能对你们的本科生涯有哪怕一丝一毫的帮助，都是对我们极大的鼓励和慰藉。
 
-如果你觉得我们写得还不错，请在[::line-md:github-twotone:: Github](https://github.com/Lyrlark/PGuide-Docs)
+如果你觉得我们写得还不错，请在[::line-md:github-twotone:: Github](https://github.com/PGuideDev/PGuide-Docs)
 上给我们点一个大大的::fxemoji:star:: star，这是对我们最大的鼓励。
 
 ---
 
-项导文档目前包括了以下部分，如果你有其他好的建议，或者想加入贡献者的行列，欢迎邮件 [PGuide Studio](mailto:rand777@pguide.studio)
-阅读[贡献指南](/contribute/)，在下方评论区提问：
+项导文档目前包括了以下部分，如果你有其他好的建议，或者想加入贡献者的行列，欢迎 [邮件联系](mailto:rand777@pguide.studio)
+阅读 [贡献指南](/contribute/) ，在下方评论区提问：
 
 <CardGrid>
 
@@ -103,13 +103,13 @@ href="/friends/persons/">
 
 ## 为什么写这本书
 
-在查找各种资料的时候，尤其是计算机类的，我时常会因为资源获取的麻烦（要么是百度网盘，要么是微信关注公众号）、CSDN等平台的收费、文档的时效性等等问题而感到苦恼，而我在这种苦恼中度过了课程最多的大一。
+在查找各种资料的时候，尤其是计算机类的，我时常会因为资源获取的麻烦（要么是百度网盘，要么是微信关注公众号）、CSDN 等平台的收费、文档的时效性等等问题而感到苦恼，而我在这种苦恼中度过了课程最多的大一。
 
-这一切的转机发生在发生在大二的时候，我无意中看到了[CS-DIY](https://csdiy.wiki/)
-这本书，当时的内容已经相当丰富，基本覆盖了计科、智能系、软工系的绝大多数课程。起初，我抱着怀疑的态度阅读了其中比较简单的一篇-[CS61A](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Python/CS61A/)
-，哇，那时候我才感受到原来Python或者说编程可以这么简单而有趣。
+这一切的转机发生在发生在大二的时候，我无意中看到了 [CS-DIY](https://csdiy.wiki/)
+这本书，当时的内容已经相当丰富，基本覆盖了计科、智能系、软工系的绝大多数课程。起初，我抱着怀疑的态度阅读了其中比较简单的一篇- [CS61A](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Python/CS61A/)
+，哇，那时候我才感受到原来 Python 或者说编程可以这么简单而有趣。
 
-:::details 下面这段话是复制的[Yinmin Zhong](/friends/persons/)的，也算是我的心里话：
+:::details 下面这段话是复制的 [Yinmin Zhong](/friends/persons/) 的，也算是我的心里话：
 > 我一口气 3 个星期上完了这门课，它让我第一次感觉到原来 CS 可以学得如此充实而有趣，原来这世上竟有如此精华的课程。为避免有崇洋媚外之嫌，我单纯从一个学生的视角来讲讲自学
 > CS61A 的体验：
 >
@@ -137,7 +137,7 @@ href="/friends/persons/">
 
 大二这一年，我参加了许多比赛，也收获了一些奖项。但一种无名的空虚感侵蚀着我，望着一张张冰冷的“奖状”，我不禁反思：这是我想要的大学生活吗？这些对我真的有帮助吗？
 
-的确，名义上这些代表我，或者说我的团队在过去做出的努力，在各种面试中也起到了一定作用。但我也清楚地知道，这些身外之物说明不了什么，想要真正成长，我需要实际的、系统性的解决问题的能力，并且将这些如CSDIY一样无偿地分享给其他人。
+的确，名义上这些代表我，或者说我的团队在过去做出的努力，在各种面试中也起到了一定作用。但我也清楚地知道，这些身外之物说明不了什么，想要真正成长，我需要实际的、系统性的解决问题的能力，并且将这些如 CSDIY 一样无偿地分享给其他人。
 
 于是，在大三上，我整理了所有参加过的比赛、学习过的知识，将其放入了语雀文档站里。最初，我找到了几位熟悉的老师交流了下想法，他们都十分支持这种做法。有一位老师非常担心写这个会占用我们的时间，认为对我们成长没太大用处，表示在现在这个信息十分容易获取的时代意义不大，发了长达200秒的语音劝我们慎重考虑。
 
@@ -152,10 +152,10 @@ href="/friends/persons/">
 项导文档之前在语雀也有存档，随着用户体量的增大，也暴露出一些问题：
 
 1. 内容审核严格：语雀会对发布到互联网的团队文档进行严格审核，一旦检测到敏感词就会风控，极为不便；
-2. 自定义程度低：不支持图标、markdown拓展等，组件库几乎等于没有；
-3. 域名不可自定义：对SEO不友好，而且文档永久链接是Nano加密的字符组（像`ag1xgaxa`这样），不直观；
+2. 自定义程度低：不支持图标、 markdown 拓展等，组件库几乎等于没有；
+3. 域名不可自定义：对 SEO 不友好，而且文档永久链接是Nano加密的字符组（像` ag1xgaxa `这样），不直观；
 4. 需要注册和邀请：语雀需要每一位成员都进行注册和管理员审核协作，对于双方都不方便；
-5. 太过简单：不需要开发，对于markdown协作和前端开发未必是好事。
+5. 太过简单：不需要开发，对于 markdown 协作和前端开发未必是好事；
 6. 不可控风险：语雀曾在[宕机后长时间后才恢复](https://36kr.com/p/2487990260602760)的过往，虽然可能并非故意为之，但确实会影响到文档的维护和企业形象。
 
 ## 你也想加入到贡献者的行列
@@ -179,17 +179,66 @@ of the next tale._
 
 ### 名字的由来
 
-> 工作室名为 PGuide Studio ，中文为 项导工作室。P代表Project，Guide代表引导或指南。我们希望能为大家提供一个编程类项目学习的指南，将这些项目代代相传。
+> 工作室名为 PGuide Studio ，中文为 项导工作室。P代表 Project ，Guide 代表引导或指南。我们希望能为大家提供一个编程类项目学习的指南，将这些项目代代相传。
 
 ## 怎么在评论区互动
 
 1. 转到[登录界面](https://comment.pguide.studio/ui/login?lng=zh-CN)
-2. 使用Markdown格式提问
+2. 使用 Markdown 格式提问
 3. 邮件收到回复
+
+## 一起学习
+
+项导文档的设计思想是通过新同学的阅读中产生的疑惑来完善文档，将所学知识应用到真实的开发场景中。我们虽然名义上是医科大的同学，但同样对计算机充满好奇与热情。
+
+从现实条件上讲，每个人的精力和经验有限，计算机领域知识相关性强、迭代速度快，文档维护只能尽力而为。如果您对某篇文档有更好的建议，可以参考贡献指南来加入文档的建设。
+
+好在互联网上，不乏有更优秀的前辈们探索的道路与智慧的结晶。如果您也是类似的开源文档、项目开发者，欢迎[添加友情链接](/friends/quotes/#我该怎样添加社会链接)，互相交流学习。下面是项导文档中参考和引用的优秀开源项目：
+
+<CardGrid>
+<RepoCard repo="Ac-Wiki/Ac-Wiki"></RepoCard>
+<RepoCard repo="chenyme/LinuxDoWiki"></RepoCard>
+<RepoCard repo="ustclug/Linux101-docs"></RepoCard>
+<RepoCard repo="ustclug/Linux201-docs"></RepoCard>
+<RepoCard repo="criwits/missing-web/"></RepoCard>
+<RepoCard repo="pkuflyingpig/cs-self-learning/"></RepoCard>
+<RepoCard repo="forthespada/developer-roadmap-zh-CN"></RepoCard>
+<RepoCard repo="OI-wiki/OI-wiki"></RepoCard>
+<RepoCard repo="ProbiusOfficial/Hello-CTF"></RepoCard>
+<RepoCard repo="ctf-wiki/ctf-wiki"></RepoCard>
+<RepoCard repo="CTF-Archives/.github"></RepoCard>
+<RepoCard repo="forthespada/CS-Books"></RepoCard>
+<RepoCard repo="forthespada/Awsome-Courses"></RepoCard>
+<RepoCard repo="Snailclimb/JavaGuide"></RepoCard>
+<RepoCard repo="/CollegesChat/university-information/"></RepoCard>
+</CardGrid>
+
+较为完整的目录：
+
+- Ac Wiki
+- Linux Do Wiki
+- Linux 101
+- Linux 201
+- 你缺失的那门计算机课
+- CSDIY
+- 编程导航
+- Code RoadMap
+- OI Wiki
+- CTF Wiki
+- Hello CTF
+- 电脑开荒网
+- Python PEP
+- CTF Archive
+- CS Books
+- Awesome Courses
+- Java Guide
+- 大学生活指北
+
+> 以上，对互联网开源精神致敬，对世界的美好致谢。
 
 ## 致谢
 
-自项导文档站开设已来，已累计获得10万+的阅读量，共有80+位成员参与建设，感谢每一位同学、老师、大佬们的支持与贡献。我们会继续努力，争取在未来的日子里为大家提供更好的服务和文档支持。
+自项导文档站开设已来，已累计获得15万+的阅读量，共有90+位成员参与建设，感谢每一位同学、老师、大佬们的支持与贡献。我们会继续努力，争取在未来的日子里为大家提供更好的服务和文档支持。
 
 ### 里程碑
 
@@ -256,51 +305,3 @@ of the next tale._
 :::
 
 
-## 一起学习
-
-项导文档的设计思想是通过新同学的阅读中产生的疑惑来完善文档，将所学知识应用到真实的开发场景中。我们虽然名义上是医科大的同学，但同样对计算机充满好奇与热情。
-
-从现实条件上讲，每个人的精力和经验有限，计算机领域知识相关性强、迭代速度快，文档维护只能尽力而为。如果您对某篇文档有更好的建议，可以参考贡献指南来加入文档的建设。
-
-好在互联网上，不乏有更优秀的前辈们探索的道路与智慧的结晶。如果您也是类似的开源文档、项目开发者，欢迎[添加友情链接](/friends/quotes/#我该怎样添加社会链接)，互相交流学习。下面是项导文档中参考和引用的优秀开源项目：
-
-<CardGrid>
-<RepoCard repo="Ac-Wiki/Ac-Wiki"></RepoCard>
-<RepoCard repo="chenyme/LinuxDoWiki"></RepoCard>
-<RepoCard repo="ustclug/Linux101-docs"></RepoCard>
-<RepoCard repo="ustclug/Linux201-docs"></RepoCard>
-<RepoCard repo="criwits/missing-web/"></RepoCard>
-<RepoCard repo="pkuflyingpig/cs-self-learning/"></RepoCard>
-<RepoCard repo="forthespada/developer-roadmap-zh-CN"></RepoCard>
-<RepoCard repo="OI-wiki/OI-wiki"></RepoCard>
-<RepoCard repo="ProbiusOfficial/Hello-CTF"></RepoCard>
-<RepoCard repo="ctf-wiki/ctf-wiki"></RepoCard>
-<RepoCard repo="CTF-Archives/.github"></RepoCard>
-<RepoCard repo="forthespada/CS-Books"></RepoCard>
-<RepoCard repo="forthespada/Awsome-Courses"></RepoCard>
-<RepoCard repo="Snailclimb/JavaGuide"></RepoCard>
-<RepoCard repo="/CollegesChat/university-information/"></RepoCard>
-</CardGrid>
-
-较为完整的目录：
-
-- Ac Wiki
-- Linux Do Wiki
-- Linux 101
-- Linux 201
-- 你缺失的那门计算机课
-- CSDIY
-- 编程导航
-- Code RoadMap
-- OI Wiki
-- CTF Wiki
-- Hello CTF
-- 电脑开荒网
-- Python PEP
-- CTF Archive
-- CS Books
-- Awesome Courses
-- Java Guide
-- 大学生活指北
-
-> 以上，对互联网开源精神致敬，对世界的美好致谢。

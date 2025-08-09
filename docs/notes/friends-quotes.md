@@ -32,7 +32,7 @@ createTime: 2025/03/06 16:40:46
 :::info 不同的添加方式
 
 - 管理员/开发人员收到你的社交链接后，会根据你的需求添加到友情链接中。
-- 前往github仓库的 [friends文件夹](https://github.com/Lyrlark/PGuide-Docs/edit/master/docs/notes/friends-persons.md)
+- 前往github仓库的 [friends文件夹](https://github.com/PGuideDev/PGuide-Docs/edit/master/docs/notes/friends-persons.md)
   自行编辑，提交PR即可。
 :::
 
