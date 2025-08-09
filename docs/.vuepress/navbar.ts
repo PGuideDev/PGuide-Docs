@@ -76,11 +76,6 @@ export const navbar = defineNavbarConfig([
                         link: '/learning-notes/ROS2/origin-bot-toolkit/',
                         badge: 'Guyuehome'
                     },
-                    {
-                        icon: '/icon/zzx.png',
-                        text: '中智讯智能小车一代',
-                        link: '/learning-notes/zcloud-car1/'
-                    },
                 ]
             },
             {
