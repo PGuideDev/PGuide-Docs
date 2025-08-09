@@ -3,8 +3,6 @@
 ![pguide-doc.png](docs/.vuepress/public/src/pguide-doc.png)
 万物互联的时代，知识的传递如同满天星火。本项目的每一页文档，都是社区伙伴们智慧的结晶。在此诚邀您与我们携手，共同浇灌这株属于每个人成长的知识树👫
 
-> 太好了，本文档已入选[Plume Vuepress案例](https://theme-plume.vuejs.press/demos/#%E6%96%87%E6%A1%A3)
-
 ## 文档内容
 
 ### 学习笔记
@@ -13,7 +11,7 @@
 
 ### 项目文档
 
-> 用想象力构建[梦想中的项目](https://docs.pguide.studio/project-docs/)
+> 用想象力构建[梦想中的项目](https://docs.pguide.studio/project-docs/)，期待您的加入！
 
 ### CS-DIY
 
@@ -21,7 +19,7 @@
 
 ### 公共服务
 
-> 一些[公共服务及相关知识普及](https://docs.pguide.studio/public-service/)
+> 一些[由我们负责的公共服务及相关知识普及](https://docs.pguide.studio/public-service/)，帮助大家更好使用计算机。
 
 ### 大学百科
 
@@ -47,3 +45,5 @@
 ### 感觉加载卡卡的？
 
 上线前我们测试过啦，针对静态资源和边缘访问都做了大量优化，一般不会出大问题，如果内容没更新就刷新一下叭，可能是浏览器缓存的原因。
+
+其他问题可以提 issue 哦。
