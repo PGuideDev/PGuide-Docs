@@ -5,6 +5,12 @@ permalink: /campus-wiki/document-management/Zotero/
 icon: /icon/zotero.svg
 ---
 
+编写者：[::noto:red-heart::rand777](/friends/persons/)
+:::tip 本文已完成并校对
+
+:::
+
+
 ## 简介
 zotero 是一款现代化的文献管理软件，具有以下特点：
 

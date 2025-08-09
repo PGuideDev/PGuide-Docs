@@ -5,6 +5,12 @@ permalink: /public-service/GPT/
 icon: /icon/openai.svg
 ---
 
+编写者：[::noto:red-heart::rand777](/friends/persons/)
+
+:::note 本文已完成，等待校对
+
+:::
+
 此页面汇集了目前市面上 98%以上的大模型，且涵盖了 github 上主流的开源框架和技术，欢迎挨个体验。UpStream Sync 功能启用可以自动同步
 fork 的项目，尝试到市面上最新的大模型功能。One API 配合统一身份认证系统方便配置，欢迎体验。
 

@@ -5,6 +5,8 @@ permalink: /campus-wiki/common-softwares/note-softwares/typora/
 icon: https://typoraio.cn/img/favicon-128.png
 ---
 
+
+
 ## Typora是什么？
 Typora 是一款支持实时预览的 [Markdown](/csdiy/tools-must/markdown/) 文本编辑器。它有 OS X、Windows、Linux 三个平台的版本，并且由于仍在测试中，是完全免费的。
 

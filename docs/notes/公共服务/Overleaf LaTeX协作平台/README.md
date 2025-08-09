@@ -5,6 +5,12 @@ permalink: /public-service/overleaf/
 icon: /icon/overleaf.svg
 ---
 
+编写者：[::noto:red-heart::李徵](/friends/persons/) [::noto:red-heart::rand777](/friends/persons/) [::noto:red-heart::QingYe](/friends/persons/) [::noto:red-heart::Lily](/friends/persons/)
+
+:::note 本文已完成，等待校对
+
+:::
+
 :::info [查看更新日志](/public-service/overleaf/releases/)
 :::
 

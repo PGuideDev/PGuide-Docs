@@ -3,6 +3,11 @@ title: LeetCode周赛
 createTime: 2025/03/09 07:39:39
 permalink: /campus-wiki/competition/leetcode-weekly/
 ---
+编写者：[::noto:red-heart::李徵](/friends/persons/)
+:::note 本文已完成，等待校对
+
+:::
+
 ## LeetCode简介
 [LeetCode](https://leetcode-cn.com/) 是一个在线编程平台，提供了大量的编程题目，包括算法和数据结构等。用户可以在线提交代码，并查看其他用户的代码和讨论。LeetCode 是一个很好的学习编程和算法的平台，可以帮助用户提高编程能力和解决问题的能力。
 

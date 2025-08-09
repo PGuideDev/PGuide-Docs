@@ -9,24 +9,21 @@ permalink: /contribute/
 
 :::
 
-首先感谢您的无私奉献，项导文档基于 Vuepress 的[ plume 主题构建](https://theme-plume.vuejs.press/)
-，由多名成员共同维护，内容完全开源。
+感谢您的无私奉献，项导文档基于 Vuepress 的[ plume 主题构建](https://theme-plume.vuejs.press/)，由多名成员共同维护，内容完全开源。
 
 <RepoCard repo="PGuideDev/PGuide-Docs"></RepoCard>
 
 ## 我是文档的编写者
 
-项导文档使用 ::catppuccin:markdown::markdown 语法进行编写，首先得大概掌握下 [markdown基础语法](/csdiy/tools-must/markdown/)
+项导文档使用 ::catppuccin:markdown::Markdown 语法进行编写，在您完成 Markdown 类型文档编写后可以：
 
-在您完成 markdown 类型文档编写后可以
-
-- 通过 GitHub 创建[拉取请求合并您的分支](https://github.com/PGuideDev/PGuide-Docs/pulls)
-- email 到我们的 [邮箱](mailto:contact@pguide.studio)
+- [fork 仓库]() ，并通过 GitHub 创建 [拉取请求合并您的分支](https://github.com/PGuideDev/PGuide-Docs/pulls)
+- Email 到我们的 [邮箱](mailto:contact@pguide.studio)
 - QQ 发送给 [rand777](https://qm.qq.com/cgi-bin/qm/qr?k=9s5V15fEzwzHuawmc-QQZ615NPTp9oEZ)
 
 ### 我想直接写一篇文档
 
-不想这样麻烦也可以的，将文档或资料发送给 [rand777](https://qm.qq.com/q/2iLBaNcsnO)，我们会将您的文档转换为 markdown 格式并发布到项导文档站，生成预览链接并按照您的要求对其进行署名。
+将文档或资料发送给 [rand777](https://qm.qq.com/q/2iLBaNcsnO)，我们会将您的文档转换为 markdown 格式并发布到项导文档站，生成预览链接并按照您的要求对其进行署名。
 
 或者，非常轻松地，在每篇文档的最下方有 `编辑此页` 功能，使用即可进行编辑。
 ![2025-08-08_17-53-47.png](../.vuepress/public/src/2025-08-08_17-53-47.png)
@@ -41,19 +38,15 @@ permalink: /contribute/
 
 :::info 基础知识
 
-[::material-icon-theme:git:: git的使用](/csdiy/tools-must/git/)
+[::material-icon-theme:git:: git 的使用 ](/csdiy/tools-must/git/)
 
-[::octicon:markdown-16:: markdown基础语法](/csdiy/tools-must/markdown/)
+[::octicon:markdown-16:: Markdown 基础语法](/csdiy/tools-must/markdown/)
 
-[::https://theme-plume.vuejs.press/plume.png::  VuePress Plume主题](https://theme-plume.vuejs.press/guide/intro/)
+[::https://theme-plume.vuejs.press/plume.png:: VuePress Plume 主题 ](https://theme-plume.vuejs.press/guide/intro/)
 
 :::
 
-随后，QQ联系 [rand777](https://qm.qq.com/q/2iLBaNcsnO) 加入项导文档 GitHub 开发组。
 
-:::tip 联系格式
-我需要知道您的身份，并且想要参与编写哪部分。
-:::
 
 ### 项目结构
 
@@ -127,7 +120,8 @@ permalink: /contribute/
 
 ---
 推荐配置：
-- ::file-icons:intel size=1.5em::Intel i5-12400 ::file-icons:amd size=1.5em::AMD Ryzen 5 3600X ::wpf:macos size=1.5em:: Apple M1及以上
+
+- ::file-icons:intel size=1.5em::Intel i5-12400 ::file-icons:amd size=1.5em::AMD Ryzen 5 3600X ::wpf:macos size=1.5em:: Apple M1 及以上
 - ::bi:memory size=1.5em::16GB DDR4 或 LPDDR4X 内存及以上
 - ::material-symbols:hard-disk-sharp::500G SSD或NVMe固态硬盘
 
@@ -145,27 +139,28 @@ permalink: /contribute/
     这个软件是咱们主要写代码的地方，软件本身用于前端开发，您可以[在这里](/campus-wiki/common-softwares/IDE/WebStorm/)详细了解。其他同类型的开发软件，如 [::vscode-icons:file-type-vscode size=1.5em::VS Code](/campus-wiki/common-software/IDE/VSCode/)，也可以。
     
     如果同学们对上面的软件不太清楚，请先完成[学生邮箱申请](/campus-wiki/apply-student-email/)并申请JetBrains教育版。下载WebStorm可以到 [WebStorm官方网站](https://www.jetbrains.com/zh-cn/webstorm/)
-    或 [Alist动态开源软件镜像站](http://192.168.183.171:5244/softwares/JetBrainsIDEs/WebStorm-2024.3.4.exe)
-    下载
+    ；在校内也可以使用 [Alist动态开源软件镜像站](http://192.168.183.171:5244/softwares/JetBrainsIDEs/WebStorm-2024.3.4.exe) 下载。
 
 2. 下载 NVM
 
-    进行前端开发时，需要服务端 (server) 来支撑web应用的运行，::vscode-icons:file-type-node::Node.js 是目前非常流行的开源web服务器运行时环境。在运行不同的前端项目时，往往需要的 Node.js 版本是不一样的，而
+    进行前端开发时，需要服务端 (server) 来支撑web应用的运行，::vscode-icons:file-type-node::Node.js 是目前非常流行的开源web服务器运行时环境。在运行不同的前端项目时，往往需要的 Node.js 版本要求是不一样的，而
     NVM（全名：Node.js Version Manager）可以帮助我们更高效地管理不同的 Node.js 版本和依赖环境。
 
-    软件安装及应用教程看[这里](/csdiy/study-path/front-dev/NVM/)，不要忘记安装长期支持版的 Node.js 哦！
+    软件安装及应用教程参考[开发工具](/csdiy/study-path/front-dev/NVM/)，不要忘记安装长期支持版的 Node.js 哦！
     
     :::note 为什么没有 nvm 命令
     安装完成后记得重启 IDE 和终端以重载环境变量
     :::
 3. 导入项目
     :::note 从哪儿导入
-    在学校优先 ::devicon:gitlab::GitLab ，国内 ::simple-icons:gitee::gitee ，不过最好是 ::mdi:github::GitHub （可以减轻 Code Reviewer 的负担）
+    在学校优先使用校内 ::devicon:gitlab::GitLab ，国内 ::simple-icons:gitee::gitee ，不过最好是 ::mdi:github::GitHub （可以减轻 Code Reviewer 的负担）
     :::
 
-    作为开源项目，最好就是使用 [::fluent:branch-fork-32-filled::fork](https://github.com/PGuideDev/PGuide-Docs/fork) 的方式将项目导入到您的个人 GitHub 账号下，通过 Pull Request 合并到主分支 master（下文会提到）；
+    作为开源项目，最好是使用 [::fluent:branch-fork-32-filled::fork](https://github.com/PGuideDev/PGuide-Docs/fork) 的方式将项目导入到您的个人 GitHub 账号下，通过 Pull Request 合并到主分支 master（下文会提到）；
  
-    如果您所在的网络环境无法访问 GitHub ，也可以使用国内 Gitee 仓库。
+    关于 GitHub上的 Pull Request ，可以阅读 [Mr.Hope 的文章](https://mister-hope.com/code/github/pr.html)或 [GitHub 官方文档](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+
+    如果您所在的网络环境无法访问 GitHub ，也可以使用国内 Gitee 仓库或重庆医科大学 GitLab ，不过推送代码时需要注意将远程仓库地址改为 GitHub 地址，参考[ Mr.Hope 的文章](https://mister-hope.com/code/github/speedup.html#%E8%BF%9C%E7%A8%8B%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BF%AE%E6%94%B9)。
 
     :::tabs
     
@@ -208,7 +203,7 @@ permalink: /contribute/
     
     :::
 
-    git也可以使用SSH协议导入，需要 [配置SSH](/csdiy/tools-must/git/#设置ssh密钥)和 [GitHub 设置](/csdiy/tools-must/git/#github设置)
+    git也可以使用SSH协议导入，需要 [配置SSH](/csdiy/tools-must/git/#设置ssh密钥) 和 [设置 GitHub](/csdiy/tools-must/git/#github设置)
 
     :::tabs
     @tab 从 GitHub 克隆
@@ -403,7 +398,7 @@ git commit -m "feat: 添加用户登录功能"
     
     :::
     
-    创建 PR 后请选择 Code Reviewer 哦，这样人家才会收到要合并的审核消息，也可以在开发群说一声。
+    创建 PR 后请选择 Code Reviewer 哦，这样才会收到要合并的审核消息，在群内说一声即可。
 :::
 
 
@@ -425,10 +420,10 @@ git commit -m "feat: 添加用户登录功能"
 
 ### 编写内容规范
 
-- 作者信息：请在每篇文档的最上方使用 ::noto:red-heart::谁谁谁 以便展示编者信息，可在 `docs/templates.md` 中添加您的作者信息；
-- 编写格式：文档统一使用 markdown 格式，创建在`docs\notes` 对应文件夹下，请注意修改永久链接[permalink](/contribute/#permalink)；
-- 标题级别：VuePress Plume 主题默认从二级标题开始，支持到六级标题，但建议控制在四级内；
-- 排版布局：每行 markdown 请空一行以换行；中英文、链接间应空一个空格，增加排版美观度；英文括号包英文，中文括号包中文；特别注意专业名词的大小写，如 GitHub 不是 github；
+- 作者信息：请在每篇文档的最上方使用 ::noto:red-heart::谁谁谁 以便展示编者信息，方便文档订正和互相交流，可在 `docs/templates.md` 中添加您的作者信息；
+- 编写格式：文档统一使用 Markdown 格式，创建在`docs\notes` 对应文件夹下，请注意修改永久链接[permalink](/contribute/#permalink)；
+- 标题级别：VuePress Plume 主题默认从二级标题开始，配置支持到六级标题，但建议控制在四级内；
+- 排版布局：每行 Markdown 请空一行以换行；中英文、链接间应空一个空格，增加排版美观度；英文括号包英文，中文括号包中文；特别注意专业名词的大小写，如 GitHub 不是 github；
 - AI工具：允许使用AI，不过现在的 AI 还请谨慎使用，使用其生成文档后必须审查内容可靠性！
 
 ### 文档状态规范

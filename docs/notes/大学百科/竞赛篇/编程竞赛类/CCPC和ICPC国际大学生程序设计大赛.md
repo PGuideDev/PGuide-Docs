@@ -3,6 +3,12 @@ title: CCPC-ICPC大学生程序设计大赛
 createTime: 2025/03/09 07:41:24
 permalink: /campus-wiki/team-code/CCPC-ICPC/
 ---
+
+编写者：[::noto:red-heart::李徵](/friends/persons/)
+:::note 本文已完成，等待校对
+
+:::
+
 ## 赛事介绍
 
 ### ICPC比赛简介

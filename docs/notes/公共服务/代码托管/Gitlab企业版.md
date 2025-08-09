@@ -4,6 +4,9 @@ createTime: 2025/03/16 21:17:51
 permalink: /public-service/code-manage/gitlab-ee/
 icon: devicon:gitlab
 ---
+:::danger 这是一篇未完成的文档
+
+:::
 
 支持外置绑定登录 ::octicon:mark-github-16 =1.5em::
 

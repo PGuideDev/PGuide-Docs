@@ -4,24 +4,19 @@ createTime: 2025/03/17 06:59:40
 permalink: /public-service/code-manage/github-pguide-dev/
 icon: mdi:github
 ---
-:::tip 相关知识
-计算机必学工具之一[::skill-icons:git::git](/csdiy/tools-must/git/)
 
-Github文档[::mdi:github::Github Docs](https://docs.github.com/zh)
+:::danger 这是一篇未完成的文档
+
 :::
 
-
-<RepoCard repo="PGuideDev/.github"></RepoCard>
-项导工作室开发组Github代码存储仓库，用于存储开发中的项目源代码。
+项导工作室开发组 GitHub 代码存储仓库，用于存储开发中的项目源代码。
 
 联系 [::noto:red-heart::DKwms](/friends/persons/) 或 [::noto:red-heart::rand777](/friends/persons/) 加入开发组。
 
 ## 开源项目
 
-<CardGrid>
 <RepoCard repo="PGuideDev/PGuide-Docs"></RepoCard>
 <RepoCard repo="PGuideDev/when2eat"></RepoCard>
-</CardGrid>
 
 ## 形象视觉识别系统
 

@@ -5,6 +5,17 @@ permalink: /templates/
 ---
 
 编写者：[::noto:red-heart::rand777](/friends/persons/)
+编写者：[::noto:red-heart::DKwms](/friends/persons/)
+编写者：[::noto:red-heart::Lily](/friends/persons/)
+编写者：[::noto:red-heart::李徵](/friends/persons/)
+编写者：[::noto:red-heart::翻斗花园牛爷爷](/friends/persons/)
+编写者：[::noto:red-heart::DingGe3](/friends/persons/)
+编写者：[::noto:red-heart::dream520nb](/friends/persons/)
+编写者：[::noto:red-heart::申_](/friends/persons/)
+编写者：[::noto:red-heart::QingYe](/friends/persons/)
+编写者：[::noto:red-heart::Tiangua](/friends/persons/)
+编写者：[::noto:red-heart::Fangzhang](/friends/persons/)
+
 
 这里有常用的组件和语法糖的使用示例。
 
