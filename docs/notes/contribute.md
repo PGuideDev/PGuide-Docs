@@ -165,6 +165,8 @@ permalink: /contribute/
 
     作为开源项目，最好就是使用 [::fluent:branch-fork-32-filled::fork](https://github.com/PGuideDev/PGuide-Docs/fork) 的方式将项目导入到您的个人 GitHub 账号下，通过 Pull Request 合并到主分支 master（下文会提到）；
  
+    关于 GitHub上的 PR ，您还可以阅读 [Mr.Hope 的文章](https://mister-hope.com/code/github/pr.html)或 [GitHub 官方文档](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+
     如果您所在的网络环境无法访问 GitHub ，也可以使用国内 Gitee 仓库。
 
     :::tabs
