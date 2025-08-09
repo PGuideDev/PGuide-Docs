@@ -29,12 +29,6 @@ export const navbar = defineNavbarConfig([
                         link: '/learning-notes/linux/commands/',
                         badge: '.sh'
                     },
-                    {
-                        icon: 'https://wiki.linux.do/_next/image?url=%2Flogo.png&w=96&q=75',
-                        text: 'Linux Do Wiki',
-                        link: 'https://wiki.linux.do/',
-                        badge: 'Linux社区'
-                    },
                 ]
             },
             {
