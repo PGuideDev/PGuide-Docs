@@ -2,9 +2,8 @@ name: Deploy Doc
 
 on:
   push:
-    tags:
-      - v*
-  workflow_dispatch:
+    branches:
+      - master
 
 jobs:
   deploy-docs:
