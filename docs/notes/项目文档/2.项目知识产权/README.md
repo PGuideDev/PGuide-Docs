@@ -5,6 +5,14 @@ permalink: /project-docs/project-intellectual-property/
 icon: carbon:license-third-party
 ---
 
+编写者：[::noto:red-heart::rand777](/friends/persons/)
+
+:::tip 本文已完成并校对
+
+:::
+
+知识产权，也称为智力成果权或无形财产权，是指公民、法人或其他组织对其智力劳动成果依法享有的专有权利，包括专利权、商标权、著作权等，[点击此处](https://www.wipo.int/zh/web/about-ip) 查看世界知识产权组织的定义。
+
 > 其实这些东西都是身外之物，申请了就当作个纪念，拿奖学金好好犒劳下自己和队友，不要因为自己有了这些就飘飘然。记住，做自己心目中最帅的项目才是最重要的。
 
 

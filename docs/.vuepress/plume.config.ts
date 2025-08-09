@@ -81,6 +81,7 @@ export default defineThemeConfig({
         content: `\
 **2025-08-09**
 - 项导文档主域名 docs.pguide.studio 即将到期，请用户切换至 docs.pguide.cloud
+- 大学百科中考研、保研、就业、出国留学、校内生活等将迁移至智汇重医 APP，交由人工智能医学学院官方、信息中心维护，项导文档暂不参与维护。
 `,
     },
 

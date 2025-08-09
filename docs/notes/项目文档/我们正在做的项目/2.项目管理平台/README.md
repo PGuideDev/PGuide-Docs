@@ -5,6 +5,10 @@ permalink: /project-docs/project-management-platform/
 icon: arcticons:free-download-manager
 ---
 
+:::danger 这是一篇未完成的文档
+
+:::
+
 ## 项目管理平台
 - 负责人：[::noto:red-heart::翻斗花园牛爷爷](/friends/persons/)
 - 本项目为高校师生设计的项目管理平台，分为学生端和教师端两个子系统，支持课程/毕设项目全流程管理，包括文件上传、任务发布、权限控制等功能。

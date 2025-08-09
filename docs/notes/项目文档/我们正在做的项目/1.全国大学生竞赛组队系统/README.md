@@ -6,10 +6,11 @@ icon: hugeicons:add-team
 tags:
   - PGuide OAuth
   - Java
-  - Oracle EE
-  - AutoMQ
 ---
 
+:::danger 这是一篇未完成的文档
+
+:::
 
 <RepoCard repo="DKwms/pguide"></RepoCard>
 
@@ -22,8 +23,6 @@ tags:
 SpringBoot、Mybatis、Mybatis Plus、Spring Cloud Alibaba、Gateway、Nacos、OpenFeign、Vue2、Redis、MySQL、Nginx、Elastic Search。
 
 后台管理系统基于ruoyi进行的二次开发
-
-<RepoCard repo="DKwms/pguide"></RepoCard>
 
 ## 项目结构
 

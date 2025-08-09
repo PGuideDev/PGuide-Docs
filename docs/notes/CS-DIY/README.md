@@ -3,8 +3,11 @@ title: CS-DIY
 createTime: 2025/02/24 07:01:02
 permalink: /cs-diy/
 ---
+编写者：[::noto:red-heart::rand777](/friends/persons/)
 
-## 前言
+:::tip 本文已完成并校对
+
+:::
 
 > 我没有能力去帮助每一个人，但我希望这个指南可以帮助到你。星星之火，可以燎原。
 
@@ -26,7 +29,7 @@ Missing Semester可以帮助你找到学习计算机的乐趣，不妨先看看�
 
 ### Build our projects
 
-千里之行，始于足下。从一个小项目开始，慢慢积累经验。先看看 ::mdi:tools::[计算机必学工具](/csdiy/tools-must/)吧
+千里之行，始于足下。从一个小项目开始，慢慢积累经验。先看看::mdi:tools::[计算机必学工具](/csdiy/tools-must/) 吧。
 
 ---
 
