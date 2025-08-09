@@ -146,7 +146,7 @@ permalink: /contribute/
     进行前端开发时，需要服务端 (server) 来支撑web应用的运行，::vscode-icons:file-type-node::Node.js 是目前非常流行的开源web服务器运行时环境。在运行不同的前端项目时，往往需要的 Node.js 版本要求是不一样的，而
     NVM（全名：Node.js Version Manager）可以帮助我们更高效地管理不同的 Node.js 版本和依赖环境。
 
-    软件安装及应用教程看[这里](/csdiy/study-path/front-dev/NVM/)，不要忘记安装长期支持版的 Node.js 哦！
+    软件安装及应用教程参考[开发工具](/csdiy/study-path/front-dev/NVM/)，不要忘记安装长期支持版的 Node.js 哦！
     
     :::note 为什么没有 nvm 命令
     安装完成后记得重启 IDE 和终端以重载环境变量

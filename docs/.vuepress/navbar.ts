@@ -292,53 +292,12 @@ export const navbar = defineNavbarConfig([
         text: 'CS-DIY',
         items: [
             {icon: '/icon/code.svg', text: '前言', link: '/cs-diy/'},
-            // {icon: 'mdi:tools', text: '必学工具', link: '/csdiy/tools-must/'},
             {
                 icon: 'mdi:tools',
                 text: '必学工具',
                 items: [
-                    {
-                        icon: 'line-md:question',
-                        text: '缺失的一课',
-                        link: 'https://www.criwits.top/missing/',
-                        badge: ''
-                    },
-                    {
-                        icon: 'skill-icons:git',
-                        text: 'Git',
-                        link: '/csdiy/tools-must/git/',
-                        badge: '分布式代码版本管理工具'
-                    },
-                    {
-                        icon: 'material-symbols:markdown',
-                        text: 'Markdown',
-                        link: '/csdiy/tools-must/markdown/',
-                        badge: '高兼容性文本标记语言'
-                    },
-                    {
-                        icon: 'devicon:vim',
-                        text: 'Vim',
-                        link: '/csdiy/tools-must/Vim/',
-                        badge: '放下鼠标'
-                    },
-                    {
-                        icon: 'file-icons:latex',
-                        text: 'LaTeX',
-                        link: '/csdiy/tools-must/latex/',
-                        badge: '专业排版工具'
-                    },
-                    {
-                        icon: 'catppuccin:docker-compose',
-                        text: 'Docker',
-                        link: '/csdiy/tools-must/docker/',
-                        badge: '开发环境解决方案'
-                    },
-                    {
-                        icon: 'logos:emacs',
-                        text: 'Emacs',
-                        link: '/csdiy/tools-must/Emacs/',
-                        badge: '指尖舞蹈'
-                    },
+                    {icon: 'icon-park-solid:correct',text: '基础工具',link: '/csdiy/tools-must/'},
+
 
                     // {icon: '',text: '',link: ''},
                     // {icon: '',text: '',link: ''},
@@ -349,40 +308,9 @@ export const navbar = defineNavbarConfig([
                 text: '学习路线',
                 items: [
                     {
-                        icon: 'https://avatars.githubusercontent.com/u/60659728?s=48&v=4',
-                        text: 'CSDIY',
-                        link: 'https://csdiy.wiki/',
-                        badge: '计算机自学指南'
-                    },
-                    {
-                        icon: 'solar:code-line-duotone',
-                        text: '编程导航',
-                        link: 'https://www.codefather.cn/course/1789189862986850306',
-                        badge: '鱼皮小课堂'
-                    },
-                    {
-                        icon: 'material-icon-theme:java',
-                        text: 'Java Guide',
-                        link: 'https://javaguide.cn/',
-                        badge: 'Coffee'
-                    },
-                    {
-                        icon: 'line-md:github-loop',
-                        text: 'Code RoadMap',
-                        link: 'https://github.com/forthespada/developer-roadmap-zh-CN',
-                        badge: '一个传奇'
-                    },
-                    {
-                        icon: 'lsicon:education-filled',
-                        text: 'OI Wiki',
-                        link: 'https://oi-wiki.org/',
-                        badge: '算法百科'
-                    },
-                    {
-                        icon: 'https://ctf-wiki.org/static/img/logo.png',
-                        text: 'CTF-wiki',
-                        link: 'https://ctf-wiki.org/',
-                        badge: '挖洞丧失人性'
+                        icon: 'mdi:collections-bookmark',
+                        text: '合集收录',
+                        link: '/csdiy/study-path/'
                     },
                 ]
             },
@@ -399,31 +327,22 @@ export const navbar = defineNavbarConfig([
                         icon: 'lsicon:setting-outline',
                         text: '环境配置',
                         link: '/csdiy/program-begin/PYPI-mirror/',
-                        badge: {type: 'warning', text: '整理中'}
                     },
                 ]
             },
-            // {icon: '/icon/dev-standard.svg', text: '开发规范', link: '/csdiy/dev-rules/what-dev-rules/'},
             {
                 icon: '/icon/dev-standard.svg',
                 text: '开发规范',
                 items: [
                     {
                         icon: 'ic:baseline-rule-folder',
-                        text: '这是什么？',
+                        text: '简介',
                         link: '/csdiy/dev-rules/what-dev-rules/'
                     },
                     {
-                        icon: 'ant-design:aliyun-outlined',
-                        text: '阿里系开发规范',
-                        link: '/csdiy/dev-rules/alibaba-rules/java-rule/',
-                        badge: {type: 'tip', text: 'Java'}
-                    },
-                    {
                         icon: 'material-icon-theme:python',
-                        text: 'PEP',
-                        link: 'https://peps.python.org/',
-                        badge: {type: 'tip', text: 'Python'}
+                        text: 'Python PEP 8',
+                        link: 'https://peps.python.org/pep-0008/',
                     },
                 ]
             },
@@ -431,22 +350,23 @@ export const navbar = defineNavbarConfig([
                 icon: 'fa6-solid:computer',
                 text: '计算机常识',
                 items: [
+                    {icon: 'line-md:question',text: '缺失的一课',link: 'https://www.criwits.top/missing/'},
+                    {
+                        icon: 'material-symbols-light:computer-outline-rounded',
+                        text: '电脑开荒网',
+                        link: 'https://www.cyhaoka.vip/',
+                    },
                     {
                         icon: 'logos:microsoft-windows-icon',
                         text: '系统安装',
                         link: '/csdiy/computer-common-knowledge/Win11re-setup/',
-                        badge: 'Windows11'
                     },
                     {
                         icon: 'emojione-v1:dvd',
                         text: '镜像刻录',
                         link: '/csdiy/computer-common-knowledge/make-image/',
                     },
-                    {
-                        icon: 'material-symbols-light:computer-outline-rounded',
-                        text: '电脑开荒网',
-                        link: 'https://www.cyhaoka.vip/',
-                    },
+
                 ]
             },
             {
@@ -468,7 +388,7 @@ export const navbar = defineNavbarConfig([
                         text: 'CS Books',
                         link: 'https://github.com/forthespada/CS-Books'
                     },
-                                        {
+                    {
                         icon: 'line-md:github-loop',
                         text: 'Awesome Courses',
                         link: 'https://github.com/forthespada/Awsome-Courses',
@@ -518,7 +438,8 @@ export const navbar = defineNavbarConfig([
                     {
                         icon: 'fluent:window-dev-edit-20-regular',
                         text: '维护与开发手册',
-                        link: '/public-service/cqmu-mirror/maintenance-dev-books/'
+                        link: '/public-service/cqmu-mirror/maintenance-dev-books/',
+                        badge: {type: 'warning', text: '整理中'}
                     },
                 ]
             },
@@ -602,36 +523,6 @@ export const navbar = defineNavbarConfig([
                         link: '/public-service/data-center/baidu-netdisk-enterprise/',
                         badge: {type: 'warning', text: 'PGuide VPN'}
                     },
-                    {
-                        icon: 'ic:round-storage',
-                        text: 'PGuide OSS对象存储',
-                        link: '/public-service/data-center/minio/',
-                        badge: {type: 'warning', text: 'PGuide VPN'}
-                    },
-                    {
-                        icon: 'fluent-emoji-flat:medical-symbol',
-                        text: '全球医学公开数据导航',
-                        link: '/public-service/data-center/global-medical-open-data-web/',
-                        badge: {type: 'warning', text: 'PGuide VPN'}
-                    },
-                ]
-            },
-            {
-                icon: 'logos:google-cloud',
-                text: '云计算资源',
-                badge: '零信任',
-                items: [
-                    {
-                        icon: 'simple-icons:tailscale',
-                        text: '加入群组',
-                        link: '/public-service/cloud-computing/join-group/'
-                    },
-                    {
-                        icon: 'arcticons:forticlient-vpn',
-                        text: '客户端下载',
-                        link: 'https://support.sangfor.com.cn/productSoftware/list?product_id=19&category_id=97',
-                        badge: 'ATrust'
-                    },
                 ]
             },
         ]
@@ -649,11 +540,6 @@ export const navbar = defineNavbarConfig([
                 icon: '/icon/teacher.svg',
                 text: '良师赠语',
                 link: '/campus-wiki/teacher-talks/'
-            },
-            {
-                icon: 'ic:baseline-school',
-                text: '校内生活',
-                link: '/campus-wiki/campus-life/'
             },
             {
                 icon: 'https://colleges.chat/assets/images/favicon.webp',
@@ -713,24 +599,6 @@ export const navbar = defineNavbarConfig([
                         badge: 'CET、SET'
                     },
                     {
-                        icon: '/icon/iltes.svg',
-                        text: '雅思 ILTES',
-                        link: '/campus-wiki/credential-skillful-exams/iltes/',
-                        badge: '2170'
-                    },
-                    {
-                        icon: '/icon/tofel.svg',
-                        text: '托福 TOEFL',
-                        link: '/campus-wiki/credential-skillful-exams/toefl/',
-                        badge: '995'
-                    },
-                    {
-                        icon: '/icon/duolinguo.svg',
-                        text: '多邻国 duolinguo',
-                        link: '/campus-wiki/credential-skillful-exams/duolinguo/',
-                        badge: '多、快、好、省'
-                    },
-                    {
                         icon: 'https://bm.ruankao.org.cn/asset/image/public/logo.png',
                         text: '软考',
                         link: '/campus-wiki/credential-skillful-exams/ruankao/',
@@ -747,124 +615,43 @@ export const navbar = defineNavbarConfig([
             },
             {
                 icon: '/icon/competition.svg',
-                text: '竞赛',
+                text: '竞赛指南',
                 items: [
                     {
-                        icon: 'mingcute:ai-line',
-                        text: '人工智能及未来技术类',
-                        link: '/campus-wiki/competition/AI-future/',
-                    },
-                    {
-                        icon: 'game-icons:team-idea',
-                        text: '创新创业类',
-                        link: '/campus-wiki/competition/innovate/',
-                        badge: ''
+                        icon: 'material-symbols:code',
+                        text: '编程竞赛',
+                        link: '/campus-wiki/competition/code/',
                     },
                     {
                         icon: 'file-icons:3d-model',
-                        text: '数学建模类',
+                        text: '数学建模',
                         link: '/campus-wiki/competition/math-modeling/',
                         badge: ''
                     },
                     {
                         icon: 'mynaui:math',
-                        text: '纯学科类竞赛',
+                        text: '纯学科竞赛',
                         link: '/campus-wiki/competition/subjects/',
                         badge: ''
                     },
                     {
-                        icon: 'material-symbols:code',
-                        text: '编程竞赛类',
-                        link: '/campus-wiki/competition/code/',
+                        icon: 'mingcute:ai-line',
+                        text: '人工智能',
+                        link: '/campus-wiki/competition/AI-future/',
+                    },
+                    {
+                        icon: 'mingcute:ai-line',
+                        text: '网络安全',
+                        link: '/campus-wiki/competition/AI-future/',
+                    },
+                    {
+                        icon: 'game-icons:team-idea',
+                        text: '创新创业',
+                        link: '/campus-wiki/competition/innovate/',
                         badge: ''
                     },
-
                 ]
             },
-            // {
-            //     icon: '/icon/kaoyan.svg',
-            //     text: '我有志于从事深层次研究',
-            //     items: [
-            //         {
-            //             icon: '/icon/kaoyan.svg',
-            //             text: '全国硕士研究生统考',
-            //             link: '/campus-wiki/postgraduate-entrance-exam/',
-            //             badge: {type: 'warning', text: '整理中'}
-            //         },
-            //         {
-            //             icon: '/icon/baoyan.svg',
-            //             text: '推荐免试硕士、直博研究生',
-            //             link: '/campus-wiki/postgraduate-recommendation/',
-            //             badge: {type: 'warning', text: '整理中'}
-            //         },
-            //         {
-            //             icon: 'academicons:cv',
-            //             text: '申请考核制攻读博士研究生',
-            //             link: '/campus-wiki/postgraduate-recommendation/',
-            //             badge: {type: 'warning', text: '整理中'}
-            //         },
-            //         {
-            //             icon: '/icon/liuxue.svg',
-            //             text: '港澳台及出国留学深造',
-            //             link: '/campus-wiki/study-abroad/',
-            //             badge: {type: 'warning', text: '整理中'}
-            //         },
-            //         {
-            //             icon: 'streamline:ai-science-spark-solid',
-            //             text: '科研如何开展',
-            //             link: '/campus-wiki/scientific-research/',
-            //             badge: {type: 'warning', text: '整理中'}
-            //         }
-            //     ]
-            // },
-            // {
-            //     icon: 'uim:bag',
-            //     text: '我在现实中的实践检验真理',
-            //     items: [
-            //         {
-            //             icon: '/icon/internship.svg',
-            //             text: '实习投递',
-            //             link: '/campus-wiki/internship/',
-            //             badge: {type: 'warning', text: '整理中'}
-            //         },
-            //         {
-            //             icon: 'https://saduck.top/favicon.png',
-            //             text: '考公知识库SaDuck',
-            //             link: 'https://saduck.top/',
-            //             badge: '我一定会上岸！'
-            //         },
-            //         {
-            //             icon: 'https://t2.chei.com.cn/ncss/jyxw/images/logo/logo-text.svg',
-            //             text: '',
-            //             link: 'https://www.ncss.cn/',
-            //             badge: '官方背书'
-            //         },
-            //         {
-            //             icon: 'https://www.newjobs.com.cn/template/1/default/images/logo.png',
-            //             text: '中国国家人才网',
-            //             link: 'https://www.newjobs.com.cn/',
-            //             badge: ''
-            //         },
-            //         {
-            //             icon: 'https://www.cqtalent.com/cqrcwnew/resource/images/index/logo.png',
-            //             text: '重庆市人才工作网',
-            //             link: 'https://www.cqtalent.com/',
-            //             badge: ''
-            //         },
-            //         {
-            //             icon: 'https://img1.dxycdn.com/t/s7/2024/0809/238/0804545057939971281.png',
-            //             text: '丁香人才网',
-            //             link: 'https://www.jobmd.cn/',
-            //             badge: '医疗信息化'
-            //         },
-            //         {
-            //             icon: '/icon/cqmu.svg',
-            //             text: '重庆医科大学就业信息网',
-            //             link: 'https://cqmu.cqbys.com/',
-            //             badge: ''
-            //         },
-            //     ]
-            // },
         ]
     },
     {
@@ -907,11 +694,6 @@ export const navbar = defineNavbarConfig([
                         text: 'google analytics',
                         link: 'https://analytics.google.com/analytics/web/#/p472592389',
                     },
-                    {
-                        icon: 'ri:baidu-fill',
-                        text: 'baidu analytics',
-                        link: 'https://tongji.baidu.com/main/overview/10000683125/overview/index',
-                    },
                 ]
             },
 
@@ -938,36 +720,11 @@ export const navbar = defineNavbarConfig([
                         badge: {type: 'warning', text: 'PGuide VPN'}
                     },
                     {
-                        icon: 'catppuccin:vercel-ignore',
-                        text: 'vercel serverless',
-                        link: 'https://www.vercel-status.com/',
-                        badge: {type: 'tip', text: '官方'}
-                    },
-                    {
-                        icon: 'line-md:github-loop',
-                        text: 'github status',
-                        link: 'https://www.githubstatus.com/',
-                        badge: {type: 'tip', text: '官方'}
-                    },
-                    {
                         icon: 'streamline-cyber:network',
                         text: 'ping检测',
                         link: 'https://ping.chinaz.com/docs.pguide.cloud',
-                        badge: '国内镜像站点'
-                    },
-                    {
-                        icon: 'streamline-cyber:network',
-                        text: 'ping检测',
-                        link: 'https://ping.chinaz.com/docs.pguide.studio',
-                        badge: '国际主站点'
                     },
                 ]
-            },
-
-            {
-                icon: 'ic:outline-update',
-                text: '更新日志',
-                link: '/update-note/'
             },
         ]
     },

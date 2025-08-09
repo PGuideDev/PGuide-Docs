@@ -10,13 +10,19 @@ tags:
   - OSS 
 ---
 
+编写者：[::noto:red-heart::rand777](/friends/persons/)
+
+:::tip 本文已完成并校对
+
+:::
+
 :::important 面向对象
 仅面向工作室成员使用，使用工作室统一认证账户登录。
 :::
 
 ## Gitlab
 
-:::tip
+:::note Gitlab Registry
 Gitlab 提供了私有的容器镜像仓库，使用 Gitlab 的 OAuth 认证方式登录。
 :::
 

@@ -5,4 +5,4 @@ permalink: /campus-wiki/competition/subjects/
 icon: mynaui:math
 ---
 
-由于学校的特殊，我们能参加的纯学科类竞赛不多。
+由于学校的特殊（医科），我们能参加的纯学科类竞赛不多。

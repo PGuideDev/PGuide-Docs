@@ -4,6 +4,11 @@ createTime: 2025/05/19 14:13:52
 permalink: /campus-wiki/competition/code/
 icon: material-symbols:code
 ---
+编写者：[::noto:red-heart::rand777](/friends/persons/) [::noto:red-heart::李徵](/friends/persons/) 
+
+:::tip 本文已完成并校对
+
+:::
 
 > 哇哦，如果你喜欢敲代码，那来对地方了。
 

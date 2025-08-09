@@ -4,6 +4,12 @@ createTime: 2025/03/09 06:31:59
 permalink: /campus-wiki/common-softwares/office/WPS/
 icon: arcticons:wpsoffice
 ---
+
+编写者：[::noto:red-heart::rand777](/friends/persons/)
+:::tip 本文已完成并校对
+
+:::
+
 ## 申请重医WPS
 
 :::info 重医企业版配置

@@ -9,6 +9,11 @@ tags:
   - 对象存储 
 ---
 
+编写者：[::noto:red-heart::rand777](/friends/persons/)
+
+:::tip 本文已完成并校对
+
+:::
 
 <LinkCard icon="https://lobechat.com/icons/icon-192x192.png" title="PGuide LobeChat" href="https://chat.pguide.studio/">
 
@@ -34,7 +39,7 @@ LobeChat OpenSource LLM chat platform.
 @[artPlayer](https://cos.pguide.cloud/docs/video/2025-03-04_02-39-00.mp4)
 
 ### 三方接口
-OpenAI下调用了OpenAI的香港代理，支持多种对话模型，以DeepSeek为例，相较之下，价格为DeepSeek官方的八折，且更加流畅，切换方式：
+OpenAI下调用了 OpenAI 的香港代理，支持多种对话模型，以 DeepSeek 为例，相较之下，价格为 DeepSeek 官方的八折，且更加流畅，切换方式：
 
 @[artPlayer](https://cos.pguide.cloud/docs/video/2025-03-04_03-25-52.mp4)
 
@@ -42,7 +47,7 @@ OpenAI下调用了OpenAI的香港代理，支持多种对话模型，以DeepSeek
 
 ### PWA支持
 
-支持PWA，可以添加到桌面，方便使用：
+支持 PWA ，可以添加到桌面，方便使用：
 
 ![2025-03-18_02-05-03.png](../../../.vuepress/public/src/2025-03-18_02-05-03.png)
 
@@ -51,8 +56,4 @@ OpenAI下调用了OpenAI的香港代理，支持多种对话模型，以DeepSeek
 :::info
 此项由[Oh My API](/project-docs/oh-my-api/)接管
 :::
-
-1. [ ] 使用数据库版本，接入统一认证中心；
-2. [ ] 展示各组织使用量；
-3. [ ] EChart.js展示日均使用分布；
 

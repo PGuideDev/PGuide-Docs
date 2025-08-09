@@ -5,7 +5,11 @@ permalink: /csdiy/computer-common-knowledge/Win11re-setup/
 icon: logos:microsoft-windows-icon
 ---
 
-编写者：❤ [翻斗花园牛爷爷, Lily](/friends/persons/)
+编写者：[::noto:red-heart::翻斗花园牛爷爷](/friends/persons/) [::noto:red-heart::Lily](/friends/persons/)
+
+:::tip 本文已完成并校对
+
+:::
 
 
 

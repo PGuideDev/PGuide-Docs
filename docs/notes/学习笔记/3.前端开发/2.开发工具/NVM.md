@@ -1,7 +1,7 @@
 ---
 title: NVM
 createTime: 2025/03/02 17:16:56
-permalink: /csdiy/study-path/front-dev/NVM/
+permalink: /learning-notes/dev-tools/frontend-dev/NVM/
 icon: simple-icons:nvm
 ---
 
