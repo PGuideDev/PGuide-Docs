@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - ci/gh-pages
 
 jobs:
   deploy-docs:
@@ -26,9 +27,6 @@ jobs:
 
       - name: Install deps
         run: pnpm install --frozen-lockfile
-
-      - name: Build Packages
-        run: pnpm build:package
 
       - name: Docs build
         env:
