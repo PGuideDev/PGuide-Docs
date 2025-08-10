@@ -1,10 +1,9 @@
-name: Deploy Doc
+name: 部署文档至gh-pages分支
 
 on:
   push:
     branches:
       - master
-      - ci/gh-pages
 
 jobs:
   deploy-docs:
