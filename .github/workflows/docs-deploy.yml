@@ -14,26 +14,24 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install pnpm
+      - name: 安装pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 10.14.0   # <-- Specify the pnpm version here
 
-      - name: Setup Node.js
+      - name: 设置 Node.js 版本
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: pnpm
 
-      - name: Install deps
+      - name: 安装依赖
         run: pnpm install --frozen-lockfile
 
-      - name: Docs build
+      - name: 构建文档中
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: pnpm docs:build
 
-      - name: Deploy docs
+      - name: 部署至 gh-pages 分支中
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
