@@ -18,7 +18,7 @@ _We share ideas, build projects as our dreams._
 
 The Project Guide Documentation is centered around project development. The `Learning Notes` aim to address basic issues before development, such as environment setup, technology selection, and design patterns. The `Project Documentation` establishes various project development standards, including the application of intellectual property, and showcases the self-innovated projects of Project Guide Studio. Everyone is welcome to join the development; the `CS-DIY` section is inspired by the computer self-learning guide, which includes learning routes, quality resources, and computer knowledge from various fields of computing.
 
-### Project Guide Documentation Comment System Registration:
+### Project Guide Documentation Comment System Registration: https://comment.pguide.studio/ui
 
 ## Learning Notes
 
