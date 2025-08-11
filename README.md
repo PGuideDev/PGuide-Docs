@@ -48,7 +48,9 @@ _We share ideas, build projects as our dreams._
 
 ## 大学百科
 
-一些校内杂谈，包括学生邮箱的作用、竞赛的注意事项、程序员应该考哪些证书等通识性内容，让时间花在刀刃上，
+> 抓紧整理中
+
+一些校内杂谈，包括学生邮箱的作用、竞赛的注意事项、程序员应该考哪些证书等通识性内容，让时间花在刀刃上。
 
 # 如何参与进来
 
@@ -58,31 +60,29 @@ _We share ideas, build projects as our dreams._
 
 ## 个人及组织
 
-开发者们
-
-<a href="https://github.com/PGuideDev/PGuide-Docs/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=PGuideDev/PGuide-Docs"/>
-</a>
-
-· 公开身份的贡献者们 合作组织们
+- [愿意公开身份的贡献者们](https://docs.pguide.cloud/friends/persons/)
+- [合作组织们](https://docs.pguide.cloud/friends/organizations/)
 
 ## 引用的优秀作品
 
-- Ac Wiki
-- Linux Do Wiki
-- Linux 101
-- Linux 201
-- 你缺失的那门计算机课
-- CSDIY
-- 编程导航
-- Code RoadMap
-- OI Wiki
-- CTF Wiki
-- Hello CTF
-- 电脑开荒网
-- Python PEP
-- CTF Archive
-- CS Books
-- Awesome Courses
-- Java Guide
-- 大学生活指北
+
+
+> ILGM: it looks good to me，也欢迎向我们推荐其他优秀作品与 PR :)
+
+- Ac Wiki：[高等教育学社基础知识开源建设工程](https://ac-wiki.org/)
+- Linux Do Wiki：[LINUX DO 社区维基](https://wiki.linux.do/)
+- Linux 101：[中国科学技术大学 Linux 用户协会编写的《Linux 101》在线讲义](https://101.lug.ustc.edu.cn/)
+- Linux 201：[Linux 201 进阶教程](https://201.ustclug.org/)
+- 你缺失的那门计算机课：[一份适合电脑小白入门的电脑使用课程](https://www.criwits.top/missing/)
+- CSDIY：[计算机自学指南](https://csdiy.wiki/)
+- 编程导航：[程序员鱼皮推出的编程导航](https://www.codefather.cn/course/1789189862986850306)
+- Code RoadMap：[互联网校招技术岗开发者学习路线图](https://github.com/forthespada/developer-roadmap-zh-CN)
+- OI Wiki：[算法维基](https://oi.wiki/)
+- CTF Wiki：[CTF维基](https://ctf-wiki.org/)
+- Hello CTF：[免费开源的CTF入门教程](https://hello-ctf.com/)
+- 电脑开荒网：[找工具不迷路](https://www.cyhaoka.vip/)
+- CTF Archive：[CTF资料档案馆](https://github.com/CTF-Archives)
+- CS Books：[经典计算机教材](https://github.com/forthespada/CS-Books)
+- Awesome Courses：[编程资源、好课分享](https://github.com/forthespada/Awsome-Courses)
+- Java Guide：[Java学习 + 面试指南](https://javaguide.cn/)
+- 大学生活指北：[大学之道，在吃住行](https://colleges.chat/)
