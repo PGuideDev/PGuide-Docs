@@ -1,10 +1,10 @@
 {
   "name": "pguide-docs",
   "type": "module",
-  "version": "1.6.1-rc",
+  "version": "1.0.0-rc.160",
   "description": "项导文档",
-  "author": "rand777 <rand777@pguide.studio>",
-  "license": "MPL2.0",
+  "author": "PGuide Studio <contact@pguide.studio>",
+  "license": "MPL 2.0",
   "engines": {
     "node": "^18.20.0 || >=20.0.0"
   },

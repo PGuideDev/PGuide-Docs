@@ -9,7 +9,7 @@ Node Version Manager，不同的前端项目往往需要不同的 node.js 版本
 
 ## Windows
 ### 安装
-前往 :[line-md:github-twotone]: [nvm for windows](https://github.com/coreybutler/nvm-windows)
+前往 ::line-md:github-twotone:: [nvm for windows](https://github.com/coreybutler/nvm-windows)
 
 你看到的版本号可能不一样，因为 nvm 一直在更新!
 
