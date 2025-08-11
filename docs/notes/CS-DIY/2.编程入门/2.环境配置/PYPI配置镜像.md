@@ -11,7 +11,7 @@ icon: devicon:pypi
 :::
 
 
-[//]: # (TODO: Lily: 已提交 isuue#87, https://github.com/PGuideDev/PGuide-Docs/issues/87 [静态资源命名、位置错误，请按照  中要求重新将文件归档至 public/src 目录] )
+[//]: #
 
 [PYPI(The Python Package Index)](https://pypi.org/) 索引着全世界的 Python 包，Python 官方使用 pip 来管理这些包，不过因为性能、包与包之间的依赖管理等问题让社区有理由发展更好的工具。现在出现了许许多多新型的包管理器 (Package Manager) ，目前最推荐 uv。当然，其他的包管理器 (如 pip, Poetry, Conda) 也有其独特的优势和使用场景。
 
