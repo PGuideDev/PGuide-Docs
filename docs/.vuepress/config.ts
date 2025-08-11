@@ -4,7 +4,6 @@ import {plumeTheme} from 'vuepress-theme-plume'
 import notes from "./notes";
 import {umamiAnalyticsPlugin} from "@vuepress/plugin-umami-analytics";
 import {googleAnalyticsPlugin} from "@vuepress/plugin-google-analytics";
-import {baiduAnalyticsPlugin} from "@vuepress/plugin-baidu-analytics";
 import {pwaPlugin} from '@vuepress/plugin-pwa'
 
 
@@ -13,7 +12,6 @@ export default defineUserConfig({
     plugins: [
         pwaPlugin({
             // pwa 插件
-
             showInstall: true,
             manifest: {
                 name: 'PGuide Docs',
@@ -49,10 +47,6 @@ export default defineUserConfig({
             // Google 分析
             id: 'G-RDX6MRNXSF',
             debug: true,
-        }),
-        baiduAnalyticsPlugin({
-            // Baidu 分析
-            id: 'efe5ce8fae653f1c20f5038be01c82e7'
         }),
     ],
     base: '/',
@@ -177,7 +171,7 @@ export default defineUserConfig({
          */
 
         codeHighlighter: {
-            themes: {light: 'vitesse-light', dark: 'vitesse-dark'},
+            themes: {light: 'github-light', dark: 'dark-plus'},
             notationDiff: true,
             notationErrorLevel: true,
             notationFocus: true,
@@ -186,8 +180,6 @@ export default defineUserConfig({
             highlightLines: true,
             collapsedLines: 10,
             lineNumbers: false,
-            twoslash: true,
-            // langs: ['vue', 'typescript', 'latex', 'matlab', 'java', 'c++', 'cmake']
             whitespace: false,
         },
 

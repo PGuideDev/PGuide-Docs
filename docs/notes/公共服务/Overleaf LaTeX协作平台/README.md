@@ -70,7 +70,7 @@ Overleaf的用户界面超级简单，即使是新手也能轻松上手，现在
 
 以[重医简历参考模板V1.7.4R](/campus-wiki/internship/resume/#latex-参考模板)
 为例，点击[此处](https://cos.pguide.cloud/docs/CQMU-%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BFV1.7.4%20R.zip)
-下载，建议使用[:[/icon/orcid.svg]:ORCID账号](https://info.orcid.org/zh-CN/%E4%BB%80%E4%B9%88%E6%98%AF-orcid/)
+下载，建议使用[::/icon/orcid.svg::ORCID账号](https://info.orcid.org/zh-CN/%E4%BB%80%E4%B9%88%E6%98%AF-orcid/)
 登录，登录后你应该看到这个界面：
 
 ![2025-03-10_02-43-43.png](../../../.vuepress/public/src/2025-03-10_02-43-43.png)
