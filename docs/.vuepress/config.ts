@@ -125,9 +125,21 @@ export default defineUserConfig({
             mode: 'block',
             info: [
                 {
-                    username: 'LyrLark', // github username
+                    username: 'rand777gg', // github username
                     alias: ['rand777'], // 别名，本地 git 配置中的用户名
-                }
+                },
+                {
+                    username: 'Nightowlwithrain',
+                    alias: ['shen'],
+                },
+                {
+                    username: 'Lily',
+                    alias: ['Lilyxxcccc'],
+                },
+                {
+                    username: 'ChenHongYu',
+                    alias: ['MenTouGouMouse'],
+                },
             ]
         },
         // changelog: false,
