@@ -126,19 +126,23 @@ export default defineUserConfig({
             info: [
                 {
                     username: 'rand777gg', // github username
-                    alias: ['rand777'], // 别名，本地 git 配置中的用户名
+                    alias: ['LyrLark'], // 别名，本地 git 配置中的用户名
                 },
                 {
                     username: 'Nightowlwithrain',
                     alias: ['shen'],
                 },
                 {
-                    username: 'Lily',
-                    alias: ['Lilyxxcccc'],
+                    username: 'Lilyxxcccc',
+                    alias: ['Lily'],
                 },
                 {
-                    username: 'ChenHongYu',
-                    alias: ['MenTouGouMouse'],
+                    username: 'MenTouGouMouse',
+                    alias: ['ChenHongYu'],
+                },
+                {
+                    username: 'DingGe3',
+                    alias: ['lhr'],
                 },
             ]
         },
