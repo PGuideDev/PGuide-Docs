@@ -86,3 +86,11 @@ _We share ideas, build projects as our dreams._
 - Awesome Courses：[编程资源、好课分享](https://github.com/forthespada/Awsome-Courses)
 - Java Guide：[Java学习 + 面试指南](https://javaguide.cn/)
 - 大学生活指北：[大学之道，在吃住行](https://colleges.chat/)
+
+  ## 镜像站点
+
+  如果你所在的位置访问 docs.pguide.cloud 很慢，可以试试镜像站点
+
+  - Vercel: https://docs.pguide.studio
+  - Netlify: https://pguide-docs.netlify.app
+  - Cloudflare: https://pguide-docs.pages.dev
