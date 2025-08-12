@@ -16,7 +16,7 @@ _We share ideas, build projects as our dreams._
 
 # 使用指南
 
-项导文档以项目建设为核心，其中 `学习笔记` 目的在于解决开发前的环境配置、技术选型、设计模式等基础问题；`项目文档` 制定了项目建设的各种规范，也包括项目知识产权的申请，项目文档展示了项导工作室的自主创新项目，欢迎加入建设；`CS-DIY` 灵感来自计算机自学指南，包含计算机各方向的学习路线、优质资源、计算机常识等；
+项导文档以项目建设为核心，其中 `学习笔记` 目的在于解决开发前的环境配置、技术选型、设计模式等基础问题；`项目文档` 制定了项目建设的各种规范，也包括项目知识产权的申请，项目文档展示了项导工作室的自主创新项目，欢迎加入建设；`CS-DIY` 灵感来自计算机自学指南，包含计算机各方向的学习路线、优质资源、计算机常识等；`公共服务` 和 `大学百科` 部分是我们为重医的学弟学妹们准备的文档，希望他们有所收获。
 
 项导文档评论系统注册：https://comment.pguide.studio/ui
 
@@ -89,8 +89,8 @@ _We share ideas, build projects as our dreams._
 
 ## 镜像站点
 
-如果你所在的位置访问 docs.pguide.cloud 很慢，可以试试镜像站点
+如果你所在的位置访问 docs.pguide.cloud 很慢，可以试试下面的镜像站点（一般来说不会太慢，现在部署在腾讯云的 EdgeOne Pages 上，全球CDN静态资源加速）
 
-- Vercel: https://docs.pguide.studio
+- Vercel（香港节点）: https://docs.pguide.studio
 - Netlify: https://pguide-docs.netlify.app
 - Cloudflare: https://pguide-docs.pages.dev
