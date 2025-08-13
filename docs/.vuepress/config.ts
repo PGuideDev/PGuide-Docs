@@ -144,6 +144,10 @@ export default defineUserConfig({
                     username: 'DingGe3',
                     alias: ['lhr'],
                 },
+                {
+                    username: 'dream520nb',
+                    alias: ['dream'],
+                },
             ]
         },
         // changelog: false,
