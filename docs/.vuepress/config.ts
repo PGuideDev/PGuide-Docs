@@ -126,7 +126,7 @@ export default defineUserConfig({
             info: [
                 {
                     username: 'rand777gg', // github username
-                    alias: ['LyrLark'], // 别名，本地 git 配置中的用户名
+                    alias: ['LyrLark','rand777'], // 别名，本地 git 配置中的用户名
                 },
                 {
                     username: 'Nightowlwithrain',
@@ -147,6 +147,10 @@ export default defineUserConfig({
                 {
                     username: 'dream520nb',
                     alias: ['dream'],
+                },
+                {
+                    username: 'TianGuaUaena',
+                    alias: ['leikuanlin'],
                 },
             ]
         },
