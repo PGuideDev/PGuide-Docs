@@ -154,7 +154,7 @@ export default defineUserConfig({
                 },
                 {
                     username: 'emptyelse',
-                    alias: ['Lizhi'],
+                    alias: ['lizhi'],
                 },
             ]
         },
