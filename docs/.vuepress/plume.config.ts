@@ -35,7 +35,7 @@ export default defineThemeConfig({
     aside: true, // 页内侧边栏， 默认显示在右侧
     outline: [2, 6], // 页内大纲， 默认显示 h2, h3
 
-    /* 站点页脚，message显示在线情况 */
+    /* 站点页脚，message 显示在线情况 */
     footer: {
         // message: '<a href="https://docs.pguide.cloud" target="_blank" style="transition: all 0.3s ease; display: inline-block; background: linear-gradient(270deg, #ff6b6b, #4ecdc4, #ff6b6b); background-size: 200% 100%; animation: moveGradient 3s infinite linear; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold; position: relative;" onmouseover="this.style.transform=\'scale(1.1)\'; this.style.animationDuration=\'1s\'" onmouseout="this.style.transform=\'scale(1)\'; this.style.animationDuration=\'3s\'">国内镜像站点</a> | <a href="https://docs.pguide.studio" target="_blank" style="transition: all 0.3s ease; display: inline-block; background: linear-gradient(270deg, #a8e6cf, #3498db, #a8e6cf); background-size: 200% 100%; animation: moveGradient 3s infinite linear; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold; position: relative;" onmouseover="this.style.transform=\'scale(1.1)\'; this.style.animationDuration=\'1s\'" onmouseout="this.style.transform=\'scale(1)\'; this.style.animationDuration=\'3s\'">国际主站点</a> | <a href="https://ecosystem.pguide.studio" target="_blank" style="transition: all 0.3s ease; display: inline-block; background: linear-gradient(270deg, #dcd6f7, #424874, #dcd6f7); background-size: 200% 100%; animation: moveGradient 3s infinite linear; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold; position: relative;" onmouseover="this.style.transform=\'scale(1.1)\'; this.style.animationDuration=\'1s\'" onmouseout="this.style.transform=\'scale(1)\'; this.style.animationDuration=\'3s\'">项导生态</a><style>@keyframes moveGradient { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; }}</style>',
         message: '',
@@ -78,8 +78,10 @@ export default defineThemeConfig({
         contentType: 'markdown',
         content: `\
 **2025-08-10**
-- 项导文档主域名 docs.pguide.studio 即将到期，请用户切换至 docs.pguide.cloud。
-- 大学百科中考研、保研、就业、出国留学、校内生活等将迁移至智汇重医 APP，交由人工智能医学学院官方、信息中心维护，项导文档不再参与维护。
+- 项导文档主域名 docs.pguide.studio 即将到期，还没续费呢，可以去 [docs.pguide.com.cn](https://docs.pguide.com.cn/) 。
+- 大学百科中考研、保研、就业、出国留学、校内生活等部分将迁移至智汇重医 APP，交由人工智能医学学院官方、信息中心维护，项导文档不再参与维护。
+**2025-08-14**
+- 正在编写项目文档，欢迎关注！
 `,
     },
 
