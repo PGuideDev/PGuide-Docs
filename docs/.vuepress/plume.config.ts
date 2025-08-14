@@ -1,7 +1,6 @@
 import {defineThemeConfig} from 'vuepress-theme-plume'
 import {navbar} from './navbar'
 import notes from './notes'
-import {SpeedInsights} from '@vercel/speed-insights/vue'
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
