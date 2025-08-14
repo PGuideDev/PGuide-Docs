@@ -31,7 +31,7 @@ export default defineUserConfig({
                     }
                 ],
             },
-            update: 'hint',
+            update: 'force',
             favicon: 'icon/favicon.ico',
         }),
 
@@ -151,6 +151,10 @@ export default defineUserConfig({
                 {
                     username: 'TianGuaUaena',
                     alias: ['leikuanlin'],
+                },
+                {
+                    username: 'emptyelse',
+                    alias: ['Lizhi'],
                 },
             ]
         },
