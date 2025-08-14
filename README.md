@@ -67,7 +67,7 @@ _We share ideas, build projects as our dreams._
 
 
 
-> ILGM: it looks good to me，也欢迎向我们推荐其他优秀作品与 PR :)
+> LGTM: it looks good to me，也欢迎向我们推荐其他优秀作品与 PR :)
 
 - Ac Wiki：[高等教育学社基础知识开源建设工程](https://ac-wiki.org/)
 - Linux Do Wiki：[LINUX DO 社区维基](https://wiki.linux.do/)
