@@ -5,81 +5,81 @@ description: 排名不分先后
 permalink: /friends/organizations/
 pageLayout: friends
 groups:
-  - title: PGuide Studio
-    desc: An interesting team who builds projects as their dreams.
-    list:
-      - name: 项导工作室官网（即将上线）
-        link: https://www.pguide.studio
-        location: Global distribution
-        avatar: /icon/logo.svg
-        organization: PGuide Studio
-        desc: Start from here, we build projects as our dreams.
-      - name: 项导开源生态（即将上线）
-        link: https://ecosystem.pguide.studio
-        location: Global distribution
-        avatar: /icon/eco.png
-        organization: PGuide Studio OS Ecosystem
-        desc: We share, contribute, and grow together!
-      - name: 项导网络技术部（即将上线）
-        link: https://network.pguide.studio
-        location: Global distribution
-        avatar: /icon/pnet.png
-        organization: PGuide Studio Network Team
-        desc: We connect the world, see its beauty and truth, and share it with you.
-      - name: 项导前端开发部（即将上线）
-        link: https://frontend.pguide.studio
-        location: Global distribution
-        avatar: /icon/fweb.png
-        organization: PGuide Studio Frontend Team
-        desc: Use frameworks to build the web pages, and use creativity to make it better.
-      - name: 项导后端开发部（即将上线）
-        link: https://backend.pguide.studio
-        location: Global distribution
-        avatar: /icon/backend.png
-        organization: PGuide Studio Backend Team
-        desc: To those who build the future, we are the ones who make it happen.
-      - name: 项导人工智能部（即将上线）
-        link: https://ai.pguide.studio
-        location: Global distribution   
-        avatar: /icon/ai.png
-        organization: PGuide Studio AI
-        desc: Combine Medicine with AI, here comes the future of healthcare.
-      - name: 项导硬件工程部（即将上线）
-        link: https://hardware.pguide.studio
-        location: Global distribution   
-        avatar: /icon/ee.png
-        organization: PGuide Studio Hardware Dev Team
-        desc: Combine Medicine with AI, here comes the future of healthcare.        
-      - name: 项导艺术设计部（即将上线）
-        link: https://art.pguide.studio
-        location: Global distribution
-        avatar: /icon/design.png
-        organization: PGuide Studio Art Team
-        desc: Explore the world with creativity, design the future with art.
-      - name: 项导云原生（即将上线）
-        link: https://native.pguide.cloud
-        location: Global distribution
-        avatar: /icon/cloud.png
-        organization: PGuide Studio Cloud Native Team
-        desc: Simplify the complexity of cloud native, build a better future with technology.
-      - name: 项导数据中心（即将上线）
-        link: https://dc.pguide.studio
-        location: Global distribution
-        avatar: /icon/data.png
-        organization: PGuide Studio Data Group
-        desc: Bit revealed the dancing of 0 and 1, in which we once been observed the world.
-      - name: 项导年鉴（即将上线）
-        link: https://memory.pguide.studio
-        location: Global distribution
-        avatar: /icon/year.png
-        organization: PGuide Studio Memory
-        desc: Recalling our drinks on Noon Bridge of yore,where gathered heroes now no more.      
-      - name: 项导荣誉墙（即将上线）
-        link: https://honor.pguide.studio
-        location: Global distribution
-        avatar: /icon/honor.png
-        organization: PGuide Studio Honor Gallery
-        desc: Our past story and honors earned, wishing they inspire you to join us!     
+#  - title: PGuide Studio
+#    desc: An interesting team who builds projects as their dreams.
+#    list:
+#      - name: 项导工作室官网（即将上线）
+#        link: https://www.pguide.studio
+#        location: Global distribution
+#        avatar: /icon/logo.svg
+#        organization: PGuide Studio
+#        desc: Start from here, we build projects as our dreams.
+#      - name: 项导开源生态（即将上线）
+#        link: https://ecosystem.pguide.studio
+#        location: Global distribution
+#        avatar: /icon/eco.png
+#        organization: PGuide Studio OS Ecosystem
+#        desc: We share, contribute, and grow together!
+#      - name: 项导网络技术部（即将上线）
+#        link: https://network.pguide.studio
+#        location: Global distribution
+#        avatar: /icon/pnet.png
+#        organization: PGuide Studio Network Team
+#        desc: We connect the world, see its beauty and truth, and share it with you.
+#      - name: 项导前端开发部（即将上线）
+#        link: https://frontend.pguide.studio
+#        location: Global distribution
+#        avatar: /icon/fweb.png
+#        organization: PGuide Studio Frontend Team
+#        desc: Use frameworks to build the web pages, and use creativity to make it better.
+#      - name: 项导后端开发部（即将上线）
+#        link: https://backend.pguide.studio
+#        location: Global distribution
+#        avatar: /icon/backend.png
+#        organization: PGuide Studio Backend Team
+#        desc: To those who build the future, we are the ones who make it happen.
+#      - name: 项导人工智能部（即将上线）
+#        link: https://ai.pguide.studio
+#        location: Global distribution   
+#        avatar: /icon/ai.png
+#        organization: PGuide Studio AI
+#        desc: Combine Medicine with AI, here comes the future of healthcare.
+#      - name: 项导硬件工程部（即将上线）
+#        link: https://hardware.pguide.studio
+#        location: Global distribution   
+#        avatar: /icon/ee.png
+#        organization: PGuide Studio Hardware Dev Team
+#        desc: Combine Medicine with AI, here comes the future of healthcare.        
+#      - name: 项导艺术设计部（即将上线）
+#        link: https://art.pguide.studio
+#        location: Global distribution
+#        avatar: /icon/design.png
+#        organization: PGuide Studio Art Team
+#        desc: Explore the world with creativity, design the future with art.
+#      - name: 项导云原生（即将上线）
+#        link: https://native.pguide.cloud
+#        location: Global distribution
+#        avatar: /icon/cloud.png
+#        organization: PGuide Studio Cloud Native Team
+#        desc: Simplify the complexity of cloud native, build a better future with technology.
+#      - name: 项导数据中心（即将上线）
+#        link: https://dc.pguide.studio
+#        location: Global distribution
+#        avatar: /icon/data.png
+#        organization: PGuide Studio Data Group
+#        desc: Bit revealed the dancing of 0 and 1, in which we once been observed the world.
+#      - name: 项导年鉴（即将上线）
+#        link: https://memory.pguide.studio
+#        location: Global distribution
+#        avatar: /icon/year.png
+#        organization: PGuide Studio Memory
+#        desc: Recalling our drinks on Noon Bridge of yore,where gathered heroes now no more.      
+#      - name: 项导荣誉墙（即将上线）
+#        link: https://honor.pguide.studio
+#        location: Global distribution
+#        avatar: /icon/honor.png
+#        organization: PGuide Studio Honor Gallery
+#        desc: Our past story and honors earned, wishing they inspire you to join us!     
 
 #      - name: 
 #        link: 
