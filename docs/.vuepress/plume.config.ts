@@ -76,11 +76,10 @@ export default defineThemeConfig({
         title: '项导文档迁移公告',
         contentType: 'markdown',
         content: `\
-**2025-08-10**
-- 项导文档主域名 docs.pguide.studio 即将到期，还没续费呢，可以去 [docs.pguide.com.cn](https://docs.pguide.com.cn/) 。
-- 大学百科中考研、保研、就业、出国留学、校内生活等部分将迁移至智汇重医 APP，交由人工智能医学学院官方、信息中心维护，项导文档不再参与维护。
-**2025-08-14**
-- 正在编写项目文档，欢迎关注！
+**2025-08-17**
+
+- 域名迁移至 [docs.pguide.dev](https://docs.pguide.dev) 以支持国际访问
+
 `,
     },
 
