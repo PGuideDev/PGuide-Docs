@@ -675,22 +675,22 @@ export const navbar = defineNavbarConfig([
                     },
                 ],
             },
-            {
-                icon: 'fluent-color:data-trending-20',
-                text: '站点统计',
-                items: [
-                    {
-                        icon: 'simple-icons:umami',
-                        text: 'umami Cloud',
-                        link: 'https://cloud.umami.is/share/BVmRNrfCbwRPmobS/docs.pguide.studio',
-                    },
-                    {
-                        icon: 'devicon:google',
-                        text: 'google analytics',
-                        link: 'https://analytics.google.com/analytics/web/#/p472592389',
-                    },
-                ]
-            },
+            // {
+            //     icon: 'fluent-color:data-trending-20',
+            //     text: '站点统计',
+            //     items: [
+            //         {
+            //             icon: 'simple-icons:umami',
+            //             text: 'umami Cloud',
+            //             link: 'https://cloud.umami.is/share/BVmRNrfCbwRPmobS/docs.pguide.studio',
+            //         },
+            //         {
+            //             icon: 'devicon:google',
+            //             text: 'google analytics',
+            //             link: 'https://analytics.google.com/analytics/web/#/p472592389',
+            //         },
+            //     ]
+            // },
 
             {
                 icon: 'logos:serverless',
