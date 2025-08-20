@@ -10,30 +10,30 @@ import {pwaPlugin} from '@vuepress/plugin-pwa'
 export default defineUserConfig({
 
     plugins: [
-        pwaPlugin({
-            // pwa 插件
-            showInstall: true,
-            manifest: {
-                name: 'PGuide Docs',
-                short_name: '项导文档',
-                description: 'An open-source documentation site',
-                lang: 'en',
-                background_color: '#ffffff',
-                theme_color: '#ffffff',
-                orientation: 'portrait-primary',
-                start_url: '/',
-                display: 'fullscreen',
-                icons: [
-                    {
-                        src: 'icon/logo.png',
-                        type: 'image/png',
-                        sizes: '200x200'
-                    }
-                ],
-            },
-            update: 'force',
-            favicon: 'icon/favicon.ico',
-        }),
+        // pwaPlugin({
+        //     // pwa 插件
+        //     showInstall: true,
+        //     manifest: {
+        //         name: 'PGuide Docs',
+        //         short_name: '项导文档',
+        //         description: 'An open-source documentation site',
+        //         lang: 'en',
+        //         background_color: '#ffffff',
+        //         theme_color: '#ffffff',
+        //         orientation: 'portrait-primary',
+        //         start_url: '/',
+        //         display: 'fullscreen',
+        //         icons: [
+        //             {
+        //                 src: 'icon/logo.png',
+        //                 type: 'image/png',
+        //                 sizes: '200x200'
+        //             }
+        //         ],
+        //     },
+        //     update: 'force',
+        //     favicon: 'icon/favicon.ico',
+        // }),
 
         umamiAnalyticsPlugin({
             // umami 分析
@@ -103,7 +103,7 @@ export default defineUserConfig({
         },
 
         /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-        hostname: 'https://docs.pguide.studio',
+        hostname: 'https://docs.pguide.dev',
 
         /* 文档仓库配置，用于 editLink */
         docsRepo: 'https://github.com/PGuideDev/PGuide-Docs',
@@ -120,6 +120,7 @@ export default defineUserConfig({
 
         /* 页内信息 */
         editLink: true,
+
         lastUpdated: true,
         contributors: {
             mode: 'block',
