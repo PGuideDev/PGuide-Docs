@@ -153,52 +153,52 @@ permalink: /contribute/
     :::note 为什么没有 nvm 命令
     安装完成后记得重启 IDE 和终端以重载环境变量
     :::
-3. 导入项目
-    :::note 从哪儿导入
-    在学校优先使用校内 ::devicon:gitlab::GitLab ，国内 ::simple-icons:gitee::gitee ，不过最好是 ::mdi:github::GitHub （可以减轻 Code Reviewer 的负担）
-    :::
+   3. 导入项目
+       :::note 从哪儿导入
+       在学校优先使用校内 ::devicon:gitlab::GitLab ，国内 ::simple-icons:gitee::gitee ，不过最好是 ::mdi:github::GitHub （可以减轻 Code Reviewer 的负担），且学校开通 GitHub 专线，可以直接快速地访问 GitHub 。
+       :::
 
-    作为开源项目，最好是使用 [::fluent:branch-fork-32-filled::fork](https://github.com/PGuideDev/PGuide-Docs/fork) 的方式将项目导入到您的个人 GitHub 账号下，通过 Pull Request 合并到主分支 master（下文会提到）；
+       作为开源项目，最好是使用 [::fluent:branch-fork-32-filled::fork](https://github.com/PGuideDev/PGuide-Docs/fork) 的方式将项目导入到您的个人 GitHub 账号下，通过 Pull Request 合并到主分支 master（下文会提到）；
  
-    关于 GitHub 上的 Pull Request ，可以阅读 [Mr.Hope 的文章](https://mister-hope.com/code/github/pr.html) 或 [GitHub 官方文档](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+       关于 GitHub 上的 Pull Request ，可以阅读 [Mr.Hope 的文章](https://mister-hope.com/code/github/pr.html) 或 [GitHub 官方文档](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
-    如果您所在的网络环境无法访问 GitHub ，也可以使用国内 Gitee 仓库或重庆医科大学 GitLab ，不过推送代码时需要注意将远程仓库地址改为 GitHub 地址，参考 [Mr.Hope 的文章](https://mister-hope.com/code/github/speedup.html#%E8%BF%9C%E7%A8%8B%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BF%AE%E6%94%B9)。
+       如果您所在的网络环境无法访问 GitHub ，也可以使用国内 Gitee 仓库或重庆医科大学 GitLab ，不过推送代码时需要注意将远程仓库地址改为 GitHub 地址，参考 [Mr.Hope 的文章](https://mister-hope.com/code/github/speedup.html#%E8%BF%9C%E7%A8%8B%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BF%AE%E6%94%B9)。
 
-    :::tabs
+       :::tabs
     
-    @tab GitHub
+       @tab GitHub
     
-    [fork from GitHub](https://github.com/PGuideDev/PGuide-Docs/fork)
-    ![2025-08-08_22-14-51.png](../.vuepress/public/src/2025-08-08_22-14-51.png)
+       [fork from GitHub](https://github.com/PGuideDev/PGuide-Docs/fork)
+       ![2025-08-08_22-14-51.png](../.vuepress/public/src/2025-08-08_22-14-51.png)
 
-    @tab Gitee
-    [fork from Gitee](https://gitee.com/rand777/PGuide-Docs)
-    ![2025-08-08_22-19-40.png](../.vuepress/public/src/2025-08-08_22-19-40.png)
+       @tab Gitee
+       [fork from Gitee](https://gitee.com/rand777/PGuide-Docs)
+       ![2025-08-08_22-19-40.png](../.vuepress/public/src/2025-08-08_22-19-40.png)
     
-    :::
+       :::
 
-    或者直接 git 克隆到本地，使用 HTTPS 协议：
-    > 导入失败请参考“[常见问题及解决方案](#git 推送 -ssl-error)”
+       或者直接 git 克隆到本地，使用 HTTPS 协议：
+    >    导入失败请参考“[常见问题及解决方案](#git 推送 -ssl-error)”
     
-    :::tabs
+       :::tabs
     
-    @tab 从 Github 克隆（推荐）
+       @tab 从 Github 克隆（推荐）
     
-       ```shell
-       git clone https://github.com/PGuideDev/PGuide-Docs.git
-       ```
+          ```shell
+          git clone https://github.com/PGuideDev/PGuide-Docs.git
+          ```
 
-    @tab 从 GitLab CQMU 克隆
+       @tab 从 GitLab CQMU 克隆
 
-       ```shell
-       git clone https://git.cqmu.edu.cn/PGuideDev/pguide-docs.git
-       ```
+          ```shell
+          git clone https://git.cqmu.edu.cn/PGuideDev/pguide-docs.git
+          ```
     
-    @tab 从 Gitee 克隆
+       @tab 从 Gitee 克隆
     
-       ```shell
-       git clone https://gitee.com/rand777/PGuide-Docs.git
-       ```
+          ```shell
+          git clone https://gitee.com/rand777/PGuide-Docs.git
+          ```
 
     
 
