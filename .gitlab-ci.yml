@@ -1,0 +1,35 @@
+stages:
+  - build
+  - deploy
+
+build-docs:
+  stage: build
+  image: node:22
+  before_script:
+    # 安装 pnpm
+    - npm install -g pnpm
+    # 设置内存上限
+    - export NODE_OPTIONS=--max_old_space_size=8192
+    - node -v
+    - pnpm -v
+  script:
+    - pnpm install --frozen-lockfile
+    - pnpm docs:build
+    # VuePress 构建默认在 docs/.vuepress/dist
+    # 移动到 public/ 以便 GitLab Pages 部署
+    - mv docs/.vuepress/dist public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
+
+pages:
+  stage: deploy
+  script:
+    - echo "Deploying to GitLab Pages..."
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
