@@ -94,7 +94,7 @@ _We share ideas, build projects as our dreams._
 ![](https://github.com/Ac-Wiki/Ac-Wiki/blob/main/docs/assets/TencentEdgeone.png)
 
 如果你所在的位置访问 docs.pguide.dev 很慢，可以试试下面的镜像站点
-
+- 项导云原生: https://docs.pguide.cloud
 - Vercel（香港节点）: https://docs.pguide.com.cn
 - Netlify: https://pguide-docs.netlify.app
 - Cloudflare: https://pguide-docs.pages.dev
