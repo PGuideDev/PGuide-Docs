@@ -71,15 +71,15 @@ export default defineThemeConfig({
      * 公告板
      * @see https://theme-plume.vuejs.press/guide/features/bulletin/
      */
-    bulletin: {
-        layout: 'top-right',
-        title: '项导文档迁移公告',
-        contentType: 'markdown',
-        content: `\
-**2025-08-17**        
-- 已迁移至 [docs.pguide.dev](https://docs.pguide.dev/)
-`,
-    },
+//     bulletin: {
+//         layout: 'top-right',
+//         title: '项导文档迁移公告',
+//         contentType: 'markdown',
+//         content: `\
+// **2025-08-17**
+// - 已迁移至 [docs.pguide.dev](https://docs.pguide.dev/)
+// `,
+//     },
 
     /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
     transition: {
