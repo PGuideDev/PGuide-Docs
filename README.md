@@ -89,10 +89,12 @@ _We share ideas, build projects as our dreams._
 
 ## 镜像站点
 
-如果你所在的位置访问 docs.pguide.cloud 很慢，可以试试下面的镜像站点（一般来说不会太慢，现在部署在腾讯云的 EdgeOne Pages 上，全球CDN静态资源加速）
+本项目 CDN 加速及安全防护由 [Tencent EdgeOne](https://edgeone.ai/zh?from=github) 赞助
 
-> 这里的腾讯云EO有点bug，先用下面的域名访问吧
+![](https://github.com/Ac-Wiki/Ac-Wiki/blob/main/docs/assets/TencentEdgeone.png)
 
-- Vercel（香港节点）: https://docs.pguide.dev
+如果你所在的位置访问 docs.pguide.dev 很慢，可以试试下面的镜像站点
+
+- Vercel（香港节点）: https://docs.pguide.com.cn
 - Netlify: https://pguide-docs.netlify.app
 - Cloudflare: https://pguide-docs.pages.dev
