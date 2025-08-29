@@ -159,22 +159,13 @@ export default defineUserConfig({
                 },
             ]
         },
-        // changelog: false,
-        /**
-         * 博客
-         * @see https://theme-plume.vuejs.press/config/basic/#blog
-         */
-        // blog: false, // 禁用博客
-        // blog: {
-        //   postList: true, // 是否启用文章列表页
-        //   tags: true, // 是否启用标签页
-        //   archives: true, // 是否启用归档页
-        //   categories: true, // 是否启用分类页
-        //   postCover: 'right', // 文章封面位置
-        //   pagination: 15, // 每页显示文章数量
-        // },
-
-        /* 博客文章页面链接前缀 */
+        changelog: {
+            maxCount: 10,
+            repoUrl: 'https://github.com/PGuideDev/PGuide-Docs',
+            commitUrlPattern: ':repo/commit/:hash',
+            issueUrlPattern: ':repo/issues/:issue',
+            tagUrlPattern: ':repo/releases/tag/:tag'
+        },
         article: '/article/',
 
         /**
@@ -215,14 +206,6 @@ export default defineUserConfig({
         plugins: {
 
             git: true,
-            changelog: {
-                maxCount: 10,
-                repoUrl: 'https://github.com/PGuideDev/PGuide-Docs',
-                commitUrlPattern: ':repo/commit/:hash',
-                issueUrlPattern: ':repo/issues/:issue',
-                tagUrlPattern: ':repo/releases/tag/:tag'
-            },
-
 
             /* 本地搜索, 默认启用 */
             search: false,
