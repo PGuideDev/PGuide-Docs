@@ -214,6 +214,15 @@ export default defineUserConfig({
 
         plugins: {
 
+            git: true,
+            changelog: {
+                maxCount: 10,
+                repoUrl: 'https://github.com/PGuideDev/PGuide-Docs',
+                commitUrlPattern: ':repo/commit/:hash',
+                issueUrlPattern: ':repo/issues/:issue',
+                tagUrlPattern: ':repo/releases/tag/:tag'
+            },
+
 
             /* 本地搜索, 默认启用 */
             search: false,
