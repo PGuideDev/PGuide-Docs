@@ -246,8 +246,12 @@ export default defineUserConfig({
              * @see https://theme-plume.vuejs.press/guide/features/comments/
              */
             comment: {
-                provider: 'Waline',
-                serverURL: 'https://comment.pguide.studio'
+                provider: 'Giscus', // "Artalk“ | "Giscus" | "Twikoo" | "Waline"
+                comment: true,
+                repo: 'PGuideDev/PGuide-Docs',
+                repoId: 'R_kgDON5Sklw',
+                category: 'Announcements',
+                categoryId: 'DIC_kwDON5Skl84CneCQ',
             }
         },
 
