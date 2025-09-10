@@ -4,7 +4,7 @@ createTime: 2025/02/19 15:10:06
 permalink: /begin/
 ---
 
-<Layout/>
+Site Total Visitors <span id="vercount_value_site_uv">Loading</span>
 
 您好，亲爱的朋友。这是一本和计算机、项目建设、开放公共服务、大学生活等相关的手册，由一些老师、同学以及朋友共同编写，也是我们对整个大学生涯的一个纪念。
 

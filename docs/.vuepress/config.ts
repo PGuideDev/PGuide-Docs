@@ -10,31 +10,6 @@ import {pwaPlugin} from '@vuepress/plugin-pwa'
 export default defineUserConfig({
 
     plugins: [
-        // pwaPlugin({
-        //     // pwa 插件
-        //     showInstall: true,
-        //     manifest: {
-        //         name: 'PGuide Docs',
-        //         short_name: '项导文档',
-        //         description: 'An open-source documentation site',
-        //         lang: 'en',
-        //         background_color: '#ffffff',
-        //         theme_color: '#ffffff',
-        //         orientation: 'portrait-primary',
-        //         start_url: '/',
-        //         display: 'fullscreen',
-        //         icons: [
-        //             {
-        //                 src: 'icon/logo.png',
-        //                 type: 'image/png',
-        //                 sizes: '200x200'
-        //             }
-        //         ],
-        //     },
-        //     update: 'force',
-        //     favicon: 'icon/favicon.ico',
-        // }),
-
         umamiAnalyticsPlugin({
             // umami 分析
             id: 'edaececa-cf6b-4ba3-9678-d57c73d7bc3c',
@@ -57,6 +32,13 @@ export default defineUserConfig({
     head: [
         // 配置站点图标
         ['link', {rel: 'icon', type: 'image/png', href: '/icon/logo.svg'}],
+        [
+            "script",
+            {
+                "defer": "",
+                "src": "https://events.vercount.one/js"
+            }
+        ]
     ],
 
     bundler: viteBundler(),
