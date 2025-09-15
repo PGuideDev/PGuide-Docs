@@ -2,6 +2,8 @@
 
 # 🌱项导文档 - 构建以项目为核心的文档
 
+> 项导文档 2.0 更新中，敬请关注！
+
 简体中文 | [English](https://github.com/PGuideDev/PGuide-Docs/blob/master/README-EN.md)
 
 [![python](https://img.shields.io/badge/-VuePress-blue?logo=vue&logoColor=white)](https://github.com/pre-commit/pre-commit)
