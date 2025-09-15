@@ -56,7 +56,7 @@
 
 ## 🤝 参与贡献  
 文档难免有疏漏，如果你发现错误或有改进建议，欢迎在 [Issues](https://github.com/PGuideDev/PGuide-Docs/issues) 中提出；若你愿意分享自己的学习笔记或项目经验，也欢迎 [Fork](https://github.com/PGuideDev/PGuide-Docs/fork) 后提交 Pull Request。  
-如有合作意向，欢迎邮件联系：contact@pguide.studio。
+如有合作意向，欢迎邮件联系：contact@pguide.dev。
 
 ---
 
